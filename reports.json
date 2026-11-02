@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-02T10:47:00-06:00",
+  "updatedAt": "2026-11-02T10:52:00-06:00",
   "brief": {
     "date": "2026-11-02",
     "weekday": "Monday",
     "generatedAt": "2026-11-02T07:48:00-06:00",
     "preparedBy": "Chief of Staff",
-    "summary": "Wiro approved us for $200 in credits. The Play org conversion is still paused on Rocko's phone and email choice, and it's the top ask.",
-    "topBlocker": "Play org account: choose the public developer phone and email to finish the conversion.",
+    "summary": "Wiro approved us for $200 in credits. The Play org conversion was submitted Nov 2 and Google is reviewing it (a few days). Next up is the Wrangle listing wording.",
+    "topBlocker": "Wrangle Play listing: confirm the auto-renew and cancel wording, the free tier and the 7-day trial (AQ-PRODOPS-5).",
     "items": [
       {
         "id": "AQ-COS-1",
@@ -198,8 +198,8 @@
       },
       {
         "item": "Play organization account",
-        "status": "Blocked",
-        "note": "Waiting on public developer phone and email choice"
+        "status": "In review",
+        "note": "Submitted Nov 2; Google is verifying the documents (a few days)"
       },
       {
         "item": "Team desk page",
@@ -243,9 +243,10 @@
       "Wiro approved $200 in startup credits (Nov 1)",
       "Team desk now pushed to GitHub by Chief of Staff directly, with a non-expiring team-desk-only token",
       "Team desk chat box added to the page",
-      "Weekly plan and October monthly review done (Nov 2)"
+      "Weekly plan and October monthly review done (Nov 2)",
+      "Play org conversion submitted: public phone and email verified, Texas certificate uploaded, ID step done (Nov 2)"
     ],
-    "recommendation": "Pick the Play developer phone and email today; it's the only thing between us and the Wrangle Play listing.",
+    "recommendation": "Confirm the Wrangle listing's auto-renew and cancel wording, free tier and trial so the listing is ready when Google approves the org account.",
     "coCeoCopySent": true,
     "company": {
       "products": [
