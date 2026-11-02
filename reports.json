@@ -1,20 +1,214 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-01T19:46:00-06:00",
+  "updatedAt": "2026-11-01T22:38:00-06:00",
   "brief": {
-    "date": "",
-    "weekday": "",
-    "generatedAt": "",
+    "date": "2026-11-01",
+    "weekday": "Sunday",
+    "generatedAt": "2026-11-01T20:50:00-06:00",
     "preparedBy": "Chief of Staff",
-    "summary": "",
-    "topBlocker": "",
-    "items": [],
+    "summary": "Team desk is live. Grants are submitted and waiting, and the Play org conversion is paused on one choice from Rocko.",
+    "topBlocker": "Play org account: choose the public developer phone and email to finish the conversion.",
+    "items": [
+      {
+        "id": "AQ-COS-1",
+        "title": "Choose public developer phone and email for the Play org account",
+        "detail": "Play organization conversion is paused: website verified, payments profile created, contact email verified. Rocko must pick the public developer phone and email to finish.",
+        "section": "decision",
+        "owner": "ceo",
+        "urgent": false,
+        "impactRank": 1,
+        "status": "open",
+        "firstSeen": "2026-11-01"
+      },
+      {
+        "id": "AQ-PRODOPS-5",
+        "title": "Wrangle Play listing: confirm auto-renew and cancel wording",
+        "detail": "Confirm the auto-renew and cancel wording, and that free tier (3 plans, 2 herds) and the 7-day trial match the build. Money and terms.",
+        "section": "approval",
+        "owner": "ceo",
+        "urgent": true,
+        "impactRank": 2,
+        "status": "open",
+        "firstSeen": "2026-11-01"
+      },
+      {
+        "id": "AQ-COS-2",
+        "title": "Ask CPA: SAM.gov Entity Structure (50/50 partnership vs sole member)",
+        "detail": "Confirm with the CPA which entity structure to list on SAM.gov before changing anything. Tax and legal.",
+        "section": "decision",
+        "owner": "ceo",
+        "urgent": true,
+        "impactRank": 3,
+        "status": "open",
+        "firstSeen": "2026-11-01"
+      },
+      {
+        "id": "AQ-COS-3",
+        "title": "Delete duplicate X post",
+        "detail": "One copy of the Oct 31 @AndroidDev quote is still live and needs deleting by Rocko.",
+        "section": "next",
+        "owner": "ceo",
+        "urgent": false,
+        "impactRank": 4,
+        "status": "open",
+        "firstSeen": "2026-11-01",
+        "link": "https://x.com/RockoDevLLC/status/2116676894913650902"
+      },
+      {
+        "id": "AQ-GROWTH-3",
+        "title": "Send your personal note to organizers you know",
+        "detail": "Growth drafted it. Tell us who gets it and roughly how many people (3 to 8 is a placeholder).",
+        "section": "approval",
+        "owner": "ceo",
+        "urgent": false,
+        "impactRank": 5,
+        "status": "open",
+        "firstSeen": "2026-11-01"
+      },
+      {
+        "id": "AQ-GROWTH-4",
+        "title": "Approve the forwardable Wrangle invite",
+        "detail": "Growth drafted it. Confirm \"herds (your saved friend groups)\" is accurate.",
+        "section": "approval",
+        "owner": "ceo",
+        "urgent": false,
+        "impactRank": 6,
+        "status": "open",
+        "firstSeen": "2026-11-01"
+      },
+      {
+        "id": "AQ-COS-4",
+        "title": "OK to skip the PayPal hackathon (Nov 12)",
+        "detail": "Recommend skipping; needs Rocko's OK.",
+        "section": "approval",
+        "owner": "ceo",
+        "urgent": false,
+        "impactRank": 7,
+        "status": "open",
+        "firstSeen": "2026-11-01"
+      },
+      {
+        "id": "AQ-COS-5",
+        "title": "NSF SBIR questions queued",
+        "detail": "NSF questions are queued for Rocko's review.",
+        "section": "next",
+        "owner": "ceo",
+        "urgent": false,
+        "impactRank": 8,
+        "status": "open",
+        "firstSeen": "2026-11-01"
+      },
+      {
+        "id": "AQ-COS-6",
+        "title": "Team desk live and filled daily",
+        "detail": "Team desk is live; Chief of Staff fills reports.json each morning and emails it for publishing.",
+        "section": "next",
+        "owner": "agent",
+        "urgent": false,
+        "impactRank": 9,
+        "status": "done",
+        "firstSeen": "2026-11-01",
+        "agentName": "Chief of Staff",
+        "link": "https://rockodevelopment.github.io/team-desk/"
+      }
+    ],
     "kpis": [],
-    "funding": [],
-    "setupTracker": [],
-    "inbox": [],
-    "doneSinceLast": [],
-    "recommendation": "",
+    "funding": [
+      {
+        "program": "Business Freedom Grant",
+        "amount": "$1,000",
+        "status": "Submitted",
+        "submitted": "2026-10-29",
+        "nextDate": "2026-11-15",
+        "note": "Next review Nov 15"
+      },
+      {
+        "program": "Wiro credits",
+        "amount": "",
+        "status": "Submitted",
+        "submitted": "2026-10-29",
+        "nextDate": "",
+        "note": "Waiting on reply"
+      },
+      {
+        "program": "Verizon Digital Ready / LISC",
+        "amount": "$10,000",
+        "status": "Submitted",
+        "submitted": "2026-10-30",
+        "nextDate": "",
+        "note": "Monthly finalist picks; decline notices at year end"
+      },
+      {
+        "program": "YC W27 / Techstars",
+        "amount": "",
+        "status": "Dropped",
+        "submitted": "",
+        "nextDate": "",
+        "note": "Dropped Oct 29 for equity reasons"
+      }
+    ],
+    "setupTracker": [
+      {
+        "item": "D-U-N-S number",
+        "status": "Done",
+        "note": "Issued"
+      },
+      {
+        "item": "LISC Gmail filter",
+        "status": "Done",
+        "note": ""
+      },
+      {
+        "item": "Google Search Console",
+        "status": "Done",
+        "note": "Site verified"
+      },
+      {
+        "item": "Play organization account",
+        "status": "Blocked",
+        "note": "Waiting on public developer phone and email choice"
+      },
+      {
+        "item": "Team desk page",
+        "status": "Done",
+        "note": "Live at rockodevelopment.github.io/team-desk"
+      },
+      {
+        "item": "SAM.gov entity structure",
+        "status": "Blocked",
+        "note": "Waiting on CPA answer"
+      }
+    ],
+    "inbox": [
+      {
+        "from": "LISC",
+        "timeCT": "Oct 30 9:45 PM",
+        "line": "Verizon Digital Ready grant application receipt"
+      },
+      {
+        "from": "Verizon Digital Ready",
+        "timeCT": "Oct 30",
+        "line": "Welcome email"
+      },
+      {
+        "from": "Wiro",
+        "timeCT": "Oct 29",
+        "line": "Signup emails"
+      },
+      {
+        "from": "Rocko Development team",
+        "timeCT": "Nov 1 evening",
+        "line": "'team desk files' emails for publishing the team desk"
+      }
+    ],
+    "doneSinceLast": [
+      "Team desk went live at rockodevelopment.github.io/team-desk",
+      "D-U-N-S number done",
+      "LISC Gmail filter set",
+      "Search Console verified",
+      "Play org: website verified, payments profile created, contact email verified"
+    ],
+    "recommendation": "Pick the Play developer phone and email first, then confirm the Wrangle listing wording.",
     "coCeoCopySent": false,
     "company": {
       "products": [
@@ -49,33 +243,33 @@
   "reports": {
     "Chief of Staff": {
       "date": "2026-11-01",
-      "time": "7:46 PM CT",
-      "text": "TEST REPORT: team desk publishing check. Real morning reports start next weekday."
+      "time": "8:50 PM CT",
+      "text": "Set up the team desk and confirmed it live. Tracking the Play org conversion (paused on Rocko's phone and email choice), the Wrangle listing wording, the CPA question on SAM.gov entity structure, and the duplicate X post to delete."
     },
     "Sales, Clients & Funding": {
-      "date": "",
-      "time": "",
-      "text": ""
+      "date": "2026-11-01",
+      "time": "8:50 PM CT",
+      "text": "Grants submitted: Business Freedom $1,000 (Oct 29, review Nov 15), Wiro credits (Oct 29, waiting), Verizon Digital Ready/LISC $10,000 (Oct 30, LISC receipt in). YC W27 and Techstars dropped Oct 29 for equity reasons. NSF questions queued for Rocko."
     },
     "Content & Social": {
-      "date": "",
-      "time": "",
-      "text": ""
+      "date": "2026-11-01",
+      "time": "8:50 PM CT",
+      "text": "Sunday light slate on @RockoDevLLC: posted the 9:00 AM Rocko Development original, the 10:30 AM AI red-teaming quote and the 2:00 PM Oracle Bot Store quote, single copies each. Other slots skipped. One duplicate from Oct 31 still needs deleting."
     },
     "Growth & Community": {
-      "date": "",
-      "time": "",
-      "text": ""
+      "date": "2026-11-01",
+      "time": "8:50 PM CT",
+      "text": "AQ-GROWTH-3 and AQ-GROWTH-4 are waiting on Rocko. Recommending we skip the PayPal hackathon (Nov 12), pending his OK."
     },
     "Market Intel": {
-      "date": "",
-      "time": "",
-      "text": ""
+      "date": "2026-11-01",
+      "time": "8:50 PM CT",
+      "text": "No new activity found since the last brief."
     },
     "Product Ops": {
-      "date": "",
-      "time": "",
-      "text": ""
+      "date": "2026-11-01",
+      "time": "8:50 PM CT",
+      "text": "Wrangle Play listing (AQ-PRODOPS-5) is drafted and waiting on Rocko to confirm auto-renew and cancel wording and that the free tier and 7-day trial match the build. Play org conversion paused on the public developer phone and email."
     }
   }
 }
