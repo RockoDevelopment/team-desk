@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-01T22:38:00-06:00",
+  "updatedAt": "2026-11-02T07:42:02-06:00",
   "brief": {
-    "date": "2026-11-01",
-    "weekday": "Sunday",
-    "generatedAt": "2026-11-01T20:50:00-06:00",
+    "date": "2026-11-02",
+    "weekday": "Monday",
+    "generatedAt": "2026-11-02T07:48:00-06:00",
     "preparedBy": "Chief of Staff",
-    "summary": "Team desk is live. Grants are submitted and waiting, and the Play org conversion is paused on one choice from Rocko.",
+    "summary": "Wiro approved us for $200 in credits. The Play org conversion is still paused on Rocko's phone and email choice, and it's the top ask.",
     "topBlocker": "Play org account: choose the public developer phone and email to finish the conversion.",
     "items": [
       {
@@ -43,13 +43,35 @@
         "firstSeen": "2026-11-01"
       },
       {
+        "id": "AQ-COS-7",
+        "title": "wop_systems on Render keeps hitting its memory limit",
+        "detail": "Render auto-restarted the wop_systems web service after it exceeded its memory limit on Nov 1 (3:42 AM CT) and again Nov 2 (3:47 AM CT). Check memory use or the plan size.",
+        "section": "risk",
+        "owner": "ceo",
+        "urgent": false,
+        "impactRank": 4,
+        "status": "open",
+        "firstSeen": "2026-11-02"
+      },
+      {
+        "id": "AQ-COS-8",
+        "title": "Redeem the Wiro $200 startup credits",
+        "detail": "Wiro approved Rocko Development for the Ignition tier ($200 in credits) on Nov 1. The redemption code is in the company Gmail (Wiro support thread). Wiro also asked for a G2 review after trying it; optional, no action needed now.",
+        "section": "next",
+        "owner": "ceo",
+        "urgent": false,
+        "impactRank": 5,
+        "status": "open",
+        "firstSeen": "2026-11-02"
+      },
+      {
         "id": "AQ-COS-3",
         "title": "Delete duplicate X post",
         "detail": "One copy of the Oct 31 @AndroidDev quote is still live and needs deleting by Rocko.",
         "section": "next",
         "owner": "ceo",
         "urgent": false,
-        "impactRank": 4,
+        "impactRank": 6,
         "status": "open",
         "firstSeen": "2026-11-01",
         "link": "https://x.com/RockoDevLLC/status/2116676894913650902"
@@ -61,7 +83,7 @@
         "section": "approval",
         "owner": "ceo",
         "urgent": false,
-        "impactRank": 5,
+        "impactRank": 7,
         "status": "open",
         "firstSeen": "2026-11-01"
       },
@@ -72,7 +94,7 @@
         "section": "approval",
         "owner": "ceo",
         "urgent": false,
-        "impactRank": 6,
+        "impactRank": 8,
         "status": "open",
         "firstSeen": "2026-11-01"
       },
@@ -83,36 +105,47 @@
         "section": "approval",
         "owner": "ceo",
         "urgent": false,
-        "impactRank": 7,
+        "impactRank": 9,
         "status": "open",
         "firstSeen": "2026-11-01"
       },
       {
         "id": "AQ-COS-5",
-        "title": "NSF SBIR questions queued",
+        "title": "Answer the queued NSF SBIR questions, one at a time",
         "detail": "NSF questions are queued for Rocko's review.",
         "section": "next",
         "owner": "ceo",
         "urgent": false,
-        "impactRank": 8,
+        "impactRank": 10,
         "status": "open",
         "firstSeen": "2026-11-01"
       },
       {
         "id": "AQ-COS-6",
         "title": "Team desk live and filled daily",
-        "detail": "Team desk is live; Chief of Staff fills reports.json each morning and emails it for publishing.",
+        "detail": "Team desk is live; Chief of Staff fills reports.json and pushes it to GitHub each weekday morning.",
         "section": "next",
         "owner": "agent",
         "urgent": false,
-        "impactRank": 9,
+        "impactRank": 11,
         "status": "done",
         "firstSeen": "2026-11-01",
         "agentName": "Chief of Staff",
         "link": "https://rockodevelopment.github.io/team-desk/"
       }
     ],
-    "kpis": [],
+    "kpis": [
+      {
+        "label": "@RockoDevLLC X followers",
+        "value": "14",
+        "note": "As of Nov 2 weekly plan"
+      },
+      {
+        "label": "Grants and credits won",
+        "value": "1",
+        "note": "Wiro $200 credits (Nov 1)"
+      }
+    ],
     "funding": [
       {
         "program": "Business Freedom Grant",
@@ -124,11 +157,11 @@
       },
       {
         "program": "Wiro credits",
-        "amount": "",
-        "status": "Submitted",
+        "amount": "$200 credits",
+        "status": "Approved",
         "submitted": "2026-10-29",
         "nextDate": "",
-        "note": "Waiting on reply"
+        "note": "Ignition tier approved Nov 1; redeem code from company Gmail"
       },
       {
         "program": "Verizon Digital Ready / LISC",
@@ -181,34 +214,38 @@
     ],
     "inbox": [
       {
-        "from": "LISC",
-        "timeCT": "Oct 30 9:45 PM",
-        "line": "Verizon Digital Ready grant application receipt"
+        "from": "Wiro (support@wiro.ai)",
+        "timeCT": "Nov 1 1:04 PM",
+        "line": "Approved for the Wiro Startup Program Ignition tier, $200 in credits."
       },
       {
-        "from": "Verizon Digital Ready",
-        "timeCT": "Oct 30",
-        "line": "Welcome email"
+        "from": "Wiro (support@wiro.ai)",
+        "timeCT": "Nov 1 1:22 PM",
+        "line": "Follow-up asking for an honest G2 review once we've tried Wiro."
       },
       {
-        "from": "Wiro",
-        "timeCT": "Oct 29",
-        "line": "Signup emails"
+        "from": "Render",
+        "timeCT": "Nov 2 3:47 AM",
+        "line": "wop_systems exceeded its memory limit and auto-restarted (also Nov 1 3:42 AM)."
       },
       {
-        "from": "Rocko Development team",
-        "timeCT": "Nov 1 evening",
-        "line": "'team desk files' emails for publishing the team desk"
+        "from": "Kraken",
+        "timeCT": "Nov 2 6:24 AM",
+        "line": "Permissions changed on an inactive API key (Kraken notice)."
+      },
+      {
+        "from": "THE ORACLE",
+        "timeCT": "",
+        "line": "No emails from THE ORACLE since the last brief."
       }
     ],
     "doneSinceLast": [
-      "Team desk went live at rockodevelopment.github.io/team-desk",
-      "D-U-N-S number done",
-      "LISC Gmail filter set",
-      "Search Console verified",
-      "Play org: website verified, payments profile created, contact email verified"
+      "Wiro approved $200 in startup credits (Nov 1)",
+      "Team desk now pushed to GitHub by Chief of Staff directly, with a non-expiring team-desk-only token",
+      "Team desk chat box added to the page",
+      "Weekly plan and October monthly review done (Nov 2)"
     ],
-    "recommendation": "Pick the Play developer phone and email first, then confirm the Wrangle listing wording.",
+    "recommendation": "Pick the Play developer phone and email today; it's the only thing between us and the Wrangle Play listing.",
     "coCeoCopySent": false,
     "company": {
       "products": [
@@ -242,34 +279,34 @@
   },
   "reports": {
     "Chief of Staff": {
-      "date": "2026-11-01",
-      "time": "8:50 PM CT",
-      "text": "Set up the team desk and confirmed it live. Tracking the Play org conversion (paused on Rocko's phone and email choice), the Wrangle listing wording, the CPA question on SAM.gov entity structure, and the duplicate X post to delete."
+      "date": "2026-11-02",
+      "time": "7:48 AM CT",
+      "text": "Wrote the Nov 2 weekly plan and October review: priorities are the Play org conversion, getting Wrangle listing-ready, and the rate card plus NSF and CPA answers. Logged Wiro's $200 credit approval and flagged repeated Render memory restarts on wop_systems. Desk now publishes from my own push."
     },
     "Sales, Clients & Funding": {
-      "date": "2026-11-01",
-      "time": "8:50 PM CT",
-      "text": "Grants submitted: Business Freedom $1,000 (Oct 29, review Nov 15), Wiro credits (Oct 29, waiting), Verizon Digital Ready/LISC $10,000 (Oct 30, LISC receipt in). YC W27 and Techstars dropped Oct 29 for equity reasons. NSF questions queued for Rocko."
+      "date": "2026-11-02",
+      "time": "7:48 AM CT",
+      "text": "No new report since the last brief. Inbox shows Wiro approved the $200 Ignition credits on Nov 1; Business Freedom (review Nov 15) and Verizon/LISC are still waiting. Next routine run is Wednesday Nov 4."
     },
     "Content & Social": {
-      "date": "2026-11-01",
-      "time": "8:50 PM CT",
-      "text": "Sunday light slate on @RockoDevLLC: posted the 9:00 AM Rocko Development original, the 10:30 AM AI red-teaming quote and the 2:00 PM Oracle Bot Store quote, single copies each. Other slots skipped. One duplicate from Oct 31 still needs deleting."
+      "date": "2026-11-02",
+      "time": "7:48 AM CT",
+      "text": "No new report reached me since the last brief. New weekday posting slots start today on @RockoDevLLC (9 AM original first). The duplicate Oct 31 post still needs deleting."
     },
     "Growth & Community": {
-      "date": "2026-11-01",
-      "time": "8:50 PM CT",
-      "text": "AQ-GROWTH-3 and AQ-GROWTH-4 are waiting on Rocko. Recommending we skip the PayPal hackathon (Nov 12), pending his OK."
+      "date": "2026-11-02",
+      "time": "7:48 AM CT",
+      "text": "No new activity since the last brief. AQ-GROWTH-3 and AQ-GROWTH-4 still wait on Rocko, and the PayPal hackathon skip still needs his OK."
     },
     "Market Intel": {
-      "date": "2026-11-01",
-      "time": "8:50 PM CT",
-      "text": "No new activity found since the last brief."
+      "date": "2026-11-02",
+      "time": "7:48 AM CT",
+      "text": "No new report yet; the Monday weekly intel report and reshare-account list are due around 8 AM today."
     },
     "Product Ops": {
-      "date": "2026-11-01",
-      "time": "8:50 PM CT",
-      "text": "Wrangle Play listing (AQ-PRODOPS-5) is drafted and waiting on Rocko to confirm auto-renew and cancel wording and that the free tier and 7-day trial match the build. Play org conversion paused on the public developer phone and email."
+      "date": "2026-11-02",
+      "time": "7:48 AM CT",
+      "text": "No new activity since the last brief. AQ-PRODOPS-5 (Wrangle listing wording, free tier and trial) still waits on Rocko; the Play org conversion is the hard gate."
     }
   }
 }
