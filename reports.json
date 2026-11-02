@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-02T07:43:16-06:00",
+  "updatedAt": "2026-11-02T10:47:00-06:00",
   "brief": {
     "date": "2026-11-02",
     "weekday": "Monday",
@@ -12,12 +12,12 @@
       {
         "id": "AQ-COS-1",
         "title": "Choose public developer phone and email for the Play org account",
-        "detail": "Play organization conversion is paused: website verified, payments profile created, contact email verified. Rocko must pick the public developer phone and email to finish.",
+        "detail": "Done Nov 2: Rocko picked 510-593-1888 and contact@rockodevelopment.com (both verified), the Texas Certificate of Filing was uploaded, and Rocko finished his ID step. Google is now reviewing the documents, which can take a few days; the account stays Personal until Google emails approval.",
         "section": "decision",
         "owner": "ceo",
         "urgent": false,
         "impactRank": 1,
-        "status": "open",
+        "status": "done",
         "firstSeen": "2026-11-01"
       },
       {
