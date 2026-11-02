@@ -335,6 +335,21 @@ footer{padding:28px 0 40px;border-top:1px solid var(--border)}
   .grad{color:#111;-webkit-text-fill-color:#111;background:none}
 }
 @media (prefers-reduced-motion:reduce){*{transition:none !important;scroll-behavior:auto !important}}
+
+/* Desk chat (talk to Chief of Staff) */
+.dc-btn{position:fixed;right:20px;bottom:20px;z-index:60;display:flex;align-items:center;gap:8px;padding:12px 18px;border-radius:999px;border:1px solid var(--border);background:linear-gradient(135deg,var(--purple),#4c2a8a);color:var(--text);font:600 14px/1 inherit;cursor:pointer;box-shadow:0 8px 24px rgba(0,0,0,.35)}
+.dc-btn:hover{border-color:var(--cyan)}
+.dc-panel{position:fixed;right:20px;bottom:76px;z-index:61;width:min(360px,calc(100vw - 40px));background:#1c1033;border:1px solid var(--border);border-radius:var(--radius);padding:16px;box-shadow:0 16px 40px rgba(0,0,0,.5);display:none}
+.dc-panel.open{display:block}
+.dc-panel h3{margin:0 0 4px;font-size:15px;color:var(--text)}
+.dc-panel p{margin:0 0 12px;font-size:12px;color:var(--muted)}
+.dc-panel label{display:block;font-size:12px;color:var(--muted);margin:8px 0 4px}
+.dc-panel select,.dc-panel textarea{width:100%;box-sizing:border-box;background:rgba(255,255,255,.05);color:var(--text);border:1px solid var(--border);border-radius:10px;padding:10px;font:14px/1.4 inherit}
+.dc-panel textarea{min-height:110px;resize:vertical}
+.dc-row{display:flex;gap:8px;justify-content:flex-end;margin-top:12px}
+.dc-send{padding:10px 16px;border-radius:10px;border:0;background:var(--cyan);color:#06222a;font-weight:700;cursor:pointer}
+.dc-close{padding:10px 14px;border-radius:10px;border:1px solid var(--border);background:transparent;color:var(--muted);cursor:pointer}
+@media print{.dc-btn,.dc-panel{display:none!important}}
 </style>
 </head>
 <body>
@@ -843,6 +858,42 @@ footer{padding:28px 0 40px;border-top:1px solid var(--border)}
       start(j.brief, j.reports);
     })
     .catch(function () { emptyStart(); });
+})();
+</script>
+
+<!-- Desk chat: messages go to Chief of Staff by email, who gathers context and relays to the agents -->
+<button class="dc-btn" id="dcBtn" type="button" aria-controls="dcPanel" aria-expanded="false">&#128172; Message Chief of Staff</button>
+<div class="dc-panel" id="dcPanel" role="dialog" aria-label="Message Chief of Staff">
+  <h3>Message Chief of Staff</h3>
+  <p>Your message goes to Chief of Staff, who gathers what's needed, passes it to the right agents and answers you in chat.</p>
+  <label for="dcTo">About</label>
+  <select id="dcTo">
+    <option value="">Whole team (Chief of Staff decides)</option>
+    <option>Sales, Clients &amp; Funding</option>
+    <option>Content &amp; Social</option>
+    <option>Growth &amp; Community</option>
+    <option>Market Intel</option>
+    <option>Product Ops</option>
+    <option>Chief of Staff only</option>
+  </select>
+  <label for="dcMsg">Message</label>
+  <textarea id="dcMsg" placeholder="e.g. I finished the Play listing wording. Tell Content to start the launch posts."></textarea>
+  <div class="dc-row"><button class="dc-close" id="dcClose" type="button">Close</button><button class="dc-send" id="dcSend" type="button">Send</button></div>
+</div>
+<script>
+(function(){
+  var ADDR='rockodev+desk@mail.grokbot.com';
+  var b=document.getElementById('dcBtn'),p=document.getElementById('dcPanel');
+  function t(o){p.classList.toggle('open',o);b.setAttribute('aria-expanded',o?'true':'false');if(o)document.getElementById('dcMsg').focus();}
+  b.onclick=function(){t(!p.classList.contains('open'));};
+  document.getElementById('dcClose').onclick=function(){t(false);};
+  document.getElementById('dcSend').onclick=function(){
+    var m=document.getElementById('dcMsg').value.trim(); if(!m){document.getElementById('dcMsg').focus();return;}
+    var to=document.getElementById('dcTo').value;
+    var subj='Desk message'+(to?' for '+to:'');
+    location.href='mailto:'+ADDR+'?subject='+encodeURIComponent(subj)+'&body='+encodeURIComponent(m);
+    document.getElementById('dcMsg').value=''; t(false);
+  };
 })();
 </script>
 </body>
