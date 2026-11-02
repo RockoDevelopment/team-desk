@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-02T07:42:02-06:00",
+  "updatedAt": "2026-11-02T07:43:16-06:00",
   "brief": {
     "date": "2026-11-02",
     "weekday": "Monday",
@@ -246,7 +246,7 @@
       "Weekly plan and October monthly review done (Nov 2)"
     ],
     "recommendation": "Pick the Play developer phone and email today; it's the only thing between us and the Wrangle Play listing.",
-    "coCeoCopySent": false,
+    "coCeoCopySent": true,
     "company": {
       "products": [
         {
