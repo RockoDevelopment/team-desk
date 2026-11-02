@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-11-01T19:46:00-06:00",
+  "brief": {
+    "date": "",
+    "weekday": "",
+    "generatedAt": "",
+    "preparedBy": "Chief of Staff",
+    "summary": "",
+    "topBlocker": "",
+    "items": [],
+    "kpis": [],
+    "funding": [],
+    "setupTracker": [],
+    "inbox": [],
+    "doneSinceLast": [],
+    "recommendation": "",
+    "coCeoCopySent": false,
+    "company": {
+      "products": [
+        {
+          "name": "The Oracle Scout",
+          "stage": "AI analysis engine powered by Grok bots",
+          "status": "Live"
+        },
+        {
+          "name": "Echo",
+          "stage": "V1.5 built; next: V2 cloud vault and sync",
+          "status": "In development"
+        },
+        {
+          "name": "Permit Pilot",
+          "stage": "V1 built; next: V2 accounts and cloud sync",
+          "status": "In development"
+        },
+        {
+          "name": "Wrangle",
+          "stage": "Stage 1 Android build done; next: live invitee page",
+          "status": "In development"
+        },
+        {
+          "name": "Beethoven's Alley Katz",
+          "stage": "Backend and Android app built; next: live backend",
+          "status": "In development"
+        }
+      ]
+    }
+  },
+  "reports": {
+    "Chief of Staff": {
+      "date": "2026-11-01",
+      "time": "7:46 PM CT",
+      "text": "TEST REPORT: team desk publishing check. Real morning reports start next weekday."
+    },
+    "Sales, Clients & Funding": {
+      "date": "",
+      "time": "",
+      "text": ""
+    },
+    "Content & Social": {
+      "date": "",
+      "time": "",
+      "text": ""
+    },
+    "Growth & Community": {
+      "date": "",
+      "time": "",
+      "text": ""
+    },
+    "Market Intel": {
+      "date": "",
+      "time": "",
+      "text": ""
+    },
+    "Product Ops": {
+      "date": "",
+      "time": "",
+      "text": ""
+    }
+  }
+}

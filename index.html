@@ -1,13 +1,29 @@
 <!DOCTYPE html>
 <!--
 =====================================================================
-ROCKO DEVELOPMENT MORNING BRIEF - DATA FORMAT (for the Chief of Staff bot)
+ROCKO DEVELOPMENT TEAM DESK - DATA FORMAT (for every agent)
 =====================================================================
-Rewrite ONLY the JSON inside the script element with id "brief-data"
-(type application/json) near the bottom of this file. Nothing else changes. Must be valid JSON
-(no comments, double quotes only).
-
-Top-level fields:
+Hosted at https://rockodevelopment.github.io/team-desk/ (repo
+RockoDevelopment/team-desk, GitHub Pages, branch main, root).
+On load the page fetches reports.json (same folder, no cache) and uses:
+  reports.json
+  {
+    "schemaVersion": 1,
+    "updatedAt": ISO 8601 with offset, e.g. "2026-11-02T07:33:00-06:00",
+    "brief":   { ...the morning brief object, fields below... },
+    "reports": {
+      "Chief of Staff":           {"date":"YYYY-MM-DD","time":"7:30 AM CT","text":"..."},
+      "Sales, Clients & Funding": {...}, "Content & Social": {...},
+      "Growth & Community": {...}, "Market Intel": {...}, "Product Ops": {...}
+    }
+  }
+Agents never hand-edit the repo: write with tools/report.py, which
+validates (tools/validate.py) and then publish.sh pushes. A report whose
+date is older than the newest report date shows a "stale" pill; an empty
+report shows "No report yet".
+If reports.json can't be loaded (e.g. opened from file://), the page shows
+an empty waiting state. There is no built-in data in this file.
+Brief fields (must be valid JSON, double quotes only):
   date            "YYYY-MM-DD"  brief date
   weekday         "Monday"
   generatedAt     ISO 8601 with offset, e.g. "2026-11-02T07:33:00-06:00"
@@ -24,7 +40,6 @@ Top-level fields:
   recommendation  one sentence
   coCeoCopySent   true | false
   company         OPTIONAL {products:[{name, stage, status}]}  status: Live | In development
-
 Item fields:
   id           AQ-format id, unique and stable across days (e.g. "AQ-PRODOPS-5")
   title        short title
@@ -39,10 +54,9 @@ Item fields:
   dueDate      optional "YYYY-MM-DD"
   link         optional https URL (opens in a new tab)
   firstSeen    "YYYY-MM-DD" first day the item appeared
-
 Rules: agent items with status "done" leave every active panel and show only
-under Done since last. Never put passwords, codes, account numbers or vault
-details in any field; the page also redacts obvious ones.
+under Done since last. Never put passwords, codes, account numbers, tokens or
+vault details in any field; the page also redacts obvious ones.
 Leave "date" empty and the page shows a waiting state until the first brief.
 =====================================================================
 -->
@@ -93,7 +107,6 @@ button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
 .container{max-width:1200px;margin:0 auto;padding:0 24px}
 .mono{font-family:'JetBrains Mono',ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
 .grad{background:linear-gradient(90deg,var(--cyan),var(--violet));-webkit-background-clip:text;background-clip:text;color:transparent}
-
 /* NAV (same as website) */
 .nav{position:sticky;top:0;z-index:50;background:rgba(20,10,36,.75);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-bottom:1px solid var(--border)}
 .nav-inner{display:flex;align-items:center;justify-content:space-between;height:var(--navh);gap:16px}
@@ -110,7 +123,6 @@ button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
 .icon-links a:hover{border-color:var(--cyan)}
 .icon-links svg{width:17px;height:17px;fill:var(--text-2)}
 .icon-links svg.stroke{fill:none;stroke:var(--text-2);stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
-
 /* pills and badges */
 .pill{display:inline-flex;align-items:center;gap:7px;padding:5px 11px;border-radius:999px;font-size:12px;font-weight:600;white-space:nowrap;border:1px solid}
 .pill i{width:6px;height:6px;border-radius:50%;background:currentColor}
@@ -124,7 +136,6 @@ button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
 .b-urgent{color:var(--urgent);background:rgba(248,113,113,.1);border:1px solid rgba(248,113,113,.35)}
 .b-tag{color:var(--text-2);background:rgba(167,139,250,.1)}
 .b-cyan{color:var(--cyan);background:rgba(34,211,238,.08);border:1px solid rgba(34,211,238,.3)}
-
 /* FILTERS */
 .filters{position:sticky;top:var(--navh);z-index:40;background:rgba(20,10,36,.82);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-bottom:1px solid var(--border)}
 .filters-inner{display:flex;align-items:center;gap:12px;padding:12px 24px;max-width:1200px;margin:0 auto}
@@ -145,7 +156,6 @@ button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
 .btn-primary:hover{transform:translateY(-1px);background:#5EE3F5}
 .btn-ghost{border:1px solid var(--border-strong);color:var(--text)}
 .btn-ghost:hover{background:var(--surface-2);border-color:var(--violet)}
-
 /* LAYOUT */
 main{padding:32px 0 56px}
 .grid{display:grid;grid-template-columns:minmax(0,1fr) 360px;gap:24px;align-items:start}
@@ -158,7 +168,6 @@ h2{font-size:20px;font-weight:700;letter-spacing:-.015em;line-height:1.2}
 .empty{color:var(--muted);font-size:14.5px;padding:6px 0}
 .link-btn{color:var(--cyan);font-size:13px;font-weight:600}
 .link-btn:hover{text-decoration:underline}
-
 /* headline */
 .headline{border-color:var(--border-strong);background:radial-gradient(600px 260px at 0% 0%,rgba(34,211,238,.12),transparent 70%),var(--bg-2);padding:28px}
 .headline .date{font-family:'JetBrains Mono',monospace;font-size:12px;color:var(--muted);letter-spacing:.06em;margin-bottom:10px}
@@ -166,7 +175,6 @@ h2{font-size:20px;font-weight:700;letter-spacing:-.015em;line-height:1.2}
 .blocker{display:flex;gap:14px;align-items:flex-start;padding:14px 16px;border-radius:12px;background:rgba(248,113,113,.07);border:1px solid rgba(248,113,113,.3)}
 .blocker .lab{font-family:'JetBrains Mono',monospace;font-size:11px;font-weight:700;letter-spacing:.08em;color:var(--urgent);white-space:nowrap;padding-top:2px}
 .blocker p{font-size:15px;color:var(--text)}
-
 /* counters */
 .counters{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px}
 .counter{background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:16px 18px}
@@ -174,7 +182,6 @@ h2{font-size:20px;font-weight:700;letter-spacing:-.015em;line-height:1.2}
 .counter span{font-size:13px;color:var(--muted)}
 .counter.hot strong{color:var(--urgent)}
 .counter.cy strong{color:var(--cyan)}
-
 /* item rows */
 .rows{list-style:none;display:grid;gap:10px}
 .row{display:flex;gap:14px;align-items:flex-start;padding:14px 16px;border-radius:12px;border:1px solid var(--border);background:rgba(20,10,36,.35);transition:opacity .25s,border-color .25s}
@@ -200,6 +207,7 @@ h2{font-size:20px;font-weight:700;letter-spacing:-.015em;line-height:1.2}
 .r-detail{margin-top:8px;padding:10px 12px;border-radius:10px;background:var(--surface);color:var(--text-2);font-size:14.5px;overflow-wrap:anywhere}
 .r-reason{margin-top:6px;font-size:13.5px;color:var(--muted)}
 .r-reason b{color:var(--text-2);font-weight:600}
+.rep-text{white-space:pre-wrap}
 .fold{margin-top:16px;padding-top:14px;border-top:1px solid var(--border)}
 .fold-h{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:10px}
 .fold-h span{font-size:13px;font-weight:600;color:var(--muted)}
@@ -207,7 +215,6 @@ h2{font-size:20px;font-weight:700;letter-spacing:-.015em;line-height:1.2}
 .group:first-child{margin-top:0}
 .group-title{display:flex;align-items:center;gap:12px;margin-bottom:10px;font-size:13px;font-weight:600;color:var(--text-2)}
 .group-title::after{content:'';flex:1;height:1px;background:var(--border)}
-
 /* company center */
 .company .brand{font-size:17px;margin-bottom:10px}
 .company .tag{color:var(--text-2);font-size:14.5px;margin-bottom:16px}
@@ -222,7 +229,6 @@ h2{font-size:20px;font-weight:700;letter-spacing:-.015em;line-height:1.2}
 .prod .n{font-weight:600}
 .prod .st{display:block;font-size:12.5px;color:var(--muted);line-height:1.35}
 .sub-h{font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.1em;color:var(--muted);margin:4px 0 6px}
-
 /* tables */
 .tbl{width:100%;border-collapse:collapse;font-size:14px}
 .tbl th{text-align:left;font-family:'JetBrains Mono',monospace;font-size:11px;font-weight:500;letter-spacing:.08em;color:var(--muted);padding:0 10px 8px 0;border-bottom:1px solid var(--border)}
@@ -230,7 +236,6 @@ h2{font-size:20px;font-weight:700;letter-spacing:-.015em;line-height:1.2}
 .tbl td:first-child{color:var(--text);font-weight:600}
 .tbl tr:last-child td{border-bottom:0}
 .up{color:#6EE7B7}.down{color:var(--urgent)}.flat{color:var(--muted)}
-
 /* simple lists */
 .list{list-style:none;display:grid;gap:10px}
 .list li{display:flex;justify-content:space-between;align-items:flex-start;gap:12px;font-size:14.5px}
@@ -243,17 +248,14 @@ h2{font-size:20px;font-weight:700;letter-spacing:-.015em;line-height:1.2}
 .done-list li::before{content:'';position:absolute;left:0;top:11px;width:8px;height:2px;background:var(--cyan)}
 .reco{border-color:rgba(34,211,238,.35);background:radial-gradient(500px 220px at 50% 0%,rgba(34,211,238,.14),transparent 70%),var(--bg-2)}
 .reco p{font-size:16.5px;font-weight:500;line-height:1.5}
-
 /* footer */
 footer{padding:28px 0 40px;border-top:1px solid var(--border)}
 .foot-bottom{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px;color:var(--muted);font-size:13px}
 .foot-bottom a{color:var(--text-2)}
 .foot-bottom a:hover{color:var(--cyan)}
-
 .toast{position:fixed;left:50%;bottom:24px;transform:translate(-50%,20px);opacity:0;z-index:100;padding:10px 18px;border-radius:999px;background:var(--bg-2);border:1px solid var(--cyan);color:var(--text);font-size:14px;font-weight:600;transition:opacity .25s,transform .25s;pointer-events:none}
 .toast.show{opacity:1;transform:translate(-50%,0)}
 .err{padding:20px;border-radius:12px;border:1px solid var(--urgent);color:var(--urgent);background:rgba(248,113,113,.08)}
-
 /* RESPONSIVE */
 @media (max-width:1024px){
   .grid{grid-template-columns:1fr}
@@ -297,7 +299,6 @@ footer{padding:28px 0 40px;border-top:1px solid var(--border)}
 .tbl td::before{content:attr(data-label);font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.06em;color:var(--muted);text-align:left;flex-shrink:0}
 .tbl td:first-child{display:block;font-size:15px;text-align:left;padding-bottom:4px}
 .tbl td:first-child::before{content:none}
-
 /* PRINT */
 @media print{
   :root{--text:#111;--text-2:#333;--muted:#555;--border:#ccc;--border-strong:#999;--surface:#fff;--surface-2:#fff;--cyan:#0E7490}
@@ -321,7 +322,6 @@ footer{padding:28px 0 40px;border-top:1px solid var(--border)}
 </head>
 <body>
 <div class="wrap">
-
 <!-- NAV -->
 <header class="nav">
   <div class="container nav-inner">
@@ -342,7 +342,6 @@ footer{padding:28px 0 40px;border-top:1px solid var(--border)}
     </div>
   </div>
 </header>
-
 <!-- FILTERS -->
 <div class="filters">
   <div class="filters-inner">
@@ -362,11 +361,9 @@ footer{padding:28px 0 40px;border-top:1px solid var(--border)}
     </div>
   </div>
 </div>
-
 <main>
   <div class="container">
     <div class="grid">
-
       <!-- MAIN COLUMN -->
       <div class="col">
         <section class="card headline" aria-labelledby="hl">
@@ -374,9 +371,14 @@ footer{padding:28px 0 40px;border-top:1px solid var(--border)}
           <h1 id="hl"></h1>
           <div class="blocker"><span class="lab">TOP BLOCKER</span><p id="topBlocker"></p></div>
         </section>
-
         <div class="counters" id="counters"></div>
-
+        <section class="card" aria-labelledby="h-reports">
+          <div class="card-h">
+            <div><span class="eyebrow">// MORNING CHECK-IN</span><h2 id="h-reports">Agent reports</h2></div>
+            <span class="count" id="reportsCount"></span>
+          </div>
+          <ul class="rows" id="reportsList"></ul>
+        </section>
         <section class="card" aria-labelledby="h-ceo">
           <div class="card-h">
             <div><span class="eyebrow">// MANUAL TO-DO</span><h2 id="h-ceo">Needs CEO</h2></div>
@@ -385,7 +387,6 @@ footer{padding:28px 0 40px;border-top:1px solid var(--border)}
           <ul class="rows" id="ceoList"></ul>
           <div id="ceoFold"></div>
         </section>
-
         <section class="card" aria-labelledby="h-agents">
           <div class="card-h">
             <div><span class="eyebrow">// IN PROGRESS</span><h2 id="h-agents">Agents are handling</h2></div>
@@ -393,7 +394,6 @@ footer{padding:28px 0 40px;border-top:1px solid var(--border)}
           </div>
           <div id="agentsBody"></div>
         </section>
-
         <section class="card" aria-labelledby="h-aq">
           <div class="card-h">
             <div><span class="eyebrow">// RANKED BY IMPACT</span><h2 id="h-aq">Approval Queue</h2></div>
@@ -401,13 +401,11 @@ footer{padding:28px 0 40px;border-top:1px solid var(--border)}
           </div>
           <ul class="rows" id="aqList"></ul>
         </section>
-
         <section class="card" aria-labelledby="h-risk">
           <div class="card-h"><div><span class="eyebrow">// WATCH</span><h2 id="h-risk">Risks</h2></div></div>
           <ul class="rows" id="riskList"></ul>
         </section>
       </div>
-
       <!-- ASIDE: COMPANY CENTER + TRACKERS -->
       <div class="col aside">
         <section class="card company" aria-labelledby="h-co">
@@ -421,27 +419,22 @@ footer{padding:28px 0 40px;border-top:1px solid var(--border)}
           </div>
           <div id="products"></div>
         </section>
-
         <section class="card wide" aria-labelledby="h-kpi">
           <div class="card-h"><div><span class="eyebrow">// NUMBERS</span><h2 id="h-kpi">KPIs</h2></div></div>
           <div id="kpiBody"></div>
         </section>
-
         <section class="card wide" aria-labelledby="h-fund">
           <div class="card-h"><div><span class="eyebrow">// GRANTS &amp; PROGRAMS</span><h2 id="h-fund">Funding tracker</h2></div></div>
           <div id="fundBody"></div>
         </section>
-
         <section class="card" aria-labelledby="h-setup">
           <div class="card-h"><div><span class="eyebrow">// COMPANY SETUP</span><h2 id="h-setup">Setup tracker</h2></div></div>
           <ul class="list" id="setupList"></ul>
         </section>
-
         <section class="card" aria-labelledby="h-inbox">
           <div class="card-h"><div><span class="eyebrow">// COMPANY GMAIL</span><h2 id="h-inbox">Inbox</h2></div></div>
           <ul class="list inbox" id="inboxList"></ul>
         </section>
-
         <section class="card wide" aria-labelledby="h-done">
           <div class="card-h">
             <div><span class="eyebrow">// SINCE LAST REPORT</span><h2 id="h-done">Done since last</h2></div>
@@ -449,7 +442,6 @@ footer{padding:28px 0 40px;border-top:1px solid var(--border)}
           </div>
           <div id="doneBody" hidden><ul class="list done-list" id="doneList"></ul></div>
         </section>
-
         <section class="card reco" aria-labelledby="h-reco">
           <span class="eyebrow">// RECOMMENDATION</span>
           <h2 id="h-reco" style="margin-bottom:10px">Today's call</h2>
@@ -459,7 +451,6 @@ footer{padding:28px 0 40px;border-top:1px solid var(--border)}
     </div>
   </div>
 </main>
-
 <footer>
   <div class="container foot-bottom">
     <span class="mono">&copy; 2026 ROCKO DEVELOPMENT LLC</span>
@@ -467,54 +458,14 @@ footer{padding:28px 0 40px;border-top:1px solid var(--border)}
     <span><a href="https://rockodevelopment.com" target="_blank" rel="noopener">rockodevelopment.com</a> &middot; <a href="https://x.com/rockodevllc" target="_blank" rel="noopener">@rockodevllc</a></span>
   </div>
 </footer>
-
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 </div>
-
-<!-- ============ BRIEF DATA: the bot rewrites ONLY this block ============ -->
-<script id="brief-data" type="application/json">
-{
-  "date": "",
-  "weekday": "",
-  "generatedAt": "",
-  "preparedBy": "Chief of Staff",
-  "summary": "",
-  "topBlocker": "",
-  "items": [],
-  "kpis": [],
-  "funding": [],
-  "setupTracker": [],
-  "inbox": [],
-  "doneSinceLast": [],
-  "recommendation": "",
-  "coCeoCopySent": false,
-  "company": {
-    "products": [
-      {"name":"The Oracle Scout","stage":"AI analysis engine powered by Grok bots","status":"Live"},
-      {"name":"Echo","stage":"V1.5 built; next: V2 cloud vault and sync","status":"In development"},
-      {"name":"Permit Pilot","stage":"V1 built; next: V2 accounts and cloud sync","status":"In development"},
-      {"name":"Wrangle","stage":"Stage 1 Android build done; next: live invitee page","status":"In development"},
-      {"name":"Beethoven's Alley Katz","stage":"Backend and Android app built; next: live backend","status":"In development"}
-    ]
-  }
-}
-</script>
-
 <script>
 (function () {
   'use strict';
-
-  /* ---------- load data ---------- */
-  var D;
-  try {
-    D = JSON.parse(document.getElementById('brief-data').textContent);
-  } catch (e) {
-    document.querySelector('main .container').innerHTML =
-      '<div class="err">The brief data block is not valid JSON, so nothing can be shown. Check the brief-data script block.</div>';
-    return;
-  }
-  var ITEMS = Array.isArray(D.items) ? D.items : [];
-
+  /* ---------- data (filled by init after reports.json loads) ---------- */
+  var D = {}, ITEMS = [], REPORTS = {};
+  var AGENTS = ['Chief of Staff', 'Sales, Clients & Funding', 'Content & Social', 'Growth & Community', 'Market Intel', 'Product Ops'];
   /* ---------- safe storage ---------- */
   var PFX = 'rd-brief:check:';
   var LS = {
@@ -529,16 +480,17 @@ footer{padding:28px 0 40px;border-top:1px solid var(--border)}
   };
   function checkKey(id) { return PFX + D.date + ':' + id; }
   function isChecked(id) { return LS.get(checkKey(id)) === '1'; }
-
   /* reopened = checked on an earlier brief date, open again today, not checked today */
   var REOPENED = {};
-  LS.keys().forEach(function (k) {
-    if (!k || k.indexOf(PFX) !== 0) return;
-    var rest = k.slice(PFX.length), cut = rest.indexOf(':');
-    var date = rest.slice(0, cut), id = rest.slice(cut + 1);
-    if (date < D.date) REOPENED[id] = true;
-  });
-
+  function computeReopened() {
+    REOPENED = {};
+    LS.keys().forEach(function (k) {
+      if (!k || k.indexOf(PFX) !== 0) return;
+      var rest = k.slice(PFX.length), cut = rest.indexOf(':');
+      var date = rest.slice(0, cut), id = rest.slice(cut + 1);
+      if (date < D.date) REOPENED[id] = true;
+    });
+  }
   /* ---------- text safety ---------- */
   function redact(s) {
     return String(s == null ? '' : s)
@@ -552,7 +504,6 @@ footer{padding:28px 0 40px;border-top:1px solid var(--border)}
   }
   function t(s) { return esc(redact(s)); }
   function safeUrl(u) { return /^https?:\/\//i.test(String(u || '')) ? String(u) : ''; }
-
   /* ---------- dates ---------- */
   var MON = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
   function parts(d) { var m = /^(\d{4})-(\d{2})-(\d{2})/.exec(d || ''); return m ? [+m[1], +m[2], +m[3]] : null; }
@@ -572,10 +523,8 @@ footer{padding:28px 0 40px;border-top:1px solid var(--border)}
       return new Intl.DateTimeFormat('en-US', { hour: 'numeric', minute: '2-digit', timeZone: 'America/Chicago' }).format(dt) + ' CT';
     } catch (e) { return ''; }
   }
-
   /* ---------- state ---------- */
   var state = { filter: 'all', q: '', showKilled: false, doneOpen: false, open: {} };
-
   function isActive(it) { return it.status !== 'done' && it.status !== 'killed'; }
   function passes(it) {
     if (state.filter === 'ceo' && it.owner !== 'ceo') return false;
@@ -589,7 +538,6 @@ footer{padding:28px 0 40px;border-top:1px solid var(--border)}
   }
   function byRank(a, b) { return (a.impactRank || 999) - (b.impactRank || 999); }
   function byUrgentRank(a, b) { return (b.urgent ? 1 : 0) - (a.urgent ? 1 : 0) || byRank(a, b); }
-
   /* ---------- row builder ---------- */
   function rowHtml(it, opts) {
     opts = opts || {};
@@ -626,7 +574,31 @@ footer{padding:28px 0 40px;border-top:1px solid var(--border)}
     return h + '</div></li>';
   }
   function emptyLi(msg) { return '<li class="empty">' + msg + '</li>'; }
-
+  /* ---------- agent reports ---------- */
+  function renderReports() {
+    var latest = '';
+    AGENTS.forEach(function (a) {
+      var r = REPORTS[a];
+      if (r && r.text && parts(r.date) && r.date > latest) latest = r.date;
+    });
+    var n = 0;
+    document.getElementById('reportsList').innerHTML = AGENTS.map(function (a) {
+      var r = REPORTS[a] || {}, has = !!(r && r.text);
+      if (has) n++;
+      var stale = has && latest && r.date !== latest;
+      var h = '<li class="row"><div class="r-main"><div class="r-top"><span class="r-title">' + esc(a) + '</span>';
+      if (stale) h += '<span class="pill p-muted"><i></i>stale</span>';
+      h += '</div>';
+      if (has) {
+        h += '<div class="r-meta"><span>' + (parts(r.date) ? fmtLong(r.date) : t(r.date || '')) + (r.time ? ' &middot; ' + t(r.time) : '') + '</span></div>' +
+          '<div class="r-detail rep-text">' + t(r.text) + '</div>';
+      } else {
+        h += '<p class="empty">No report yet</p>';
+      }
+      return h + '</div></li>';
+    }).join('');
+    document.getElementById('reportsCount').textContent = n + ' of ' + AGENTS.length + ' in';
+  }
   /* ---------- static parts ---------- */
   function renderStatic() {
     var hasBrief = !!D.date;
@@ -647,7 +619,6 @@ footer{padding:28px 0 40px;border-top:1px solid var(--border)}
       : '<span class="pill p-red"><i></i>Co-CEO copy NOT sent</span>';
     document.getElementById('reco').innerHTML = t(D.recommendation || 'No recommendation yet.');
     document.getElementById('preparedBy').innerHTML = 'PREPARED BY ' + t(D.preparedBy || 'Chief of Staff').toUpperCase();
-
     /* company products */
     var prods = D.company && Array.isArray(D.company.products) ? D.company.products : [];
     if (prods.length) {
@@ -658,7 +629,6 @@ footer{padding:28px 0 40px;border-top:1px solid var(--border)}
             '<span class="pill ' + (live ? 'p-live' : 'p-build') + '"><i></i>' + t(p.status || '') + '</span></li>';
         }).join('') + '</ul>';
     }
-
     /* KPIs */
     var kpis = Array.isArray(D.kpis) ? D.kpis : [];
     var kb = document.getElementById('kpiBody');
@@ -676,7 +646,6 @@ footer{padding:28px 0 40px;border-top:1px solid var(--border)}
             '</td><td data-label="CHANGE" class="mono">' + ch + '</td><td data-label="NOTE">' + t(k.note || '') + '</td></tr>';
         }).join('') + '</tbody></table>';
     }
-
     /* funding */
     var fund = Array.isArray(D.funding) ? D.funding : [];
     document.getElementById('fundBody').innerHTML = !fund.length ? '<p class="empty">No funding programs tracked.</p>' :
@@ -686,7 +655,6 @@ footer{padding:28px 0 40px;border-top:1px solid var(--border)}
           '</td><td data-label="AMOUNT" class="mono">' + t(f.amount || '') + '</td><td data-label="STATUS">' + t(f.status || '') +
           '</td><td data-label="SUBMITTED" class="mono">' + (f.submitted ? fmtShort(f.submitted) : '') + '</td><td data-label="NEXT">' + t(f.nextDate || '') + '</td></tr>';
       }).join('') + '</tbody></table>';
-
     /* setup tracker */
     var setup = Array.isArray(D.setupTracker) ? D.setupTracker : [];
     var pillFor = { 'done': 'p-live', 'in progress': 'p-build', 'blocked': 'p-red', 'dropped': 'p-muted' };
@@ -696,7 +664,6 @@ footer{padding:28px 0 40px;border-top:1px solid var(--border)}
         return '<li><span class="l-main">' + t(s.item) + (s.note ? '<span class="l-sub">' + t(s.note) + '</span>' : '') +
           '</span><span class="pill ' + c + '"><i></i>' + t(s.status || '') + '</span></li>';
       }).join('');
-
     /* inbox */
     var inbox = Array.isArray(D.inbox) ? D.inbox : [];
     document.getElementById('inboxList').innerHTML = !inbox.length ? emptyLi('No new mail.') :
@@ -705,7 +672,6 @@ footer{padding:28px 0 40px;border-top:1px solid var(--border)}
           '</span><span class="time">' + t(m.timeCT || '') + '</span></div><div class="l-main">' + t(m.line || '') + '</div></li>';
       }).join('');
   }
-
   /* ---------- dynamic parts ---------- */
   function render() {
     var ceoAll = ITEMS.filter(function (it) { return it.owner === 'ceo' && isActive(it); });
@@ -715,14 +681,12 @@ footer{padding:28px 0 40px;border-top:1px solid var(--border)}
     var doneItems = ITEMS.filter(function (it) { return it.status === 'done'; });
     var doneText = (Array.isArray(D.doneSinceLast) ? D.doneSinceLast : []);
     var urgentOpen = ITEMS.filter(function (it) { return it.urgent && isActive(it) && !(it.owner === 'ceo' && isChecked(it.id)); });
-
     /* counters */
     document.getElementById('counters').innerHTML =
       '<div class="counter cy"><strong>' + ceoOpen.length + '</strong><span>Needs CEO</span></div>' +
       '<div class="counter hot"><strong>' + urgentOpen.length + '</strong><span>Urgent</span></div>' +
       '<div class="counter"><strong>' + agentsWorking.length + '</strong><span>Agents working</span></div>' +
       '<div class="counter"><strong>' + (doneText.length + doneItems.length) + '</strong><span>Done since last</span></div>';
-
     /* needs CEO */
     var openShown = ceoOpen.filter(passes).sort(byUrgentRank);
     document.getElementById('ceoList').innerHTML = openShown.length
@@ -734,7 +698,6 @@ footer{padding:28px 0 40px;border-top:1px solid var(--border)}
         chkShown.map(function (it) { return rowHtml(it, { checkable: true, scope: 'ceo' }); }).join('') + '</ul></div>'
       : '';
     document.getElementById('resetChecks').style.display = ceoChecked.length ? '' : 'none';
-
     /* agents, grouped */
     var ag = agentsWorking.filter(passes), groups = {}, order = [];
     ag.sort(byRank).forEach(function (it) {
@@ -749,7 +712,6 @@ footer{padding:28px 0 40px;border-top:1px solid var(--border)}
           return '<div class="group"><div class="group-title">' + t(g) + '</div><ul class="rows">' +
             groups[g].map(function (it) { return rowHtml(it, { progress: true, scope: 'ag' }); }).join('') + '</ul></div>';
         }).join('');
-
     /* approval queue */
     var aqAll = ITEMS.filter(function (it) { return it.section === 'approval' && it.status !== 'done'; });
     var killed = aqAll.filter(function (it) { return it.status === 'killed'; });
@@ -760,13 +722,11 @@ footer{padding:28px 0 40px;border-top:1px solid var(--border)}
     var kt = document.getElementById('killedToggle');
     kt.style.display = killed.length ? '' : 'none';
     kt.textContent = (state.showKilled ? 'Hide killed (' : 'Show killed (') + killed.length + ')';
-
     /* risks */
     var risks = ITEMS.filter(function (it) { return it.section === 'risk' && isActive(it) && passes(it); }).sort(byUrgentRank);
     document.getElementById('riskList').innerHTML = risks.length
       ? risks.map(function (it) { return rowHtml(it, { ownerTag: true, scope: 'rk' }); }).join('')
       : emptyLi(ITEMS.some(function (it) { return it.section === 'risk' && isActive(it); }) ? 'No risks match this filter.' : 'No open risks.');
-
     /* done since last */
     var doneLines = doneText.map(function (s) { return '<li>' + t(s) + '</li>'; })
       .concat(doneItems.map(function (it) {
@@ -779,7 +739,6 @@ footer{padding:28px 0 40px;border-top:1px solid var(--border)}
     dt.setAttribute('aria-expanded', String(state.doneOpen));
     document.getElementById('doneBody').hidden = !state.doneOpen;
   }
-
   /* ---------- toast ---------- */
   var toastTimer;
   function toast(msg) {
@@ -788,7 +747,6 @@ footer{padding:28px 0 40px;border-top:1px solid var(--border)}
     clearTimeout(toastTimer);
     toastTimer = setTimeout(function () { el.classList.remove('show'); }, 1800);
   }
-
   /* ---------- events ---------- */
   document.addEventListener('change', function (e) {
     var id = e.target.getAttribute && e.target.getAttribute('data-check');
@@ -797,7 +755,6 @@ footer{padding:28px 0 40px;border-top:1px solid var(--border)}
     render();
     toast(e.target.checked ? id + ' checked off' : id + ' reopened');
   });
-
   document.addEventListener('click', function (e) {
     var el = e.target.closest ? e.target.closest('button') : null;
     if (!el) return;
@@ -821,14 +778,12 @@ footer{padding:28px 0 40px;border-top:1px solid var(--border)}
     if (el.id === 'printBtn') { window.print(); return; }
     if (el.id === 'copyBtn') { copyTodo(); return; }
   });
-
   var qTimer;
   document.getElementById('q').addEventListener('input', function (e) {
     clearTimeout(qTimer);
     var v = e.target.value;
     qTimer = setTimeout(function () { state.q = v.trim().toLowerCase(); render(); }, 120);
   });
-
   function copyTodo() {
     var list = ITEMS.filter(function (it) { return it.owner === 'ceo' && isActive(it) && !isChecked(it.id); }).sort(byUrgentRank);
     var lines = ['Rocko Development - Needs CEO - ' + (D.weekday ? D.weekday + ' ' : '') + D.date, ''];
@@ -849,9 +804,28 @@ footer{padding:28px 0 40px;border-top:1px solid var(--border)}
       navigator.clipboard.writeText(text).then(function () { toast('To-do list copied'); }, fallback);
     } else { fallback(); }
   }
-
-  renderStatic();
-  render();
+  /* ---------- init: load reports.json, empty waiting state if it can't load ---------- */
+  function showErr(msg) {
+    document.querySelector('main .container').innerHTML = '<div class="err">' + esc(msg) + '</div>';
+  }
+  function start(brief, reports) {
+    D = brief && typeof brief === 'object' ? brief : {};
+    ITEMS = Array.isArray(D.items) ? D.items : [];
+    REPORTS = reports && typeof reports === 'object' ? reports : {};
+    computeReopened();
+    renderStatic();
+    renderReports();
+    render();
+  }
+  function emptyStart() { start({}, {}); }
+  if (!window.fetch) { emptyStart(); return; }
+  fetch('reports.json?t=' + Date.now(), { cache: 'no-store' })
+    .then(function (r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+    .then(function (j) {
+      if (!j || typeof j.brief !== 'object' || j.brief === null) throw new Error('no brief');
+      start(j.brief, j.reports);
+    })
+    .catch(function () { emptyStart(); });
 })();
 </script>
 </body>
