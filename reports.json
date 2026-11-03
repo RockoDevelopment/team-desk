@@ -1,29 +1,30 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-02T10:52:00-06:00",
+  "updatedAt": "2026-11-03T07:50:00-06:00",
   "brief": {
-    "date": "2026-11-02",
-    "weekday": "Monday",
-    "generatedAt": "2026-11-02T07:48:00-06:00",
+    "date": "2026-11-03",
+    "weekday": "Tuesday",
+    "generatedAt": "2026-11-03T07:50:00-06:00",
     "preparedBy": "Chief of Staff",
-    "summary": "Wiro approved us for $200 in credits. The Play org conversion was submitted Nov 2 and Google is reviewing it (a few days). Next up is the Wrangle listing wording.",
-    "topBlocker": "Wrangle Play listing: confirm the auto-renew and cancel wording, the free tier and the 7-day trial (AQ-PRODOPS-5).",
+    "summary": "Google verified our new payments profile. One click by Rocko (link it in Play Console) finishes the Play org conversion. Wrangle's first Android test build is done.",
+    "topBlocker": "Play org account: link the verified payments profile in Play Console. Until then the account stays Personal (AQ-COS-9).",
     "items": [
       {
-        "id": "AQ-COS-1",
-        "title": "Choose public developer phone and email for the Play org account",
-        "detail": "Done Nov 2: Rocko picked 510-593-1888 and contact@rockodevelopment.com (both verified), the Texas Certificate of Filing was uploaded, and Rocko finished his ID step. Google is now reviewing the documents, which can take a few days; the account stays Personal until Google emails approval.",
+        "id": "AQ-COS-9",
+        "title": "Link the verified payments profile in Play Console (finishes the org conversion)",
+        "detail": "Google emailed Nov 2 at 10:44 AM CT: the new payments profile is verified and just needs linking. Open Play Console, Developer account, About you, and choose Link payments profile. Until you do, the account stays Personal and Wrangle can't publish as Rocko Development LLC.",
         "section": "decision",
         "owner": "ceo",
-        "urgent": false,
+        "urgent": true,
         "impactRank": 1,
-        "status": "done",
-        "firstSeen": "2026-11-01"
+        "status": "open",
+        "firstSeen": "2026-11-03",
+        "link": "https://play.google.com/console/developers/account/developer-details?tab=aboutYou"
       },
       {
         "id": "AQ-PRODOPS-5",
         "title": "Wrangle Play listing: confirm auto-renew and cancel wording",
-        "detail": "Confirm the auto-renew and cancel wording, and that free tier (3 plans, 2 herds) and the 7-day trial match the build. Money and terms.",
+        "detail": "Confirm the auto-renew and cancel wording, and that the free tier (3 plans, 2 Crews) and the 7-day trial match the build. Money and terms.",
         "section": "approval",
         "owner": "ceo",
         "urgent": true,
@@ -44,8 +45,8 @@
       },
       {
         "id": "AQ-COS-7",
-        "title": "wop_systems on Render keeps hitting its memory limit",
-        "detail": "Render auto-restarted the wop_systems web service after it exceeded its memory limit on Nov 1 (3:42 AM CT) and again Nov 2 (3:47 AM CT). Check memory use or the plan size.",
+        "title": "Render: wop_systems memory restarts and bandwidth past 70%",
+        "detail": "wop_systems auto-restarted after hitting its memory limit Nov 1 (3:42 AM CT) and Nov 2 (3:47 AM CT). New Nov 3 (6:10 AM CT): the team has used over 70% of the Hobby plan's 5 GB monthly bandwidth. Check memory use, traffic, or the plan size.",
         "section": "risk",
         "owner": "ceo",
         "urgent": false,
@@ -56,7 +57,7 @@
       {
         "id": "AQ-COS-8",
         "title": "Redeem the Wiro $200 startup credits",
-        "detail": "Wiro approved Rocko Development for the Ignition tier ($200 in credits) on Nov 1. The redemption code is in the company Gmail (Wiro support thread). Wiro also asked for a G2 review after trying it; optional, no action needed now.",
+        "detail": "Wiro approved the Ignition tier ($200 credits) on Nov 1, and a thank-you reply went out Nov 2. Redeem the code from the Wiro thread in the company Gmail before Wrangle's AI testing starts.",
         "section": "next",
         "owner": "ceo",
         "urgent": false,
@@ -90,13 +91,14 @@
       {
         "id": "AQ-GROWTH-4",
         "title": "Approve the forwardable Wrangle invite",
-        "detail": "Growth drafted it. Confirm \"herds (your saved friend groups)\" is accurate.",
-        "section": "approval",
-        "owner": "ceo",
+        "detail": "Growth's draft still says \"herds\", but friend groups were renamed Crews on Nov 2. Growth needs to switch it to Crews (and Scout) before you approve. Contradiction caught by Chief of Staff.",
+        "section": "next",
+        "owner": "agent",
         "urgent": false,
         "impactRank": 8,
         "status": "open",
-        "firstSeen": "2026-11-01"
+        "firstSeen": "2026-11-01",
+        "agentName": "Growth & Community"
       },
       {
         "id": "AQ-COS-4",
@@ -121,13 +123,24 @@
         "firstSeen": "2026-11-01"
       },
       {
+        "id": "AQ-COS-1",
+        "title": "Choose public developer phone and email for the Play org account",
+        "detail": "Done Nov 2: Rocko picked 510-593-1888 and contact@rockodevelopment.com (both verified), the Texas Certificate of Filing was uploaded, and Rocko finished his ID step. Google is now reviewing the documents, which can take a few days; the account stays Personal until Google emails approval.",
+        "section": "decision",
+        "owner": "ceo",
+        "urgent": false,
+        "impactRank": 11,
+        "status": "done",
+        "firstSeen": "2026-11-01"
+      },
+      {
         "id": "AQ-COS-6",
         "title": "Team desk live and filled daily",
         "detail": "Team desk is live; Chief of Staff fills reports.json and pushes it to GitHub each weekday morning.",
         "section": "next",
         "owner": "agent",
         "urgent": false,
-        "impactRank": 11,
+        "impactRank": 12,
         "status": "done",
         "firstSeen": "2026-11-01",
         "agentName": "Chief of Staff",
@@ -198,8 +211,8 @@
       },
       {
         "item": "Play organization account",
-        "status": "In review",
-        "note": "Submitted Nov 2; Google is verifying the documents (a few days)"
+        "status": "Action needed",
+        "note": "Google verified the payments profile Nov 2; Rocko must link it in Play Console to finish"
       },
       {
         "item": "Team desk page",
@@ -214,24 +227,29 @@
     ],
     "inbox": [
       {
-        "from": "Wiro (support@wiro.ai)",
-        "timeCT": "Nov 1 1:04 PM",
-        "line": "Approved for the Wiro Startup Program Ignition tier, $200 in credits."
+        "from": "Google Payments",
+        "timeCT": "Nov 2 10:34 AM",
+        "line": "Asked for identity verification on the new payments profile (Rocko completed the ID step)."
       },
       {
-        "from": "Wiro (support@wiro.ai)",
-        "timeCT": "Nov 1 1:22 PM",
-        "line": "Follow-up asking for an honest G2 review once we've tried Wiro."
+        "from": "Google Play Console",
+        "timeCT": "Nov 2 10:44 AM",
+        "line": "Payments profile verified; link it in Play Console to finish the switch to an organization account."
+      },
+      {
+        "from": "Wiro (reply sent)",
+        "timeCT": "Nov 2 12:08 PM",
+        "line": "Thank-you reply sent to Wiro support for the Ignition approval."
+      },
+      {
+        "from": "Verizon Digital Ready",
+        "timeCT": "Nov 2 9:15 AM",
+        "line": "Marketing emails only (November events, instructors); no LISC decision."
       },
       {
         "from": "Render",
-        "timeCT": "Nov 2 3:47 AM",
-        "line": "wop_systems exceeded its memory limit and auto-restarted (also Nov 1 3:42 AM)."
-      },
-      {
-        "from": "Kraken",
-        "timeCT": "Nov 2 6:24 AM",
-        "line": "Permissions changed on an inactive API key (Kraken notice)."
+        "timeCT": "Nov 3 6:10 AM",
+        "line": "Team bandwidth past 70% of the Hobby plan's 5 GB this month."
       },
       {
         "from": "THE ORACLE",
@@ -240,14 +258,13 @@
       }
     ],
     "doneSinceLast": [
-      "Wiro approved $200 in startup credits (Nov 1)",
-      "Team desk now pushed to GitHub by Chief of Staff directly, with a non-expiring team-desk-only token",
-      "Team desk chat box added to the page",
-      "Weekly plan and October monthly review done (Nov 2)",
-      "Play org conversion submitted: public phone and email verified, Texas certificate uploaded, ID step done (Nov 2)"
+      "Google verified the new payments profile for the Play org account (Nov 2)",
+      "Wrangle's first working Android test build finished on Expo (Nov 2, 11:58 PM CT)",
+      "Rocko's final v1 Wrangle zip is now the build source (screens only, same build settings)",
+      "Thank-you reply sent to Wiro (Nov 2)"
     ],
-    "recommendation": "Confirm the Wrangle listing's auto-renew and cancel wording, free tier and trial so the listing is ready when Google approves the org account.",
-    "coCeoCopySent": true,
+    "recommendation": "Link the verified payments profile in Play Console today. It's one click and it finishes the org conversion we've been chasing.",
+    "coCeoCopySent": false,
     "company": {
       "products": [
         {
@@ -267,7 +284,7 @@
         },
         {
           "name": "Wrangle",
-          "stage": "Stage 1 Android build done; next: live invitee page",
+          "stage": "First Android test build done Nov 2; next: build final v1 and live invitee page",
           "status": "In development"
         },
         {
@@ -280,34 +297,34 @@
   },
   "reports": {
     "Chief of Staff": {
-      "date": "2026-11-02",
-      "time": "7:48 AM CT",
-      "text": "Wrote the Nov 2 weekly plan and October review: priorities are the Play org conversion, getting Wrangle listing-ready, and the rate card plus NSF and CPA answers. Logged Wiro's $200 credit approval and flagged repeated Render memory restarts on wop_systems. Desk now publishes from my own push."
+      "date": "2026-11-03",
+      "time": "7:50 AM CT",
+      "text": "Spotted Google's Nov 2 email that our payments profile is verified, so the Play org switch now needs only Rocko's link click (AQ-COS-9). Logged Wrangle's first test build, flagged Render bandwidth past 70%, and caught Growth's invite still saying \"herds\" after the Crews rename."
     },
     "Sales, Clients & Funding": {
-      "date": "2026-11-02",
-      "time": "7:48 AM CT",
-      "text": "No new report since the last brief. Inbox shows Wiro approved the $200 Ignition credits on Nov 1; Business Freedom (review Nov 15) and Verizon/LISC are still waiting. Next routine run is Wednesday Nov 4."
+      "date": "2026-11-03",
+      "time": "7:50 AM CT",
+      "text": "No new report reached me since the last brief. No grant decisions in the inbox: Business Freedom (review Nov 15) and Verizon/LISC are still waiting. Next routine run is Wednesday Nov 4."
     },
     "Content & Social": {
-      "date": "2026-11-02",
-      "time": "7:48 AM CT",
-      "text": "No new report reached me since the last brief. New weekday posting slots start today on @RockoDevLLC (9 AM original first). The duplicate Oct 31 post still needs deleting."
+      "date": "2026-11-03",
+      "time": "7:50 AM CT",
+      "text": "No new report reached me since the last brief. The duplicate Oct 31 post (AQ-COS-3) still needs deleting by Rocko."
     },
     "Growth & Community": {
-      "date": "2026-11-02",
-      "time": "7:48 AM CT",
-      "text": "No new activity since the last brief. AQ-GROWTH-3 and AQ-GROWTH-4 still wait on Rocko, and the PayPal hackathon skip still needs his OK."
+      "date": "2026-11-03",
+      "time": "7:50 AM CT",
+      "text": "No new activity since the last brief. AQ-GROWTH-3 still waits on Rocko, and the AQ-GROWTH-4 invite needs \"herds\" changed to Crews before approval."
     },
     "Market Intel": {
-      "date": "2026-11-02",
-      "time": "7:48 AM CT",
-      "text": "No new report yet; the Monday weekly intel report and reshare-account list are due around 8 AM today."
+      "date": "2026-11-03",
+      "time": "7:50 AM CT",
+      "text": "No new report reached me since the last brief."
     },
     "Product Ops": {
-      "date": "2026-11-02",
-      "time": "7:48 AM CT",
-      "text": "No new activity since the last brief. AQ-PRODOPS-5 (Wrangle listing wording, free tier and trial) still waits on Rocko; the Play org conversion is the hard gate."
+      "date": "2026-11-03",
+      "time": "7:50 AM CT",
+      "text": "No new report reached me since the last brief. AQ-PRODOPS-5 (listing wording, free tier and trial) still waits on Rocko; free tier wording now uses Crews."
     }
   }
 }
