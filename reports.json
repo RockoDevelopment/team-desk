@@ -1,34 +1,22 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-03T07:53:00-06:00",
+  "updatedAt": "2026-11-03T08:55:00-06:00",
   "brief": {
     "date": "2026-11-03",
     "weekday": "Tuesday",
     "generatedAt": "2026-11-03T07:50:00-06:00",
     "preparedBy": "Chief of Staff",
-    "summary": "Google verified our new payments profile. One click by Rocko (link it in Play Console) finishes the Play org conversion. Wrangle's first Android test build is done.",
-    "topBlocker": "Play org account: link the verified payments profile in Play Console. Until then the account stays Personal (AQ-COS-9).",
+    "summary": "The Play org conversion is finished: Google Play now lists Rocko Development LLC as an Organization account. Wrangle's next gate is approving the listing wording (AQ-PRODOPS-5), then the closed-test AAB build.",
+    "topBlocker": "Wrangle launch gate: approve the Play listing wording, free tier and trial (AQ-PRODOPS-5), then the closed-test AAB build.",
     "items": [
       {
-        "id": "AQ-COS-9",
-        "title": "Link the verified payments profile in Play Console (finishes the org conversion)",
-        "detail": "Google emailed Nov 2 at 10:44 AM CT: the new payments profile is verified and just needs linking. Open Play Console, Developer account, About you, and choose Link payments profile. Until you do, the account stays Personal and Wrangle can't publish as Rocko Development LLC.",
+        "id": "AQ-PRODOPS-5",
+        "title": "Wrangle Play listing: confirm auto-renew and cancel wording (launch gate)",
+        "detail": "Now Wrangle's launch gate, with the closed-test AAB build, since the Play org account is done. Confirm the auto-renew and cancel wording, and that the free tier (3 plans, 2 Crews) and the 7-day trial match the build. Money and terms.",
         "section": "decision",
         "owner": "ceo",
         "urgent": true,
         "impactRank": 1,
-        "status": "open",
-        "firstSeen": "2026-11-03",
-        "link": "https://play.google.com/console/developers/account/developer-details?tab=aboutYou"
-      },
-      {
-        "id": "AQ-PRODOPS-5",
-        "title": "Wrangle Play listing: confirm auto-renew and cancel wording",
-        "detail": "Confirm the auto-renew and cancel wording, and that the free tier (3 plans, 2 Crews) and the 7-day trial match the build. Money and terms.",
-        "section": "approval",
-        "owner": "ceo",
-        "urgent": true,
-        "impactRank": 2,
         "status": "open",
         "firstSeen": "2026-11-01"
       },
@@ -39,7 +27,7 @@
         "section": "decision",
         "owner": "ceo",
         "urgent": true,
-        "impactRank": 3,
+        "impactRank": 2,
         "status": "open",
         "firstSeen": "2026-11-01"
       },
@@ -50,7 +38,7 @@
         "section": "risk",
         "owner": "ceo",
         "urgent": false,
-        "impactRank": 4,
+        "impactRank": 3,
         "status": "open",
         "firstSeen": "2026-11-02"
       },
@@ -61,7 +49,7 @@
         "section": "next",
         "owner": "ceo",
         "urgent": false,
-        "impactRank": 5,
+        "impactRank": 4,
         "status": "open",
         "firstSeen": "2026-11-02"
       },
@@ -72,7 +60,7 @@
         "section": "next",
         "owner": "ceo",
         "urgent": false,
-        "impactRank": 6,
+        "impactRank": 5,
         "status": "open",
         "firstSeen": "2026-11-01",
         "link": "https://x.com/RockoDevLLC/status/2116676894913650902"
@@ -84,7 +72,7 @@
         "section": "approval",
         "owner": "ceo",
         "urgent": false,
-        "impactRank": 7,
+        "impactRank": 6,
         "status": "open",
         "firstSeen": "2026-11-01"
       },
@@ -95,7 +83,7 @@
         "section": "next",
         "owner": "agent",
         "urgent": false,
-        "impactRank": 8,
+        "impactRank": 7,
         "status": "open",
         "firstSeen": "2026-11-01",
         "agentName": "Growth & Community"
@@ -107,7 +95,7 @@
         "section": "approval",
         "owner": "ceo",
         "urgent": false,
-        "impactRank": 9,
+        "impactRank": 8,
         "status": "open",
         "firstSeen": "2026-11-01"
       },
@@ -118,14 +106,26 @@
         "section": "next",
         "owner": "ceo",
         "urgent": false,
-        "impactRank": 10,
+        "impactRank": 9,
         "status": "open",
         "firstSeen": "2026-11-01"
       },
       {
+        "id": "AQ-COS-9",
+        "title": "Link the verified payments profile in Play Console (org conversion finished)",
+        "detail": "Done Nov 3, 2026, about 8:50 AM CT. Payments profile linked; Play shows Account type: Organization — Rocko Development LLC (D-U-N-S on file). Org phone and verified website already set.",
+        "section": "next",
+        "owner": "ceo",
+        "urgent": false,
+        "impactRank": 10,
+        "status": "done",
+        "firstSeen": "2026-11-03",
+        "link": "https://play.google.com/console/developers/account/developer-details?tab=aboutYou"
+      },
+      {
         "id": "AQ-COS-1",
         "title": "Choose public developer phone and email for the Play org account",
-        "detail": "Done Nov 2: Rocko picked 510-593-1888 and contact@rockodevelopment.com (both verified), the Texas Certificate of Filing was uploaded, and Rocko finished his ID step. Google is now reviewing the documents, which can take a few days; the account stays Personal until Google emails approval.",
+        "detail": "Done Nov 2: Rocko picked 510-593-1888 and contact@rockodevelopment.com (both verified), the Texas Certificate of Filing was uploaded, and Rocko finished his ID step. Google approved it, and the Play account became an Organization account on Nov 3.",
         "section": "decision",
         "owner": "ceo",
         "urgent": false,
@@ -211,8 +211,8 @@
       },
       {
         "item": "Play organization account",
-        "status": "Action needed",
-        "note": "Google verified the payments profile Nov 2; Rocko must link it in Play Console to finish"
+        "status": "Done",
+        "note": "Converted to Organization Nov 3; payments profile linked"
       },
       {
         "item": "Team desk page",
@@ -258,12 +258,13 @@
       }
     ],
     "doneSinceLast": [
+      "Play account converted to Organization (Nov 3)",
       "Google verified the new payments profile for the Play org account (Nov 2)",
       "Wrangle's first working Android test build finished on Expo (Nov 2, 11:58 PM CT)",
       "Rocko's final v1 Wrangle zip is now the build source (screens only, same build settings)",
       "Thank-you reply sent to Wiro (Nov 2)"
     ],
-    "recommendation": "Link the verified payments profile in Play Console today. It's one click and it finishes the org conversion we've been chasing.",
+    "recommendation": "Play org account is done; next, approve the Wrangle listing wording (AQ-PRODOPS-5).",
     "coCeoCopySent": true,
     "company": {
       "products": [
@@ -284,7 +285,7 @@
         },
         {
           "name": "Wrangle",
-          "stage": "First Android test build done Nov 2; next: build final v1 and live invitee page",
+          "stage": "Final v1 Android test build running; next: listing approval (AQ-PRODOPS-5) and closed-test AAB build",
           "status": "In development"
         },
         {
@@ -298,8 +299,8 @@
   "reports": {
     "Chief of Staff": {
       "date": "2026-11-03",
-      "time": "7:50 AM CT",
-      "text": "Spotted Google's Nov 2 email that our payments profile is verified, so the Play org switch now needs only Rocko's link click (AQ-COS-9). Logged Wrangle's first test build, flagged Render bandwidth past 70%, and caught Growth's invite still saying \"herds\" after the Crews rename."
+      "time": "8:55 AM CT",
+      "text": "Finished the Play org conversion this morning: the payments profile is linked and Play now shows Rocko Development LLC as an Organization account. Wrangle's launch gate is now listing approval (AQ-PRODOPS-5) and the closed-test AAB build. Earlier: logged Wrangle's first test build, flagged Render bandwidth past 70%, and caught Growth's invite still saying \"herds\" after the Crews rename."
     },
     "Sales, Clients & Funding": {
       "date": "2026-11-03",
