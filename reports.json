@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-03T07:50:00-06:00",
+  "updatedAt": "2026-11-03T07:53:00-06:00",
   "brief": {
     "date": "2026-11-03",
     "weekday": "Tuesday",
@@ -264,7 +264,7 @@
       "Thank-you reply sent to Wiro (Nov 2)"
     ],
     "recommendation": "Link the verified payments profile in Play Console today. It's one click and it finishes the org conversion we've been chasing.",
-    "coCeoCopySent": false,
+    "coCeoCopySent": true,
     "company": {
       "products": [
         {
