@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-03T08:55:00-06:00",
+  "updatedAt": "2026-11-03T08:56:00-06:00",
   "brief": {
     "date": "2026-11-03",
     "weekday": "Tuesday",
-    "generatedAt": "2026-11-03T07:50:00-06:00",
+    "generatedAt": "2026-11-03T08:56:00-06:00",
     "preparedBy": "Chief of Staff",
     "summary": "The Play org conversion is finished: Google Play now lists Rocko Development LLC as an Organization account. Wrangle's next gate is approving the listing wording (AQ-PRODOPS-5), then the closed-test AAB build.",
     "topBlocker": "Wrangle launch gate: approve the Play listing wording, free tier and trial (AQ-PRODOPS-5), then the closed-test AAB build.",
@@ -259,6 +259,7 @@
     ],
     "doneSinceLast": [
       "Play account converted to Organization (Nov 3)",
+      "Wrangle final v1 test APK built (Nov 3)",
       "Google verified the new payments profile for the Play org account (Nov 2)",
       "Wrangle's first working Android test build finished on Expo (Nov 2, 11:58 PM CT)",
       "Rocko's final v1 Wrangle zip is now the build source (screens only, same build settings)",
@@ -285,7 +286,7 @@
         },
         {
           "name": "Wrangle",
-          "stage": "Final v1 Android test build running; next: listing approval (AQ-PRODOPS-5) and closed-test AAB build",
+          "stage": "Final v1 Android test APK ready for CEO testing; next: listing approval (AQ-PRODOPS-5) and closed-test AAB build",
           "status": "In development"
         },
         {
