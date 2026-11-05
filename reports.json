@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-04T16:50:50-06:00",
+  "updatedAt": "2026-11-05T07:40:17-06:00",
   "brief": {
-    "date": "2026-11-04",
-    "weekday": "Wednesday",
-    "generatedAt": "2026-11-04T16:50:00-06:00",
+    "date": "2026-11-05",
+    "weekday": "Thursday",
+    "generatedAt": "2026-11-05T07:48:00-06:00",
     "preparedBy": "Chief of Staff",
-    "summary": "Ran late (about 4:50 PM CT) because usage ran out and the 7:47 AM run failed. Wrangle build 4 is live in Google Play closed testing with 19 testers emailed, and Production is set to US only with nothing submitted. V2, the full backend build, is now the only thing between us and the public launch.",
-    "topBlocker": "Wrangle V2 (full backend). Send the V2 dev brief from Gmail drafts (AQ-PRODOPS-6) so the dev sends his timeline and feature list.",
+    "summary": "The correct Wrangle V2 demo (App.tsx port, 2.0.0, versionCode 11) is in Google Play review for closed testing, and the preview APK is ready for your phone check. Play trader status is declared. Wrangle+ billing is locked on RevenueCat. Testers get the V2 email after tonight's usage reset.",
+    "topBlocker": "Your Google Payments photo ID upload (AQ-COS-10), then your phone check of the V2 demo APK (AQ-COS-13) before testers are emailed tonight.",
     "items": [
       {
         "id": "AQ-COS-10",
@@ -24,7 +24,7 @@
       {
         "id": "AQ-COS-7",
         "title": "Render: bandwidth limit reached, overage now billing",
-        "detail": "New Nov 4, 6:09 AM CT: the Wealth Orchestration Protocol team used all 5 GB of Hobby plan bandwidth. Extra use is charged automatically at $15 per 100 GB until the Dec 1 reset. Earlier: wop_systems memory restarts Nov 1 and Nov 2. Decide: cut traffic, accept overage, or change plan. Money.",
+        "detail": "Render Hobby bandwidth is used up and overage bills at $15 per 100 GB until the Dec 1 reset (email Nov 4, 6:09 AM CT). You said no new Render or hosting setup until usage is back, so the only question is cut traffic or accept overage. Money.",
         "section": "risk",
         "owner": "ceo",
         "urgent": true,
@@ -34,26 +34,16 @@
         "link": "https://dashboard.render.com/"
       },
       {
-        "id": "AQ-PRODOPS-6",
-        "title": "Send the Wrangle V2 dev brief (Gmail draft)",
-        "detail": "V2 is the full backend build and the only blocker to the public Play launch. Draft \"Wrangle V2: where we are and what we need (urgent)\" is in company Gmail drafts, addressed to the company Gmail. Add the dev's address and send. Asks for his timeline, the feature list, changed files, hosting needs and cost before anything is paid. Tracked as epic WRG-V2 (WRG-016 to WRG-020).",
-        "section": "approval",
+        "id": "AQ-COS-13",
+        "title": "Check the V2 demo APK on your phone",
+        "detail": "Correct V2 demo (single App.tsx port, version 2.0.0, versionCode 11). Confirm the logo splash, seeded Movie night and Brunch tickets, Reading and Locking screens before testers get the V2 email tonight.",
+        "section": "decision",
         "owner": "ceo",
         "urgent": false,
-        "impactRank": 3,
         "status": "open",
-        "firstSeen": "2026-11-04"
-      },
-      {
-        "id": "AQ-SALES-22",
-        "title": "HelpBnk script: fill in what the $5,000 covers",
-        "detail": "Script is 112 words, about 45 seconds. One blank left: what the $5,000 would pay for (example: Android test devices and AI API costs). Pitch due Nov 20 to 25.",
-        "section": "approval",
-        "owner": "ceo",
-        "urgent": false,
-        "impactRank": 4,
-        "status": "open",
-        "firstSeen": "2026-11-04"
+        "firstSeen": "2026-11-05",
+        "link": "https://expo.dev/artifacts/eas/F4Baib5Hti4BO5qW-V4rVhLT3gFu1ikLQTdyGG6Kaw4.apk",
+        "impactRank": 3
       },
       {
         "id": "AQ-COS-2",
@@ -62,14 +52,25 @@
         "section": "decision",
         "owner": "ceo",
         "urgent": true,
-        "impactRank": 5,
+        "impactRank": 4,
         "status": "open",
         "firstSeen": "2026-11-01"
       },
       {
+        "id": "AQ-SALES-22",
+        "title": "HelpBnk script: fill in what the $5,000 covers",
+        "detail": "Script is 112 words, about 45 seconds. One blank left: what the $5,000 would pay for (example: Android test devices and AI API costs). Pitch due Nov 20 to 25.",
+        "section": "approval",
+        "owner": "ceo",
+        "urgent": false,
+        "impactRank": 5,
+        "status": "open",
+        "firstSeen": "2026-11-04"
+      },
+      {
         "id": "AQ-COS-11",
         "title": "Testers: three Google emails missing, one question waiting",
-        "detail": "Briana, Brent and Richard still need to send a Google account email before they can be added. Destiny Shaw replied Nov 3, 5:53 PM CT asking \"Is this ok for testing?\" and needs a short answer (draft for your OK).",
+        "detail": "Briana, Brent and Richard still need to send a Google account email. Destiny Shaw asked Nov 3, 5:53 PM CT \"Is this ok for testing?\" and still needs a short answer (draft for your OK). The V2 tester email waits for the usage reset (set for 8:50 PM CT tonight).",
         "section": "next",
         "owner": "ceo",
         "urgent": false,
@@ -78,13 +79,36 @@
         "firstSeen": "2026-11-04"
       },
       {
+        "id": "AQ-COS-14",
+        "title": "Play review of V2 demo 11 (2.0.0) on Closed Alpha",
+        "detail": "Submitted Nov 5, about 6:44 AM CT, replacing the incomplete multi-file builds (8 not included). Changes in review; I am watching for Google's decision.",
+        "section": "next",
+        "owner": "agent",
+        "agentName": "Chief of Staff",
+        "urgent": false,
+        "status": "open",
+        "firstSeen": "2026-11-05",
+        "impactRank": 7
+      },
+      {
+        "id": "AQ-COS-15",
+        "title": "@TheOracleScout X login is locked",
+        "detail": "PROMO BOT cannot sign in to post. Asked Nov 4, 10:55 PM CT to turn on Route traffic through your computer; your computer shows offline this morning, so posting stays blocked until it is back on.",
+        "section": "next",
+        "owner": "ceo",
+        "urgent": false,
+        "status": "open",
+        "firstSeen": "2026-11-05",
+        "impactRank": 8
+      },
+      {
         "id": "AQ-COS-8",
         "title": "Redeem the Wiro $200 startup credits",
         "detail": "Wiro approved the Ignition tier ($200 credits) on Nov 1. Redeem the code from the Wiro thread in company Gmail at wiro.ai before Nov 1, 2027.",
         "section": "next",
         "owner": "ceo",
         "urgent": false,
-        "impactRank": 7,
+        "impactRank": 9,
         "status": "open",
         "firstSeen": "2026-11-02"
       },
@@ -95,7 +119,7 @@
         "section": "next",
         "owner": "ceo",
         "urgent": false,
-        "impactRank": 8,
+        "impactRank": 10,
         "status": "open",
         "firstSeen": "2026-11-01",
         "link": "https://x.com/RockoDevLLC/status/2116676894913650902"
@@ -107,7 +131,7 @@
         "section": "approval",
         "owner": "ceo",
         "urgent": false,
-        "impactRank": 9,
+        "impactRank": 11,
         "status": "open",
         "firstSeen": "2026-11-01"
       },
@@ -118,7 +142,7 @@
         "section": "next",
         "owner": "agent",
         "urgent": false,
-        "impactRank": 10,
+        "impactRank": 12,
         "status": "open",
         "firstSeen": "2026-11-01",
         "agentName": "Growth & Community"
@@ -130,7 +154,7 @@
         "section": "approval",
         "owner": "ceo",
         "urgent": false,
-        "impactRank": 11,
+        "impactRank": 13,
         "status": "open",
         "firstSeen": "2026-11-01"
       },
@@ -141,56 +165,32 @@
         "section": "next",
         "owner": "ceo",
         "urgent": false,
-        "impactRank": 12,
+        "impactRank": 14,
         "status": "open",
         "firstSeen": "2026-11-01"
       },
       {
-        "id": "AQ-PRODOPS-5",
-        "title": "Wrangle Play listing wording, free tier and trial",
-        "detail": "Done: the store listing was approved by Google with no warnings and the closed test is live (Nov 3).",
+        "id": "AQ-COS-16",
+        "title": "Play trader status declared",
+        "detail": "Done Nov 4, 7:43 PM CT: Play Console confirmed the account is declared a trader, clearing the Feb 1, 2027 deadline.",
+        "section": "next",
+        "owner": "agent",
+        "agentName": "Chief of Staff",
+        "urgent": false,
+        "status": "done",
+        "firstSeen": "2026-11-05",
+        "impactRank": 15
+      },
+      {
+        "id": "AQ-PRODOPS-6",
+        "title": "V2 dev brief (Gmail draft): closed, superseded",
+        "detail": "Killed Nov 5: you delivered the V2 demo yourself (App.tsx port, 2.0.0). The backend package waits until you ask and Premium usage is back, so the old dev brief draft is no longer needed.",
         "section": "approval",
         "owner": "ceo",
         "urgent": false,
-        "impactRank": 13,
-        "status": "done",
-        "firstSeen": "2026-11-01"
-      },
-      {
-        "id": "AQ-COS-12",
-        "title": "Production countries set to United States only",
-        "detail": "Done Nov 4: Production track set to US only and saved. Production stays inactive; no release created or submitted. The change goes to review with V2.",
-        "section": "next",
-        "owner": "agent",
-        "urgent": false,
-        "impactRank": 14,
-        "status": "done",
-        "firstSeen": "2026-11-04",
-        "agentName": "Chief of Staff"
-      },
-      {
-        "id": "AQ-COS-9",
-        "title": "Link the verified payments profile in Play Console (org conversion finished)",
-        "detail": "Done Nov 3: Play shows Account type Organization, Rocko Development LLC.",
-        "section": "decision",
-        "owner": "ceo",
-        "urgent": false,
-        "impactRank": 15,
-        "status": "done",
-        "firstSeen": "2026-11-03"
-      },
-      {
-        "id": "AQ-COS-6",
-        "title": "Team desk live and filled daily",
-        "detail": "Team desk is live; Chief of Staff fills reports.json and pushes it to GitHub each weekday.",
-        "section": "next",
-        "owner": "agent",
-        "urgent": false,
         "impactRank": 16,
         "status": "done",
-        "firstSeen": "2026-11-01",
-        "agentName": "Chief of Staff",
-        "link": "https://rockodevelopment.github.io/team-desk/"
+        "firstSeen": "2026-11-04"
       }
     ],
     "kpis": [
@@ -282,33 +282,33 @@
         "item": "SAM.gov entity structure",
         "status": "Blocked",
         "note": "Waiting on CPA answer"
+      },
+      {
+        "item": "Play trader status",
+        "status": "Done",
+        "note": "Declared trader Nov 4, 7:43 PM CT"
       }
     ],
     "inbox": [
       {
-        "from": "Render",
-        "timeCT": "Nov 4 6:09 AM",
-        "line": "Bandwidth limit reached on the Hobby plan; overage billed at $15 per 100 GB."
+        "from": "Google Play Console",
+        "timeCT": "Nov 4 7:43 PM",
+        "line": "Trader status declaration confirmed (declared as trader)."
       },
       {
-        "from": "Destiny Shaw (tester)",
-        "timeCT": "Nov 3 5:53 PM",
-        "line": "Asked \"Is this ok for testing?\" on the earlier test-link email."
+        "from": "xAI / Grok",
+        "timeCT": "Nov 4 9:32 PM, Nov 5 12:51 AM",
+        "line": "Two new-login notices on the company Grok account from a new IP; likely our own bot sessions, flag if you did not expect them."
       },
       {
         "from": "Google Play Console",
         "timeCT": "",
-        "line": "No Google Play emails since Nov 3, 3 PM CT: no policy, rejection or approval messages."
-      },
-      {
-        "from": "Verizon Digital Ready",
-        "timeCT": "Nov 4 9:18 AM",
-        "line": "Marketing emails only (events, courses); no LISC decision."
+        "line": "No review decision yet on V2 demo 11 (2.0.0)."
       },
       {
         "from": "Grant programs",
         "timeCT": "",
-        "line": "No new grant replies or decisions since the last brief."
+        "line": "No grant or credits replies since the last brief; Verizon mail is marketing only."
       },
       {
         "from": "THE ORACLE",
@@ -317,17 +317,15 @@
       }
     ],
     "doneSinceLast": [
-      "Wrangle build 4 approved and live on Google Play closed testing (Nov 3, 3:50 PM CT)",
-      "All 19 testers emailed one by one (Nov 3, 4:55 to 5:01 PM CT)",
-      "Production track set to United States only; nothing submitted (Nov 4)",
-      "V2 defined as the full backend; dev brief drafted in Gmail for Rocko to send",
-      "Product Ops opened epic WRG-V2 (WRG-016 to WRG-020)",
-      "Sales updated open grant drafts with current Wrangle status; HelpBnk script tightened to 112 words",
-      "Confirmed the Nov 2 Google Payments ID request is genuine",
-      "Confirmed Business Freedom was submitted Oct 29"
+      "Play trader status declared and confirmed (Nov 4, 7:43 PM CT)",
+      "Correct V2 demo built (2.0.0, versionCode 11) and submitted to Closed Alpha (Nov 5, about 6:44 AM CT)",
+      "Wrangle+ billing locked: RevenueCat, monthly $4.99 and yearly $39.99, 7-day trials",
+      "V2 invite host set to wrangle.rockodevelopment.com",
+      "Social lanes locked: Content on @RockoDevLLC, PROMO BOT on @TheOracleScout reporting to me",
+      "V2 tester email scheduled for 8:50 PM CT tonight after the usage reset"
     ],
-    "recommendation": "Send the V2 dev brief tonight. V2 is the only thing blocking the public Play launch, and every day of waiting on his timeline is a day lost.",
-    "coCeoCopySent": true,
+    "recommendation": "Install the V2 preview APK this morning and confirm the four checks, so the 8:50 PM tester email goes out on a build you have seen.",
+    "coCeoCopySent": false,
     "company": {
       "products": [
         {
@@ -347,7 +345,7 @@
         },
         {
           "name": "Wrangle",
-          "stage": "Build 4 live in Google Play closed testing (19 testers); next: V2 full backend, then public launch",
+          "stage": "V2 demo 2.0.0 (versionCode 11) in Play review for closed testing; next: tester feedback, then backend and public launch",
           "status": "In development"
         },
         {
@@ -360,34 +358,34 @@
   },
   "reports": {
     "Chief of Staff": {
-      "date": "2026-11-04",
-      "time": "4:50 PM CT",
-      "text": "Ran today's brief late, about 4:50 PM CT, because usage hit 100% and the 7:47 AM run failed. Logged the live closed test, US-only Production (nothing submitted) and the V2 dev brief draft. New: Render hit its bandwidth limit and overage is billing; the Google Payments ID request is genuine and needs Rocko's upload."
+      "date": "2026-11-05",
+      "time": "7:48 AM CT",
+      "text": "Rebuilt and resubmitted the correct V2 demo (App.tsx port, 2.0.0, versionCode 11) to Closed Alpha after two wrong-architecture builds; it is in review. Logged the trader status declaration, the RevenueCat billing decision and the new invite host. Killed the old V2 dev brief draft since you delivered V2 yourself."
     },
     "Sales, Clients & Funding": {
-      "date": "2026-11-04",
-      "time": "4:50 PM CT",
-      "text": "Updated the open grant drafts with current Wrangle status (build 4 in closed testing, 19 testers invited, public launch after V2); nothing submitted. Tightened the HelpBnk script (AQ-SALES-22) to 112 words, about 45 seconds; it needs Rocko to fill in what the $5,000 covers."
+      "date": "2026-11-05",
+      "time": "7:48 AM CT",
+      "text": "No new report reached me since the last brief. No grant replies came in; HelpBnk (AQ-SALES-22) still needs what the $5,000 covers."
     },
     "Content & Social": {
-      "date": "2026-11-04",
-      "time": "4:50 PM CT",
-      "text": "No new report reached me since the last brief. The duplicate Oct 31 post (AQ-COS-3) still needs deleting by Rocko."
+      "date": "2026-11-05",
+      "time": "7:48 AM CT",
+      "text": "No new report reached me since the last brief. Lane confirmed: @RockoDevLLC only, including the 2 PM CT @TheOracleScout reshare. The duplicate Oct 31 post (AQ-COS-3) still needs deleting."
     },
     "Growth & Community": {
-      "date": "2026-11-04",
-      "time": "4:50 PM CT",
-      "text": "No new activity since the last brief. AQ-GROWTH-3 still waits on Rocko, and the AQ-GROWTH-4 invite still needs \"herds\" changed to Crews."
+      "date": "2026-11-05",
+      "time": "7:48 AM CT",
+      "text": "No new report reached me since the last brief. Lane confirmed: Wrangle growth and Wednesday performance, no X posting. AQ-GROWTH-4 still needs \"herds\" changed to Crews."
     },
     "Market Intel": {
-      "date": "2026-11-04",
-      "time": "4:50 PM CT",
+      "date": "2026-11-05",
+      "time": "7:48 AM CT",
       "text": "No new report reached me since the last brief."
     },
     "Product Ops": {
-      "date": "2026-11-04",
-      "time": "4:50 PM CT",
-      "text": "Opened epic WRG-V2 (WRG-016 to WRG-020) to track V2, the full backend build, as the top Wrangle work. Closed the Play items on both Pages. Flagged older grant drafts with outdated \"no testers\" wording and private business details; Sales has fixed the open ones."
+      "date": "2026-11-05",
+      "time": "7:48 AM CT",
+      "text": "No new report reached me since the last brief. The V2 demo and billing decisions (RevenueCat, server-only tier writes) are logged for its tickets; the backend package waits until you ask."
     }
   }
 }
