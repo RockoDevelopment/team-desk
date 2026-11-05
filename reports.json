@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-05T07:40:17-06:00",
+  "updatedAt": "2026-11-05T07:41:31-06:00",
   "brief": {
     "date": "2026-11-05",
     "weekday": "Thursday",
@@ -325,7 +325,7 @@
       "V2 tester email scheduled for 8:50 PM CT tonight after the usage reset"
     ],
     "recommendation": "Install the V2 preview APK this morning and confirm the four checks, so the 8:50 PM tester email goes out on a build you have seen.",
-    "coCeoCopySent": false,
+    "coCeoCopySent": true,
     "company": {
       "products": [
         {
