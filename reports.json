@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-06T07:49:52-06:00",
+  "updatedAt": "2026-11-06T07:51:43-06:00",
   "brief": {
     "date": "2026-11-06",
     "weekday": "Friday",
@@ -428,7 +428,7 @@
       "Killed AQ-COS-7 (old Render) and AQ-COS-15 (Oracle Scout posting)"
     ],
     "recommendation": "Fund the Visa on file this morning so Render Free Postgres can unlock, then upload the Google Payments photo ID.",
-    "coCeoCopySent": false,
+    "coCeoCopySent": true,
     "company": {
       "products": [
         {
