@@ -334,6 +334,16 @@
           "status": "Live"
         },
         {
+          "name": "Wrangle",
+          "stage": "Closed Alpha 2.0.5 (versionCode 17) on Play closed testing; Production 1.0.0 store-ready fixes in flight",
+          "status": "In testing"
+        },
+        {
+          "name": "Beethoven's Alley Katz",
+          "stage": "Backend and Android app built; next: live backend",
+          "status": "In development"
+        },
+        {
           "name": "Echo",
           "stage": "V1.5 built; next: V2 cloud vault and sync",
           "status": "In development"
@@ -341,16 +351,6 @@
         {
           "name": "Permit Pilot",
           "stage": "V1 built; next: V2 accounts and cloud sync",
-          "status": "In development"
-        },
-        {
-          "name": "Wrangle",
-          "stage": "V2 demo 2.0.0 (versionCode 11) in Play review for closed testing; next: tester feedback, then backend and public launch",
-          "status": "In development"
-        },
-        {
-          "name": "Beethoven's Alley Katz",
-          "stage": "Backend and Android app built; next: live backend",
           "status": "In development"
         }
       ]

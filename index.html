@@ -39,7 +39,7 @@ Brief fields (must be valid JSON, double quotes only):
   doneSinceLast   ["plain text", ...]
   recommendation  one sentence
   coCeoCopySent   true | false
-  company         OPTIONAL {products:[{name, stage, status}]}  status: Live | In development
+  company         OPTIONAL {products:[{name, stage, status}]}  status: Live | In testing | In development
 Item fields:
   id           AQ-format id, unique and stable across days (e.g. "AQ-PRODOPS-5")
   title        short title
@@ -655,10 +655,14 @@ footer{padding:28px 0 40px;border-top:1px solid var(--border)}
     var prods = D.company && Array.isArray(D.company.products) ? D.company.products : [];
     if (prods.length) {
       document.getElementById('products').innerHTML = '<div class="sub-h">PRODUCTS</div><ul class="prod">' +
-        prods.map(function (p) {
-          var live = /live/i.test(p.status || '');
+        prods.slice().sort(function (a, b) {
+          function rank(s) { s = String(s || '').toLowerCase(); if (/^live\b/.test(s)) return 0; if (/test/.test(s)) return 1; return 2; }
+          return rank(a.status) - rank(b.status) || String(a.name || '').localeCompare(String(b.name || ''));
+        }).map(function (p) {
+          var st = String(p.status || '');
+          var cls = /live/i.test(st) ? 'p-live' : /test/i.test(st) ? 'p-cyan' : 'p-build';
           return '<li><div><span class="n">' + t(p.name) + '</span><span class="st">' + t(p.stage || '') + '</span></div>' +
-            '<span class="pill ' + (live ? 'p-live' : 'p-build') + '"><i></i>' + t(p.status || '') + '</span></li>';
+            '<span class="pill ' + cls + '"><i></i>' + t(st) + '</span></li>';
         }).join('') + '</ul>';
     }
     /* KPIs */
