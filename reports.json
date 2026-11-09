@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T07:30:00-06:00",
+  "updatedAt": "2026-11-09T07:45:11-06:00",
   "brief": {
     "date": "2026-11-09",
     "weekday": "Monday",
-    "generatedAt": "2026-11-09T07:30:00-06:00",
+    "generatedAt": "2026-11-09T07:50:00-06:00",
     "preparedBy": "Chief of Staff",
-    "summary": "Wrangle Closed Alpha 2.0.5 cleared Play review Nov 6 and is live to testers; Production is still inactive. Rocko is moving Wrangle sign-in to email codes (phone still collected) and Twilio's business profile was approved overnight. A fourth grant application (Shophand) went in Nov 8. Content promotes Wrangle only.",
+    "summary": "Wrangle Closed Alpha 2.0.5 is live to Play testers; Production is still inactive. Sign-in is moving to email codes (phone still collected) and Twilio's business profile was approved overnight. The Shophand grant went in Nov 8 and its pilot welcome arrived. X posting for @RockoDevLLC resumed at 7:37 AM, Wrangle only.",
     "topBlocker": "Upload your photo ID for Google Payments (AQ-COS-10), then get the CPA's answer on the SAM.gov entity structure.",
     "items": [
       {
@@ -394,29 +394,29 @@
     ],
     "inbox": [
       {
-        "from": "Wiro",
-        "timeCT": "Nov 6 7:01 AM",
-        "line": "$200.00 coupon credit added to Wiro balance (use before Nov 6 2027)."
+        "from": "Twilio",
+        "timeCT": "Nov 8 6:53 PM",
+        "line": "Business Profile approved for Rocko Development LLC."
       },
       {
-        "from": "Wiro",
-        "timeCT": "Nov 6 7:02 AM",
-        "line": "New Wiro API key created for project Wrangle."
+        "from": "Shophand",
+        "timeCT": "Nov 8 11:46 PM",
+        "line": "Welcome to the Shophand Pilot after the grant form; no grant decision yet."
       },
       {
-        "from": "RevenueCat",
-        "timeCT": "Nov 6 7:06 AM",
-        "line": "Welcome plus email-verify notice after project setup."
+        "from": "PostHog",
+        "timeCT": "Nov 8 11:57 PM",
+        "line": "New PostHog account on contact@rockodevelopment.com (verify plus welcome); confirm it's ours and in the vault."
+      },
+      {
+        "from": "Google Search Console",
+        "timeCT": "Nov 9 2:34 AM",
+        "line": "New indexing reasons on rockodevelopment.com (page with redirect, duplicate); low priority."
       },
       {
         "from": "Render (old account)",
-        "timeCT": "Nov 5 10:50 PM",
-        "line": "Invalid payment / unpaid balance on the banned old Hobby account — ignore; plus-render only."
-      },
-      {
-        "from": "X",
-        "timeCT": "Nov 6 7:11 AM",
-        "line": "New login notice for @RockoDevLLC from box Chrome (expected)."
+        "timeCT": "Nov 8 7:36 AM",
+        "line": "Unpaid balance reminder on the banned old account; ignore."
       },
       {
         "from": "THE ORACLE",
@@ -426,7 +426,7 @@
       {
         "from": "Grant programs",
         "timeCT": "",
-        "line": "No Business Freedom, HelpBnk, NSF, or LISC decision mail; Wiro credit redemption only."
+        "line": "No Business Freedom, HelpBnk, NSF, Wiro or LISC decision mail; Verizon promo only."
       }
     ],
     "doneSinceLast": [
@@ -469,8 +469,8 @@
   "reports": {
     "Chief of Staff": {
       "date": "2026-11-09",
-      "time": "7:30 AM CT",
-      "text": "Closed Alpha 2.0.5 is live to testers; Production is still inactive. Sign-in is moving to email codes, Twilio business profile approved, and the Shophand grant went in Nov 8. Crystal has not replied yet. Photo ID for Google Payments is still the top item for Rocko."
+      "time": "7:50 AM CT",
+      "text": "Closed Alpha 2.0.5 is live to testers; Production is still inactive. Sign-in is moving to email codes, Twilio business profile approved, Shophand grant in with pilot welcome received. X posting resumed this morning. No Oracle or grant decision mail. Photo ID for Google Payments is still the top item for Rocko."
     },
     "Sales, Clients & Funding": {
       "date": "2026-11-09",
@@ -479,8 +479,8 @@
     },
     "Content & Social": {
       "date": "2026-11-09",
-      "time": "7:30 AM CT",
-      "text": "No new report reached me since Nov 6. Standing orders: promote the Wrangle launch only, no new Oracle posts; X posting is currently paused. The duplicate Oct 31 post (AQ-COS-3) still needs deleting."
+      "time": "7:50 AM CT",
+      "text": "No new report reached me since Nov 6. Rocko resumed X posting for @RockoDevLLC at 7:37 AM today: Wrangle launch only, no new Oracle posts. The duplicate Oct 31 post (AQ-COS-3) still needs deleting."
     },
     "Growth & Community": {
       "date": "2026-11-09",
