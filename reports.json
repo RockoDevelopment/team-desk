@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-06T07:51:43-06:00",
+  "updatedAt": "2026-11-09T07:30:00-06:00",
   "brief": {
-    "date": "2026-11-06",
-    "weekday": "Friday",
-    "generatedAt": "2026-11-06T07:49:00-06:00",
+    "date": "2026-11-09",
+    "weekday": "Monday",
+    "generatedAt": "2026-11-09T07:30:00-06:00",
     "preparedBy": "Chief of Staff",
-    "summary": "Overnight: Closed Alpha 2.0.5 (vc17) in Play review; Supabase wrangle migrated with 6 Edge Functions live; Wiro $200 redeemed; RevenueCat project live; Bird SMS workspace live. Render Free Postgres is parked until the Visa on file is funded for the $1 identity auth. Content posts Wrangle launch only — no Oracle.",
-    "topBlocker": "Fund the Visa on file so Render Free Postgres can unlock, then finish Google Payments photo ID (AQ-COS-10).",
+    "summary": "Wrangle Closed Alpha 2.0.5 cleared Play review Nov 6 and is live to testers; Production is still inactive. Rocko is moving Wrangle sign-in to email codes (phone still collected) and Twilio's business profile was approved overnight. A fourth grant application (Shophand) went in Nov 8. Content promotes Wrangle only.",
+    "topBlocker": "Upload your photo ID for Google Payments (AQ-COS-10), then get the CPA's answer on the SAM.gov entity structure.",
     "items": [
       {
         "id": "AQ-COS-17",
@@ -16,10 +16,11 @@
         "section": "decision",
         "owner": "ceo",
         "urgent": true,
-        "impactRank": 1,
-        "status": "open",
+        "impactRank": 21,
+        "status": "killed",
         "firstSeen": "2026-11-06",
-        "link": "https://dashboard.render.com/"
+        "link": "https://dashboard.render.com/",
+        "killedReason": "Superseded Nov 6-8: the Render workspace Rocko Development LLC accepted a card for the $1 identity check, and the prior Render connection was removed at Rocko's request. No Render work is pending from this item."
       },
       {
         "id": "AQ-COS-10",
@@ -28,7 +29,7 @@
         "section": "decision",
         "owner": "ceo",
         "urgent": true,
-        "impactRank": 2,
+        "impactRank": 1,
         "status": "open",
         "firstSeen": "2026-11-04",
         "link": "https://payments.google.com/"
@@ -40,7 +41,7 @@
         "section": "decision",
         "owner": "ceo",
         "urgent": true,
-        "impactRank": 3,
+        "impactRank": 2,
         "status": "open",
         "firstSeen": "2026-11-01"
       },
@@ -51,43 +52,43 @@
         "section": "approval",
         "owner": "ceo",
         "urgent": false,
-        "impactRank": 4,
+        "impactRank": 3,
         "status": "open",
         "firstSeen": "2026-11-04"
       },
       {
         "id": "AQ-COS-19",
         "title": "OK the next grant-letter batch (drafts only)",
-        "detail": "Paste-ready drafts sit in grant-drafts/nov6 (PostHog, Cloudflare, Microsoft, ElevenLabs, Shophand, Wiro follow-up, HelpBnk prep, NSF MISSING sheet). Nothing sends until you say yes.",
+        "detail": "Four applications are submitted so far: Business Freedom, Verizon/LISC, Wiro and Shophand (Nov 8). Paste-ready drafts for the rest sit in grant-drafts/nov6 (PostHog, Cloudflare, Microsoft, ElevenLabs, Wiro follow-up, HelpBnk prep, NSF MISSING sheet). Nothing else sends until you say yes.",
         "section": "approval",
         "owner": "ceo",
         "urgent": false,
-        "impactRank": 5,
+        "impactRank": 4,
         "status": "open",
         "firstSeen": "2026-11-06"
       },
       {
         "id": "AQ-COS-11",
-        "title": "Testers: missing Google emails; Crystal waiting; Destiny question",
-        "detail": "Briana, Brent and Richard still need a Google account email. Crystalholmes63@yahoo.com was emailed Nov 6 ~7:11 AM CT asking for a Gmail; a routine will add her when she replies. Destiny Shaw's Nov 3 question still needs a short answer.",
+        "title": "Testers: missing Google emails; Crystal not replied; Destiny question",
+        "detail": "Briana, Brent and Richard still need a Google account email. Crystal was emailed Nov 6 asking for a Gmail; the inbox checks through Nov 8 evening found no reply, and a routine will add her when she answers. Destiny Shaw's Nov 3 question still needs a short answer.",
         "section": "next",
         "owner": "ceo",
         "urgent": false,
-        "impactRank": 6,
+        "impactRank": 5,
         "status": "open",
         "firstSeen": "2026-11-04"
       },
       {
-        "id": "AQ-COS-18",
-        "title": "Play review of Closed Alpha 2.0.5 (versionCode 17)",
-        "detail": "AAB uploaded Nov 6 ~1:15 AM CT with updated phone screenshots. Play shows changes in review. Production still Inactive. Watching for Google's decision.",
+        "id": "AQ-COS-22",
+        "title": "Wrangle sign-in: switch to email codes, keep phone at signup",
         "section": "next",
         "owner": "agent",
         "agentName": "Chief of Staff",
         "urgent": false,
-        "impactRank": 7,
-        "status": "open",
-        "firstSeen": "2026-11-06"
+        "impactRank": 6,
+        "status": "in_progress",
+        "firstSeen": "2026-11-08",
+        "detail": "Twilio's business profile was approved overnight Nov 8-9. Rocko wants email one-time codes for first sign-in while still collecting a phone number, and to reuse the existing Twilio account if it can send those emails. No successful test yet."
       },
       {
         "id": "AQ-COS-20",
@@ -97,19 +98,19 @@
         "owner": "agent",
         "agentName": "Chief of Staff",
         "urgent": false,
-        "impactRank": 8,
+        "impactRank": 7,
         "status": "open",
         "firstSeen": "2026-11-06"
       },
       {
         "id": "AQ-COS-21",
         "title": "RevenueCat: attach Play service-account JSON for receipts",
-        "detail": "RevenueCat project Wrangle is live with entitlement wrangle_plus and webhook. Play service-account JSON is still needed so receipts validate.",
+        "detail": "RevenueCat project Wrangle is live with entitlement wrangle_plus and a webhook. The Play service-account JSON is still needed so receipts validate. No new progress reported since Nov 6.",
         "section": "next",
         "owner": "agent",
         "agentName": "Chief of Staff",
         "urgent": false,
-        "impactRank": 9,
+        "impactRank": 8,
         "status": "open",
         "firstSeen": "2026-11-06"
       },
@@ -121,7 +122,7 @@
         "owner": "agent",
         "agentName": "Growth & Community",
         "urgent": false,
-        "impactRank": 10,
+        "impactRank": 9,
         "status": "open",
         "firstSeen": "2026-11-01"
       },
@@ -132,7 +133,7 @@
         "section": "approval",
         "owner": "ceo",
         "urgent": false,
-        "impactRank": 11,
+        "impactRank": 10,
         "status": "open",
         "firstSeen": "2026-11-01"
       },
@@ -143,7 +144,7 @@
         "section": "next",
         "owner": "ceo",
         "urgent": false,
-        "impactRank": 12,
+        "impactRank": 11,
         "status": "open",
         "firstSeen": "2026-11-01",
         "link": "https://x.com/RockoDevLLC/status/2116676894913650902"
@@ -155,7 +156,7 @@
         "section": "approval",
         "owner": "ceo",
         "urgent": false,
-        "impactRank": 13,
+        "impactRank": 12,
         "status": "open",
         "firstSeen": "2026-11-01"
       },
@@ -166,7 +167,7 @@
         "section": "next",
         "owner": "ceo",
         "urgent": false,
-        "impactRank": 14,
+        "impactRank": 13,
         "status": "open",
         "firstSeen": "2026-11-01"
       },
@@ -178,7 +179,7 @@
         "owner": "agent",
         "agentName": "Chief of Staff",
         "urgent": false,
-        "impactRank": 15,
+        "impactRank": 35,
         "status": "done",
         "firstSeen": "2026-11-02"
       },
@@ -189,19 +190,19 @@
         "section": "decision",
         "owner": "ceo",
         "urgent": false,
-        "impactRank": 16,
+        "impactRank": 36,
         "status": "done",
         "firstSeen": "2026-11-05"
       },
       {
         "id": "AQ-COS-14",
         "title": "Play review of V2 demo 11 (2.0.0) on Closed Alpha",
-        "detail": "Superseded by Closed Alpha 2.0.5 (versionCode 17). See AQ-COS-18.",
+        "detail": "Superseded by Closed Alpha 2.0.5 (versionCode 17), now live to testers.",
         "section": "next",
         "owner": "agent",
         "agentName": "Chief of Staff",
         "urgent": false,
-        "impactRank": 17,
+        "impactRank": 37,
         "status": "done",
         "firstSeen": "2026-11-05"
       },
@@ -213,7 +214,7 @@
         "owner": "agent",
         "agentName": "Chief of Staff",
         "urgent": false,
-        "impactRank": 18,
+        "impactRank": 38,
         "status": "done",
         "firstSeen": "2026-11-05"
       },
@@ -224,7 +225,7 @@
         "section": "approval",
         "owner": "ceo",
         "urgent": false,
-        "impactRank": 19,
+        "impactRank": 39,
         "status": "done",
         "firstSeen": "2026-11-04"
       },
@@ -251,6 +252,18 @@
         "status": "killed",
         "killedReason": "Rocko ordered Nov 6 never post about the Oracle; this week Content promotes Wrangle app launch only.",
         "firstSeen": "2026-11-05"
+      },
+      {
+        "id": "AQ-COS-18",
+        "title": "Play review of Closed Alpha 2.0.5 (versionCode 17)",
+        "detail": "Done Nov 6 ~8:15 AM CT: Closed Alpha 2.0.5 (versionCode 17) cleared Google review and is available to testers. Production is still Inactive and the public listing is not live.",
+        "section": "next",
+        "owner": "agent",
+        "agentName": "Chief of Staff",
+        "urgent": false,
+        "impactRank": 30,
+        "status": "done",
+        "firstSeen": "2026-11-06"
       }
     ],
     "kpis": [
@@ -417,18 +430,12 @@
       }
     ],
     "doneSinceLast": [
-      "Closed Alpha advanced to 2.0.5 / versionCode 17 (AAB + screenshots in Play review)",
-      "Final closed-demo emails sent to 20 testers (Nov 5 ~3:33 PM CT); ~22 on Play list",
-      "Supabase wrangle: DB password reset, migrations 0001-0010, 6 Edge Functions active",
-      "Bird SMS org/workspace live; Twilio trial stopped",
-      "Wiro Ignition $200 redeemed; Wrangle API key saved",
-      "RevenueCat project Wrangle live (entitlement wrangle_plus + webhook)",
-      "Crystal closed-test email sent; routine watches for her Gmail",
-      "Rocko ordered: never post about the Oracle; this week Wrangle launch only",
-      "Killed AQ-COS-7 (old Render) and AQ-COS-15 (Oracle Scout posting)"
+      "Closed Alpha 2.0.5 (vc17) cleared Play review and is available to testers (Nov 6).",
+      "Shophand Small Business Boost Grant submitted (Nov 8); four grant applications submitted in total.",
+      "Twilio business profile approved (overnight Nov 8-9)."
     ],
-    "recommendation": "Fund the Visa on file this morning so Render Free Postgres can unlock, then upload the Google Payments photo ID.",
-    "coCeoCopySent": true,
+    "recommendation": "Upload the Google Payments photo ID today; it unblocks the production path.",
+    "coCeoCopySent": false,
     "company": {
       "products": [
         {
@@ -461,34 +468,34 @@
   },
   "reports": {
     "Chief of Staff": {
-      "date": "2026-11-06",
-      "time": "7:49 AM CT",
-      "text": "Overnight push on Wrangle infra: Closed Alpha 2.0.5 in Play review, Supabase migrations and Edge Functions live, Bird SMS up, Wiro $200 redeemed, RevenueCat project live. Crystal emailed for a Gmail. Parked Render $1 until the Visa is funded. Content cleared for Wrangle-only posts; Oracle posting killed per Rocko."
+      "date": "2026-11-09",
+      "time": "7:30 AM CT",
+      "text": "Closed Alpha 2.0.5 is live to testers; Production is still inactive. Sign-in is moving to email codes, Twilio business profile approved, and the Shophand grant went in Nov 8. Crystal has not replied yet. Photo ID for Google Payments is still the top item for Rocko."
     },
     "Sales, Clients & Funding": {
-      "date": "2026-11-06",
-      "time": "7:49 AM CT",
-      "text": "No new report reached me since the last brief. Wiro credit redeemed on our side. HelpBnk (AQ-SALES-22) still needs what the $5,000 covers. Grant-letter batch waiting your OK (AQ-COS-19)."
+      "date": "2026-11-09",
+      "time": "7:30 AM CT",
+      "text": "No new report reached me since Nov 6. Shophand grant was submitted Nov 8 (by Chief of Staff); HelpBnk (AQ-SALES-22) still needs what the $5,000 covers."
     },
     "Content & Social": {
-      "date": "2026-11-06",
-      "time": "7:49 AM CT",
-      "text": "@RockoDevLLC re-signed in box Chrome; cleared for 9:00 AM CT posts. Rocko order: never post about the Oracle; this week promote Wrangle launch only. Duplicate Oct 31 post (AQ-COS-3) still needs your delete."
+      "date": "2026-11-09",
+      "time": "7:30 AM CT",
+      "text": "No new report reached me since Nov 6. Standing orders: promote the Wrangle launch only, no new Oracle posts; X posting is currently paused. The duplicate Oct 31 post (AQ-COS-3) still needs deleting."
     },
     "Growth & Community": {
-      "date": "2026-11-06",
-      "time": "7:49 AM CT",
-      "text": "Told to rewrite Launch Plan: invitee without app sees Download Wrangle to Play; Plan your own to Crews only with the app. AQ-GROWTH-4 still open. No other new report."
+      "date": "2026-11-09",
+      "time": "7:30 AM CT",
+      "text": "No new report reached me since Nov 6. Launch Plan invite-path rewrite (AQ-GROWTH-4) is still open."
     },
     "Market Intel": {
-      "date": "2026-11-06",
-      "time": "7:49 AM CT",
-      "text": "No new report reached me since the last brief."
+      "date": "2026-11-09",
+      "time": "7:30 AM CT",
+      "text": "No new report reached me since Nov 6."
     },
     "Product Ops": {
-      "date": "2026-11-06",
-      "time": "7:49 AM CT",
-      "text": "No new report reached me since the last brief. Production 1.0.0 package is on the box with demo chrome still to gate; CoS owns file edits (coding-dev banned)."
+      "date": "2026-11-09",
+      "time": "7:30 AM CT",
+      "text": "No new report reached me since Nov 6. Production 1.0.0 still needs the demo chrome gated or removed (AQ-COS-20)."
     }
   }
 }
