@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T07:45:11-06:00",
+  "updatedAt": "2026-11-09T07:46:07-06:00",
   "brief": {
     "date": "2026-11-09",
     "weekday": "Monday",
@@ -435,7 +435,7 @@
       "Twilio business profile approved (overnight Nov 8-9)."
     ],
     "recommendation": "Upload the Google Payments photo ID today; it unblocks the production path.",
-    "coCeoCopySent": false,
+    "coCeoCopySent": true,
     "company": {
       "products": [
         {
