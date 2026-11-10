@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-09T07:46:07-06:00",
+  "updatedAt": "2026-11-10T07:40:00-06:00",
   "brief": {
-    "date": "2026-11-09",
-    "weekday": "Monday",
-    "generatedAt": "2026-11-09T07:50:00-06:00",
+    "date": "2026-11-10",
+    "weekday": "Tuesday",
+    "generatedAt": "2026-11-10T07:40:00-06:00",
     "preparedBy": "Chief of Staff",
-    "summary": "Wrangle Closed Alpha 2.0.5 is live to Play testers; Production is still inactive. Sign-in is moving to email codes (phone still collected) and Twilio's business profile was approved overnight. The Shophand grant went in Nov 8 and its pilot welcome arrived. X posting for @RockoDevLLC resumed at 7:37 AM, Wrangle only.",
+    "summary": "Closed Alpha 2.0.5 (vc17) is still available to Play testers; Production is still inactive and the public listing is not live. Work this week is Wrangle launch only: the invite page at wrangle.rockodevelopment.com (dark, matching the 2.0.5 app, with a rich preview card) and email-code sign-in. Crystal still has not replied (checks through Nov 9 8:43 PM CT). No new grant decisions in the company inbox.",
     "topBlocker": "Upload your photo ID for Google Payments (AQ-COS-10), then get the CPA's answer on the SAM.gov entity structure.",
     "items": [
       {
@@ -70,7 +70,7 @@
       {
         "id": "AQ-COS-11",
         "title": "Testers: missing Google emails; Crystal not replied; Destiny question",
-        "detail": "Briana, Brent and Richard still need a Google account email. Crystal was emailed Nov 6 asking for a Gmail; the inbox checks through Nov 8 evening found no reply, and a routine will add her when she answers. Destiny Shaw's Nov 3 question still needs a short answer.",
+        "detail": "Briana, Brent and Richard still need a Google account email. Crystal was emailed Nov 6 asking for a Gmail; inbox checks through Nov 9 8:43 PM CT found no reply, and a routine will add her when she answers. Destiny Shaw's Nov 3 question still needs a short answer.",
         "section": "next",
         "owner": "ceo",
         "urgent": false,
@@ -88,7 +88,7 @@
         "impactRank": 6,
         "status": "in_progress",
         "firstSeen": "2026-11-08",
-        "detail": "Twilio's business profile was approved overnight Nov 8-9. Rocko wants email one-time codes for first sign-in while still collecting a phone number, and to reuse the existing Twilio account if it can send those emails. No successful test yet."
+        "detail": "Twilio's business profile was approved Nov 8-9. Rocko wants email one-time codes for first sign-in while still collecting a phone number. Dev update for email-code sign-in was pushed to the Wrangle repo Nov 9; no successful end-to-end test reported yet."
       },
       {
         "id": "AQ-COS-20",
@@ -117,7 +117,7 @@
       {
         "id": "AQ-GROWTH-4",
         "title": "Rewrite Launch Plan invite path; then approve forwardable invite",
-        "detail": "Rocko corrected Nov 6: invitee without the app sees Download Wrangle to Play; Plan your own to Crews only if they have the app. Growth rewriting the Page. Forwardable invite must say Crews (not herds) and not claim web replies are live.",
+        "detail": "Invite work moved to the Wrangle invite page on wrangle.rockodevelopment.com: full URL (no short link), dark like the 2.0.5 app, preview card leads with the invitee's name and names who invited them. Not confirmed live yet. Forwardable invite must say Crews (not herds); web replies are not live.",
         "section": "next",
         "owner": "agent",
         "agentName": "Growth & Community",
@@ -280,7 +280,7 @@
       {
         "label": "@RockoDevLLC X followers",
         "value": "17",
-        "note": "Public profile read Nov 6 ~7:49 AM CT (was 14)"
+        "note": "Last public profile read Nov 6 ~7:49 AM CT (was 14); not re-read today"
       }
     ],
     "funding": [
@@ -378,8 +378,8 @@
       },
       {
         "item": "Render Free Postgres + Free web",
-        "status": "Blocked",
-        "note": "Parked until Visa on file is funded for $1 identity auth"
+        "status": "Parked",
+        "note": "Workspace Rocko Development LLC ready with no services; the $1 identity check was accepted Nov 6-8. Nothing deployed yet"
       },
       {
         "item": "SAM.gov entity structure",
@@ -390,49 +390,48 @@
         "item": "Production 1.0.0 store-ready",
         "status": "In progress",
         "note": "Zip on box; strip demo chrome before AAB"
+      },
+      {
+        "item": "Twilio business profile",
+        "status": "Done",
+        "note": "Approved Nov 8-9; email-code sign-in work in progress"
       }
     ],
     "inbox": [
       {
-        "from": "Twilio",
-        "timeCT": "Nov 8 6:53 PM",
-        "line": "Business Profile approved for Rocko Development LLC."
+        "from": "Company inbox",
+        "timeCT": "Nov 10 5:00 AM",
+        "line": "Nothing new from grants, Google Play, or testers since the last brief; mostly account security notices and vendor onboarding mail."
+      },
+      {
+        "from": "Crystal (tester)",
+        "timeCT": "",
+        "line": "No reply found through Nov 9 8:43 PM CT."
+      },
+      {
+        "from": "Google Play",
+        "timeCT": "",
+        "line": "No new review, approval or rejection mail."
       },
       {
         "from": "Shophand",
         "timeCT": "Nov 8 11:46 PM",
-        "line": "Welcome to the Shophand Pilot after the grant form; no grant decision yet."
+        "line": "Pilot welcome after the grant form; no grant decision yet (unchanged)."
       },
       {
-        "from": "PostHog",
-        "timeCT": "Nov 8 11:57 PM",
-        "line": "New PostHog account on contact@rockodevelopment.com (verify plus welcome); confirm it's ours and in the vault."
-      },
-      {
-        "from": "Google Search Console",
+        "from": "Search Console",
         "timeCT": "Nov 9 2:34 AM",
-        "line": "New indexing reasons on rockodevelopment.com (page with redirect, duplicate); low priority."
-      },
-      {
-        "from": "Render (old account)",
-        "timeCT": "Nov 8 7:36 AM",
-        "line": "Unpaid balance reminder on the banned old account; ignore."
-      },
-      {
-        "from": "THE ORACLE",
-        "timeCT": "",
-        "line": "No emails from THE ORACLE agent since the last brief."
+        "line": "Indexing reasons on rockodevelopment.com (redirect, duplicate); low priority (unchanged)."
       },
       {
         "from": "Grant programs",
         "timeCT": "",
-        "line": "No Business Freedom, HelpBnk, NSF, Wiro or LISC decision mail; Verizon promo only."
+        "line": "No Business Freedom, HelpBnk, NSF, Wiro or LISC decision mail."
       }
     ],
     "doneSinceLast": [
-      "Closed Alpha 2.0.5 (vc17) cleared Play review and is available to testers (Nov 6).",
-      "Shophand Small Business Boost Grant submitted (Nov 8); four grant applications submitted in total.",
-      "Twilio business profile approved (overnight Nov 8-9)."
+      "Nothing new closed since Nov 9; Closed Alpha 2.0.5 (vc17) remains available to testers.",
+      "Dev update pushed Nov 9 to the Wrangle repo: crew phone joins and email-code sign-in groundwork."
     ],
     "recommendation": "Upload the Google Payments photo ID today; it unblocks the production path.",
     "coCeoCopySent": true,
@@ -468,34 +467,34 @@
   },
   "reports": {
     "Chief of Staff": {
-      "date": "2026-11-09",
-      "time": "7:50 AM CT",
-      "text": "Closed Alpha 2.0.5 is live to testers; Production is still inactive. Sign-in is moving to email codes, Twilio business profile approved, Shophand grant in with pilot welcome received. X posting resumed this morning. No Oracle or grant decision mail. Photo ID for Google Payments is still the top item for Rocko."
+      "date": "2026-11-10",
+      "time": "7:40 AM CT",
+      "text": "Nothing new on funding or Play: Closed Alpha 2.0.5 (vc17) is still with testers, Production inactive. Wrangle launch is this week's only promotion focus; no Oracle posts. Invite page work continues at wrangle.rockodevelopment.com. Crystal has not replied. Photo ID for Google Payments is still the top item for Rocko."
     },
     "Sales, Clients & Funding": {
-      "date": "2026-11-09",
-      "time": "7:30 AM CT",
-      "text": "No new report reached me since Nov 6. Shophand grant was submitted Nov 8 (by Chief of Staff); HelpBnk (AQ-SALES-22) still needs what the $5,000 covers."
+      "date": "2026-11-10",
+      "time": "7:40 AM CT",
+      "text": "Nothing new. No report reached me since Nov 6 and no grant decision mail arrived. HelpBnk (AQ-SALES-22) still needs what the $5,000 covers."
     },
     "Content & Social": {
-      "date": "2026-11-09",
-      "time": "7:50 AM CT",
-      "text": "No new report reached me since Nov 6. Rocko resumed X posting for @RockoDevLLC at 7:37 AM today: Wrangle launch only, no new Oracle posts. The duplicate Oct 31 post (AQ-COS-3) still needs deleting."
+      "date": "2026-11-10",
+      "time": "7:40 AM CT",
+      "text": "Nothing new. No report reached me since Nov 6. Wrangle launch only, no Oracle posts. The duplicate Oct 31 post (AQ-COS-3) still needs deleting."
     },
     "Growth & Community": {
-      "date": "2026-11-09",
-      "time": "7:30 AM CT",
-      "text": "No new report reached me since Nov 6. Launch Plan invite-path rewrite (AQ-GROWTH-4) is still open."
+      "date": "2026-11-10",
+      "time": "7:40 AM CT",
+      "text": "Nothing new from this desk since Nov 6. Invite path (AQ-GROWTH-4) now centers on the Wrangle invite page with a name-first preview card; still open."
     },
     "Market Intel": {
-      "date": "2026-11-09",
-      "time": "7:30 AM CT",
-      "text": "No new report reached me since Nov 6."
+      "date": "2026-11-10",
+      "time": "7:40 AM CT",
+      "text": "Nothing new. No report reached me since Nov 6."
     },
     "Product Ops": {
-      "date": "2026-11-09",
-      "time": "7:30 AM CT",
-      "text": "No new report reached me since Nov 6. Production 1.0.0 still needs the demo chrome gated or removed (AQ-COS-20)."
+      "date": "2026-11-10",
+      "time": "7:40 AM CT",
+      "text": "Nothing new. No report reached me since Nov 6. Production 1.0.0 still needs the demo chrome gated or removed (AQ-COS-20)."
     }
   }
 }
