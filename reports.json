@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-10T07:40:00-06:00",
+  "updatedAt": "2026-11-11T07:00:00-06:00",
   "brief": {
-    "date": "2026-11-10",
-    "weekday": "Tuesday",
-    "generatedAt": "2026-11-10T07:40:00-06:00",
+    "date": "2026-11-11",
+    "weekday": "Wednesday",
+    "generatedAt": "2026-11-11T07:00:00-06:00",
     "preparedBy": "Chief of Staff",
-    "summary": "Closed Alpha 2.0.5 (vc17) is still available to Play testers; Production is still inactive and the public listing is not live. Work this week is Wrangle launch only: the invite page at wrangle.rockodevelopment.com (dark, matching the 2.0.5 app, with a rich preview card) and email-code sign-in. Crystal still has not replied (checks through Nov 9 8:43 PM CT). No new grant decisions in the company inbox.",
-    "topBlocker": "Upload your photo ID for Google Payments (AQ-COS-10), then get the CPA's answer on the SAM.gov entity structure.",
+    "summary": "Wrangle build 29 (1.0.0, versionCode 29) was uploaded to Google Play Production at ~1:20 AM CT Nov 11, but it is NOT live: as of the 5:59 AM CT check Play Console shows it not yet sent for review, with a blocking policy issue (reviewer sign-in details missing). The public listing is still not found. Nothing is claimed about installs or feedback. Wrangle invite card design is locked. Crystal still has not replied.",
+    "topBlocker": "Add reviewer sign-in details in Play Console (App access) so build 29 can be sent for review; then upload your photo ID for Google Payments (AQ-COS-10).",
     "items": [
       {
         "id": "AQ-COS-17",
@@ -92,14 +92,14 @@
       },
       {
         "id": "AQ-COS-20",
-        "title": "Production 1.0.0: strip leftover demo chrome before store",
-        "detail": "Store-ready zip is on the box (1.0.0, versionCode must be greater than 17). Still needs DEMO MODE badge, Unlock Wrangle+ demo, Reset demo, and local unlocks gated or removed before a production AAB.",
+        "title": "Production 1.0.0 (build 29): clear Play blocking issue",
+        "detail": "Build 29 AAB (versionCode 29) is uploaded to Production but shows Not yet sent for review. Play Console reports 1 blocking issue: missing reviewer sign-in details. Not live; public listing still not found.",
         "section": "next",
         "owner": "agent",
         "agentName": "Chief of Staff",
         "urgent": false,
         "impactRank": 7,
-        "status": "open",
+        "status": "in_progress",
         "firstSeen": "2026-11-06"
       },
       {
@@ -467,34 +467,34 @@
   },
   "reports": {
     "Chief of Staff": {
-      "date": "2026-11-10",
-      "time": "7:40 AM CT",
-      "text": "Nothing new on funding or Play: Closed Alpha 2.0.5 (vc17) is still with testers, Production inactive. Wrangle launch is this week's only promotion focus; no Oracle posts. Invite page work continues at wrangle.rockodevelopment.com. Crystal has not replied. Photo ID for Google Payments is still the top item for Rocko."
+      "date": "2026-11-11",
+      "time": "7:00 AM CT",
+      "text": "Build 29 (1.0.0, vc29) is in Play Production but not live: not yet sent for review, blocked by missing reviewer sign-in details; public listing still not found. A 30-minute watch is checking Gmail and the listing. Build 30 was stopped; no EAS build queued. Final-test email stays held until the app is confirmed live."
     },
     "Sales, Clients & Funding": {
-      "date": "2026-11-10",
-      "time": "7:40 AM CT",
-      "text": "Nothing new. No report reached me since Nov 6 and no grant decision mail arrived. HelpBnk (AQ-SALES-22) still needs what the $5,000 covers."
+      "date": "2026-11-11",
+      "time": "7:00 AM CT",
+      "text": "Nothing new today. No report reached me since Nov 6 and no grant decision mail arrived. HelpBnk (AQ-SALES-22) still needs what the $5,000 covers."
     },
     "Content & Social": {
-      "date": "2026-11-10",
-      "time": "7:40 AM CT",
-      "text": "Nothing new. No report reached me since Nov 6. Wrangle launch only, no Oracle posts. The duplicate Oct 31 post (AQ-COS-3) still needs deleting."
+      "date": "2026-11-11",
+      "time": "7:00 AM CT",
+      "text": "Nothing new today. No report reached me since Nov 6. Wrangle launch only, no Oracle posts. The duplicate Oct 31 post (AQ-COS-3) still needs deleting."
     },
     "Growth & Community": {
-      "date": "2026-11-10",
-      "time": "7:40 AM CT",
-      "text": "Nothing new from this desk since Nov 6. Invite path (AQ-GROWTH-4) now centers on the Wrangle invite page with a name-first preview card; still open."
+      "date": "2026-11-11",
+      "time": "7:00 AM CT",
+      "text": "Nothing new today from this desk since Nov 6. Invite path (AQ-GROWTH-4) now centers on the Wrangle invite page with a name-first preview card; still open."
     },
     "Market Intel": {
-      "date": "2026-11-10",
-      "time": "7:40 AM CT",
-      "text": "Nothing new. No report reached me since Nov 6."
+      "date": "2026-11-11",
+      "time": "7:00 AM CT",
+      "text": "Nothing new today. No report reached me since Nov 6."
     },
     "Product Ops": {
-      "date": "2026-11-10",
-      "time": "7:40 AM CT",
-      "text": "Nothing new. No report reached me since Nov 6. Production 1.0.0 still needs the demo chrome gated or removed (AQ-COS-20)."
+      "date": "2026-11-11",
+      "time": "7:00 AM CT",
+      "text": "Nothing new today. No report reached me since Nov 6. Production 1.0.0 still needs the demo chrome gated or removed (AQ-COS-20)."
     }
   }
 }
