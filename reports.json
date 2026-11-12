@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-12T07:05:00-06:00",
+  "updatedAt": "2026-11-12T07:42:52-06:00",
   "brief": {
     "date": "2026-11-12",
     "weekday": "Thursday",
-    "generatedAt": "2026-11-12T07:05:00-06:00",
+    "generatedAt": "2026-11-12T07:48:00-06:00",
     "preparedBy": "Chief of Staff",
-    "summary": "Wrangle Production 1.0.0 build 34 (versionCode 34) was sent for review Nov 11 ~2:42 PM CT and is NOT live: as of the 6:30 AM CT watch the company Gmail had no Play review, approval or rejection mail, and the public listing is still not found. Build 29 is superseded. Product Ops flags AQ-PRODOPS-8 (money): Free users share the 40/day Scout cap with paid users; recommends a 3-5/day Free cap (modeled, not measured). No grant decision mail.",
+    "summary": "Wrangle Production 1.0.0 build 34 is still in Google Play review (sent Nov 11 ~2:42 PM CT) and is not live; no Play result mail and the public listing is still not found. Overnight: Google Cloud billing went on for the company account (Firebase project Wrangle moved to the Blaze pay-as-you-go plan ~1:22 AM CT) per your 1:07 AM go for Google Places. Open money decision: AQ-PRODOPS-8 Free Scout cap. No Oracle or grant mail.",
     "topBlocker": "Build 34 is waiting on Google Play review; the app is not live until Play approves it.",
     "items": [
       {
@@ -429,17 +429,32 @@
       {
         "from": "Grant programs",
         "timeCT": "",
-        "line": "No Business Freedom, HelpBnk, NSF, Wiro, LISC or Shophand decision mail."
+        "line": "No Business Freedom, HelpBnk, NSF, Wiro, LISC, Verizon or Shophand decision mail."
       },
       {
         "from": "Google Play",
         "timeCT": "",
-        "line": "No review, approval or rejection mail since Nov 11 7:46 AM CT (checked 6:30 AM CT Nov 12)."
+        "line": "No review, approval or rejection mail since Nov 11 7:46 AM CT."
+      },
+      {
+        "from": "Firebase",
+        "timeCT": "Nov 12 1:22 AM",
+        "line": "Project Wrangle upgraded to the Blaze pay-as-you-go plan (billing linked)."
       },
       {
         "from": "Google Cloud",
-        "timeCT": "Nov 10 1:47 PM",
-        "line": "Projects bittminor and gen-lang-client-0747222560 were shut down (deletion warning)."
+        "timeCT": "Nov 12 1:14 AM",
+        "line": "Welcome to your Google Cloud Free Trial."
+      },
+      {
+        "from": "Nikki",
+        "timeCT": "Nov 11 9:03 PM",
+        "line": "Sent a screenshot (no text) to the company Gmail."
+      },
+      {
+        "from": "Mail delivery",
+        "timeCT": "Nov 11-12",
+        "line": "Repeated bounces to crawlerrobo@gmail.com (recipient inbox full); one Nov 11 bounce to a misspelled Nikki address."
       },
       {
         "from": "Crystal (tester)",
@@ -449,10 +464,12 @@
     ],
     "doneSinceLast": [
       "Build 34 (1.0.0, vc34) sent to Play Production review Nov 11 ~2:42 PM CT (not live).",
+      "Google Cloud billing enabled on the company account for Google Places, with a low budget alert (your go, Nov 12 1:07 AM CT).",
+      "Category card art re-locked Nov 12 12:14 AM CT (confetti added to anniversary, bachelor, bachelorette and bar cards).",
       "Content & Social posted a quote post Nov 11 ~6:24 PM CT (four posts that day).",
-      "Overnight check-ins Nov 11 9 PM and Nov 12 12 AM: no new items from Market Intel or Sales; no milestone changes."
+      "All five bots reported at the 9 PM check-in; Market Intel and Sales confirmed nothing new at midnight."
     ],
-    "recommendation": "Nothing to approve to move build 34; Play review is the gate. Decide AQ-PRODOPS-8 (Free Scout cap) when you can.",
+    "recommendation": "Decide AQ-PRODOPS-8 (Free Scout cap, recommended 3-5 calls/day) now that Google billing is on; Play review is the only gate for build 34.",
     "coCeoCopySent": true,
     "company": {
       "products": [
@@ -487,8 +504,8 @@
   "reports": {
     "Chief of Staff": {
       "date": "2026-11-12",
-      "time": "7:05 AM CT",
-      "text": "Build 34 is in Play review since Nov 11 ~2:42 PM CT; no result mail as of 6:30 AM CT and the listing is still not found. Not live."
+      "time": "7:48 AM CT",
+      "text": "Build 34 still in Play review (no result mail; listing not found). Google Cloud billing is on for the company account and Firebase project Wrangle moved to Blaze ~1:22 AM CT, per Rocko's 1:07 AM go for Google Places. No Oracle or grant mail. Repeated bounces to crawlerrobo@gmail.com (inbox full)."
     },
     "Sales, Clients & Funding": {
       "date": "2026-11-12",
