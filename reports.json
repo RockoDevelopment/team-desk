@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-11T07:42:39-06:00",
+  "updatedAt": "2026-11-12T07:05:00-06:00",
   "brief": {
-    "date": "2026-11-11",
-    "weekday": "Wednesday",
-    "generatedAt": "2026-11-11T07:45:00-06:00",
+    "date": "2026-11-12",
+    "weekday": "Thursday",
+    "generatedAt": "2026-11-12T07:05:00-06:00",
     "preparedBy": "Chief of Staff",
-    "summary": "Wrangle build 29 (1.0.0, versionCode 29) is in Google Play Production but NOT live: Play Console last showed it not yet sent for review, blocked by missing reviewer sign-in details; the public listing is still not found. Build 30 (Voice shows Coming soon, Read it back becomes Send, crew Save centered) finished on EAS as an APK and an AAB at 7:17-7:18 AM CT; nothing uploaded to Play. The bigger-left-text invite card was locked at 7:09 AM CT and the cached card went live at 7:20 AM CT. No ORACLE or grant mail.",
-    "topBlocker": "Add reviewer sign-in details in Play Console (App access) so build 29 can be sent for review.",
+    "summary": "Wrangle Production 1.0.0 build 34 (versionCode 34) was sent for review Nov 11 ~2:42 PM CT and is NOT live: as of the 6:30 AM CT watch the company Gmail had no Play review, approval or rejection mail, and the public listing is still not found. Build 29 is superseded. Product Ops flags AQ-PRODOPS-8 (money): Free users share the 40/day Scout cap with paid users; recommends a 3-5/day Free cap (modeled, not measured). No grant decision mail.",
+    "topBlocker": "Build 34 is waiting on Google Play review; the app is not live until Play approves it.",
     "items": [
       {
         "id": "AQ-COS-17",
@@ -92,8 +92,8 @@
       },
       {
         "id": "AQ-COS-20",
-        "title": "Production 1.0.0 (build 29): clear Play blocking issue",
-        "detail": "Build 29 AAB (versionCode 29) is in Production but shows Not yet sent for review with 1 blocking issue: missing reviewer sign-in details (App access). Not live; public listing still not found. A test email to playreview@rockodevelopment.com bounced at 6:33 AM CT (address not found).",
+        "title": "Production 1.0.0 (build 34): waiting on Play review",
+        "detail": "Build 34 (versionCode 34) was uploaded to Production and sent for review Nov 11 ~2:42 PM CT. No review result mail as of 6:30 AM CT Nov 12. Not live; public listing still not found. The earlier reviewer sign-in blocker no longer applies to this release (App access set to no restricted parts).",
         "section": "next",
         "owner": "agent",
         "agentName": "Chief of Staff",
@@ -412,7 +412,7 @@
       {
         "item": "Production 1.0.0 store-ready",
         "status": "In progress",
-        "note": "Build 29 uploaded to Production; blocked on reviewer sign-in details"
+        "note": "Build 34 in Play review since Nov 11 ~2:42 PM CT; not live"
       },
       {
         "item": "Twilio business profile",
@@ -434,12 +434,7 @@
       {
         "from": "Google Play",
         "timeCT": "",
-        "line": "No review, approval or rejection mail."
-      },
-      {
-        "from": "Mail Delivery Subsystem",
-        "timeCT": "Nov 11 6:33 AM",
-        "line": "Email to playreview@rockodevelopment.com bounced: address not found."
+        "line": "No review, approval or rejection mail since Nov 11 7:46 AM CT (checked 6:30 AM CT Nov 12)."
       },
       {
         "from": "Google Cloud",
@@ -453,11 +448,11 @@
       }
     ],
     "doneSinceLast": [
-      "Build 29 (1.0.0, vc29) uploaded to Play Production Nov 11 ~1:20 AM CT (not live yet).",
-      "Build 30 APK and AAB finished on EAS (7:17-7:18 AM CT).",
-      "Invite card bigger-left-text design locked 7:09 AM CT; cached card live 7:20 AM CT."
+      "Build 34 (1.0.0, vc34) sent to Play Production review Nov 11 ~2:42 PM CT (not live).",
+      "Content & Social posted a quote post Nov 11 ~6:24 PM CT (four posts that day).",
+      "Overnight check-ins Nov 11 9 PM and Nov 12 12 AM: no new items from Market Intel or Sales; no milestone changes."
     ],
-    "recommendation": "Add the Play reviewer sign-in today; the app can't go live without it.",
+    "recommendation": "Nothing to approve to move build 34; Play review is the gate. Decide AQ-PRODOPS-8 (Free Scout cap) when you can.",
     "coCeoCopySent": true,
     "company": {
       "products": [
@@ -468,7 +463,7 @@
         },
         {
           "name": "Wrangle",
-          "stage": "Production 1.0.0 (vc29) uploaded, not yet sent for review (reviewer sign-in missing); build 30 ready on EAS",
+          "stage": "Production 1.0.0 (vc34) sent for Play review Nov 11; not live yet",
           "status": "In testing"
         },
         {
@@ -491,34 +486,34 @@
   },
   "reports": {
     "Chief of Staff": {
-      "date": "2026-11-11",
-      "time": "7:45 AM CT",
-      "text": "Build 29 is in Play Production but not live: not yet sent for review, blocked by missing reviewer sign-in details. Build 30 APK and AAB finished on EAS; nothing uploaded to Play without your go. Invite card v2 locked and cached card live."
+      "date": "2026-11-12",
+      "time": "7:05 AM CT",
+      "text": "Build 34 is in Play review since Nov 11 ~2:42 PM CT; no result mail as of 6:30 AM CT and the listing is still not found. Not live."
     },
     "Sales, Clients & Funding": {
-      "date": "2026-11-11",
-      "time": "7:45 AM CT",
-      "text": "Nothing new today. No grant decision mail arrived. HelpBnk (AQ-SALES-22) still needs what the $5,000 covers."
+      "date": "2026-11-12",
+      "time": "12:06 AM CT",
+      "text": "Nothing new since 12:06 AM CT. PayPal AI Hackathon closes today (skip). Business Freedom review Nov 15; HelpBnk opens Nov 19."
     },
     "Content & Social": {
       "date": "2026-11-11",
-      "time": "7:45 AM CT",
-      "text": "Nothing new today. The duplicate Oct 31 post (AQ-COS-3) still needs deleting."
+      "time": "8:51 PM CT",
+      "text": "Last report Nov 11 ~8:51 PM CT: quote post at ~6:24 PM CT; reply drafts AQ-CONTENT-41 to 50 await you. No newer report this morning."
     },
     "Growth & Community": {
       "date": "2026-11-11",
-      "time": "7:45 AM CT",
-      "text": "Nothing new today. Campus outreach plan stands as written (Michigan, UT Austin, Penn State, Florida, then nationwide). Invite path (AQ-GROWTH-4) still open."
+      "time": "8:52 PM CT",
+      "text": "Last report Nov 11 ~8:52 PM CT: Friday campus outreach depends on a live public listing and contact@ sending mail; both still open. No newer report this morning."
     },
     "Market Intel": {
-      "date": "2026-11-11",
-      "time": "7:45 AM CT",
-      "text": "Nothing new today."
+      "date": "2026-11-12",
+      "time": "12:06 AM CT",
+      "text": "Nothing new since the Nov 12 12 AM check-in. Open items unchanged; next weekly report Mon Nov 16."
     },
     "Product Ops": {
       "date": "2026-11-11",
-      "time": "7:45 AM CT",
-      "text": "Nothing new today. Build 30 scope is locked to three items; Scout suggestions stay on the later list."
+      "time": "8:51 PM CT",
+      "text": "Reported Nov 11 ~8:51 PM CT: AQ-PRODOPS-8 (money) Free users share the 40/day Scout cap; recommends 3-5/day for Free (modeled only). Awaiting your decision. No newer report this morning."
     }
   }
 }
