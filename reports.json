@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-12T07:42:52-06:00",
+  "updatedAt": "2026-11-13T07:15:00-06:00",
   "brief": {
-    "date": "2026-11-12",
-    "weekday": "Thursday",
-    "generatedAt": "2026-11-12T07:48:00-06:00",
+    "date": "2026-11-13",
+    "weekday": "Friday",
+    "generatedAt": "2026-11-13T07:15:00-06:00",
     "preparedBy": "Chief of Staff",
-    "summary": "Wrangle Production 1.0.0 build 34 is still in Google Play review (sent Nov 11 ~2:42 PM CT) and is not live; no Play result mail and the public listing is still not found. Overnight: Google Cloud billing went on for the company account (Firebase project Wrangle moved to the Blaze pay-as-you-go plan ~1:22 AM CT) per your 1:07 AM go for Google Places. Open money decision: AQ-PRODOPS-8 Free Scout cap. No Oracle or grant mail.",
-    "topBlocker": "Build 34 is waiting on Google Play review; the app is not live until Play approves it.",
+    "summary": "Build 34 (Production 1.0.0) was pulled out of Play review at ~9:14 PM CT Nov 12 on Rocko's order (no Google feedback; nothing submitted, not live). The Wrangle version with testers (APK 46 / AAB 47) goes to Play only after tester sign-off; a sign-off email draft for the testers awaits approval. Overnight design and source work continued on location modes, place search, cards 15-20, set-time and live-feed designs. EAS builds, Play uploads and deploys are held until Rocko's go. Open money decision: AQ-PRODOPS-8 Free Scout cap.",
+    "topBlocker": "Tester sign-off on the APK 46 / AAB 47 version comes before any Play submission; nothing is in Play review now.",
     "items": [
       {
         "id": "AQ-COS-17",
@@ -412,7 +412,7 @@
       {
         "item": "Production 1.0.0 store-ready",
         "status": "In progress",
-        "note": "Build 34 in Play review since Nov 11 ~2:42 PM CT; not live"
+        "note": "Build 34 removed from Play review Nov 12 ~9:14 PM CT; nothing submitted; not live"
       },
       {
         "item": "Twilio business profile",
@@ -422,54 +422,19 @@
     ],
     "inbox": [
       {
-        "from": "THE ORACLE",
+        "from": "Desk note",
         "timeCT": "",
-        "line": "No email since the last brief."
-      },
-      {
-        "from": "Grant programs",
-        "timeCT": "",
-        "line": "No Business Freedom, HelpBnk, NSF, Wiro, LISC, Verizon or Shophand decision mail."
-      },
-      {
-        "from": "Google Play",
-        "timeCT": "",
-        "line": "No review, approval or rejection mail since Nov 11 7:46 AM CT."
-      },
-      {
-        "from": "Firebase",
-        "timeCT": "Nov 12 1:22 AM",
-        "line": "Project Wrangle upgraded to the Blaze pay-as-you-go plan (billing linked)."
-      },
-      {
-        "from": "Google Cloud",
-        "timeCT": "Nov 12 1:14 AM",
-        "line": "Welcome to your Google Cloud Free Trial."
-      },
-      {
-        "from": "Nikki",
-        "timeCT": "Nov 11 9:03 PM",
-        "line": "Sent a screenshot (no text) to the company Gmail."
-      },
-      {
-        "from": "Mail delivery",
-        "timeCT": "Nov 11-12",
-        "line": "Repeated bounces to crawlerrobo@gmail.com (recipient inbox full); one Nov 11 bounce to a misspelled Nikki address."
-      },
-      {
-        "from": "Crystal (tester)",
-        "timeCT": "",
-        "line": "Still no reply."
+        "line": "Company inbox not re-read for this desk refresh; the last review on Nov 12 showed no Oracle, grant or Play review mail."
       }
     ],
     "doneSinceLast": [
-      "Build 34 (1.0.0, vc34) sent to Play Production review Nov 11 ~2:42 PM CT (not live).",
-      "Google Cloud billing enabled on the company account for Google Places, with a low budget alert (your go, Nov 12 1:07 AM CT).",
-      "Category card art re-locked Nov 12 12:14 AM CT (confetti added to anniversary, bachelor, bachelorette and bar cards).",
-      "Content & Social posted a quote post Nov 11 ~6:24 PM CT (four posts that day).",
-      "All five bots reported at the 9 PM check-in; Market Intel and Sales confirmed nothing new at midnight."
+      "Build 34 removed from Play review ~9:14 PM CT Nov 12 on Rocko's order; Production 1.0.0 (34) and Data safety are now unsubmitted changes.",
+      "Scout rules locked in: it never picks a day or time (bar crawls excepted), and cards show place name plus miles instead of neighborhoods.",
+      "All 20 campus event cards approved and locked into the app source (cards 15-20 added Nov 13).",
+      "Location modes, set-time design and live-feed (in-app only) design progressed in source and mockups; no build, Play upload or deploy yet.",
+      "Weekly Google Places usage check assigned to Product Ops, reporting through Chief of Staff."
     ],
-    "recommendation": "Decide AQ-PRODOPS-8 (Free Scout cap, recommended 3-5 calls/day) now that Google billing is on; Play review is the only gate for build 34.",
+    "recommendation": "Approve the tester sign-off email so testers can confirm APK 46, and decide AQ-PRODOPS-8 (Free Scout cap). Pick the campus outreach wave dates when ready.",
     "coCeoCopySent": true,
     "company": {
       "products": [
@@ -480,7 +445,7 @@
         },
         {
           "name": "Wrangle",
-          "stage": "Production 1.0.0 (vc34) sent for Play review Nov 11; not live yet",
+          "stage": "Production 1.0.0 (vc34) removed from Play review Nov 12; APK 46 / AAB 47 with testers awaiting sign-off",
           "status": "In testing"
         },
         {
@@ -503,34 +468,34 @@
   },
   "reports": {
     "Chief of Staff": {
-      "date": "2026-11-12",
-      "time": "7:48 AM CT",
-      "text": "Build 34 still in Play review (no result mail; listing not found). Google Cloud billing is on for the company account and Firebase project Wrangle moved to Blaze ~1:22 AM CT, per Rocko's 1:07 AM go for Google Places. No Oracle or grant mail. Repeated bounces to crawlerrobo@gmail.com (inbox full)."
+      "date": "2026-11-13",
+      "time": "7:15 AM CT",
+      "text": "Desk refreshed. Build 34 was removed from Play review Nov 12 ~9:14 PM CT; AAB 47 waits on tester sign-off. Builds, Play uploads and deploys held until Rocko's go."
     },
     "Sales, Clients & Funding": {
       "date": "2026-11-12",
       "time": "12:06 AM CT",
-      "text": "Nothing new since 12:06 AM CT. PayPal AI Hackathon closes today (skip). Business Freedom review Nov 15; HelpBnk opens Nov 19."
+      "text": "Nothing new since 12:06 AM CT. PayPal AI Hackathon closes today (skip). Business Freedom review Nov 15; HelpBnk opens Nov 19. (No new report evidence found for the Nov 13 refresh.)"
     },
     "Content & Social": {
       "date": "2026-11-11",
       "time": "8:51 PM CT",
-      "text": "Last report Nov 11 ~8:51 PM CT: quote post at ~6:24 PM CT; reply drafts AQ-CONTENT-41 to 50 await you. No newer report this morning."
+      "text": "Last report Nov 11 ~8:51 PM CT: quote post at ~6:24 PM CT; reply drafts AQ-CONTENT-41 to 50 await you. No newer report this morning. (No new report evidence found for the Nov 13 refresh.)"
     },
     "Growth & Community": {
       "date": "2026-11-11",
       "time": "8:52 PM CT",
-      "text": "Last report Nov 11 ~8:52 PM CT: Friday campus outreach depends on a live public listing and contact@ sending mail; both still open. No newer report this morning."
+      "text": "Last report Nov 11 ~8:52 PM CT: Friday campus outreach depends on a live public listing and contact@ sending mail; both still open. No newer report this morning. (No new report evidence found for the Nov 13 refresh.)"
     },
     "Market Intel": {
       "date": "2026-11-12",
       "time": "12:06 AM CT",
-      "text": "Nothing new since the Nov 12 12 AM check-in. Open items unchanged; next weekly report Mon Nov 16."
+      "text": "Nothing new since the Nov 12 12 AM check-in. Open items unchanged; next weekly report Mon Nov 16. (No new report evidence found for the Nov 13 refresh.)"
     },
     "Product Ops": {
       "date": "2026-11-11",
       "time": "8:51 PM CT",
-      "text": "Reported Nov 11 ~8:51 PM CT: AQ-PRODOPS-8 (money) Free users share the 40/day Scout cap; recommends 3-5/day for Free (modeled only). Awaiting your decision. No newer report this morning."
+      "text": "Reported Nov 11 ~8:51 PM CT: AQ-PRODOPS-8 (money) Free users share the 40/day Scout cap; recommends 3-5/day for Free (modeled only). Awaiting your decision. No newer report this morning. (No new report evidence found for the Nov 13 refresh.)"
     }
   }
 }
