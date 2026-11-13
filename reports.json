@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T07:15:00-06:00",
+  "updatedAt": "2026-11-13T07:50:00-06:00",
   "brief": {
     "date": "2026-11-13",
     "weekday": "Friday",
-    "generatedAt": "2026-11-13T07:15:00-06:00",
+    "generatedAt": "2026-11-13T07:50:00-06:00",
     "preparedBy": "Chief of Staff",
-    "summary": "Build 34 (Production 1.0.0) was pulled out of Play review at ~9:14 PM CT Nov 12 on Rocko's order (no Google feedback; nothing submitted, not live). The Wrangle version with testers (APK 46 / AAB 47) goes to Play only after tester sign-off; a sign-off email draft for the testers awaits approval. Overnight design and source work continued on location modes, place search, cards 15-20, set-time and live-feed designs. EAS builds, Play uploads and deploys are held until Rocko's go. Open money decision: AQ-PRODOPS-8 Free Scout cap.",
-    "topBlocker": "Tester sign-off on the APK 46 / AAB 47 version comes before any Play submission; nothing is in Play review now.",
+    "summary": "Nothing is in Play review: build 34 was pulled Nov 12 ~9:14 PM CT on your order. The tester version (APK 46 / AAB 47) goes to Play only after tester sign-off, and the sign-off email draft (AQ-PRODOPS-9) waits on your OK. Today's deadline: AI Impact Grant yes or skip (AQ-SALES-23). Campus wave 1 needs a date (AQ-GROWTH-5). The Free Scout cap is closed by the AI v13 deploy. No Oracle or grant mail since the last brief.",
+    "topBlocker": "Tester sign-off on APK 46 comes before any Play submission, and the sign-off email hasn't gone out yet (AQ-PRODOPS-9).",
     "items": [
       {
         "id": "AQ-COS-17",
@@ -70,7 +70,7 @@
       {
         "id": "AQ-COS-11",
         "title": "Testers: missing Google emails; Crystal not replied; Destiny question",
-        "detail": "Briana, Brent and Richard still need a Google account email. Crystal was emailed Nov 6 asking for a Gmail; inbox checks through Nov 9 8:43 PM CT found no reply, and a routine will add her when she answers. Destiny Shaw's Nov 3 question still needs a short answer.",
+        "detail": "Briana, Brent and Richard still need a Google account email. Crystal hasn't replied to the Nov 6 email (checks through Nov 12 8:44 PM CT). Destiny Shaw's Nov 3 question still needs a short answer. New: Nikki emailed an address (markshawbrewer30@gmail.com) at 11:03 PM CT Nov 12 with no note; tell me if it's a tester to add. Mail to crawlerrobo@gmail.com bounced this morning (inbox full).",
         "section": "next",
         "owner": "ceo",
         "urgent": false,
@@ -92,14 +92,14 @@
       },
       {
         "id": "AQ-COS-20",
-        "title": "Production 1.0.0 (build 34): waiting on Play review",
-        "detail": "Build 34 (versionCode 34) was uploaded to Production and sent for review Nov 11 ~2:42 PM CT. No review result mail as of 6:30 AM CT Nov 12. Not live; public listing still not found. The earlier reviewer sign-in blocker no longer applies to this release (App access set to no restricted parts).",
+        "title": "Production 1.0.0 (build 34): removed from Play review",
+        "detail": "Removed from review Nov 12 ~9:14 PM CT on your order (no Google feedback). Production 1.0.0 (34) and Data safety are unsubmitted changes; nothing is in review and the app is not live.",
         "section": "next",
         "owner": "agent",
         "agentName": "Chief of Staff",
         "urgent": false,
         "impactRank": 7,
-        "status": "in_progress",
+        "status": "done",
         "firstSeen": "2026-11-06"
       },
       {
@@ -157,8 +157,9 @@
         "owner": "ceo",
         "urgent": false,
         "impactRank": 12,
-        "status": "open",
-        "firstSeen": "2026-11-01"
+        "status": "killed",
+        "firstSeen": "2026-11-01",
+        "killedReason": "The PayPal hackathon closed Nov 12; skipped as recommended."
       },
       {
         "id": "AQ-COS-5",
@@ -273,8 +274,9 @@
         "owner": "ceo",
         "urgent": false,
         "impactRank": 2,
-        "status": "open",
-        "firstSeen": "2026-11-11"
+        "status": "killed",
+        "firstSeen": "2026-11-11",
+        "killedReason": "Superseded: the testers now have APK 46 / AAB 47, and Play waits on their sign-off."
       },
       {
         "id": "AQ-COS-24",
@@ -285,6 +287,51 @@
         "agentName": "Chief of Staff",
         "urgent": false,
         "impactRank": 39,
+        "status": "done",
+        "firstSeen": "2026-11-11"
+      },
+      {
+        "id": "AQ-PRODOPS-9",
+        "title": "Approve the tester sign-off email (APK 46)",
+        "detail": "Product Ops drafted the email asking the ~22 testers to confirm APK 46 looks good. Your rule: AAB 47 + Data safety go to Play only after tester sign-off. Draft only; nothing sent.",
+        "section": "approval",
+        "owner": "ceo",
+        "urgent": false,
+        "impactRank": 2,
+        "status": "open",
+        "firstSeen": "2026-11-13"
+      },
+      {
+        "id": "AQ-SALES-23",
+        "title": "AI Impact Grant ($2,500): yes or skip TODAY",
+        "detail": "Free to apply, low odds, closes Nov 15. Sales needs your yes by today (Fri Nov 13) to draft it; otherwise it is skipped.",
+        "section": "decision",
+        "owner": "ceo",
+        "urgent": true,
+        "impactRank": 4,
+        "status": "open",
+        "firstSeen": "2026-11-13"
+      },
+      {
+        "id": "AQ-GROWTH-5",
+        "title": "Pick the campus wave 1 send date",
+        "detail": "Growth recommends Jan 11-13 (Michigan Jan 13). Option B: Michigan, Penn State and UT Austin on Nov 30 or Dec 1 only if the Play listing is public and contact@ mail is fixed; Florida held to Jan 11. The listing is still not public, and contact@ mail needs an SPF DNS change (include:spf.privateemail.com) that needs your go.",
+        "section": "decision",
+        "owner": "ceo",
+        "urgent": false,
+        "impactRank": 5,
+        "status": "open",
+        "firstSeen": "2026-11-13"
+      },
+      {
+        "id": "AQ-PRODOPS-8",
+        "title": "Free Scout cap",
+        "detail": "Closed by the Nov 12 AI function deploy (v13): Free 5 AI calls a day, Plus 40, $10 daily budget resetting 6 PM CT. Product Ops suggests a test-account check of the 6th-call cutoff and the reset.",
+        "section": "decision",
+        "owner": "agent",
+        "agentName": "Product Ops",
+        "urgent": false,
+        "impactRank": 40,
         "status": "done",
         "firstSeen": "2026-11-11"
       }
@@ -313,7 +360,7 @@
         "status": "Submitted",
         "submitted": "2026-10-29",
         "nextDate": "2026-11-15",
-        "note": "Submitted via web form (no email receipt). Reply with current status if contacted"
+        "note": "Submitted via web form (no email receipt). Review Nov 15; no reply yet"
       },
       {
         "program": "Wiro credits",
@@ -338,6 +385,14 @@
         "submitted": "",
         "nextDate": "2026-11-20",
         "note": "Pitch due Nov 20 to 25; script needs the $5,000 use filled in"
+      },
+      {
+        "program": "AI Impact Grant",
+        "amount": "$2,500",
+        "status": "Needs your yes",
+        "submitted": "",
+        "nextDate": "2026-11-15",
+        "note": "Free, low odds; yes needed by Nov 13 to draft, else skip"
       },
       {
         "program": "YC W27 / Techstars",
@@ -422,19 +477,46 @@
     ],
     "inbox": [
       {
-        "from": "Desk note",
+        "from": "THE ORACLE",
         "timeCT": "",
-        "line": "Company inbox not re-read for this desk refresh; the last review on Nov 12 showed no Oracle, grant or Play review mail."
+        "line": "No email from THE ORACLE since the last brief (inbox and spam checked)."
+      },
+      {
+        "from": "Grant / credits programs",
+        "timeCT": "",
+        "line": "No replies or decisions. Verizon Digital Ready sent only an events promo (Nov 12 10:11 AM CT)."
+      },
+      {
+        "from": "Nikki",
+        "timeCT": "Nov 12, 11:03 PM",
+        "line": "Email with only an address (markshawbrewer30@gmail.com), no note."
+      },
+      {
+        "from": "Mail Delivery Subsystem",
+        "timeCT": "Nov 13, 6:42 and 6:57 AM",
+        "line": "Mail to crawlerrobo@gmail.com bounced: recipient inbox full."
+      },
+      {
+        "from": "Firebase",
+        "timeCT": "Nov 12, 1:22 AM",
+        "line": "Project Wrangle moved to the Blaze pay-as-you-go plan when billing was linked (matches your Google Places billing OK with a $10/month alert)."
+      },
+      {
+        "from": "Render",
+        "timeCT": "Nov 12, 9:06 PM",
+        "line": "Unpaid-balance reminder for the old banned Render account; ignored per your Nov 6 order."
       }
     ],
     "doneSinceLast": [
-      "Build 34 removed from Play review ~9:14 PM CT Nov 12 on Rocko's order; Production 1.0.0 (34) and Data safety are now unsubmitted changes.",
-      "Scout rules locked in: it never picks a day or time (bar crawls excepted), and cards show place name plus miles instead of neighborhoods.",
-      "All 20 campus event cards approved and locked into the app source (cards 15-20 added Nov 13).",
-      "Location modes, set-time design and live-feed (in-app only) design progressed in source and mockups; no build, Play upload or deploy yet.",
-      "Weekly Google Places usage check assigned to Product Ops, reporting through Chief of Staff."
+      "Build 34 removed from Play review ~9:14 PM CT Nov 12 on your order; nothing submitted.",
+      "Free Scout cap closed: AI v13 deploy set Free 5 calls/day, Plus 40, $10 daily budget (AQ-PRODOPS-8).",
+      "Scout rules locked: it never picks a day or time (bar crawls excepted); cards show place name plus miles.",
+      "All 20 campus event cards locked into the app source.",
+      "Location modes, set-time and in-app live-feed designs progressed in source and mockups; no Play upload.",
+      "Weekly Google Places usage check assigned to Product Ops.",
+      "PayPal hackathon skipped (closed Nov 12)."
     ],
-    "recommendation": "Approve the tester sign-off email so testers can confirm APK 46, and decide AQ-PRODOPS-8 (Free Scout cap). Pick the campus outreach wave dates when ready.",
+    "recommendation": "Approve the tester sign-off email today so testers can confirm APK 46; that is the only path to Play. Also give Sales a yes or skip on the AI Impact Grant before end of day.",
     "coCeoCopySent": true,
     "company": {
       "products": [
@@ -469,33 +551,33 @@
   "reports": {
     "Chief of Staff": {
       "date": "2026-11-13",
-      "time": "7:15 AM CT",
-      "text": "Desk refreshed. Build 34 was removed from Play review Nov 12 ~9:14 PM CT; AAB 47 waits on tester sign-off. Builds, Play uploads and deploys held until Rocko's go."
+      "time": "7:50 AM CT",
+      "text": "Brief and desk updated. Inbox and spam checked: no Oracle or grant mail. Added tester sign-off approval, AI Impact Grant deadline and campus date pick; closed the Free Scout cap and build 34 review items."
     },
     "Sales, Clients & Funding": {
       "date": "2026-11-12",
-      "time": "12:06 AM CT",
-      "text": "Nothing new since 12:06 AM CT. PayPal AI Hackathon closes today (skip). Business Freedom review Nov 15; HelpBnk opens Nov 19. (No new report evidence found for the Nov 13 refresh.)"
+      "time": "8:49 PM CT",
+      "text": "Nothing new, nothing filed or sent. Time-sensitive: AI Impact Grant ($2,500, free, low odds) closes Nov 15 and needs your yes by today to draft, else skip. Watching the Business Freedom review on Nov 15. Midnight roundup: nothing new."
     },
     "Content & Social": {
-      "date": "2026-11-11",
-      "time": "8:51 PM CT",
-      "text": "Last report Nov 11 ~8:51 PM CT: quote post at ~6:24 PM CT; reply drafts AQ-CONTENT-41 to 50 await you. No newer report this morning. (No new report evidence found for the Nov 13 refresh.)"
+      "date": "2026-11-12",
+      "time": "12:05 AM CT",
+      "text": "Nothing new at the 9 PM check-in or the midnight roundup. Reply drafts AQ-CONTENT-41 to 50 from Nov 11 still await you."
     },
     "Growth & Community": {
-      "date": "2026-11-11",
-      "time": "8:52 PM CT",
-      "text": "Last report Nov 11 ~8:52 PM CT: Friday campus outreach depends on a live public listing and contact@ sending mail; both still open. No newer report this morning. (No new report evidence found for the Nov 13 refresh.)"
+      "date": "2026-11-12",
+      "time": "8:50 PM CT",
+      "text": "Campus wave 1 can't go as-is: the Play listing is still not public (no install link) and contact@ mail likely lands in spam until SPF includes privateemail. Recommends Jan 11-13 (Michigan Jan 13), or Nov 30/Dec 1 for three campuses only if those gates are fixed. Still open: waitlist, end-to-end invite test, your why, first personal notes, @RockoDevLLC photo."
     },
     "Market Intel": {
       "date": "2026-11-12",
-      "time": "12:06 AM CT",
-      "text": "Nothing new since the Nov 12 12 AM check-in. Open items unchanged; next weekly report Mon Nov 16. (No new report evidence found for the Nov 13 refresh.)"
+      "time": "8:49 PM CT",
+      "text": "Nothing new; no tickets or blockers. AQ-INTEL-5 to 8 unchanged. Next weekly report Mon Nov 16 ~8 AM CT."
     },
     "Product Ops": {
-      "date": "2026-11-11",
-      "time": "8:51 PM CT",
-      "text": "Reported Nov 11 ~8:51 PM CT: AQ-PRODOPS-8 (money) Free users share the 40/day Scout cap; recommends 3-5/day for Free (modeled only). Awaiting your decision. No newer report this morning. (No new report evidence found for the Nov 13 refresh.)"
+      "date": "2026-11-12",
+      "time": "8:49 PM CT",
+      "text": "AQ-PRODOPS-8 closed by the AI v13 deploy. Modeled (not real) economics: Free user max ~$0.053/day; ~37% must pay to break even after the 15% fee; a maxed Plus user loses ~$8.43/mo. Suggests a test-account check of the 6th-call cutoff and 6 PM reset. Tester sign-off email draft (AQ-PRODOPS-9) awaits your OK. Blocker: Supabase connector needs your sign-in. Still waiting on AQ-PRODOPS-3 to 6, Echo free tier, partnership top 3, campus install path, PR 2 contacts picker privacy A vs B."
     }
   }
 }
