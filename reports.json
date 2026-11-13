@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-13T15:29:04-06:00",
+  "updatedAt": "2026-11-13T15:33:58-06:00",
   "brief": {
     "date": "2026-11-13",
     "weekday": "Friday",
@@ -70,7 +70,7 @@
       {
         "id": "AQ-COS-11",
         "title": "Testers: missing Google emails; Crystal not replied; Destiny question",
-        "detail": "Briana, Brent and Richard still need a Google account email. Crystal hasn't replied to the Nov 6 email (checks through Nov 12 8:44 PM CT). Destiny Shaw's Nov 3 question still needs a short answer. Updated Nov 13 3:25 PM CT: markshawbrewer30@gmail.com (Marky) was added today to the live plus_comp_emails free-for-life list. At confirmation time only Marky was known to have no account. A live plus_comp_emails read at about 3:24 PM CT found 4 emails with a Wrangle account and Plus, and 18 with no account, including Marky.",
+        "detail": "Briana, Brent and Richard still need a Google account email. Crystal hasn't replied to the Nov 6 email (checks through Nov 12 8:44 PM CT). Destiny Shaw's Nov 3 question still needs a short answer. Updated Nov 13 3:25 PM CT: [email omitted] (Marky) was added today to the live plus_comp_emails free-for-life list. At confirmation time only Marky was known to have no account. A live plus_comp_emails read at about 3:24 PM CT found 4 emails with a Wrangle account and Plus, and 18 with no account, including Marky.",
         "section": "next",
         "owner": "ceo",
         "urgent": false,
@@ -293,7 +293,7 @@
       {
         "id": "AQ-PRODOPS-9",
         "title": "Approve the tester sign-off email (APK 46)",
-        "detail": "Product Ops drafted the email asking testers to confirm APK 46 looks good. Updated Nov 13 3:25 PM CT: Play internal list is 24; the live plus_comp_emails free-for-life list has 22 (markshawbrewer30@gmail.com added today). Your rule: AAB 47 + Data safety go to Play only after tester sign-off. Draft only; nothing sent.",
+        "detail": "Product Ops drafted the email asking testers to confirm APK 46 looks good. Updated Nov 13 3:25 PM CT: Play internal list is 24; the live plus_comp_emails free-for-life list has 22 ([email omitted] added today). Your rule: AAB 47 + Data safety go to Play only after tester sign-off. Draft only; nothing sent.",
         "section": "approval",
         "owner": "ceo",
         "urgent": false,
@@ -350,14 +350,19 @@
     ],
     "kpis": [
       {
+        "label": "Wrangle invite & reply count, weekend Nov 7–8 + last night + this week + last 7 days (updated 3:33 PM CT)",
+        "value": "Last night: 5 plans, 15 invites, 0 replies. This week: 16 plans, 41 invites, 9 (9 In / 0 Maybe / 0 Can't), 22% reply rate. Weekend Nov 7–8: 0 plans, 0 invites, 0 replies.",
+        "note": "Live read-only count at 3:33 PM CT on Nov 13, 2026 (America/Chicago). No names or emails. Last night (Thu Nov 12 6:00 PM–Fri Nov 13 6:00 AM CT): 5 plans (5 from testers), 15 invites (15 from tester plans), 0 (0 In / 0 Maybe / 0 Can't), 0 likely web replies (est.), 1 invitee made a plan, reply rate 0%. This week (Mon Nov 9 12:00 AM CT–now): 16 plans (8 from testers), 41 invites (24 from tester plans), 9 (9 In / 0 Maybe / 0 Can't), 6 likely web replies (est.), 1 invitee made a plan, reply rate 22%. Weekend Nov 7–8: 0 plans, 0 invites, 0 replies. Last 7 days (rolling 7×24h): 16 plans, 41 invites, 9 (9 In / 0 Maybe / 0 Can't), 6 likely web replies (est.), 1 invitee made a plan, reply rate 22%. All-time: same as this week and last 7 days, because the first plan in the database is Wed Nov 11, 11:20 AM CT. Reply rate = share of invites sent in that window that are answered as of the query. Likely web replies are an estimate (answered invite with no Wrangle account); the database does not store web vs app. Invitees with no account cannot be linked to a later plan. Testers: 22 emails on plus_comp_emails, 4 with accounts. App analytics are off (track() is a no-op in release)."
+      },
+      {
         "label": "Wrangle testers on Play internal list",
         "value": "24",
-        "note": "Updated Nov 13 3:25 PM CT. Play Console internal list is 24. Live plus_comp_emails free-for-life list has 22 (markshawbrewer30@gmail.com added today). At confirmation time only Marky was known to have no account. A live read at about 3:24 PM CT found 4 accounts with Plus and 18 emails with no account, including Marky."
+        "note": "Updated Nov 13 3:25 PM CT. Play Console internal list is 24. Live plus_comp_emails free-for-life list has 22 ([email omitted] added today). At confirmation time only Marky was known to have no account. A live read at about 3:24 PM CT found 4 accounts with Plus and 18 emails with no account, including Marky."
       },
       {
         "label": "Free-for-life Plus emails (plus_comp_emails)",
         "value": "22",
-        "note": "Updated Nov 13 3:25 PM CT. Live Supabase list. markshawbrewer30@gmail.com added today."
+        "note": "Updated Nov 13 3:25 PM CT. Live Supabase list. [email omitted] added today."
       },
       {
         "label": "Grants and credits won",
@@ -506,12 +511,12 @@
       {
         "from": "Nikki",
         "timeCT": "Nov 12, 11:03 PM",
-        "line": "Email with only an address (markshawbrewer30@gmail.com), no note."
+        "line": "Email with only an address ([email omitted]), no note."
       },
       {
         "from": "Mail Delivery Subsystem",
         "timeCT": "Nov 13, 6:42 and 6:57 AM",
-        "line": "Mail to crawlerrobo@gmail.com bounced: recipient inbox full."
+        "line": "Mail to [email omitted] bounced: recipient inbox full."
       },
       {
         "from": "Firebase",
@@ -571,7 +576,7 @@
     "Chief of Staff": {
       "date": "2026-11-13",
       "time": "3:28 PM CT",
-      "text": "Updated Nov 13 3:25 PM CT and 3:27 PM CT with Rocko's confirmed facts, so nobody works from stale notes.\n\n1. No-app web replies are built and live at rockodevelopment.com/wrangle/<token>. The page has I'm in / Maybe / Can't buttons, needs no account, and writes to Supabase via respond_by_token. Bad links show our own \"This link isn't working\" page. Rocko confirmed invite replies have officially come through to the app. The old \"web replies not built / target mid-Dec to Jan\" line is retracted.\n\n2. Testers: Play internal list is 24. The live plus_comp_emails free-for-life list has 22 (markshawbrewer30@gmail.com added today). At 3:25 PM CT only Marky was known to have no account. A live read of plus_comp_emails at about 3:24 PM CT found 4 emails with a Wrangle account and Plus, and 18 with no account, including Marky.\n\n3. Launch timing is undecided and is Rocko's call. Growth's January recommendation is for the campus email wave only (Thanksgiving and finals), not the Play launch. Product Ops says a late-November Production launch is realistic now that web replies are live; Growth agrees that fits their plan.\n\n4. Android-only limits campus organizers. Invitees on iPhone can reply from the web page.\n\n5. Product Ops estimates break-even needs about 37% paying, and the $10/day AI cap runs out around 190 daily active users.\n\n6. Updated Nov 13 3:27 PM CT: the old empty Activity tab is already replaced by the Needs you page. It is built and done, not a to-do. It is off every pre-launch and open-work list (AQ-COS-25 marked done)."
+      "text": "Updated Nov 13 3:25 PM CT and 3:27 PM CT with Rocko's confirmed facts, so nobody works from stale notes.\n\n1. No-app web replies are built and live at rockodevelopment.com/wrangle/<token>. The page has I'm in / Maybe / Can't buttons, needs no account, and writes to Supabase via respond_by_token. Bad links show our own \"This link isn't working\" page. Rocko confirmed invite replies have officially come through to the app. The old \"web replies not built / target mid-Dec to Jan\" line is retracted.\n\n2. Testers: Play internal list is 24. The live plus_comp_emails free-for-life list has 22 ([email omitted] added today). At 3:25 PM CT only Marky was known to have no account. A live read of plus_comp_emails at about 3:24 PM CT found 4 emails with a Wrangle account and Plus, and 18 with no account, including Marky.\n\n3. Launch timing is undecided and is Rocko's call. Growth's January recommendation is for the campus email wave only (Thanksgiving and finals), not the Play launch. Product Ops says a late-November Production launch is realistic now that web replies are live; Growth agrees that fits their plan.\n\n4. Android-only limits campus organizers. Invitees on iPhone can reply from the web page.\n\n5. Product Ops estimates break-even needs about 37% paying, and the $10/day AI cap runs out around 190 daily active users.\n\n6. Updated Nov 13 3:27 PM CT: the old empty Activity tab is already replaced by the Needs you page. It is built and done, not a to-do. It is off every pre-launch and open-work list (AQ-COS-25 marked done)."
     },
     "Sales, Clients & Funding": {
       "date": "2026-11-12",
