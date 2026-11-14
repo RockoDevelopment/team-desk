@@ -1,607 +1,621 @@
 {
-  "schemaVersion": 1,
-  "updatedAt": "2026-11-13T15:33:58-06:00",
-  "brief": {
-    "date": "2026-11-13",
-    "weekday": "Friday",
-    "generatedAt": "2026-11-13T07:50:00-06:00",
-    "preparedBy": "Chief of Staff",
-    "summary": "Updated Nov 13 3:25 PM CT and 3:27 PM CT. No-app web replies are built and live; Rocko confirmed invite replies have come through to the app, and the old 'not built / mid-Dec' line is retracted. Play internal tester list is 24; live plus_comp_emails free-for-life list has 22. The Activity tab is already replaced by Needs you — that work is done, not a to-do. Growth's January recommendation is for the campus email wave only, not the Play launch; Play launch timing is still Rocko's call. Nothing is in Play review: build 34 was pulled Nov 12 ~9:14 PM CT on your order. The tester version (APK 46 / AAB 47) goes to Play only after tester sign-off, and the sign-off email draft (AQ-PRODOPS-9) waits on your OK. Today's deadline: AI Impact Grant yes or skip (AQ-SALES-23). Campus wave 1 needs a date (AQ-GROWTH-5). The Free Scout cap is closed by the AI v13 deploy. No Oracle or grant mail since the last brief.",
-    "topBlocker": "Tester sign-off on APK 46 comes before any Play submission, and the sign-off email hasn't gone out yet (AQ-PRODOPS-9).",
-    "items": [
-      {
-        "id": "AQ-COS-17",
-        "title": "Fund the Visa on file for Render $1 identity auth",
-        "detail": "Free Postgres on the plus-render workspace needs a $1 temporary identity authorization. You parked this until the Visa on file is funded. Money. No paid Render plan.",
-        "section": "decision",
-        "owner": "ceo",
-        "urgent": true,
-        "impactRank": 21,
-        "status": "killed",
-        "firstSeen": "2026-11-06",
-        "link": "https://dashboard.render.com/",
-        "killedReason": "Superseded Nov 6-8: the Render workspace Rocko Development LLC accepted a card for the $1 identity check, and the prior Render connection was removed at Rocko's request. No Render work is pending from this item."
-      },
-      {
-        "id": "AQ-COS-10",
-        "title": "Upload your photo ID for Google Payments (genuine request)",
-        "detail": "Google Payments emailed Nov 2 asking for a government photo ID on the organization payments profile. Upload yourself on payments.google.com; details must match the LLC documents.",
-        "section": "decision",
-        "owner": "ceo",
-        "urgent": true,
-        "impactRank": 1,
-        "status": "open",
-        "firstSeen": "2026-11-04",
-        "link": "https://payments.google.com/"
-      },
-      {
-        "id": "AQ-COS-2",
-        "title": "Ask CPA: SAM.gov Entity Structure (50/50 partnership vs sole member)",
-        "detail": "Confirm with the CPA which entity structure to list on SAM.gov before changing anything. Tax and legal.",
-        "section": "decision",
-        "owner": "ceo",
-        "urgent": true,
-        "impactRank": 3,
-        "status": "open",
-        "firstSeen": "2026-11-01"
-      },
-      {
-        "id": "AQ-SALES-22",
-        "title": "HelpBnk script: fill in what the $5,000 covers",
-        "detail": "Script is 112 words, about 45 seconds. One blank left: what the $5,000 would pay for. Pitch due Nov 20 to 25.",
-        "section": "approval",
-        "owner": "ceo",
-        "urgent": false,
-        "impactRank": 3,
-        "status": "open",
-        "firstSeen": "2026-11-04"
-      },
-      {
-        "id": "AQ-COS-19",
-        "title": "OK the next grant-letter batch (drafts only)",
-        "detail": "Four applications are submitted so far: Business Freedom, Verizon/LISC, Wiro and Shophand (Nov 8). Paste-ready drafts for the rest sit in grant-drafts/nov6 (PostHog, Cloudflare, Microsoft, ElevenLabs, Wiro follow-up, HelpBnk prep, NSF MISSING sheet). Nothing else sends until you say yes.",
-        "section": "approval",
-        "owner": "ceo",
-        "urgent": false,
-        "impactRank": 4,
-        "status": "open",
-        "firstSeen": "2026-11-06"
-      },
-      {
-        "id": "AQ-COS-11",
-        "title": "Testers: missing Google emails; Crystal not replied; Destiny question",
-        "detail": "Briana, Brent and Richard still need a Google account email. Crystal hasn't replied to the Nov 6 email (checks through Nov 12 8:44 PM CT). Destiny Shaw's Nov 3 question still needs a short answer. Updated Nov 13 3:25 PM CT: [email omitted] (Marky) was added today to the live plus_comp_emails free-for-life list. At confirmation time only Marky was known to have no account. A live plus_comp_emails read at about 3:24 PM CT found 4 emails with a Wrangle account and Plus, and 18 with no account, including Marky.",
-        "section": "next",
-        "owner": "ceo",
-        "urgent": false,
-        "impactRank": 5,
-        "status": "open",
-        "firstSeen": "2026-11-04"
-      },
-      {
-        "id": "AQ-COS-22",
-        "title": "Wrangle sign-in: switch to email codes, keep phone at signup",
-        "section": "next",
-        "owner": "agent",
-        "agentName": "Chief of Staff",
-        "urgent": false,
-        "impactRank": 6,
-        "status": "in_progress",
-        "firstSeen": "2026-11-08",
-        "detail": "Twilio's business profile was approved Nov 8-9. Rocko wants email one-time codes for first sign-in while still collecting a phone number. Dev update for email-code sign-in was pushed to the Wrangle repo Nov 9; no successful end-to-end test reported yet."
-      },
-      {
-        "id": "AQ-COS-20",
-        "title": "Production 1.0.0 (build 34): removed from Play review",
-        "detail": "Removed from review Nov 12 ~9:14 PM CT on your order (no Google feedback). Production 1.0.0 (34) and Data safety are unsubmitted changes; nothing is in review and the app is not live.",
-        "section": "next",
-        "owner": "agent",
-        "agentName": "Chief of Staff",
-        "urgent": false,
-        "impactRank": 7,
-        "status": "done",
-        "firstSeen": "2026-11-06"
-      },
-      {
-        "id": "AQ-COS-21",
-        "title": "RevenueCat: attach Play service-account JSON for receipts",
-        "detail": "RevenueCat project Wrangle is live with entitlement wrangle_plus and a webhook. The Play service-account JSON is still needed so receipts validate. No new progress reported since Nov 6.",
-        "section": "next",
-        "owner": "agent",
-        "agentName": "Chief of Staff",
-        "urgent": false,
-        "impactRank": 8,
-        "status": "open",
-        "firstSeen": "2026-11-06"
-      },
-      {
-        "id": "AQ-GROWTH-4",
-        "title": "Rewrite Launch Plan invite path; then approve forwardable invite",
-        "detail": "Invite work is on the Wrangle invite page at rockodevelopment.com/wrangle/ (full URL, no short link; dark like the app; preview card leads with the invitee's name and who invited them). Updated Nov 13 3:25 PM CT: no-app web replies are built and live at rockodevelopment.com/wrangle/<token>. The page has I'm in / Maybe / Can't buttons, needs no account, and writes to Supabase via respond_by_token. Bad links show our own 'This link isn't working' page. Rocko confirmed invite replies have officially come through to the app. The old 'web replies not built / target mid-Dec to Jan' line is retracted. Forwardable invite must still say Crews (not herds).",
-        "section": "next",
-        "owner": "agent",
-        "agentName": "Growth & Community",
-        "urgent": false,
-        "impactRank": 9,
-        "status": "open",
-        "firstSeen": "2026-11-01"
-      },
-      {
-        "id": "AQ-GROWTH-3",
-        "title": "Send your personal note to organizers you know",
-        "detail": "Growth drafted it. Tell us who gets it and roughly how many people.",
-        "section": "approval",
-        "owner": "ceo",
-        "urgent": false,
-        "impactRank": 10,
-        "status": "open",
-        "firstSeen": "2026-11-01"
-      },
-      {
-        "id": "AQ-COS-3",
-        "title": "Delete duplicate X post",
-        "detail": "One copy of the Oct 31 @AndroidDev quote is still live and needs deleting by Rocko.",
-        "section": "next",
-        "owner": "ceo",
-        "urgent": false,
-        "impactRank": 11,
-        "status": "open",
-        "firstSeen": "2026-11-01",
-        "link": "https://x.com/RockoDevLLC/status/2116676894913650902"
-      },
-      {
-        "id": "AQ-COS-4",
-        "title": "OK to skip the PayPal hackathon (Nov 12)",
-        "detail": "Recommend skipping; needs your OK.",
-        "section": "approval",
-        "owner": "ceo",
-        "urgent": false,
-        "impactRank": 12,
-        "status": "killed",
-        "firstSeen": "2026-11-01",
-        "killedReason": "The PayPal hackathon closed Nov 12; skipped as recommended."
-      },
-      {
-        "id": "AQ-COS-5",
-        "title": "Answer the queued NSF SBIR questions, one at a time",
-        "detail": "NSF questions are queued for your review.",
-        "section": "next",
-        "owner": "ceo",
-        "urgent": false,
-        "impactRank": 13,
-        "status": "open",
-        "firstSeen": "2026-11-01"
-      },
-      {
-        "id": "AQ-COS-8",
-        "title": "Redeem the Wiro $200 startup credits",
-        "detail": "Done Nov 6 ~7:04 AM CT: Ignition coupon redeemed; wallet shows $200.00 credit (use before Nov 6, 2027). API key for Wrangle created.",
-        "section": "next",
-        "owner": "agent",
-        "agentName": "Chief of Staff",
-        "urgent": false,
-        "impactRank": 35,
-        "status": "done",
-        "firstSeen": "2026-11-02"
-      },
-      {
-        "id": "AQ-COS-13",
-        "title": "Check the V2 demo APK on your phone",
-        "detail": "Superseded: final closed-demo emails went out Nov 5 ~3:33 PM CT; Closed Alpha advanced to 2.0.5 (vc17).",
-        "section": "decision",
-        "owner": "ceo",
-        "urgent": false,
-        "impactRank": 36,
-        "status": "done",
-        "firstSeen": "2026-11-05"
-      },
-      {
-        "id": "AQ-COS-14",
-        "title": "Play review of V2 demo 11 (2.0.0) on Closed Alpha",
-        "detail": "Superseded by Closed Alpha 2.0.5 (versionCode 17), now live to testers.",
-        "section": "next",
-        "owner": "agent",
-        "agentName": "Chief of Staff",
-        "urgent": false,
-        "impactRank": 37,
-        "status": "done",
-        "firstSeen": "2026-11-05"
-      },
-      {
-        "id": "AQ-COS-16",
-        "title": "Play trader status declared",
-        "detail": "Done Nov 4, 7:43 PM CT: Play Console confirmed the account is declared a trader.",
-        "section": "next",
-        "owner": "agent",
-        "agentName": "Chief of Staff",
-        "urgent": false,
-        "impactRank": 38,
-        "status": "done",
-        "firstSeen": "2026-11-05"
-      },
-      {
-        "id": "AQ-PRODOPS-6",
-        "title": "V2 dev brief (Gmail draft): closed, superseded",
-        "detail": "Killed Nov 5: you delivered the V2 demo yourself.",
-        "section": "approval",
-        "owner": "ceo",
-        "urgent": false,
-        "impactRank": 39,
-        "status": "done",
-        "firstSeen": "2026-11-04"
-      },
-      {
-        "id": "AQ-COS-7",
-        "title": "Render: bandwidth limit reached, overage now billing",
-        "detail": "Was about the old Hobby account.",
-        "section": "risk",
-        "owner": "ceo",
-        "urgent": false,
-        "impactRank": 20,
-        "status": "killed",
-        "killedReason": "Rocko banned the old Render account Nov 6; Wrangle uses only the plus-render workspace (empty, free tier). Old-account unpaid-balance mail is ignored.",
-        "firstSeen": "2026-11-02"
-      },
-      {
-        "id": "AQ-COS-15",
-        "title": "@TheOracleScout X login is locked",
-        "detail": "PROMO BOT posting path.",
-        "section": "next",
-        "owner": "ceo",
-        "urgent": false,
-        "impactRank": 21,
-        "status": "killed",
-        "killedReason": "Rocko ordered Nov 6 never post about the Oracle; this week Content promotes Wrangle app launch only.",
-        "firstSeen": "2026-11-05"
-      },
-      {
-        "id": "AQ-COS-18",
-        "title": "Play review of Closed Alpha 2.0.5 (versionCode 17)",
-        "detail": "Done Nov 6 ~8:15 AM CT: Closed Alpha 2.0.5 (versionCode 17) cleared Google review and is available to testers. Production is still Inactive and the public listing is not live.",
-        "section": "next",
-        "owner": "agent",
-        "agentName": "Chief of Staff",
-        "urgent": false,
-        "impactRank": 30,
-        "status": "done",
-        "firstSeen": "2026-11-06"
-      },
-      {
-        "id": "AQ-COS-23",
-        "title": "Build 30 APK + AAB ready: test APK, then say go for Play",
-        "detail": "EAS finished both: APK 4dde4d27 (test on phone) and AAB 1c547080 (1.0.0, versionCode 30). Three items only: Voice shows Coming soon, Read it back becomes Send, crew Save centered. Not uploaded to Play; needs your go.",
-        "section": "decision",
-        "owner": "ceo",
-        "urgent": false,
-        "impactRank": 2,
-        "status": "killed",
-        "firstSeen": "2026-11-11",
-        "killedReason": "Superseded: the testers now have APK 46 / AAB 47, and Play waits on their sign-off."
-      },
-      {
-        "id": "AQ-COS-24",
-        "title": "Invite card: bigger left text locked and cached card live",
-        "detail": "Locked 7:09 AM CT (left text about 20% bigger). Cached card.php went live 7:20 AM CT; repeat loads about 1.3-1.5 s, down from about 8 s.",
-        "section": "next",
-        "owner": "agent",
-        "agentName": "Chief of Staff",
-        "urgent": false,
-        "impactRank": 39,
-        "status": "done",
-        "firstSeen": "2026-11-11"
-      },
-      {
-        "id": "AQ-PRODOPS-9",
-        "title": "Approve the tester sign-off email (APK 46)",
-        "detail": "Product Ops drafted the email asking testers to confirm APK 46 looks good. Updated Nov 13 3:25 PM CT: Play internal list is 24; the live plus_comp_emails free-for-life list has 22 ([email omitted] added today). Your rule: AAB 47 + Data safety go to Play only after tester sign-off. Draft only; nothing sent.",
-        "section": "approval",
-        "owner": "ceo",
-        "urgent": false,
-        "impactRank": 2,
-        "status": "open",
-        "firstSeen": "2026-11-13"
-      },
-      {
-        "id": "AQ-SALES-23",
-        "title": "AI Impact Grant ($2,500): yes or skip TODAY",
-        "detail": "Free to apply, low odds, closes Nov 15. Sales needs your yes by today (Fri Nov 13) to draft it; otherwise it is skipped.",
-        "section": "decision",
-        "owner": "ceo",
-        "urgent": true,
-        "impactRank": 4,
-        "status": "open",
-        "firstSeen": "2026-11-13"
-      },
-      {
-        "id": "AQ-GROWTH-5",
-        "title": "Pick the campus wave 1 send date",
-        "detail": "Growth recommends Jan 11-13 for the campus email wave (Michigan Jan 13) because of Thanksgiving and finals. Option B: Michigan, Penn State and UT Austin on Nov 30 or Dec 1 only if the Play listing is public and contact@ mail is fixed; Florida held to Jan 11. The listing is still not public, and contact@ mail needs an SPF DNS change (include:spf.privateemail.com) that needs your go. Updated Nov 13 3:25 PM CT: Growth's January recommendation is for the campus email wave only, not the Play launch. Product Ops says a late-November Production launch is realistic now that web replies are live. Growth agrees that fits their plan and would give testers a few weeks of real plans before campus outreach. Timing is undecided; Rocko's call. Android-only limits campus organizers: the organizer needs Android, though invited friends on iPhone can reply from the web page.",
-        "section": "decision",
-        "owner": "ceo",
-        "urgent": false,
-        "impactRank": 5,
-        "status": "open",
-        "firstSeen": "2026-11-13"
-      },
-      {
-        "id": "AQ-PRODOPS-8",
-        "title": "Free Scout cap",
-        "detail": "Closed by the Nov 12 AI function deploy (v13): Free 5 AI calls a day, Plus 40, $10 daily budget resetting 6 PM CT. Product Ops suggests a test-account check of the 6th-call cutoff and the reset. Updated Nov 13 3:25 PM CT: Product Ops estimates break-even needs ~37% paying, and the $10/day AI cap runs out around 190 DAU.",
-        "section": "decision",
-        "owner": "agent",
-        "agentName": "Product Ops",
-        "urgent": false,
-        "impactRank": 40,
-        "status": "done",
-        "firstSeen": "2026-11-11"
-      },
-      {
-        "id": "AQ-COS-25",
-        "title": "Activity tab replaced by Needs you",
-        "detail": "Updated Nov 13 3:27 PM CT: Rocko confirmed the old empty Activity tab is already replaced by the Needs you page. It is built and done, not a to-do. Removed from every pre-launch and open-work list so nobody treats it as open work.",
-        "section": "next",
-        "owner": "agent",
-        "agentName": "Chief of Staff",
-        "urgent": false,
-        "impactRank": 41,
-        "status": "done",
-        "firstSeen": "2026-11-13"
-      }
-    ],
-    "kpis": [
-      {
-        "label": "Wrangle invite & reply count, weekend Nov 7–8 + last night + this week + last 7 days (updated 3:33 PM CT)",
-        "value": "Last night: 5 plans, 15 invites, 0 replies. This week: 16 plans, 41 invites, 9 (9 In / 0 Maybe / 0 Can't), 22% reply rate. Weekend Nov 7–8: 0 plans, 0 invites, 0 replies.",
-        "note": "Live read-only count at 3:33 PM CT on Nov 13, 2026 (America/Chicago). No names or emails. Last night (Thu Nov 12 6:00 PM–Fri Nov 13 6:00 AM CT): 5 plans (5 from testers), 15 invites (15 from tester plans), 0 (0 In / 0 Maybe / 0 Can't), 0 likely web replies (est.), 1 invitee made a plan, reply rate 0%. This week (Mon Nov 9 12:00 AM CT–now): 16 plans (8 from testers), 41 invites (24 from tester plans), 9 (9 In / 0 Maybe / 0 Can't), 6 likely web replies (est.), 1 invitee made a plan, reply rate 22%. Weekend Nov 7–8: 0 plans, 0 invites, 0 replies. Last 7 days (rolling 7×24h): 16 plans, 41 invites, 9 (9 In / 0 Maybe / 0 Can't), 6 likely web replies (est.), 1 invitee made a plan, reply rate 22%. All-time: same as this week and last 7 days, because the first plan in the database is Wed Nov 11, 11:20 AM CT. Reply rate = share of invites sent in that window that are answered as of the query. Likely web replies are an estimate (answered invite with no Wrangle account); the database does not store web vs app. Invitees with no account cannot be linked to a later plan. Testers: 22 emails on plus_comp_emails, 4 with accounts. App analytics are off (track() is a no-op in release)."
-      },
-      {
-        "label": "Wrangle testers on Play internal list",
-        "value": "24",
-        "note": "Updated Nov 13 3:25 PM CT. Play Console internal list is 24. Live plus_comp_emails free-for-life list has 22 ([email omitted] added today). At confirmation time only Marky was known to have no account. A live read at about 3:24 PM CT found 4 accounts with Plus and 18 emails with no account, including Marky."
-      },
-      {
-        "label": "Free-for-life Plus emails (plus_comp_emails)",
-        "value": "22",
-        "note": "Updated Nov 13 3:25 PM CT. Live Supabase list. [email omitted] added today."
-      },
-      {
-        "label": "Grants and credits won",
-        "value": "1",
-        "note": "Wiro $200 redeemed Nov 6"
-      },
-      {
-        "label": "@RockoDevLLC X followers",
-        "value": "17",
-        "note": "Last public profile read Nov 6 ~7:49 AM CT (was 14); not re-read today"
-      }
-    ],
-    "funding": [
-      {
-        "program": "Business Freedom Grant",
-        "amount": "$1,000",
-        "status": "Submitted",
-        "submitted": "2026-10-29",
-        "nextDate": "2026-11-15",
-        "note": "Submitted via web form (no email receipt). Review Nov 15; no reply yet"
-      },
-      {
-        "program": "Wiro credits",
-        "amount": "$200 credits",
-        "status": "Redeemed",
-        "submitted": "2026-10-29",
-        "nextDate": "2027-11-06",
-        "note": "Coupon redeemed Nov 6; credit in wallet, use before Nov 6 2027"
-      },
-      {
-        "program": "Verizon Digital Ready / LISC",
-        "amount": "$10,000",
-        "status": "Submitted",
-        "submitted": "2026-10-30",
-        "nextDate": "2026-12-31",
-        "note": "In the pool through Dec 31; finalists emailed monthly"
-      },
-      {
-        "program": "HelpBnk",
-        "amount": "$5,000",
-        "status": "Drafting",
-        "submitted": "",
-        "nextDate": "2026-11-20",
-        "note": "Pitch due Nov 20 to 25; script needs the $5,000 use filled in"
-      },
-      {
-        "program": "AI Impact Grant",
-        "amount": "$2,500",
-        "status": "Needs your yes",
-        "submitted": "",
-        "nextDate": "2026-11-15",
-        "note": "Free, low odds; yes needed by Nov 13 to draft, else skip"
-      },
-      {
-        "program": "YC W27 / Techstars",
-        "amount": "",
-        "status": "Dropped",
-        "submitted": "",
-        "nextDate": "",
-        "note": "Dropped Oct 29 for equity reasons"
-      }
-    ],
-    "setupTracker": [
-      {
-        "item": "D-U-N-S number",
-        "status": "Done",
-        "note": "Issued"
-      },
-      {
-        "item": "LISC Gmail filter",
-        "status": "Done",
-        "note": ""
-      },
-      {
-        "item": "Google Search Console",
-        "status": "Done",
-        "note": "Site verified"
-      },
-      {
-        "item": "Play organization account",
-        "status": "Done",
-        "note": "Converted to Organization Nov 3; payments profile linked"
-      },
-      {
-        "item": "Team desk page",
-        "status": "Done",
-        "note": "Live at rockodevelopment.github.io/team-desk"
-      },
-      {
-        "item": "Play trader status",
-        "status": "Done",
-        "note": "Declared trader Nov 4"
-      },
-      {
-        "item": "Supabase free project wrangle",
-        "status": "Done",
-        "note": "Migrations 0001-0010 and 6 Edge Functions active"
-      },
-      {
-        "item": "Bird free SMS workspace",
-        "status": "Done",
-        "note": "Org Rocko Development LLC / workspace Wrangle"
-      },
-      {
-        "item": "Wiro $200 credits",
-        "status": "Done",
-        "note": "Redeemed Nov 6"
-      },
-      {
-        "item": "RevenueCat (Wrangle+)",
-        "status": "Done",
-        "note": "Project live; Play SA JSON still needed for receipts"
-      },
-      {
-        "item": "Render Free Postgres + Free web",
-        "status": "Parked",
-        "note": "Workspace Rocko Development LLC ready with no services; the $1 identity check was accepted Nov 6-8. Nothing deployed yet"
-      },
-      {
-        "item": "SAM.gov entity structure",
-        "status": "Blocked",
-        "note": "Waiting on CPA answer"
-      },
-      {
-        "item": "Production 1.0.0 store-ready",
-        "status": "In progress",
-        "note": "Build 34 removed from Play review Nov 12 ~9:14 PM CT; nothing submitted; not live"
-      },
-      {
-        "item": "Twilio business profile",
-        "status": "Done",
-        "note": "Approved Nov 8-9; email-code sign-in work in progress"
-      }
-    ],
-    "inbox": [
-      {
-        "from": "THE ORACLE",
-        "timeCT": "",
-        "line": "No email from THE ORACLE since the last brief (inbox and spam checked)."
-      },
-      {
-        "from": "Grant / credits programs",
-        "timeCT": "",
-        "line": "No replies or decisions. Verizon Digital Ready sent only an events promo (Nov 12 10:11 AM CT)."
-      },
-      {
-        "from": "Nikki",
-        "timeCT": "Nov 12, 11:03 PM",
-        "line": "Email with only an address ([email omitted]), no note."
-      },
-      {
-        "from": "Mail Delivery Subsystem",
-        "timeCT": "Nov 13, 6:42 and 6:57 AM",
-        "line": "Mail to [email omitted] bounced: recipient inbox full."
-      },
-      {
-        "from": "Firebase",
-        "timeCT": "Nov 12, 1:22 AM",
-        "line": "Project Wrangle moved to the Blaze pay-as-you-go plan when billing was linked (matches your Google Places billing OK with a $10/month alert)."
-      },
-      {
-        "from": "Render",
-        "timeCT": "Nov 12, 9:06 PM",
-        "line": "Unpaid-balance reminder for the old banned Render account; ignored per your Nov 6 order."
-      }
-    ],
-    "doneSinceLast": [
-      "Updated Nov 13 3:25 PM CT: no-app web replies confirmed live; invite replies have come through to the app; the mid-Dec 'not built' line is retracted.",
-      "Updated Nov 13 3:27 PM CT: Needs you has already replaced the Activity tab; marked done and removed from open pre-launch lists.",
-      "Build 34 removed from Play review ~9:14 PM CT Nov 12 on your order; nothing submitted.",
-      "Free Scout cap closed: AI v13 deploy set Free 5 calls/day, Plus 40, $10 daily budget (AQ-PRODOPS-8).",
-      "Scout rules locked: it never picks a day or time (bar crawls excepted); cards show place name plus miles.",
-      "All 20 campus event cards locked into the app source.",
-      "Location modes, set-time and in-app live-feed designs progressed in source and mockups; no Play upload.",
-      "Weekly Google Places usage check assigned to Product Ops.",
-      "PayPal hackathon skipped (closed Nov 12)."
-    ],
-    "recommendation": "Approve the tester sign-off email today so testers can confirm APK 46; that is the only path to Play. Also give Sales a yes or skip on the AI Impact Grant before end of day.",
-    "coCeoCopySent": true,
-    "company": {
-      "products": [
-        {
-          "name": "The Oracle Scout",
-          "stage": "AI analysis engine powered by Grok bots",
-          "status": "Live"
-        },
-        {
-          "name": "Wrangle",
-          "stage": "Production 1.0.0 (vc34) removed from Play review Nov 12; APK 46 / AAB 47 with testers awaiting sign-off",
-          "status": "In testing"
-        },
-        {
-          "name": "Beethoven's Alley Katz",
-          "stage": "Backend and Android app built; next: live backend",
-          "status": "In development"
-        },
-        {
-          "name": "Echo",
-          "stage": "V1.5 built; next: V2 cloud vault and sync",
-          "status": "In development"
-        },
-        {
-          "name": "Permit Pilot",
-          "stage": "V1 built; next: V2 accounts and cloud sync",
-          "status": "In development"
-        }
-      ]
+ "schemaVersion": 1,
+ "updatedAt": "2026-11-14T07:10:00-06:00",
+ "brief": {
+  "date": "2026-11-14",
+  "weekday": "Saturday",
+  "generatedAt": "2026-11-14T07:10:00-06:00",
+  "preparedBy": "Chief of Staff",
+  "summary": "Wrangle went LIVE on Google Play about 12:31 AM CT Nov 14: build vc70 (1.0.0) passed review, the listing loads at play.google.com/store/apps/details?id=app.wrangle, and Google's IARC rating notice arrived at 12:31 AM CT. Hourly checks through 6:57 AM CT found no rejections, policy warnings or reviewer feedback. The tester sign-off gate is gone (Rocko, Nov 13: Play needs only his go), so the sign-off email draft is closed. Post-launch listing batch (new icon, 4 screenshots in order Home, Scout's picks, Roundup, Invite, description edit) was submitted ~2:34 AM CT as one Play review. A next-update build after vc70 (versionCode 72 APK, with the gift popup fix, 18+ banner swap and overlapping crew heads) finished at 2:24 AM CT; its Play submission is held for Rocko's go. Still open for Rocko: Google Payments photo ID, CPA answer on SAM.gov, AI Impact Grant (closed Nov 15, yes or skip), campus wave 1 send date. Teammate reports are unchanged since their last entries; nothing new was collected today.",
+  "topBlocker": "Wrangle is live on Play. Open items for Rocko: Google Payments photo ID (AQ-COS-10) and the CPA answer on SAM.gov (AQ-COS-2); the post-vc70 update waits for his go to submit.",
+  "items": [
+   {
+    "id": "AQ-COS-17",
+    "title": "Fund the Visa on file for Render $1 identity auth",
+    "detail": "Free Postgres on the plus-render workspace needs a $1 temporary identity authorization. You parked this until the Visa on file is funded. Money. No paid Render plan.",
+    "section": "decision",
+    "owner": "ceo",
+    "urgent": true,
+    "impactRank": 21,
+    "status": "killed",
+    "firstSeen": "2026-11-06",
+    "link": "https://dashboard.render.com/",
+    "killedReason": "Superseded Nov 6-8: the Render workspace Rocko Development LLC accepted a card for the $1 identity check, and the prior Render connection was removed at Rocko's request. No Render work is pending from this item."
+   },
+   {
+    "id": "AQ-COS-10",
+    "title": "Upload your photo ID for Google Payments (genuine request)",
+    "detail": "Google Payments emailed Nov 2 asking for a government photo ID on the organization payments profile. Upload yourself on payments.google.com; details must match the LLC documents.",
+    "section": "decision",
+    "owner": "ceo",
+    "urgent": true,
+    "impactRank": 1,
+    "status": "open",
+    "firstSeen": "2026-11-04",
+    "link": "https://payments.google.com/"
+   },
+   {
+    "id": "AQ-COS-2",
+    "title": "Ask CPA: SAM.gov Entity Structure (50/50 partnership vs sole member)",
+    "detail": "Confirm with the CPA which entity structure to list on SAM.gov before changing anything. Tax and legal.",
+    "section": "decision",
+    "owner": "ceo",
+    "urgent": true,
+    "impactRank": 3,
+    "status": "open",
+    "firstSeen": "2026-11-01"
+   },
+   {
+    "id": "AQ-SALES-22",
+    "title": "HelpBnk script: fill in what the $5,000 covers",
+    "detail": "Script is 112 words, about 45 seconds. One blank left: what the $5,000 would pay for. Pitch due Nov 20 to 25.",
+    "section": "approval",
+    "owner": "ceo",
+    "urgent": false,
+    "impactRank": 3,
+    "status": "open",
+    "firstSeen": "2026-11-04"
+   },
+   {
+    "id": "AQ-COS-19",
+    "title": "OK the next grant-letter batch (drafts only)",
+    "detail": "Four applications are submitted so far: Business Freedom, Verizon/LISC, Wiro and Shophand (Nov 8). Paste-ready drafts for the rest sit in grant-drafts/nov6 (PostHog, Cloudflare, Microsoft, ElevenLabs, Wiro follow-up, HelpBnk prep, NSF MISSING sheet). Nothing else sends until you say yes.",
+    "section": "approval",
+    "owner": "ceo",
+    "urgent": false,
+    "impactRank": 4,
+    "status": "open",
+    "firstSeen": "2026-11-06"
+   },
+   {
+    "id": "AQ-COS-11",
+    "title": "Testers: missing Google emails; Crystal not replied; Destiny question",
+    "detail": "Briana, Brent and Richard still need a Google account email. Crystal hasn't replied to the Nov 6 email (checks through Nov 12 8:44 PM CT). Destiny Shaw's Nov 3 question still needs a short answer. (Status as of Nov 13; not re-verified today.)",
+    "section": "next",
+    "owner": "ceo",
+    "urgent": false,
+    "impactRank": 5,
+    "status": "open",
+    "firstSeen": "2026-11-04"
+   },
+   {
+    "id": "AQ-COS-22",
+    "title": "Wrangle sign-in: switch to email codes, keep phone at signup",
+    "section": "next",
+    "owner": "agent",
+    "agentName": "Chief of Staff",
+    "urgent": false,
+    "impactRank": 6,
+    "status": "in_progress",
+    "firstSeen": "2026-11-08",
+    "detail": "Twilio's business profile was approved Nov 8-9. Rocko wants email one-time codes for first sign-in while still collecting a phone number. Dev update for email-code sign-in was pushed to the Wrangle repo Nov 9; no successful end-to-end test reported yet."
+   },
+   {
+    "id": "AQ-COS-20",
+    "title": "Wrangle production vc70: LIVE on Google Play",
+    "detail": "vc70 (1.0.0) passed review and went live about 12:31 AM CT Nov 14. Earlier build 34 was removed from review Nov 12. No Google rejections or warnings on vc70 as of the 6:57 AM CT check.",
+    "section": "next",
+    "owner": "agent",
+    "agentName": "Chief of Staff",
+    "urgent": false,
+    "impactRank": 7,
+    "status": "done",
+    "firstSeen": "2026-11-06"
+   },
+   {
+    "id": "AQ-COS-21",
+    "title": "RevenueCat: attach Play service-account JSON for receipts",
+    "detail": "RevenueCat project Wrangle is live with entitlement wrangle_plus and a webhook. The Play service-account JSON is still needed so receipts validate. No new progress reported since Nov 6.",
+    "section": "next",
+    "owner": "agent",
+    "agentName": "Chief of Staff",
+    "urgent": false,
+    "impactRank": 8,
+    "status": "open",
+    "firstSeen": "2026-11-06"
+   },
+   {
+    "id": "AQ-GROWTH-4",
+    "title": "Rewrite Launch Plan invite path; then approve forwardable invite",
+    "detail": "Invite work is on the Wrangle invite page at rockodevelopment.com/wrangle/ (full URL, no short link; dark like the app; preview card leads with the invitee's name and who invited them). Updated Nov 13 3:25 PM CT: no-app web replies are built and live at rockodevelopment.com/wrangle/<token>. The page has I'm in / Maybe / Can't buttons, needs no account, and writes to Supabase via respond_by_token. Bad links show our own 'This link isn't working' page. Rocko confirmed invite replies have officially come through to the app. The old 'web replies not built / target mid-Dec to Jan' line is retracted. Forwardable invite must still say Crews (not herds).",
+    "section": "next",
+    "owner": "agent",
+    "agentName": "Growth & Community",
+    "urgent": false,
+    "impactRank": 9,
+    "status": "open",
+    "firstSeen": "2026-11-01"
+   },
+   {
+    "id": "AQ-GROWTH-3",
+    "title": "Send your personal note to organizers you know",
+    "detail": "Growth drafted it. Tell us who gets it and roughly how many people.",
+    "section": "approval",
+    "owner": "ceo",
+    "urgent": false,
+    "impactRank": 10,
+    "status": "open",
+    "firstSeen": "2026-11-01"
+   },
+   {
+    "id": "AQ-COS-3",
+    "title": "Delete duplicate X post",
+    "detail": "One copy of the Oct 31 @AndroidDev quote is still live and needs deleting by Rocko.",
+    "section": "next",
+    "owner": "ceo",
+    "urgent": false,
+    "impactRank": 11,
+    "status": "open",
+    "firstSeen": "2026-11-01",
+    "link": "https://x.com/RockoDevLLC/status/2116676894913650902"
+   },
+   {
+    "id": "AQ-COS-4",
+    "title": "OK to skip the PayPal hackathon (Nov 12)",
+    "detail": "Recommend skipping; needs your OK.",
+    "section": "approval",
+    "owner": "ceo",
+    "urgent": false,
+    "impactRank": 12,
+    "status": "killed",
+    "firstSeen": "2026-11-01",
+    "killedReason": "The PayPal hackathon closed Nov 12; skipped as recommended."
+   },
+   {
+    "id": "AQ-COS-5",
+    "title": "Answer the queued NSF SBIR questions, one at a time",
+    "detail": "NSF questions are queued for your review.",
+    "section": "next",
+    "owner": "ceo",
+    "urgent": false,
+    "impactRank": 13,
+    "status": "open",
+    "firstSeen": "2026-11-01"
+   },
+   {
+    "id": "AQ-COS-8",
+    "title": "Redeem the Wiro $200 startup credits",
+    "detail": "Done Nov 6 ~7:04 AM CT: Ignition coupon redeemed; wallet shows $200.00 credit (use before Nov 6, 2027). API key for Wrangle created.",
+    "section": "next",
+    "owner": "agent",
+    "agentName": "Chief of Staff",
+    "urgent": false,
+    "impactRank": 35,
+    "status": "done",
+    "firstSeen": "2026-11-02"
+   },
+   {
+    "id": "AQ-COS-13",
+    "title": "Check the V2 demo APK on your phone",
+    "detail": "Superseded: final closed-demo emails went out Nov 5 ~3:33 PM CT; Closed Alpha advanced to 2.0.5 (vc17).",
+    "section": "decision",
+    "owner": "ceo",
+    "urgent": false,
+    "impactRank": 36,
+    "status": "done",
+    "firstSeen": "2026-11-05"
+   },
+   {
+    "id": "AQ-COS-14",
+    "title": "Play review of V2 demo 11 (2.0.0) on Closed Alpha",
+    "detail": "Superseded by Closed Alpha 2.0.5 (versionCode 17), now live to testers.",
+    "section": "next",
+    "owner": "agent",
+    "agentName": "Chief of Staff",
+    "urgent": false,
+    "impactRank": 37,
+    "status": "done",
+    "firstSeen": "2026-11-05"
+   },
+   {
+    "id": "AQ-COS-16",
+    "title": "Play trader status declared",
+    "detail": "Done Nov 4, 7:43 PM CT: Play Console confirmed the account is declared a trader.",
+    "section": "next",
+    "owner": "agent",
+    "agentName": "Chief of Staff",
+    "urgent": false,
+    "impactRank": 38,
+    "status": "done",
+    "firstSeen": "2026-11-05"
+   },
+   {
+    "id": "AQ-PRODOPS-6",
+    "title": "V2 dev brief (Gmail draft): closed, superseded",
+    "detail": "Killed Nov 5: you delivered the V2 demo yourself.",
+    "section": "approval",
+    "owner": "ceo",
+    "urgent": false,
+    "impactRank": 39,
+    "status": "done",
+    "firstSeen": "2026-11-04"
+   },
+   {
+    "id": "AQ-COS-7",
+    "title": "Render: bandwidth limit reached, overage now billing",
+    "detail": "Was about the old Hobby account.",
+    "section": "risk",
+    "owner": "ceo",
+    "urgent": false,
+    "impactRank": 20,
+    "status": "killed",
+    "killedReason": "Rocko banned the old Render account Nov 6; Wrangle uses only the plus-render workspace (empty, free tier). Old-account unpaid-balance mail is ignored.",
+    "firstSeen": "2026-11-02"
+   },
+   {
+    "id": "AQ-COS-15",
+    "title": "@TheOracleScout X login is locked",
+    "detail": "PROMO BOT posting path.",
+    "section": "next",
+    "owner": "ceo",
+    "urgent": false,
+    "impactRank": 21,
+    "status": "killed",
+    "killedReason": "Rocko ordered Nov 6 never post about the Oracle; this week Content promotes Wrangle app launch only.",
+    "firstSeen": "2026-11-05"
+   },
+   {
+    "id": "AQ-COS-18",
+    "title": "Play review of Closed Alpha 2.0.5 (versionCode 17)",
+    "detail": "Done Nov 6 ~8:15 AM CT: Closed Alpha 2.0.5 (versionCode 17) cleared Google review and is available to testers. Production is still Inactive and the public listing is not live.",
+    "section": "next",
+    "owner": "agent",
+    "agentName": "Chief of Staff",
+    "urgent": false,
+    "impactRank": 30,
+    "status": "done",
+    "firstSeen": "2026-11-06"
+   },
+   {
+    "id": "AQ-COS-23",
+    "title": "Build 30 APK + AAB ready: test APK, then say go for Play",
+    "detail": "EAS finished both: APK 4dde4d27 (test on phone) and AAB 1c547080 (1.0.0, versionCode 30). Three items only: Voice shows Coming soon, Read it back becomes Send, crew Save centered. Not uploaded to Play; needs your go.",
+    "section": "decision",
+    "owner": "ceo",
+    "urgent": false,
+    "impactRank": 2,
+    "status": "killed",
+    "firstSeen": "2026-11-11",
+    "killedReason": "Superseded: the testers now have APK 46 / AAB 47, and Play waits on their sign-off."
+   },
+   {
+    "id": "AQ-COS-24",
+    "title": "Invite card: bigger left text locked and cached card live",
+    "detail": "Locked 7:09 AM CT (left text about 20% bigger). Cached card.php went live 7:20 AM CT; repeat loads about 1.3-1.5 s, down from about 8 s.",
+    "section": "next",
+    "owner": "agent",
+    "agentName": "Chief of Staff",
+    "urgent": false,
+    "impactRank": 39,
+    "status": "done",
+    "firstSeen": "2026-11-11"
+   },
+   {
+    "id": "AQ-PRODOPS-9",
+    "title": "Approve the tester sign-off email (APK 46)",
+    "detail": "Product Ops drafted the email asking testers to confirm APK 46 looks good. Updated Nov 13 3:25 PM CT: Play internal list is 24; the live plus_comp_emails free-for-life list has 22 ([email omitted] added today). Your rule: AAB 47 + Data safety go to Play only after tester sign-off. Draft only; nothing sent.",
+    "section": "approval",
+    "owner": "ceo",
+    "urgent": false,
+    "impactRank": 2,
+    "status": "killed",
+    "firstSeen": "2026-11-13",
+    "killedReason": "Superseded Nov 13: Rocko ruled Wrangle needs no tester sign-off before Google Play, and Wrangle went live Nov 14 (vc70). The sign-off email is no longer needed."
+   },
+   {
+    "id": "AQ-SALES-23",
+    "title": "AI Impact Grant ($2,500): yes or skip TODAY",
+    "detail": "Free to apply, low odds, closes Nov 15. Sales needs your yes by today (Fri Nov 13) to draft it; otherwise it is skipped.",
+    "section": "decision",
+    "owner": "ceo",
+    "urgent": true,
+    "impactRank": 4,
+    "status": "open",
+    "firstSeen": "2026-11-13"
+   },
+   {
+    "id": "AQ-GROWTH-5",
+    "title": "Pick the campus wave 1 send date",
+    "detail": "Growth recommends Jan 11-13 for the campus email wave (Michigan Jan 13) because of Thanksgiving and finals. Option B: Michigan, Penn State and UT Austin on Nov 30 or Dec 1 only if the Play listing is public and contact@ mail is fixed; Florida held to Jan 11. The listing is still not public, and contact@ mail needs an SPF DNS change (include:spf.privateemail.com) that needs your go. Updated Nov 13 3:25 PM CT: Growth's January recommendation is for the campus email wave only, not the Play launch. Product Ops says a late-November Production launch is realistic now that web replies are live. Growth agrees that fits their plan and would give testers a few weeks of real plans before campus outreach. Timing is undecided; Rocko's call. Android-only limits campus organizers: the organizer needs Android, though invited friends on iPhone can reply from the web page.",
+    "section": "decision",
+    "owner": "ceo",
+    "urgent": false,
+    "impactRank": 5,
+    "status": "open",
+    "firstSeen": "2026-11-13"
+   },
+   {
+    "id": "AQ-PRODOPS-8",
+    "title": "Free Scout cap",
+    "detail": "Closed by the Nov 12 AI function deploy (v13): Free 5 AI calls a day, Plus 40, $10 daily budget resetting 6 PM CT. Product Ops suggests a test-account check of the 6th-call cutoff and the reset. Updated Nov 13 3:25 PM CT: Product Ops estimates break-even needs ~37% paying, and the $10/day AI cap runs out around 190 DAU.",
+    "section": "decision",
+    "owner": "agent",
+    "agentName": "Product Ops",
+    "urgent": false,
+    "impactRank": 40,
+    "status": "done",
+    "firstSeen": "2026-11-11"
+   },
+   {
+    "id": "AQ-COS-25",
+    "title": "Activity tab replaced by Needs you",
+    "detail": "Updated Nov 13 3:27 PM CT: Rocko confirmed the old empty Activity tab is already replaced by the Needs you page. It is built and done, not a to-do. Removed from every pre-launch and open-work list so nobody treats it as open work.",
+    "section": "next",
+    "owner": "agent",
+    "agentName": "Chief of Staff",
+    "urgent": false,
+    "impactRank": 41,
+    "status": "done",
+    "firstSeen": "2026-11-13"
+   },
+   {
+    "id": "AQ-COS-26",
+    "title": "Next update after vc70: submit to Play on your go",
+    "detail": "Next-update APK (versionCode 72) finished Nov 14 2:24 AM CT with the gift popup fix, 18+ banner swap and overlapping crew heads. Play submission is held for your go. The listing icon/screenshots/description batch was submitted ~2:34 AM CT as one review.",
+    "section": "decision",
+    "owner": "ceo",
+    "urgent": false,
+    "impactRank": 2,
+    "status": "open",
+    "firstSeen": "2026-11-14"
+   }
+  ],
+  "kpis": [
+   {
+    "label": "Wrangle invite & reply count, weekend Nov 7–8 + last night + this week + last 7 days (updated 3:33 PM CT)",
+    "value": "Last night: 5 plans, 15 invites, 0 replies. This week: 16 plans, 41 invites, 9 (9 In / 0 Maybe / 0 Can't), 22% reply rate. Weekend Nov 7–8: 0 plans, 0 invites, 0 replies.",
+    "note": "Live read-only count at 3:33 PM CT on Nov 13, 2026 (America/Chicago). No names or emails. Last night (Thu Nov 12 6:00 PM–Fri Nov 13 6:00 AM CT): 5 plans (5 from testers), 15 invites (15 from tester plans), 0 (0 In / 0 Maybe / 0 Can't), 0 likely web replies (est.), 1 invitee made a plan, reply rate 0%. This week (Mon Nov 9 12:00 AM CT–now): 16 plans (8 from testers), 41 invites (24 from tester plans), 9 (9 In / 0 Maybe / 0 Can't), 6 likely web replies (est.), 1 invitee made a plan, reply rate 22%. Weekend Nov 7–8: 0 plans, 0 invites, 0 replies. Last 7 days (rolling 7×24h): 16 plans, 41 invites, 9 (9 In / 0 Maybe / 0 Can't), 6 likely web replies (est.), 1 invitee made a plan, reply rate 22%. All-time: same as this week and last 7 days, because the first plan in the database is Wed Nov 11, 11:20 AM CT. Reply rate = share of invites sent in that window that are answered as of the query. Likely web replies are an estimate (answered invite with no Wrangle account); the database does not store web vs app. Invitees with no account cannot be linked to a later plan. Testers: 22 emails on plus_comp_emails, 4 with accounts. App analytics are off (track() is a no-op in release)."
+   },
+   {
+    "label": "Wrangle testers on Play internal list",
+    "value": "24",
+    "note": "Updated Nov 13 3:25 PM CT. Play Console internal list is 24. Live plus_comp_emails free-for-life list has 22 ([email omitted] added today). At confirmation time only Marky was known to have no account. A live read at about 3:24 PM CT found 4 accounts with Plus and 18 emails with no account, including Marky. Wrangle is now live in Production; this is the older internal-test list."
+   },
+   {
+    "label": "Free-for-life Plus emails (plus_comp_emails)",
+    "value": "22",
+    "note": "Updated Nov 13 3:25 PM CT. Live Supabase list. [email omitted] added today."
+   },
+   {
+    "label": "Grants and credits won",
+    "value": "1",
+    "note": "Wiro $200 redeemed Nov 6"
+   },
+   {
+    "label": "@RockoDevLLC X followers",
+    "value": "17",
+    "note": "Last public profile read Nov 6 ~7:49 AM CT (was 14); not re-read today"
+   }
+  ],
+  "funding": [
+   {
+    "program": "Business Freedom Grant",
+    "amount": "$1,000",
+    "status": "Submitted",
+    "submitted": "2026-10-29",
+    "nextDate": "2026-11-15",
+    "note": "Submitted via web form (no email receipt). Review Nov 15; no reply yet"
+   },
+   {
+    "program": "Wiro credits",
+    "amount": "$200 credits",
+    "status": "Redeemed",
+    "submitted": "2026-10-29",
+    "nextDate": "2027-11-06",
+    "note": "Coupon redeemed Nov 6; credit in wallet, use before Nov 6 2027"
+   },
+   {
+    "program": "Verizon Digital Ready / LISC",
+    "amount": "$10,000",
+    "status": "Submitted",
+    "submitted": "2026-10-30",
+    "nextDate": "2026-12-31",
+    "note": "In the pool through Dec 31; finalists emailed monthly"
+   },
+   {
+    "program": "HelpBnk",
+    "amount": "$5,000",
+    "status": "Drafting",
+    "submitted": "",
+    "nextDate": "2026-11-20",
+    "note": "Pitch due Nov 20 to 25; script needs the $5,000 use filled in"
+   },
+   {
+    "program": "AI Impact Grant",
+    "amount": "$2,500",
+    "status": "Needs your yes",
+    "submitted": "",
+    "nextDate": "2026-11-15",
+    "note": "Free, low odds; yes needed by Nov 13 to draft, else skip"
+   },
+   {
+    "program": "YC W27 / Techstars",
+    "amount": "",
+    "status": "Dropped",
+    "submitted": "",
+    "nextDate": "",
+    "note": "Dropped Oct 29 for equity reasons"
+   }
+  ],
+  "setupTracker": [
+   {
+    "item": "D-U-N-S number",
+    "status": "Done",
+    "note": "Issued"
+   },
+   {
+    "item": "LISC Gmail filter",
+    "status": "Done",
+    "note": ""
+   },
+   {
+    "item": "Google Search Console",
+    "status": "Done",
+    "note": "Site verified"
+   },
+   {
+    "item": "Play organization account",
+    "status": "Done",
+    "note": "Converted to Organization Nov 3; payments profile linked"
+   },
+   {
+    "item": "Team desk page",
+    "status": "Done",
+    "note": "Live at rockodevelopment.github.io/team-desk"
+   },
+   {
+    "item": "Play trader status",
+    "status": "Done",
+    "note": "Declared trader Nov 4"
+   },
+   {
+    "item": "Supabase free project wrangle",
+    "status": "Done",
+    "note": "Migrations 0001-0010 and 6 Edge Functions active"
+   },
+   {
+    "item": "Bird free SMS workspace",
+    "status": "Done",
+    "note": "Org Rocko Development LLC / workspace Wrangle"
+   },
+   {
+    "item": "Wiro $200 credits",
+    "status": "Done",
+    "note": "Redeemed Nov 6"
+   },
+   {
+    "item": "RevenueCat (Wrangle+)",
+    "status": "Done",
+    "note": "Project live; Play SA JSON still needed for receipts"
+   },
+   {
+    "item": "Render Free Postgres + Free web",
+    "status": "Parked",
+    "note": "Workspace Rocko Development LLC ready with no services; the $1 identity check was accepted Nov 6-8. Nothing deployed yet"
+   },
+   {
+    "item": "SAM.gov entity structure",
+    "status": "Blocked",
+    "note": "Waiting on CPA answer"
+   },
+   {
+    "item": "Production 1.0.0 store-ready",
+    "status": "Done",
+    "note": "vc70 live on Google Play since ~12:31 AM CT Nov 14"
+   },
+   {
+    "item": "Twilio business profile",
+    "status": "Done",
+    "note": "Approved Nov 8-9; email-code sign-in work in progress"
+   }
+  ],
+  "inbox": [
+   {
+    "from": "THE ORACLE",
+    "timeCT": "",
+    "line": "No email from THE ORACLE since the last brief (inbox and spam checked)."
+   },
+   {
+    "from": "Grant / credits programs",
+    "timeCT": "",
+    "line": "No replies or decisions. Verizon Digital Ready sent only an events promo (Nov 12 10:11 AM CT)."
+   },
+   {
+    "from": "Nikki",
+    "timeCT": "Nov 12, 11:03 PM",
+    "line": "Email with only an address ([email omitted]), no note."
+   },
+   {
+    "from": "Mail Delivery Subsystem",
+    "timeCT": "Nov 13, 6:42 and 6:57 AM",
+    "line": "Mail to [email omitted] bounced: recipient inbox full."
+   },
+   {
+    "from": "Firebase",
+    "timeCT": "Nov 12, 1:22 AM",
+    "line": "Project Wrangle moved to the Blaze pay-as-you-go plan when billing was linked (matches your Google Places billing OK with a $10/month alert)."
+   },
+   {
+    "from": "Render",
+    "timeCT": "Nov 12, 9:06 PM",
+    "line": "Unpaid-balance reminder for the old banned Render account; ignored per your Nov 6 order."
+   }
+  ],
+  "doneSinceLast": [
+   "Nov 14: Wrangle vc70 passed Google review and is live on Play (~12:31 AM CT); IARC rating notice received; no rejections or warnings.",
+   "Nov 14 ~2:34 AM CT: Play listing batch submitted (new icon, 4 screenshots, description edit); next-update APK vc72 built 2:24 AM CT, Play submission held.",
+   "Updated Nov 13 3:25 PM CT: no-app web replies confirmed live; invite replies have come through to the app; the mid-Dec 'not built' line is retracted.",
+   "Updated Nov 13 3:27 PM CT: Needs you has already replaced the Activity tab; marked done and removed from open pre-launch lists.",
+   "Build 34 removed from Play review ~9:14 PM CT Nov 12 on your order; nothing submitted.",
+   "Free Scout cap closed: AI v13 deploy set Free 5 calls/day, Plus 40, $10 daily budget (AQ-PRODOPS-8).",
+   "Scout rules locked: it never picks a day or time (bar crawls excepted); cards show place name plus miles.",
+   "All 20 campus event cards locked into the app source.",
+   "Location modes, set-time and in-app live-feed designs progressed in source and mockups; no Play upload.",
+   "Weekly Google Places usage check assigned to Product Ops.",
+   "PayPal hackathon skipped (closed Nov 12)."
+  ],
+  "recommendation": "Give a go or hold on submitting the post-vc70 update to Play, upload your photo ID for Google Payments, and give Sales a yes or skip on the AI Impact Grant (closes Nov 15).",
+  "coCeoCopySent": true,
+  "company": {
+   "products": [
+    {
+     "name": "The Oracle Scout",
+     "stage": "AI analysis engine powered by Grok bots",
+     "status": "Live"
+    },
+    {
+     "name": "Wrangle",
+     "stage": "Production 1.0.0 (vc70) live on Google Play since Nov 14; next update (vc72) awaiting Rocko's go",
+     "status": "Live"
+    },
+    {
+     "name": "Beethoven's Alley Katz",
+     "stage": "Backend and Android app built; next: live backend",
+     "status": "In development"
+    },
+    {
+     "name": "Echo",
+     "stage": "V1.5 built; next: V2 cloud vault and sync",
+     "status": "In development"
+    },
+    {
+     "name": "Permit Pilot",
+     "stage": "V1 built; next: V2 accounts and cloud sync",
+     "status": "In development"
     }
-  },
-  "reports": {
-    "Chief of Staff": {
-      "date": "2026-11-13",
-      "time": "3:28 PM CT",
-      "text": "Updated Nov 13 3:25 PM CT and 3:27 PM CT with Rocko's confirmed facts, so nobody works from stale notes.\n\n1. No-app web replies are built and live at rockodevelopment.com/wrangle/<token>. The page has I'm in / Maybe / Can't buttons, needs no account, and writes to Supabase via respond_by_token. Bad links show our own \"This link isn't working\" page. Rocko confirmed invite replies have officially come through to the app. The old \"web replies not built / target mid-Dec to Jan\" line is retracted.\n\n2. Testers: Play internal list is 24. The live plus_comp_emails free-for-life list has 22 ([email omitted] added today). At 3:25 PM CT only Marky was known to have no account. A live read of plus_comp_emails at about 3:24 PM CT found 4 emails with a Wrangle account and Plus, and 18 with no account, including Marky.\n\n3. Launch timing is undecided and is Rocko's call. Growth's January recommendation is for the campus email wave only (Thanksgiving and finals), not the Play launch. Product Ops says a late-November Production launch is realistic now that web replies are live; Growth agrees that fits their plan.\n\n4. Android-only limits campus organizers. Invitees on iPhone can reply from the web page.\n\n5. Product Ops estimates break-even needs about 37% paying, and the $10/day AI cap runs out around 190 daily active users.\n\n6. Updated Nov 13 3:27 PM CT: the old empty Activity tab is already replaced by the Needs you page. It is built and done, not a to-do. It is off every pre-launch and open-work list (AQ-COS-25 marked done)."
-    },
-    "Sales, Clients & Funding": {
-      "date": "2026-11-12",
-      "time": "8:49 PM CT",
-      "text": "Nothing new, nothing filed or sent. Time-sensitive: AI Impact Grant ($2,500, free, low odds) closes Nov 15 and needs your yes by today to draft, else skip. Watching the Business Freedom review on Nov 15. Midnight roundup: nothing new."
-    },
-    "Content & Social": {
-      "date": "2026-11-12",
-      "time": "12:05 AM CT",
-      "text": "Nothing new at the 9 PM check-in or the midnight roundup. Reply drafts AQ-CONTENT-41 to 50 from Nov 11 still await you."
-    },
-    "Growth & Community": {
-      "date": "2026-11-12",
-      "time": "8:50 PM CT",
-      "text": "Campus wave 1 can't go as-is: the Play listing is still not public (no install link) and contact@ mail likely lands in spam until SPF includes privateemail. Recommends Jan 11-13 (Michigan Jan 13), or Nov 30/Dec 1 for three campuses only if those gates are fixed. Still open: waitlist, end-to-end invite test, your why, first personal notes, @RockoDevLLC photo."
-    },
-    "Market Intel": {
-      "date": "2026-11-12",
-      "time": "8:49 PM CT",
-      "text": "Nothing new; no tickets or blockers. AQ-INTEL-5 to 8 unchanged. Next weekly report Mon Nov 16 ~8 AM CT."
-    },
-    "Product Ops": {
-      "date": "2026-11-12",
-      "time": "8:49 PM CT",
-      "text": "AQ-PRODOPS-8 closed by the AI v13 deploy. Modeled (not real) economics: Free user max ~$0.053/day; ~37% must pay to break even after the 15% fee; a maxed Plus user loses ~$8.43/mo. Suggests a test-account check of the 6th-call cutoff and 6 PM reset. Tester sign-off email draft (AQ-PRODOPS-9) awaits your OK. Blocker: Supabase connector needs your sign-in. Still waiting on AQ-PRODOPS-3 to 6, Echo free tier, partnership top 3, campus install path, PR 2 contacts picker privacy A vs B."
-    }
+   ]
   }
+ },
+ "reports": {
+  "Chief of Staff": {
+   "date": "2026-11-14",
+   "time": "7:10 AM CT",
+   "text": "Wrangle is LIVE on Google Play: vc70 (1.0.0) passed review about 12:31 AM CT Nov 14 and the listing loads. Hourly checks through 6:57 AM CT found no rejections, policy warnings or reviewer feedback.\n\n1. Listing batch (new icon, 4 screenshots, description edit) was submitted ~2:34 AM CT as one review.\n2. Next-update APK (vc72) with the gift popup fix, 18+ age-gate banner and overlapping crew heads finished 2:24 AM CT; Play submission waits for Rocko's go.\n3. Tester sign-off is no longer required; the sign-off email item is closed.\n4. Teammate reports below are unchanged since their last entries; no new reports were collected this morning."
+  },
+  "Sales, Clients & Funding": {
+   "date": "2026-11-12",
+   "time": "8:49 PM CT",
+   "text": "Nothing new, nothing filed or sent. Time-sensitive: AI Impact Grant ($2,500, free, low odds) closes Nov 15 and needs your yes by today to draft, else skip. Watching the Business Freedom review on Nov 15. Midnight roundup: nothing new."
+  },
+  "Content & Social": {
+   "date": "2026-11-12",
+   "time": "12:05 AM CT",
+   "text": "Nothing new at the 9 PM check-in or the midnight roundup. Reply drafts AQ-CONTENT-41 to 50 from Nov 11 still await you."
+  },
+  "Growth & Community": {
+   "date": "2026-11-12",
+   "time": "8:50 PM CT",
+   "text": "Campus wave 1 can't go as-is: the Play listing is still not public (no install link) and contact@ mail likely lands in spam until SPF includes privateemail. Recommends Jan 11-13 (Michigan Jan 13), or Nov 30/Dec 1 for three campuses only if those gates are fixed. Still open: waitlist, end-to-end invite test, your why, first personal notes, @RockoDevLLC photo."
+  },
+  "Market Intel": {
+   "date": "2026-11-12",
+   "time": "8:49 PM CT",
+   "text": "Nothing new; no tickets or blockers. AQ-INTEL-5 to 8 unchanged. Next weekly report Mon Nov 16 ~8 AM CT."
+  },
+  "Product Ops": {
+   "date": "2026-11-12",
+   "time": "8:49 PM CT",
+   "text": "AQ-PRODOPS-8 closed by the AI v13 deploy. Modeled (not real) economics: Free user max ~$0.053/day; ~37% must pay to break even after the 15% fee; a maxed Plus user loses ~$8.43/mo. Suggests a test-account check of the 6th-call cutoff and 6 PM reset. Tester sign-off email draft (AQ-PRODOPS-9) awaits your OK. Blocker: Supabase connector needs your sign-in. Still waiting on AQ-PRODOPS-3 to 6, Echo free tier, partnership top 3, campus install path, PR 2 contacts picker privacy A vs B."
+  }
+ }
 }
