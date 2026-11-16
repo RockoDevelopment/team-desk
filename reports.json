@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-15T07:05:00-06:00",
+  "updatedAt": "2026-11-16T07:00:15-06:00",
   "brief": {
-    "date": "2026-11-15",
-    "weekday": "Sunday",
-    "generatedAt": "2026-11-15T07:05:00-06:00",
+    "date": "2026-11-16",
+    "weekday": "Monday",
+    "generatedAt": "2026-11-16T07:00:15-06:00",
     "preparedBy": "Chief of Staff",
-    "summary": "Wrangle build vc99 (AAB, 1.0.0) was published on Google Play about 7:57 PM CT Nov 14, bundled with the listing update (enlarged icon, 4 new screenshots, new description); the public listing was verified. Play changes sent for review later that evening: 'Wrangle is for adults 18+.' in the description plus Restrict Minor Access (18+ only). The launch X post and TikTok photo post went live by 12:01 AM CT Nov 15; the TikTok bio link failed to save and the caption is being changed to 'Search Wrangle on Google Play'. Instagram is on hold until Rocko picks the account. Demo videos are on hold at Rocko's request. Still open for Rocko: Google Payments photo ID, CPA answer on SAM.gov, AI Impact Grant (closes today, Nov 15: yes or skip), campus wave 1 send date. Teammate reports below are unchanged since their last entries except where noted; no new reports were collected this morning.",
-    "topBlocker": "Wrangle is live on Play (vc99). Open for Rocko: Google Payments photo ID (AQ-COS-10), CPA answer on SAM.gov (AQ-COS-2), Instagram account pick, and AI Impact Grant yes or skip (closes today).",
+    "summary": "Wrangle Production release 117 (1.0.0) passed Google Play review and went live at 3:24 AM CT Nov 16 at 100% rollout, Policy status 'No issues found'. It carries the Nov 15-16 changes (Ask someone out button, date-ask cards, home-address privacy, and the four Nov 16 fixes). Rocko was told at 5:44 AM CT. Decisions recorded Nov 15-16: the 420 card is not promoted in marketing, and off Play Wrangle is described as 'Wrangle group hangout planner'. Still open for Rocko: Google Payments photo ID, CPA answer on SAM.gov, campus wave 1 send date, Instagram account pick. The AI Impact Grant deadline (Nov 15) has passed with no decision recorded. Teammate reports below are unchanged since their last entries; none were collected this morning.",
+    "topBlocker": "Wrangle release 117 is live on Play. Open for Rocko: Google Payments photo ID (AQ-COS-10), CPA answer on SAM.gov (AQ-COS-2), campus wave 1 send date, Instagram account pick.",
     "items": [
       {
         "id": "AQ-COS-17",
@@ -92,8 +92,8 @@
       },
       {
         "id": "AQ-COS-20",
-        "title": "Wrangle production: LIVE on Google Play (vc99)",
-        "detail": "vc70 went live Nov 14 ~12:31 AM CT; vc99 (AAB, 1.0.0) was published ~7:57 PM CT Nov 14 with the listing update. Public listing verified.",
+        "title": "Wrangle production: LIVE on Google Play (release 117)",
+        "detail": "Release 117 (1.0.0) went live 3:24 AM CT Nov 16 at 100% rollout, Policy status 'No issues found'. It replaced vc99 (live Nov 14).",
         "section": "next",
         "owner": "agent",
         "agentName": "Chief of Staff",
@@ -310,8 +310,9 @@
         "owner": "ceo",
         "urgent": true,
         "impactRank": 4,
-        "status": "open",
-        "firstSeen": "2026-11-13"
+        "status": "killed",
+        "firstSeen": "2026-11-13",
+        "killedReason": "Deadline passed Nov 15; no decision was recorded."
       },
       {
         "id": "AQ-GROWTH-5",
@@ -586,9 +587,9 @@
   },
   "reports": {
     "Chief of Staff": {
-      "date": "2026-11-15",
-      "time": "7:05 AM CT",
-      "text": "Wrangle vc99 (1.0.0) has been live on Google Play since ~7:57 PM CT Nov 14 with the new icon, screenshots and description; listing verified.\n\n1. 18+ description line and Restrict Minor Access were sent for review ~8:10 PM CT Nov 14.\n2. Launch X post and TikTok photo post are live; TikTok caption change to 'Search Wrangle on Google Play' is with Content & Social. Instagram and demo videos are on hold.\n3. Open for Rocko: Google Payments photo ID, SAM.gov CPA answer, AI Impact Grant (closes today), Instagram account pick.\n4. Other teammate reports below are unchanged since their last entries; nothing new collected this morning."
+      "date": "2026-11-16",
+      "time": "7:00 AM CT",
+      "text": "Wrangle release 117 (1.0.0) passed Google Play review and went live at 3:24 AM CT Nov 16 at 100% rollout, Policy status 'No issues found'. Rocko was told at 5:44 AM CT.\n\n1. Open for Rocko: Google Payments photo ID, SAM.gov CPA answer, campus wave 1 send date, Instagram account pick.\n2. The AI Impact Grant deadline passed Nov 15 with no decision recorded.\n3. Other teammate reports below are unchanged since their last entries; nothing new collected this morning."
     },
     "Sales, Clients & Funding": {
       "date": "2026-11-12",
