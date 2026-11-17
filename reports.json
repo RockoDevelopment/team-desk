@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-16T07:00:15-06:00",
+  "updatedAt": "2026-11-17T07:31:39-06:00",
   "brief": {
-    "date": "2026-11-16",
-    "weekday": "Monday",
-    "generatedAt": "2026-11-16T07:00:15-06:00",
+    "date": "2026-11-17",
+    "weekday": "Tuesday",
+    "generatedAt": "2026-11-17T07:31:24-06:00",
     "preparedBy": "Chief of Staff",
-    "summary": "Wrangle Production release 117 (1.0.0) passed Google Play review and went live at 3:24 AM CT Nov 16 at 100% rollout, Policy status 'No issues found'. It carries the Nov 15-16 changes (Ask someone out button, date-ask cards, home-address privacy, and the four Nov 16 fixes). Rocko was told at 5:44 AM CT. Decisions recorded Nov 15-16: the 420 card is not promoted in marketing, and off Play Wrangle is described as 'Wrangle group hangout planner'. Still open for Rocko: Google Payments photo ID, CPA answer on SAM.gov, campus wave 1 send date, Instagram account pick. The AI Impact Grant deadline (Nov 15) has passed with no decision recorded. Teammate reports below are unchanged since their last entries; none were collected this morning.",
-    "topBlocker": "Wrangle release 117 is live on Play. Open for Rocko: Google Payments photo ID (AQ-COS-10), CPA answer on SAM.gov (AQ-COS-2), campus wave 1 send date, Instagram account pick.",
+    "summary": "Wrangle release 117 has been live on Google Play since 3:24 AM CT Nov 16. Doorline (Demo) 0.2.1 passed Play review at 7:51 PM CT and is on Closed testing Alpha; Raj's email with the Doorline overview PDF went out at 8:01 PM CT. The Wrangle overview PDF (same layout as Doorline's) is ready. New URGENT money item: Expo says the EAS Starter plan is at 200% of its build credit and overage is being billed until Dec 5. Sales has the Doorline proposal, SOW and contract checklist drafted for your OK. Wrangle database at 7:56 PM CT Nov 16: 20 accounts, 23 plans, 46 invites, 12 replies. The install bump has no outside cause found. Last night's bot check-in and midnight roundup did not run, so teammate reports come from their files.",
+    "topBlocker": "Expo EAS build overage is being billed now (AQ-COS-27). Still open: Google Payments photo ID (AQ-COS-10) and the CPA answer on SAM.gov (AQ-COS-2).",
     "items": [
       {
         "id": "AQ-COS-17",
@@ -88,7 +88,7 @@
         "impactRank": 6,
         "status": "in_progress",
         "firstSeen": "2026-11-08",
-        "detail": "Twilio's business profile was approved Nov 8-9. Rocko wants email one-time codes for first sign-in while still collecting a phone number. Dev update for email-code sign-in was pushed to the Wrangle repo Nov 9; no successful end-to-end test reported yet."
+        "detail": "Twilio's business profile was approved Nov 8-9. Rocko wants email one-time codes for first sign-in while still collecting a phone number. Dev update for email-code sign-in was pushed to the Wrangle repo Nov 9; no successful end-to-end test reported yet. Update Nov 17: Wrangle email codes are going out to users from the company Gmail."
       },
       {
         "id": "AQ-COS-20",
@@ -359,33 +359,83 @@
         "impactRank": 2,
         "status": "done",
         "firstSeen": "2026-11-14"
+      },
+      {
+        "id": "AQ-COS-27",
+        "title": "Expo EAS build overage is being billed: cap it or allow it",
+        "detail": "Expo emailed Nov 15 11:38 PM CT: account rockodevelopmentllc used 200% of the Starter plan build credit, and extra builds are billed at overage rates until the credit resets Dec 5. We build Wrangle and Doorline on the box, so I recommend no more EAS cloud builds until Dec 5. Check the bill at expo.dev billing. Money.",
+        "section": "decision",
+        "owner": "ceo",
+        "urgent": true,
+        "impactRank": 2,
+        "status": "open",
+        "link": "https://expo.dev/accounts/rockodevelopmentllc/settings/billing",
+        "firstSeen": "2026-11-17"
+      },
+      {
+        "id": "AQ-SALES-24",
+        "title": "Doorline proposal, SOW and contract checklist: your OK before anything goes to Raj",
+        "detail": "Sales drafted the follow-up package (/workspace/sales/doorline-proposal-2026-11-16/: proposal, SOW outline, contract terms checklist) on your locked single-tenant setup: the union owns and pays for the server, and you're admin. Price, contract and legal terms need your OK, and a lawyer should review before signing. Nothing has been sent.",
+        "section": "decision",
+        "owner": "ceo",
+        "agentName": "Sales, Clients & Funding",
+        "urgent": true,
+        "impactRank": 4,
+        "status": "open",
+        "link": "",
+        "firstSeen": "2026-11-17"
+      },
+      {
+        "id": "AQ-PRODOPS-10",
+        "title": "Wrangle Play screenshot set: say go to render",
+        "detail": "Product Ops spec (/workspace/product-ops/play-screens-spec-20261116/spec.md) and Content & Social headlines are ready. They use the Ecanvasser-style layout with the bare ring-and-check Wrangle logo on dark purple. Marked do-not-render until you say go.",
+        "section": "decision",
+        "owner": "ceo",
+        "agentName": "Product Ops",
+        "urgent": false,
+        "impactRank": 12,
+        "status": "open",
+        "link": "",
+        "firstSeen": "2026-11-17"
+      },
+      {
+        "id": "AQ-COS-28",
+        "title": "Instagram: confirm @usewrangle for the Wrangle carousel",
+        "detail": "Content & Social still lists the Instagram account as an open pick (@rockodevelopment or @usewrangle). You chose @usewrangle for Wrangle on Nov 13, and it's already signed in. Unless you say otherwise, I'll tell them to post the carousel there.",
+        "section": "decision",
+        "owner": "ceo",
+        "urgent": false,
+        "impactRank": 9,
+        "status": "open",
+        "link": "",
+        "firstSeen": "2026-11-17"
       }
     ],
     "kpis": [
       {
-        "label": "Wrangle invite & reply count, weekend Nov 7–8 + last night + this week + last 7 days (updated 3:33 PM CT)",
-        "value": "Last night: 5 plans, 15 invites, 0 replies. This week: 16 plans, 41 invites, 9 (9 In / 0 Maybe / 0 Can't), 22% reply rate. Weekend Nov 7–8: 0 plans, 0 invites, 0 replies.",
-        "note": "Live read-only count at 3:33 PM CT on Nov 13, 2026 (America/Chicago). No names or emails. Last night (Thu Nov 12 6:00 PM–Fri Nov 13 6:00 AM CT): 5 plans (5 from testers), 15 invites (15 from tester plans), 0 (0 In / 0 Maybe / 0 Can't), 0 likely web replies (est.), 1 invitee made a plan, reply rate 0%. This week (Mon Nov 9 12:00 AM CT–now): 16 plans (8 from testers), 41 invites (24 from tester plans), 9 (9 In / 0 Maybe / 0 Can't), 6 likely web replies (est.), 1 invitee made a plan, reply rate 22%. Weekend Nov 7–8: 0 plans, 0 invites, 0 replies. Last 7 days (rolling 7×24h): 16 plans, 41 invites, 9 (9 In / 0 Maybe / 0 Can't), 6 likely web replies (est.), 1 invitee made a plan, reply rate 22%. All-time: same as this week and last 7 days, because the first plan in the database is Wed Nov 11, 11:20 AM CT. Reply rate = share of invites sent in that window that are answered as of the query. Likely web replies are an estimate (answered invite with no Wrangle account); the database does not store web vs app. Invitees with no account cannot be linked to a later plan. Testers: 22 emails on plus_comp_emails, 4 with accounts. App analytics are off (track() is a no-op in release)."
+        "label": "Wrangle database, all-time (read 7:56 PM CT Nov 16)",
+        "value": "20 accounts, 23 plans, 46 invites, 12 replies, 12 Crews",
+        "note": "Read-only Supabase count. Nov 16 alone: 1 new account, 4 plans, 4 invites, 2 replies. Nov 14: 2 new accounts, 4 plans, 7 invites, 4 replies. No outside cause found for the Play installed-audience bump (about 1 on Nov 10 to about 10 on Nov 14)."
       },
       {
-        "label": "Wrangle testers on Play internal list",
-        "value": "24",
-        "note": "Updated Nov 13 3:25 PM CT. Play Console internal list is 24. Live plus_comp_emails free-for-life list has 22 ([email omitted] added today). At confirmation time only Marky was known to have no account. A live read at about 3:24 PM CT found 4 accounts with Plus and 18 emails with no account, including Marky. Wrangle is now live in Production; this is the older internal-test list."
+        "label": "Wrangle Play search 'hangout planner'",
+        "value": "#4",
+        "note": "SEO Bot single fetch, 9:47 AM CT Nov 16; not found for group planner, make plans with friends, AI event planner, or RSVP app. Not an official rank."
+      },
+      {
+        "label": "@RockoDevLLC X followers",
+        "value": "26",
+        "note": "Public read 7:56 PM CT Nov 16 (was 17 on Nov 6). Nov 16 6:37 AM post: 11 impressions, no spike."
       },
       {
         "label": "Free-for-life Plus emails (plus_comp_emails)",
         "value": "22",
-        "note": "Updated Nov 13 3:25 PM CT. Live Supabase list. [email omitted] added today."
+        "note": "Last read Nov 13 3:25 PM CT."
       },
       {
         "label": "Grants and credits won",
         "value": "1",
         "note": "Wiro $200 redeemed Nov 6"
-      },
-      {
-        "label": "@RockoDevLLC X followers",
-        "value": "17",
-        "note": "Last public profile read Nov 6 ~7:49 AM CT (was 14); not re-read today"
       }
     ],
     "funding": [
@@ -395,7 +445,7 @@
         "status": "Submitted",
         "submitted": "2026-10-29",
         "nextDate": "2026-11-15",
-        "note": "Submitted via web form (no email receipt). Review Nov 15; no reply yet"
+        "note": "Submitted via web form. Review date Nov 15 passed; no reply in Gmail as of Nov 17 7:30 AM CT"
       },
       {
         "program": "Wiro credits",
@@ -419,15 +469,15 @@
         "status": "Drafting",
         "submitted": "",
         "nextDate": "2026-11-20",
-        "note": "Pitch due Nov 20 to 25; script needs the $5,000 use filled in"
+        "note": "Opens Wed Nov 19 6 PM CT; needs your video (do it or skip) and the $5,000 use filled in"
       },
       {
         "program": "AI Impact Grant",
         "amount": "$2,500",
-        "status": "Needs your yes",
+        "status": "Skipped",
         "submitted": "",
         "nextDate": "2026-11-15",
-        "note": "Free, low odds; yes needed by Nov 13 to draft, else skip"
+        "note": "Deadline Nov 15 passed; Sales skipped it (no video)"
       },
       {
         "program": "YC W27 / Techstars",
@@ -508,6 +558,11 @@
         "item": "Twilio business profile",
         "status": "Done",
         "note": "Approved Nov 8-9; email-code sign-in work in progress"
+      },
+      {
+        "item": "Doorline (Demo) Play closed testing",
+        "status": "Done",
+        "note": "0.2.1 live on Closed testing Alpha since 7:51 PM CT Nov 16"
       }
     ],
     "inbox": [
@@ -519,42 +574,35 @@
       {
         "from": "Grant / credits programs",
         "timeCT": "",
-        "line": "No replies or decisions. Verizon Digital Ready sent only an events promo (Nov 12 10:11 AM CT)."
+        "line": "No replies or decisions (Business Freedom, HelpBnk, NSF, Verizon/LISC, Wiro checked)."
       },
       {
-        "from": "Nikki",
-        "timeCT": "Nov 12, 11:03 PM",
-        "line": "Email with only an address ([email omitted]), no note."
-      },
-      {
-        "from": "Mail Delivery Subsystem",
-        "timeCT": "Nov 13, 6:42 and 6:57 AM",
-        "line": "Mail to [email omitted] bounced: recipient inbox full."
-      },
-      {
-        "from": "Firebase",
-        "timeCT": "Nov 12, 1:22 AM",
-        "line": "Project Wrangle moved to the Blaze pay-as-you-go plan when billing was linked (matches your Google Places billing OK with a $10/month alert)."
+        "from": "Expo",
+        "timeCT": "Nov 15, 11:38 PM",
+        "line": "EAS build credit at 200% of the Starter plan; overage being billed until Dec 5 reset. URGENT money (AQ-COS-27)."
       },
       {
         "from": "Render",
-        "timeCT": "Nov 12, 9:06 PM",
-        "line": "Unpaid-balance reminder for the old banned Render account; ignored per your Nov 6 order."
+        "timeCT": "Nov 17, 12:42 AM",
+        "line": "Unpaid-balance reminder for the old Render account; ignored per your Nov 6 order."
+      },
+      {
+        "from": "Wrangle sign-in codes",
+        "timeCT": "Nov 16-17",
+        "line": "Email codes went out to new and returning users, including one new sign-up Nov 16 and one Nov 17."
       }
     ],
     "doneSinceLast": [
-      "Nov 14 ~7:57 PM CT: Wrangle vc99 (1.0.0) published on Google Play with the new icon, 4 screenshots and description; public listing verified.",
-      "Nov 14 ~8:10 PM CT: Play changes sent for review: 'Wrangle is for adults 18+.' in the description and Restrict Minor Access (18+ only). Shares Location stays Yes per the code.",
-      "By Nov 15 12:01 AM CT: launch X post (@RockoDevLLC) and TikTok photo post are live; TikTok bio link failed to save, caption being changed to 'Search Wrangle on Google Play'.",
-      "Nov 14 11:43 PM CT: draft Wrangle demo videos put on hold by Rocko; Instagram on hold until he picks the account.",
-      "Nov 14: Wrangle vc70 passed Google review and is live on Play (~12:31 AM CT); IARC rating notice received; no rejections or warnings.",
-      "Nov 14 ~2:34 AM CT: Play listing batch submitted (new icon, 4 screenshots, description edit); next-update APK vc72 built 2:24 AM CT, Play submission held.",
-      "Updated Nov 13 3:25 PM CT: no-app web replies confirmed live; invite replies have come through to the app; the mid-Dec 'not built' line is retracted.",
-      "Updated Nov 13 3:27 PM CT: Needs you has already replaced the Activity tab; marked done and removed from open pre-launch lists.",
-      "Build 34 removed from Play review ~9:14 PM CT Nov 12 on your order; nothing submitted."
+      "Nov 16 3:24 AM CT: Wrangle release 117 (1.0.0) went live on Google Play at 100%, Policy status no issues.",
+      "Nov 16 4:24 PM CT: Doorline (Demo) 0.1.5 published on Play Closed testing Alpha; the makeover builds 0.2.0 and 0.2.1 followed (home card restyled, side insets app-wide).",
+      "Nov 16 7:51 PM CT: Doorline 0.2.1 passed review and is available to testers. 8:01 PM CT: Raj's email with Doorline-Overview.pdf sent on your order.",
+      "Nov 16 7:23 PM CT: Wrangle overview PDF made in the Doorline layout (/workspace/wrangle-overview-2026-11-16/Wrangle-Overview.pdf).",
+      "Nov 16 8:18 PM CT: Wrangle update email sent to the user list. Your rules are saved: Wrangle is live (no test wording), overview PDF on every Wrangle email, one checked send per list.",
+      "Nov 16 evening: install-bump check done; database counts and outside-mention research found no outside cause.",
+      "Nov 16: Sales Doorline deal options and proposal drafts; Market Intel Doorline pricing research; Product Ops Doorline truth sheet and Play screens spec; Content Play headlines, first engagement review and spike log."
     ],
-    "recommendation": "Decide the AI Impact Grant (closes today), pick the Instagram account, and upload your photo ID for Google Payments.",
-    "coCeoCopySent": true,
+    "recommendation": "Have no EAS cloud builds until Dec 5 (we build on the box), then upload your Google Payments photo ID. Both are quick, and they stop money and payout risk.",
+    "coCeoCopySent": false,
     "company": {
       "products": [
         {
@@ -564,8 +612,13 @@
         },
         {
           "name": "Wrangle",
-          "stage": "Production 1.0.0 (vc70) live on Google Play since Nov 14; next update (vc72) awaiting Rocko's go",
+          "stage": "Production 1.0.0 (release 117) live on Google Play since Nov 16",
           "status": "Live"
+        },
+        {
+          "name": "Doorline",
+          "stage": "Union canvassing demo 0.2.1 on Google Play closed testing; sent to Raj Nov 16",
+          "status": "Testing"
         },
         {
           "name": "Beethoven's Alley Katz",
@@ -587,34 +640,34 @@
   },
   "reports": {
     "Chief of Staff": {
-      "date": "2026-11-16",
-      "time": "7:00 AM CT",
-      "text": "Wrangle release 117 (1.0.0) passed Google Play review and went live at 3:24 AM CT Nov 16 at 100% rollout, Policy status 'No issues found'. Rocko was told at 5:44 AM CT.\n\n1. Open for Rocko: Google Payments photo ID, SAM.gov CPA answer, campus wave 1 send date, Instagram account pick.\n2. The AI Impact Grant deadline passed Nov 15 with no decision recorded.\n3. Other teammate reports below are unchanged since their last entries; nothing new collected this morning."
+      "date": "2026-11-17",
+      "time": "7:31 AM CT",
+      "text": "1. Wrangle release 117 has been live on Google Play since 3:24 AM CT Nov 16.\n2. Doorline (Demo) 0.2.1 passed review at 7:51 PM CT and is on Closed testing Alpha. Raj's email with the overview PDF went out at 8:01 PM CT on Rocko's order.\n3. The Wrangle overview PDF was made in the Doorline layout. The Wrangle update email went to the user list at 8:18 PM CT.\n4. New URGENT item: Expo is billing EAS build overage (200% of Starter credit) until Dec 5 (AQ-COS-27).\n5. Last night's bot check-in and the midnight roundup did not run. Teammate reports below come from their files."
     },
     "Sales, Clients & Funding": {
-      "date": "2026-11-12",
-      "time": "8:49 PM CT",
-      "text": "Nothing new, nothing filed or sent. Time-sensitive: AI Impact Grant ($2,500, free, low odds) closes Nov 15 and needs your yes by today to draft, else skip. Watching the Business Freedom review on Nov 15. Midnight roundup: nothing new."
+      "date": "2026-11-17",
+      "time": "7:31 AM CT",
+      "text": "1. Doorline deal options are written up. Hosting is locked per Rocko on Nov 16: each union gets its own copy on a server account it owns and pays for, with Rocko as admin.\n2. The proposal, SOW outline and contract terms checklist are drafted in /workspace/sales/doorline-proposal-2026-11-16/. They need Rocko's OK and a lawyer review. Nothing has been sent (AQ-SALES-24).\n3. Grants: Business Freedom has no reply. The AI Impact Grant was skipped. HelpBnk opens Wed Nov 19 6 PM CT and still needs Rocko's video decision."
     },
     "Content & Social": {
-      "date": "2026-11-12",
-      "time": "12:05 AM CT",
-      "text": "Nothing new at the 9 PM check-in or the midnight roundup. Reply drafts AQ-CONTENT-41 to 50 from Nov 11 still await you."
+      "date": "2026-11-17",
+      "time": "7:31 AM CT",
+      "text": "1. Wrangle Play screenshot headlines are drafted (/workspace/content/play-headlines-20261116/) and checked against the truth sheet. Nothing is rendered until Rocko says go.\n2. The first nightly engagement review and spike log are done. @RockoDevLLC has 26 followers. The Nov 16 6:37 AM post had 11 impressions, so no spike.\n3. Still open: the Instagram carousel account. Rocko picked @usewrangle on Nov 13 (AQ-COS-28)."
     },
     "Growth & Community": {
-      "date": "2026-11-12",
-      "time": "8:50 PM CT",
-      "text": "Campus wave 1 can't go as-is: the Play listing is still not public (no install link) and contact@ mail likely lands in spam until SPF includes privateemail. Recommends Jan 11-13 (Michigan Jan 13), or Nov 30/Dec 1 for three campuses only if those gates are fixed. Still open: waitlist, end-to-end invite test, your why, first personal notes, @RockoDevLLC photo."
+      "date": "2026-11-17",
+      "time": "7:31 AM CT",
+      "text": "1. Nothing new since the Nov 15 check-in, apart from helping the install-bump check: no outreach was sent around Nov 10-16.\n2. Still waiting on Rocko: the campus wave 1 send date (AQ-GROWTH-5) and the contact@ SPF/DKIM DNS change."
     },
     "Market Intel": {
-      "date": "2026-11-12",
-      "time": "8:49 PM CT",
-      "text": "Nothing new; no tickets or blockers. AQ-INTEL-5 to 8 unchanged. Next weekly report Mon Nov 16 ~8 AM CT."
+      "date": "2026-11-17",
+      "time": "7:31 AM CT",
+      "text": "1. The Nov 17 daily trend brief is out (/workspace/market-intel/daily-brief/2026-11-17.md). Top hooks: the \"plans finally made it out of the group chat\" meme, and Friendsgiving next weekend (Nov 21-22) with people saying they haven't planned it.\n2. Doorline canvassing pricing research is done (Nov 16).\n3. Install-bump research found no outside mentions, referrals or search activity behind the Nov 14 rise."
     },
     "Product Ops": {
-      "date": "2026-11-12",
-      "time": "8:49 PM CT",
-      "text": "AQ-PRODOPS-8 closed by the AI v13 deploy. Modeled (not real) economics: Free user max ~$0.053/day; ~37% must pay to break even after the 15% fee; a maxed Plus user loses ~$8.43/mo. Suggests a test-account check of the 6th-call cutoff and 6 PM reset. Tester sign-off email draft (AQ-PRODOPS-9) awaits your OK. Blocker: Supabase connector needs your sign-in. Still waiting on AQ-PRODOPS-3 to 6, Echo free tier, partnership top 3, campus install path, PR 2 contacts picker privacy A vs B."
+      "date": "2026-11-17",
+      "time": "7:31 AM CT",
+      "text": "1. The Doorline feature truth sheet is written (/workspace/product-ops/doorline-feature-truth-sheet.md). The competitor screens checklist went into the Doorline makeover.\n2. The Wrangle Play screenshot spec is ready and waits for Rocko's go to render (AQ-PRODOPS-10).\n3. The daily Play spike check runs at 9 AM CT."
     }
   }
 }
