@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-17T07:31:39-06:00",
+  "updatedAt": "2026-11-17T07:32:56-06:00",
   "brief": {
     "date": "2026-11-17",
     "weekday": "Tuesday",
@@ -602,7 +602,7 @@
       "Nov 16: Sales Doorline deal options and proposal drafts; Market Intel Doorline pricing research; Product Ops Doorline truth sheet and Play screens spec; Content Play headlines, first engagement review and spike log."
     ],
     "recommendation": "Have no EAS cloud builds until Dec 5 (we build on the box), then upload your Google Payments photo ID. Both are quick, and they stop money and payout risk.",
-    "coCeoCopySent": false,
+    "coCeoCopySent": true,
     "company": {
       "products": [
         {
