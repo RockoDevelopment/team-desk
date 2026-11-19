@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-19T07:35:43-06:00",
+  "updatedAt": "2026-11-19T07:36:32-06:00",
   "brief": {
     "date": "2026-11-19",
     "weekday": "Thursday",
@@ -635,7 +635,7 @@
       "Nov 19: tester item closed (Wrangle is live; testers dropped)."
     ],
     "recommendation": "Settle the Covercube payment today through Covercube's own site or phone line, then send Sales your HelpBnk video answer before it opens at 6 PM CT.",
-    "coCeoCopySent": false,
+    "coCeoCopySent": true,
     "company": {
       "products": [
         {
