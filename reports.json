@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-17T07:32:56-06:00",
+  "updatedAt": "2026-11-19T07:05:00-06:00",
   "brief": {
-    "date": "2026-11-17",
-    "weekday": "Tuesday",
-    "generatedAt": "2026-11-17T07:31:24-06:00",
+    "date": "2026-11-19",
+    "weekday": "Thursday",
+    "generatedAt": "2026-11-19T07:05:00-06:00",
     "preparedBy": "Chief of Staff",
-    "summary": "Wrangle release 117 has been live on Google Play since 3:24 AM CT Nov 16. Doorline (Demo) 0.2.1 passed Play review at 7:51 PM CT and is on Closed testing Alpha; Raj's email with the Doorline overview PDF went out at 8:01 PM CT. The Wrangle overview PDF (same layout as Doorline's) is ready. New URGENT money item: Expo says the EAS Starter plan is at 200% of its build credit and overage is being billed until Dec 5. Sales has the Doorline proposal, SOW and contract checklist drafted for your OK. Wrangle database at 7:56 PM CT Nov 16: 20 accounts, 23 plans, 46 invites, 12 replies. The install bump has no outside cause found. Last night's bot check-in and midnight roundup did not run, so teammate reports come from their files.",
-    "topBlocker": "Expo EAS build overage is being billed now (AQ-COS-27). Still open: Google Payments photo ID (AQ-COS-10) and the CPA answer on SAM.gov (AQ-COS-2).",
+    "summary": "Wrangle Production 120 (1.0.0) was approved and is live on Google Play since Nov 17 evening; migration 0046 (crew contact privacy) waits for your go once vc120 is widely installed. Beethoven's Alley Kats is being rebuilt as a live (not demo) app: the vc2 AAB is saved as a draft on Play Closed testing and not sent for review; the backend deploy and Play setup pages were cut off when usage ran out overnight and are still open. Your Expo EAS overage item and the Google Payments photo ID and CPA SAM.gov answer are still open. Several scheduled bot check-ins did not complete, so teammate entries below are unchanged from Nov 17 unless stated.",
+    "topBlocker": "Usage ran out overnight, pausing Beethoven's Alley work. Still open: Expo EAS overage (AQ-COS-27), Google Payments photo ID (AQ-COS-10), CPA answer on SAM.gov (AQ-COS-2).",
     "items": [
       {
         "id": "AQ-COS-17",
@@ -92,8 +92,8 @@
       },
       {
         "id": "AQ-COS-20",
-        "title": "Wrangle production: LIVE on Google Play (release 117)",
-        "detail": "Release 117 (1.0.0) went live 3:24 AM CT Nov 16 at 100% rollout, Policy status 'No issues found'. It replaced vc99 (live Nov 14).",
+        "title": "Wrangle production: LIVE on Google Play (release 120)",
+        "detail": "Release 120 (1.0.0) was approved and live by about 8:30 PM CT Nov 17, replacing 119. Migration 0046 waits for your go.",
         "section": "next",
         "owner": "agent",
         "agentName": "Chief of Staff",
@@ -409,13 +409,25 @@
         "status": "open",
         "link": "",
         "firstSeen": "2026-11-17"
+      },
+      {
+        "id": "AQ-COS-29",
+        "title": "Beethoven's Alley Kats: finish live backend and Play closed testing",
+        "detail": "vc2 AAB is a draft on Closed testing Alpha, not sent for review. Backend deploy and Play setup pages are still open after usage ran out overnight.",
+        "section": "next",
+        "owner": "agent",
+        "agentName": "Chief of Staff",
+        "urgent": false,
+        "impactRank": 4,
+        "status": "in_progress",
+        "firstSeen": "2026-11-19"
       }
     ],
     "kpis": [
       {
-        "label": "Wrangle database, all-time (read 7:56 PM CT Nov 16)",
-        "value": "20 accounts, 23 plans, 46 invites, 12 replies, 12 Crews",
-        "note": "Read-only Supabase count. Nov 16 alone: 1 new account, 4 plans, 4 invites, 2 replies. Nov 14: 2 new accounts, 4 plans, 7 invites, 4 replies. No outside cause found for the Play installed-audience bump (about 1 on Nov 10 to about 10 on Nov 14)."
+        "label": "Wrangle on Google Play",
+        "value": "Production 120 (1.0.0) live",
+        "note": "Live since Nov 17 evening; Last published Nov 17. No newer stats read for this update."
       },
       {
         "label": "Wrangle Play search 'hangout planner'",
@@ -593,15 +605,12 @@
       }
     ],
     "doneSinceLast": [
-      "Nov 16 3:24 AM CT: Wrangle release 117 (1.0.0) went live on Google Play at 100%, Policy status no issues.",
-      "Nov 16 4:24 PM CT: Doorline (Demo) 0.1.5 published on Play Closed testing Alpha; the makeover builds 0.2.0 and 0.2.1 followed (home card restyled, side insets app-wide).",
-      "Nov 16 7:51 PM CT: Doorline 0.2.1 passed review and is available to testers. 8:01 PM CT: Raj's email with Doorline-Overview.pdf sent on your order.",
-      "Nov 16 7:23 PM CT: Wrangle overview PDF made in the Doorline layout (/workspace/wrangle-overview-2026-11-16/Wrangle-Overview.pdf).",
-      "Nov 16 8:18 PM CT: Wrangle update email sent to the user list. Your rules are saved: Wrangle is live (no test wording), overview PDF on every Wrangle email, one checked send per list.",
-      "Nov 16 evening: install-bump check done; database counts and outside-mention research found no outside cause.",
-      "Nov 16: Sales Doorline deal options and proposal drafts; Market Intel Doorline pricing research; Product Ops Doorline truth sheet and Play screens spec; Content Play headlines, first engagement review and spike log."
+      "Nov 17 9:49 AM CT: Wrangle Production 119 (1.0.0) went live on Google Play.",
+      "Nov 17 about 7:30 PM CT: Wrangle Production 120 sent to review at 100% rollout; approved and live by about 8:30 PM CT.",
+      "Nov 18-19: Beethoven's Alley Kats rebuild chosen on the APP CREATOR base with the BA monogram logo; Play Console app created and vc2 AAB saved as a draft on Closed testing (not sent for review).",
+      "Nov 19: usage ran out overnight, which stopped the Beethoven's Alley backend deploy, Play setup pages and screenshots."
     ],
-    "recommendation": "Have no EAS cloud builds until Dec 5 (we build on the box), then upload your Google Payments photo ID. Both are quick, and they stop money and payout risk.",
+    "recommendation": "Have no EAS cloud builds until Dec 5 (we build on the box), then upload your Google Payments photo ID.",
     "coCeoCopySent": true,
     "company": {
       "products": [
@@ -640,34 +649,34 @@
   },
   "reports": {
     "Chief of Staff": {
-      "date": "2026-11-17",
-      "time": "7:31 AM CT",
-      "text": "1. Wrangle release 117 has been live on Google Play since 3:24 AM CT Nov 16.\n2. Doorline (Demo) 0.2.1 passed review at 7:51 PM CT and is on Closed testing Alpha. Raj's email with the overview PDF went out at 8:01 PM CT on Rocko's order.\n3. The Wrangle overview PDF was made in the Doorline layout. The Wrangle update email went to the user list at 8:18 PM CT.\n4. New URGENT item: Expo is billing EAS build overage (200% of Starter credit) until Dec 5 (AQ-COS-27).\n5. Last night's bot check-in and the midnight roundup did not run. Teammate reports below come from their files."
+      "date": "2026-11-19",
+      "time": "7:05 AM CT",
+      "text": "1. Wrangle Production 120 (1.0.0) is live on Google Play since Nov 17 evening.\n2. Beethoven's Alley Kats: vc2 AAB is a draft on Closed testing, not sent for review; the live backend deploy and Play setup are still open after usage ran out overnight.\n3. Several scheduled check-ins did not complete, so other teammate entries are unchanged from Nov 17."
     },
     "Sales, Clients & Funding": {
       "date": "2026-11-17",
       "time": "7:31 AM CT",
-      "text": "1. Doorline deal options are written up. Hosting is locked per Rocko on Nov 16: each union gets its own copy on a server account it owns and pays for, with Rocko as admin.\n2. The proposal, SOW outline and contract terms checklist are drafted in /workspace/sales/doorline-proposal-2026-11-16/. They need Rocko's OK and a lawyer review. Nothing has been sent (AQ-SALES-24).\n3. Grants: Business Freedom has no reply. The AI Impact Grant was skipped. HelpBnk opens Wed Nov 19 6 PM CT and still needs Rocko's video decision."
+      "text": "Nothing new: no fresh report was available for this update. Entry below is unchanged from Nov 17.\n1. Doorline deal options are written up. Hosting is locked per Rocko on Nov 16: each union gets its own copy on a server account it owns and pays for, with Rocko as admin.\n2. The proposal, SOW outline and contract terms checklist are drafted in /workspace/sales/doorline-proposal-2026-11-16/. They need Rocko's OK and a lawyer review. Nothing has been sent (AQ-SALES-24).\n3. Grants: Business Freedom has no reply. The AI Impact Grant was skipped. HelpBnk opens Wed Nov 19 6 PM CT and still needs Rocko's video decision."
     },
     "Content & Social": {
       "date": "2026-11-17",
       "time": "7:31 AM CT",
-      "text": "1. Wrangle Play screenshot headlines are drafted (/workspace/content/play-headlines-20261116/) and checked against the truth sheet. Nothing is rendered until Rocko says go.\n2. The first nightly engagement review and spike log are done. @RockoDevLLC has 26 followers. The Nov 16 6:37 AM post had 11 impressions, so no spike.\n3. Still open: the Instagram carousel account. Rocko picked @usewrangle on Nov 13 (AQ-COS-28)."
+      "text": "Nothing new: no fresh report was available for this update. Entry below is unchanged from Nov 17.\n1. Wrangle Play screenshot headlines are drafted (/workspace/content/play-headlines-20261116/) and checked against the truth sheet. Nothing is rendered until Rocko says go.\n2. The first nightly engagement review and spike log are done. @RockoDevLLC has 26 followers. The Nov 16 6:37 AM post had 11 impressions, so no spike.\n3. Still open: the Instagram carousel account. Rocko picked @usewrangle on Nov 13 (AQ-COS-28)."
     },
     "Growth & Community": {
       "date": "2026-11-17",
       "time": "7:31 AM CT",
-      "text": "1. Nothing new since the Nov 15 check-in, apart from helping the install-bump check: no outreach was sent around Nov 10-16.\n2. Still waiting on Rocko: the campus wave 1 send date (AQ-GROWTH-5) and the contact@ SPF/DKIM DNS change."
+      "text": "Nothing new: no fresh report was available for this update. Entry below is unchanged from Nov 17.\n1. Nothing new since the Nov 15 check-in, apart from helping the install-bump check: no outreach was sent around Nov 10-16.\n2. Still waiting on Rocko: the campus wave 1 send date (AQ-GROWTH-5) and the contact@ SPF/DKIM DNS change."
     },
     "Market Intel": {
       "date": "2026-11-17",
       "time": "7:31 AM CT",
-      "text": "1. The Nov 17 daily trend brief is out (/workspace/market-intel/daily-brief/2026-11-17.md). Top hooks: the \"plans finally made it out of the group chat\" meme, and Friendsgiving next weekend (Nov 21-22) with people saying they haven't planned it.\n2. Doorline canvassing pricing research is done (Nov 16).\n3. Install-bump research found no outside mentions, referrals or search activity behind the Nov 14 rise."
+      "text": "Nothing new: no fresh report was available for this update. Entry below is unchanged from Nov 17.\n1. The Nov 17 daily trend brief is out (/workspace/market-intel/daily-brief/2026-11-17.md). Top hooks: the \"plans finally made it out of the group chat\" meme, and Friendsgiving next weekend (Nov 21-22) with people saying they haven't planned it.\n2. Doorline canvassing pricing research is done (Nov 16).\n3. Install-bump research found no outside mentions, referrals or search activity behind the Nov 14 rise."
     },
     "Product Ops": {
       "date": "2026-11-17",
       "time": "7:31 AM CT",
-      "text": "1. The Doorline feature truth sheet is written (/workspace/product-ops/doorline-feature-truth-sheet.md). The competitor screens checklist went into the Doorline makeover.\n2. The Wrangle Play screenshot spec is ready and waits for Rocko's go to render (AQ-PRODOPS-10).\n3. The daily Play spike check runs at 9 AM CT."
+      "text": "Nothing new: no fresh report was available for this update. Entry below is unchanged from Nov 17.\n1. The Doorline feature truth sheet is written (/workspace/product-ops/doorline-feature-truth-sheet.md). The competitor screens checklist went into the Doorline makeover.\n2. The Wrangle Play screenshot spec is ready and waits for Rocko's go to render (AQ-PRODOPS-10).\n3. The daily Play spike check runs at 9 AM CT."
     }
   }
 }
