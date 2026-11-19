@@ -1,14 +1,26 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-19T07:05:00-06:00",
+  "updatedAt": "2026-11-19T07:35:43-06:00",
   "brief": {
     "date": "2026-11-19",
     "weekday": "Thursday",
-    "generatedAt": "2026-11-19T07:05:00-06:00",
+    "generatedAt": "2026-11-19T07:42:00-06:00",
     "preparedBy": "Chief of Staff",
-    "summary": "Wrangle Production 120 (1.0.0) was approved and is live on Google Play since Nov 17 evening; migration 0046 (crew contact privacy) waits for your go once vc120 is widely installed. Beethoven's Alley Kats is being rebuilt as a live (not demo) app: the vc2 AAB is saved as a draft on Play Closed testing and not sent for review; the backend deploy and Play setup pages were cut off when usage ran out overnight and are still open. Your Expo EAS overage item and the Google Payments photo ID and CPA SAM.gov answer are still open. Several scheduled bot check-ins did not complete, so teammate entries below are unchanged from Nov 17 unless stated.",
-    "topBlocker": "Usage ran out overnight, pausing Beethoven's Alley work. Still open: Expo EAS overage (AQ-COS-27), Google Payments photo ID (AQ-COS-10), CPA answer on SAM.gov (AQ-COS-2).",
+    "summary": "URGENT: Nikki forwarded a Covercube insurance notice overnight: a policy in her name is at risk of cancellation for a missed payment (AQ-COS-30). Wrangle Production 120 is live on Google Play. Campus wave 1 offer emails went out Nov 17 morning, with 6 bounced addresses and no officer replies yet. HelpBnk opens tonight at 6 PM CT and still needs your video answer and the $5,000 use. Beethoven's Alley Kats: the vc2 AAB is a draft on Closed testing; the live backend deploy and Play setup are still open after usage ran out overnight.",
+    "topBlocker": "Covercube policy payment (AQ-COS-30, URGENT money), then Expo EAS overage (AQ-COS-27) and Google Payments photo ID (AQ-COS-10).",
     "items": [
+      {
+        "id": "AQ-COS-30",
+        "title": "URGENT money: Covercube insurance policy at risk of cancellation for missed payment",
+        "detail": "Nikki forwarded a Covercube notice (dated Nov 18) to the company Gmail at 12:19 AM CT Nov 19: the policy in her name is at risk of cancellation for non-payment. Pay or verify by signing in to Covercube directly or calling the number on your policy card, not through the email link. I took no action.",
+        "section": "decision",
+        "owner": "ceo",
+        "urgent": true,
+        "impactRank": 1,
+        "status": "open",
+        "link": "",
+        "firstSeen": "2026-11-19"
+      },
       {
         "id": "AQ-COS-17",
         "title": "Fund the Visa on file for Render $1 identity auth",
@@ -29,7 +41,7 @@
         "section": "decision",
         "owner": "ceo",
         "urgent": true,
-        "impactRank": 1,
+        "impactRank": 2,
         "status": "open",
         "firstSeen": "2026-11-04",
         "link": "https://payments.google.com/"
@@ -48,7 +60,7 @@
       {
         "id": "AQ-SALES-22",
         "title": "HelpBnk script: fill in what the $5,000 covers",
-        "detail": "Script is 112 words, about 45 seconds. One blank left: what the $5,000 would pay for. Pitch due Nov 20 to 25.",
+        "detail": "HelpBnk opens tonight, Thu Nov 19 at 6 PM CT, and closes Nov 25. Sales needs (1) yes or no on recording the short video and (2) what the $5,000 covers. Draft is ready, not submitted.",
         "section": "approval",
         "owner": "ceo",
         "urgent": false,
@@ -70,13 +82,14 @@
       {
         "id": "AQ-COS-11",
         "title": "Testers: missing Google emails; Crystal not replied; Destiny question",
-        "detail": "Briana, Brent and Richard still need a Google account email. Crystal hasn't replied to the Nov 6 email (checks through Nov 12 8:44 PM CT). Destiny Shaw's Nov 3 question still needs a short answer. (Status as of Nov 13; not re-verified today.)",
+        "detail": "Briana, Brent and Richard still need a Google account email. Crystal hasn't replied to the Nov 6 email (checks through Nov 12 8:44 PM CT). Destiny Shaw's Nov 3 question still needs a short answer. (Status as of Nov 13; not re-verified today.) Killed Nov 19: you said Wrangle is live and to forget testers entirely.",
         "section": "next",
         "owner": "ceo",
         "urgent": false,
         "impactRank": 5,
-        "status": "open",
-        "firstSeen": "2026-11-04"
+        "status": "killed",
+        "firstSeen": "2026-11-04",
+        "killedReason": "Wrangle is live; Rocko said Nov 17 to forget testers entirely."
       },
       {
         "id": "AQ-COS-22",
@@ -317,12 +330,12 @@
       {
         "id": "AQ-GROWTH-5",
         "title": "Pick the campus wave 1 send date",
-        "detail": "Growth recommends Jan 11-13 for the campus email wave (Michigan Jan 13) because of Thanksgiving and finals. Option B: Michigan, Penn State and UT Austin on Nov 30 or Dec 1 only if the Play listing is public and contact@ mail is fixed; Florida held to Jan 11. The listing is still not public, and contact@ mail needs an SPF DNS change (include:spf.privateemail.com) that needs your go. Updated Nov 13 3:25 PM CT: Growth's January recommendation is for the campus email wave only, not the Play launch. Product Ops says a late-November Production launch is realistic now that web replies are live. Growth agrees that fits their plan and would give testers a few weeks of real plans before campus outreach. Timing is undecided; Rocko's call. Android-only limits campus organizers: the organizer needs Android, though invited friends on iPhone can reply from the web page.",
+        "detail": "Done: campus wave 1 offer emails went out from the company Gmail on Nov 17, about 10:15-11:40 AM CT (Penn State and UT Austin orgs, among others). 6 addresses bounced (5 UMich, 1 UT Austin). No officer replies yet.",
         "section": "decision",
         "owner": "ceo",
         "urgent": false,
         "impactRank": 5,
-        "status": "open",
+        "status": "done",
         "firstSeen": "2026-11-13"
       },
       {
@@ -457,7 +470,7 @@
         "status": "Submitted",
         "submitted": "2026-10-29",
         "nextDate": "2026-11-15",
-        "note": "Submitted via web form. Review date Nov 15 passed; no reply in Gmail as of Nov 17 7:30 AM CT"
+        "note": "Submitted via web form. Review date Nov 15 passed; no reply in Gmail as of Nov 19 7:40 AM CT"
       },
       {
         "program": "Wiro credits",
@@ -480,8 +493,8 @@
         "amount": "$5,000",
         "status": "Drafting",
         "submitted": "",
-        "nextDate": "2026-11-20",
-        "note": "Opens Wed Nov 19 6 PM CT; needs your video (do it or skip) and the $5,000 use filled in"
+        "nextDate": "2026-11-19",
+        "note": "Opens tonight Thu Nov 19 6 PM CT, closes Nov 25; needs your video yes/no and the $5,000 use filled in"
       },
       {
         "program": "AI Impact Grant",
@@ -579,6 +592,11 @@
     ],
     "inbox": [
       {
+        "from": "Nikki (forwarding Covercube)",
+        "timeCT": "Nov 19, 12:19 AM",
+        "line": "Covercube policy at risk of cancellation for missed payment. URGENT money (AQ-COS-30)."
+      },
+      {
         "from": "THE ORACLE",
         "timeCT": "",
         "line": "No email from THE ORACLE since the last brief (inbox and spam checked)."
@@ -586,12 +604,17 @@
       {
         "from": "Grant / credits programs",
         "timeCT": "",
-        "line": "No replies or decisions (Business Freedom, HelpBnk, NSF, Verizon/LISC, Wiro checked)."
+        "line": "No replies or decisions. Verizon Digital Ready sent only newsletters (Nov 17, Nov 18)."
+      },
+      {
+        "from": "Mail delivery (bounces)",
+        "timeCT": "Nov 17, 10:59-11:12 AM",
+        "line": "6 campus outreach addresses bounced: 5 UMich, 1 UT Austin. Growth should drop or replace them."
       },
       {
         "from": "Expo",
         "timeCT": "Nov 15, 11:38 PM",
-        "line": "EAS build credit at 200% of the Starter plan; overage being billed until Dec 5 reset. URGENT money (AQ-COS-27)."
+        "line": "EAS build credit at 200% of Starter; overage billed until Dec 5 reset. URGENT money (AQ-COS-27)."
       },
       {
         "from": "Render",
@@ -599,19 +622,20 @@
         "line": "Unpaid-balance reminder for the old Render account; ignored per your Nov 6 order."
       },
       {
-        "from": "Wrangle sign-in codes",
-        "timeCT": "Nov 16-17",
-        "line": "Email codes went out to new and returning users, including one new sign-up Nov 16 and one Nov 17."
+        "from": "WhatSong",
+        "timeCT": "Nov 17, 5:13 PM",
+        "line": "Welcome email for the new account; API application still held."
       }
     ],
     "doneSinceLast": [
-      "Nov 17 9:49 AM CT: Wrangle Production 119 (1.0.0) went live on Google Play.",
-      "Nov 17 about 7:30 PM CT: Wrangle Production 120 sent to review at 100% rollout; approved and live by about 8:30 PM CT.",
-      "Nov 18-19: Beethoven's Alley Kats rebuild chosen on the APP CREATOR base with the BA monogram logo; Play Console app created and vc2 AAB saved as a draft on Closed testing (not sent for review).",
-      "Nov 19: usage ran out overnight, which stopped the Beethoven's Alley backend deploy, Play setup pages and screenshots."
+      "Nov 17 9:49 AM CT: Wrangle Production 119 went live on Google Play.",
+      "Nov 17 about 10:15-11:40 AM CT: campus wave 1 Wrangle+ officer offer emails sent from the company Gmail.",
+      "Nov 17 about 8:30 PM CT: Wrangle Production 120 approved and live.",
+      "Nov 18-19: Beethoven's Alley Kats rebuild on the APP CREATOR base with the BA monogram logo; Play Console app created and vc2 AAB saved as a Closed testing draft.",
+      "Nov 19: tester item closed (Wrangle is live; testers dropped)."
     ],
-    "recommendation": "Have no EAS cloud builds until Dec 5 (we build on the box), then upload your Google Payments photo ID.",
-    "coCeoCopySent": true,
+    "recommendation": "Settle the Covercube payment today through Covercube's own site or phone line, then send Sales your HelpBnk video answer before it opens at 6 PM CT.",
+    "coCeoCopySent": false,
     "company": {
       "products": [
         {
@@ -621,7 +645,7 @@
         },
         {
           "name": "Wrangle",
-          "stage": "Production 1.0.0 (release 117) live on Google Play since Nov 16",
+          "stage": "Production 1.0.0 (release 120) live on Google Play since Nov 17",
           "status": "Live"
         },
         {
@@ -630,8 +654,8 @@
           "status": "Testing"
         },
         {
-          "name": "Beethoven's Alley Katz",
-          "stage": "Backend and Android app built; next: live backend",
+          "name": "Beethoven's Alley Kats",
+          "stage": "Live (not demo) rebuild; vc2 AAB draft on Play Closed testing; next: hosted backend",
           "status": "In development"
         },
         {
@@ -650,8 +674,8 @@
   "reports": {
     "Chief of Staff": {
       "date": "2026-11-19",
-      "time": "7:05 AM CT",
-      "text": "1. Wrangle Production 120 (1.0.0) is live on Google Play since Nov 17 evening.\n2. Beethoven's Alley Kats: vc2 AAB is a draft on Closed testing, not sent for review; the live backend deploy and Play setup are still open after usage ran out overnight.\n3. Several scheduled check-ins did not complete, so other teammate entries are unchanged from Nov 17."
+      "time": "7:42 AM CT",
+      "text": "1. URGENT: Nikki forwarded a Covercube notice overnight; a policy in her name is at risk of cancellation for a missed payment (AQ-COS-30). No action taken.\n2. Campus wave 1 offer emails went out Nov 17 morning; 6 addresses bounced (5 UMich, 1 UT Austin), no officer replies yet. AQ-GROWTH-5 closed.\n3. Wrangle Production 120 is live on Google Play. Beethoven's Alley Kats: vc2 AAB is a Closed testing draft; live backend and Play setup still open.\n4. Tester item killed per your rule that Wrangle is live and testers are dropped."
     },
     "Sales, Clients & Funding": {
       "date": "2026-11-17",
