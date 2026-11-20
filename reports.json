@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-20T07:05:00-06:00",
+  "updatedAt": "2026-11-20T07:29:00-06:00",
   "brief": {
     "date": "2026-11-20",
     "weekday": "Friday",
-    "generatedAt": "2026-11-20T07:05:00-06:00",
+    "generatedAt": "2026-11-20T07:29:00-06:00",
     "preparedBy": "Chief of Staff",
-    "summary": "Open items from yesterday are unchanged: the Covercube policy payment (AQ-COS-30), the Google Payments photo ID (AQ-COS-10) and the SAM.gov CPA question still need you. Wrangle Production 120 is live on Google Play. New since yesterday: the Beethoven's Alley backend update (automatic past-usage scan, email and username sign-in) was pushed Nov 19 at 6 PM CT and auto-deployed, and an app vc4 APK is on Drive; Play stays on hold. Builds now run locally, not on EAS. Teammate reports were not refreshed this morning.",
-    "topBlocker": "Covercube policy payment (AQ-COS-30), then Google Payments photo ID (AQ-COS-10).",
+    "summary": "Still yours: the Covercube payment (AQ-COS-30), HelpBnk details before Nov 25 (AQ-SALES-22), the Google Payments photo ID (AQ-COS-10) and the SAM.gov CPA question. New: wave 2 campus emails need two answers (AQ-GROWTH-6), Skip $10K grant needs an OK for a free account (AQ-SALES-25), and Boardy funding asks are drafted for you to send. Beethoven's Alley sign-in fix 1.0.2 (8) is in Play closed-testing review. The Expo item is closed: no more EAS builds.",
+    "topBlocker": "Covercube policy payment (AQ-COS-30), then HelpBnk details before Nov 25 5:59 PM CT (AQ-SALES-22).",
     "items": [
       {
         "id": "AQ-COS-30",
@@ -59,12 +59,12 @@
       },
       {
         "id": "AQ-SALES-22",
-        "title": "HelpBnk script: fill in what the $5,000 covers",
-        "detail": "HelpBnk opens tonight, Thu Nov 19 at 6 PM CT, and closes Nov 25. Sales needs (1) yes or no on recording the short video and (2) what the $5,000 covers. Draft is ready, not submitted.",
+        "title": "URGENT: HelpBnk ($5,000): send your handle, phone number and video OK",
+        "detail": "HelpBnk is open and closes Nov 25 at 5:59 PM CT. Sales needs your HelpBnk handle, the phone number to use, your yes on the video, and what the $5,000 covers. Nothing submitted.",
         "section": "approval",
         "owner": "ceo",
-        "urgent": false,
-        "impactRank": 3,
+        "urgent": true,
+        "impactRank": 2,
         "status": "open",
         "firstSeen": "2026-11-04"
       },
@@ -376,12 +376,12 @@
       {
         "id": "AQ-COS-27",
         "title": "Expo EAS build overage is being billed: cap it or allow it",
-        "detail": "Expo emailed Nov 15 11:38 PM CT: account rockodevelopmentllc used 200% of the Starter plan build credit, and extra builds are billed at overage rates until the credit resets Dec 5. We build Wrangle and Doorline on the box, so I recommend no more EAS cloud builds until Dec 5. Check the bill at expo.dev billing. Money.",
+        "detail": "Closed Nov 19: you ordered no more Expo EAS builds. All Android builds now run locally on the box (Gradle). Watch the Expo bill for any overage already charged.",
         "section": "decision",
         "owner": "ceo",
-        "urgent": true,
-        "impactRank": 2,
-        "status": "open",
+        "urgent": false,
+        "impactRank": 40,
+        "status": "done",
         "link": "https://expo.dev/accounts/rockodevelopmentllc/settings/billing",
         "firstSeen": "2026-11-17"
       },
@@ -425,8 +425,8 @@
       },
       {
         "id": "AQ-COS-29",
-        "title": "Beethoven's Alley Kats: finish live backend and Play closed testing",
-        "detail": "vc2 AAB is a draft on Closed testing Alpha, not sent for review. Backend deploy and Play setup pages are still open after usage ran out overnight.",
+        "title": "Beethoven's Alley: 1.0.2 (8) in Play closed-testing review",
+        "detail": "Sign-in bug fixed in the app (a failed session refresh signed you out; the server was up). 1.0.2 (8) uploaded to Closed testing Alpha and sent for review Nov 20 about 7 AM CT; no blocking errors. It updates on your phone once approved.",
         "section": "next",
         "owner": "agent",
         "agentName": "Chief of Staff",
@@ -434,6 +434,74 @@
         "impactRank": 4,
         "status": "in_progress",
         "firstSeen": "2026-11-19"
+      },
+      {
+        "id": "AQ-GROWTH-6",
+        "title": "Wave 2 campus emails: OK the Wrangle+ offer and pick the send date",
+        "detail": "5 boards ready, nothing sent. (1) Can wave 2 get the 6 months of free Wrangle+ and the same iPhone waitlist line as wave 1? One yes covers both. (2) Send now or Mon Nov 30? Growth and I recommend Nov 30.",
+        "section": "decision",
+        "owner": "ceo",
+        "urgent": false,
+        "impactRank": 4,
+        "status": "open",
+        "firstSeen": "2026-11-20"
+      },
+      {
+        "id": "AQ-SALES-25",
+        "title": "Skip $10K Growth Grant: OK a free Skip account on the company Gmail",
+        "detail": "Free to enter, no purchase required, due Dec 17 11:59 PM ET. Reading the written questions needs a free Skip account on rockodevelopmentllc@gmail.com. With your OK, Sales drafts the answers.",
+        "section": "approval",
+        "owner": "ceo",
+        "urgent": false,
+        "impactRank": 6,
+        "status": "open",
+        "firstSeen": "2026-11-20"
+      },
+      {
+        "id": "AQ-SALES-26",
+        "title": "Boardy funding asks: two drafts for you to send",
+        "detail": "One ask for grant program runners, one for startup credit partners. Drafts in /workspace/sales/boardy-funding-asks-2026-11-20.md. You send them yourself.",
+        "section": "approval",
+        "owner": "ceo",
+        "urgent": false,
+        "impactRank": 10,
+        "status": "open",
+        "firstSeen": "2026-11-20"
+      },
+      {
+        "id": "AQ-SALES-27",
+        "title": "Sentry for Startups (up to $5K credits): only if we adopt Sentry",
+        "detail": "Rolling written form, no fee. Needs a free Sentry account and only helps if we use Sentry for crash tracking. Low priority.",
+        "section": "approval",
+        "owner": "ceo",
+        "urgent": false,
+        "impactRank": 15,
+        "status": "open",
+        "firstSeen": "2026-11-20"
+      },
+      {
+        "id": "AQ-SALES-28",
+        "title": "Neon startup credits (up to $1K)",
+        "detail": "Killed Nov 20: we use Supabase, not Neon, so the credits have no use.",
+        "section": "approval",
+        "owner": "ceo",
+        "urgent": false,
+        "impactRank": 41,
+        "status": "killed",
+        "firstSeen": "2026-11-20",
+        "killedReason": "We use Supabase, not Neon, so the credits have no use."
+      },
+      {
+        "id": "AQ-COS-31",
+        "title": "Health checks: Wrangle only, weekly on Sunday nights",
+        "detail": "Your Nov 20 order passed to Product Ops; Beethoven's Alley and Doorline are out of health checks. Waiting on Product Ops to confirm the switch.",
+        "section": "next",
+        "owner": "agent",
+        "agentName": "Product Ops",
+        "urgent": false,
+        "impactRank": 12,
+        "status": "in_progress",
+        "firstSeen": "2026-11-20"
       }
     ],
     "kpis": [
@@ -594,7 +662,7 @@
       {
         "from": "Nikki (forwarding Covercube)",
         "timeCT": "Nov 19, 12:19 AM",
-        "line": "Covercube policy at risk of cancellation for missed payment. URGENT money (AQ-COS-30)."
+        "line": "Covercube policy at risk of cancellation for missed payment. Still open. URGENT money (AQ-COS-30)."
       },
       {
         "from": "THE ORACLE",
@@ -604,39 +672,29 @@
       {
         "from": "Grant / credits programs",
         "timeCT": "",
-        "line": "No replies or decisions. Verizon Digital Ready sent only newsletters (Nov 17, Nov 18)."
+        "line": "No replies or decisions since the last brief."
       },
       {
-        "from": "Mail delivery (bounces)",
-        "timeCT": "Nov 17, 10:59-11:12 AM",
-        "line": "6 campus outreach addresses bounced: 5 UMich, 1 UT Austin. Growth should drop or replace them."
+        "from": "Mail delivery (bounce)",
+        "timeCT": "Nov 19, 12:34 PM",
+        "line": "Outreach to a Yahoo address bounced (address not found). Growth should drop it."
       },
       {
-        "from": "Expo",
-        "timeCT": "Nov 15, 11:38 PM",
-        "line": "EAS build credit at 200% of Starter; overage billed until Dec 5 reset. URGENT money (AQ-COS-27)."
-      },
-      {
-        "from": "Render",
-        "timeCT": "Nov 17, 12:42 AM",
-        "line": "Unpaid-balance reminder for the old Render account; ignored per your Nov 6 order."
-      },
-      {
-        "from": "WhatSong",
-        "timeCT": "Nov 17, 5:13 PM",
-        "line": "Welcome email for the new account; API application still held."
+        "from": "Google Play",
+        "timeCT": "Nov 19, 2:38 PM",
+        "line": "Policy notice: Play Age Signals API and US/Brazil age assurance laws. Product Ops to review for Wrangle (18+)."
       }
     ],
     "doneSinceLast": [
-      "Nov 17 9:49 AM CT: Wrangle Production 119 went live on Google Play.",
-      "Nov 17 about 10:15-11:40 AM CT: campus wave 1 Wrangle+ officer offer emails sent from the company Gmail.",
-      "Nov 17 about 8:30 PM CT: Wrangle Production 120 approved and live.",
-      "Nov 18-19: Beethoven's Alley Kats rebuild on the APP CREATOR base with the BA monogram logo; Play Console app created and vc2 AAB saved as a Closed testing draft.",
-      "Nov 19: tester item closed (Wrangle is live; testers dropped).",
-      "Nov 19 about 6 PM CT: Beethoven's Alley backend update pushed and auto-deployed; app vc4 APK saved to Drive; Play on hold."
+      "Nov 19 about 6 PM CT: Beethoven's Alley backend update pushed and auto-deployed; vc4 APK saved to Drive.",
+      "Nov 20 about 7 AM CT: Beethoven's Alley sign-in bug fixed; 1.0.2 (8) sent to Play closed-testing review.",
+      "Nov 19: Expo item closed; all builds now local, no EAS.",
+      "Nov 20: Sales finished the Skip grant check, two credit leads and two Boardy funding drafts (nothing sent).",
+      "Nov 20: Content & Social lined up today's live @RockoDevLLC posts (pinned intro, Wiro thank-you, value replies).",
+      "Nov 20: Market Intel brief: no outside mentions that move installs; Boardy replied to our Nov 19 Wrangle post."
     ],
-    "recommendation": "Settle the Covercube payment today through Covercube's own site or phone line, then send Sales your HelpBnk video answer before it opens at 6 PM CT.",
-    "coCeoCopySent": true,
+    "recommendation": "Pay Covercube today through Covercube's own site or phone line, then send Sales your HelpBnk handle, phone and video OK.",
+    "coCeoCopySent": false,
     "company": {
       "products": [
         {
@@ -675,33 +733,33 @@
   "reports": {
     "Chief of Staff": {
       "date": "2026-11-20",
-      "time": "7:05 AM CT",
-      "text": "Desk refreshed Nov 20. New: Beethoven's Alley backend update deployed Nov 19 evening; vc4 APK on Drive; Play on hold. Everything else is unchanged from Nov 19."
+      "time": "7:29 AM CT",
+      "text": "Daily brief Fri Nov 20. Closed the Expo item (no more EAS). Beethoven's Alley sign-in fix 1.0.2 (8) is in Play closed-testing review. Queued new decisions: wave 2 campus offer and date, Skip grant account, Boardy funding drafts. Passed your Wrangle-only weekly health check order to Product Ops."
     },
     "Sales, Clients & Funding": {
-      "date": "2026-11-17",
-      "time": "7:31 AM CT",
-      "text": "Nothing new: no fresh report was available for this update. Entry below is unchanged from Nov 17.\n1. Doorline deal options are written up. Hosting is locked per Rocko on Nov 16: each union gets its own copy on a server account it owns and pays for, with Rocko as admin.\n2. The proposal, SOW outline and contract terms checklist are drafted in /workspace/sales/doorline-proposal-2026-11-16/. They need Rocko's OK and a lawyer review. Nothing has been sent (AQ-SALES-24).\n3. Grants: Business Freedom has no reply. The AI Impact Grant was skipped. HelpBnk opens Wed Nov 19 6 PM CT and still needs Rocko's video decision."
+      "date": "2026-11-20",
+      "time": "7:29 AM CT",
+      "text": "1. Skip $10K Growth Grant (due Dec 17): free, no purchase required; needs your OK for a free Skip account on the company Gmail (AQ-SALES-25).\n2. New credit leads: Sentry for Startups up to $5K (only if we use Sentry); Neon up to $1K parked since we use Supabase.\n3. Two Boardy funding asks drafted for you to send (AQ-SALES-26).\n4. HelpBnk is URGENT: needs your handle, phone number and video OK before Nov 25 5:59 PM CT. Nothing sent or submitted."
     },
     "Content & Social": {
-      "date": "2026-11-17",
-      "time": "7:31 AM CT",
-      "text": "Nothing new: no fresh report was available for this update. Entry below is unchanged from Nov 17.\n1. Wrangle Play screenshot headlines are drafted (/workspace/content/play-headlines-20261116/) and checked against the truth sheet. Nothing is rendered until Rocko says go.\n2. The first nightly engagement review and spike log are done. @RockoDevLLC has 26 followers. The Nov 16 6:37 AM post had 11 impressions, so no spike.\n3. Still open: the Instagram carousel account. Rocko picked @usewrangle on Nov 13 (AQ-COS-28)."
+      "date": "2026-11-20",
+      "time": "7:29 AM CT",
+      "text": "Today's live @RockoDevLLC lineup: 9 AM pinned intro post, 11:15 AM value-reply run, 12:30 PM Wiro thank-you opener (this week's best performer). A reply to @boardyai is ready. The LinkedIn version is held because we still don't have LinkedIn page access. All passed the claims check; nothing about Doorline or Beethoven's Alley."
     },
     "Growth & Community": {
-      "date": "2026-11-17",
-      "time": "7:31 AM CT",
-      "text": "Nothing new: no fresh report was available for this update. Entry below is unchanged from Nov 17.\n1. Nothing new since the Nov 15 check-in, apart from helping the install-bump check: no outreach was sent around Nov 10-16.\n2. Still waiting on Rocko: the campus wave 1 send date (AQ-GROWTH-5) and the contact@ SPF/DKIM DNS change."
+      "date": "2026-11-20",
+      "time": "7:29 AM CT",
+      "text": "Wave 2 campus emails are ready for 5 boards; nothing sent. Recommends sending Mon Nov 30 and needs your yes on giving wave 2 the 6 months of free Wrangle+ and the iPhone waitlist line (AQ-GROWTH-6). Owns any Boardy follow-up."
     },
     "Market Intel": {
-      "date": "2026-11-17",
-      "time": "7:31 AM CT",
-      "text": "Nothing new: no fresh report was available for this update. Entry below is unchanged from Nov 17.\n1. The Nov 17 daily trend brief is out (/workspace/market-intel/daily-brief/2026-11-17.md). Top hooks: the \"plans finally made it out of the group chat\" meme, and Friendsgiving next weekend (Nov 21-22) with people saying they haven't planned it.\n2. Doorline canvassing pricing research is done (Nov 16).\n3. Install-bump research found no outside mentions, referrals or search activity behind the Nov 14 rise."
+      "date": "2026-11-20",
+      "time": "7:29 AM CT",
+      "text": "Nov 20 brief: no outside mention that could move installs. @boardyai replied to our Nov 19 Wrangle post (no Play link). AppBrain still doesn't list us; APKPure blocked the check. Top places planners are talking today: X Friendsgiving and group-chat posts, campus programming boards' winter pages plus APCA on LinkedIn, and Boardy's intro replies. Nothing urgent."
     },
     "Product Ops": {
-      "date": "2026-11-17",
-      "time": "7:31 AM CT",
-      "text": "Nothing new: no fresh report was available for this update. Entry below is unchanged from Nov 17.\n1. The Doorline feature truth sheet is written (/workspace/product-ops/doorline-feature-truth-sheet.md). The competitor screens checklist went into the Doorline makeover.\n2. The Wrangle Play screenshot spec is ready and waits for Rocko's go to render (AQ-PRODOPS-10).\n3. The daily Play spike check runs at 9 AM CT."
+      "date": "2026-11-20",
+      "time": "7:29 AM CT",
+      "text": "Nothing new reported since the last brief. Asked to switch health checks to Wrangle only, weekly on Sunday nights; confirmation pending."
     }
   }
 }
