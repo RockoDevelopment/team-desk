@@ -6,21 +6,9 @@
     "weekday": "Friday",
     "generatedAt": "2026-11-20T07:29:00-06:00",
     "preparedBy": "Chief of Staff",
-    "summary": "Still yours: the Covercube payment (AQ-COS-30), HelpBnk details before Nov 25 (AQ-SALES-22), the Google Payments photo ID (AQ-COS-10) and the SAM.gov CPA question. New: wave 2 campus emails need two answers (AQ-GROWTH-6), Skip $10K grant needs an OK for a free account (AQ-SALES-25), and Boardy funding asks are drafted for you to send. Beethoven's Alley sign-in fix 1.0.2 (8) is in Play closed-testing review. The Expo item is closed: no more EAS builds.",
-    "topBlocker": "Covercube policy payment (AQ-COS-30), then HelpBnk details before Nov 25 5:59 PM CT (AQ-SALES-22).",
+    "summary": "Still yours: HelpBnk details before Nov 25 (AQ-SALES-22), the Google Payments photo ID (AQ-COS-10) and the SAM.gov CPA question. New: wave 2 campus emails need two answers (AQ-GROWTH-6), Skip $10K grant needs an OK for a free account (AQ-SALES-25), and Boardy funding asks are drafted for you to send. Beethoven's Alley sign-in fix 1.0.2 (8) is in Play closed-testing review. The Expo item is closed: no more EAS builds.",
+    "topBlocker": "HelpBnk details before Nov 25 5:59 PM CT (AQ-SALES-22).",
     "items": [
-      {
-        "id": "AQ-COS-30",
-        "title": "URGENT money: Covercube insurance policy at risk of cancellation for missed payment",
-        "detail": "Nikki forwarded a Covercube notice (dated Nov 18) to the company Gmail at 12:19 AM CT Nov 19: the policy in her name is at risk of cancellation for non-payment. Pay or verify by signing in to Covercube directly or calling the number on your policy card, not through the email link. I took no action.",
-        "section": "decision",
-        "owner": "ceo",
-        "urgent": true,
-        "impactRank": 1,
-        "status": "open",
-        "link": "",
-        "firstSeen": "2026-11-19"
-      },
       {
         "id": "AQ-COS-17",
         "title": "Fund the Visa on file for Render $1 identity auth",
@@ -660,11 +648,6 @@
     ],
     "inbox": [
       {
-        "from": "Nikki (forwarding Covercube)",
-        "timeCT": "Nov 19, 12:19 AM",
-        "line": "Covercube policy at risk of cancellation for missed payment. Still open. URGENT money (AQ-COS-30)."
-      },
-      {
         "from": "THE ORACLE",
         "timeCT": "",
         "line": "No email from THE ORACLE since the last brief (inbox and spam checked)."
@@ -693,7 +676,7 @@
       "Nov 20: Content & Social lined up today's live @RockoDevLLC posts (pinned intro, Wiro thank-you, value replies).",
       "Nov 20: Market Intel brief: no outside mentions that move installs; Boardy replied to our Nov 19 Wrangle post."
     ],
-    "recommendation": "Pay Covercube today through Covercube's own site or phone line, then send Sales your HelpBnk handle, phone and video OK.",
+    "recommendation": "Send Sales your HelpBnk handle, phone and video OK.",
     "coCeoCopySent": true,
     "company": {
       "products": [
