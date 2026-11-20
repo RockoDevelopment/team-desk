@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-20T07:29:00-06:00",
+  "updatedAt": "2026-11-20T07:31:00-06:00",
   "brief": {
     "date": "2026-11-20",
     "weekday": "Friday",
@@ -694,7 +694,7 @@
       "Nov 20: Market Intel brief: no outside mentions that move installs; Boardy replied to our Nov 19 Wrangle post."
     ],
     "recommendation": "Pay Covercube today through Covercube's own site or phone line, then send Sales your HelpBnk handle, phone and video OK.",
-    "coCeoCopySent": false,
+    "coCeoCopySent": true,
     "company": {
       "products": [
         {
