@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-19T07:36:32-06:00",
+  "updatedAt": "2026-11-20T07:05:00-06:00",
   "brief": {
-    "date": "2026-11-19",
-    "weekday": "Thursday",
-    "generatedAt": "2026-11-19T07:42:00-06:00",
+    "date": "2026-11-20",
+    "weekday": "Friday",
+    "generatedAt": "2026-11-20T07:05:00-06:00",
     "preparedBy": "Chief of Staff",
-    "summary": "URGENT: Nikki forwarded a Covercube insurance notice overnight: a policy in her name is at risk of cancellation for a missed payment (AQ-COS-30). Wrangle Production 120 is live on Google Play. Campus wave 1 offer emails went out Nov 17 morning, with 6 bounced addresses and no officer replies yet. HelpBnk opens tonight at 6 PM CT and still needs your video answer and the $5,000 use. Beethoven's Alley Kats: the vc2 AAB is a draft on Closed testing; the live backend deploy and Play setup are still open after usage ran out overnight.",
-    "topBlocker": "Covercube policy payment (AQ-COS-30, URGENT money), then Expo EAS overage (AQ-COS-27) and Google Payments photo ID (AQ-COS-10).",
+    "summary": "Open items from yesterday are unchanged: the Covercube policy payment (AQ-COS-30), the Google Payments photo ID (AQ-COS-10) and the SAM.gov CPA question still need you. Wrangle Production 120 is live on Google Play. New since yesterday: the Beethoven's Alley backend update (automatic past-usage scan, email and username sign-in) was pushed Nov 19 at 6 PM CT and auto-deployed, and an app vc4 APK is on Drive; Play stays on hold. Builds now run locally, not on EAS. Teammate reports were not refreshed this morning.",
+    "topBlocker": "Covercube policy payment (AQ-COS-30), then Google Payments photo ID (AQ-COS-10).",
     "items": [
       {
         "id": "AQ-COS-30",
@@ -632,7 +632,8 @@
       "Nov 17 about 10:15-11:40 AM CT: campus wave 1 Wrangle+ officer offer emails sent from the company Gmail.",
       "Nov 17 about 8:30 PM CT: Wrangle Production 120 approved and live.",
       "Nov 18-19: Beethoven's Alley Kats rebuild on the APP CREATOR base with the BA monogram logo; Play Console app created and vc2 AAB saved as a Closed testing draft.",
-      "Nov 19: tester item closed (Wrangle is live; testers dropped)."
+      "Nov 19: tester item closed (Wrangle is live; testers dropped).",
+      "Nov 19 about 6 PM CT: Beethoven's Alley backend update pushed and auto-deployed; app vc4 APK saved to Drive; Play on hold."
     ],
     "recommendation": "Settle the Covercube payment today through Covercube's own site or phone line, then send Sales your HelpBnk video answer before it opens at 6 PM CT.",
     "coCeoCopySent": true,
@@ -673,9 +674,9 @@
   },
   "reports": {
     "Chief of Staff": {
-      "date": "2026-11-19",
-      "time": "7:42 AM CT",
-      "text": "1. URGENT: Nikki forwarded a Covercube notice overnight; a policy in her name is at risk of cancellation for a missed payment (AQ-COS-30). No action taken.\n2. Campus wave 1 offer emails went out Nov 17 morning; 6 addresses bounced (5 UMich, 1 UT Austin), no officer replies yet. AQ-GROWTH-5 closed.\n3. Wrangle Production 120 is live on Google Play. Beethoven's Alley Kats: vc2 AAB is a Closed testing draft; live backend and Play setup still open.\n4. Tester item killed per your rule that Wrangle is live and testers are dropped."
+      "date": "2026-11-20",
+      "time": "7:05 AM CT",
+      "text": "Desk refreshed Nov 20. New: Beethoven's Alley backend update deployed Nov 19 evening; vc4 APK on Drive; Play on hold. Everything else is unchanged from Nov 19."
     },
     "Sales, Clients & Funding": {
       "date": "2026-11-17",
