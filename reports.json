@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-20T07:31:00-06:00",
+  "updatedAt": "2026-11-21T07:10:00-06:00",
   "brief": {
-    "date": "2026-11-20",
-    "weekday": "Friday",
-    "generatedAt": "2026-11-20T07:29:00-06:00",
+    "date": "2026-11-21",
+    "weekday": "Saturday",
+    "generatedAt": "2026-11-21T07:08:00-06:00",
     "preparedBy": "Chief of Staff",
-    "summary": "Still yours: HelpBnk details before Nov 25 (AQ-SALES-22), the Google Payments photo ID (AQ-COS-10) and the SAM.gov CPA question. New: wave 2 campus emails need two answers (AQ-GROWTH-6), Skip $10K grant needs an OK for a free account (AQ-SALES-25), and Boardy funding asks are drafted for you to send. Beethoven's Alley sign-in fix 1.0.2 (8) is in Play closed-testing review. The Expo item is closed: no more EAS builds.",
+    "summary": "Saturday desk refresh. No new teammate reports were collected overnight, so open items below are unchanged from Friday: HelpBnk details before Nov 25 (AQ-SALES-22), the Google Payments photo ID (AQ-COS-10) and the SAM.gov CPA question. Friday evening you ordered the Beethoven's Alley update: backend v2.3.6 is live and the app 1.0.5 build was ordered to Play closed testing; status of that upload was not re-verified this morning.",
     "topBlocker": "HelpBnk details before Nov 25 5:59 PM CT (AQ-SALES-22).",
     "items": [
       {
@@ -669,12 +669,10 @@
       }
     ],
     "doneSinceLast": [
-      "Nov 19 about 6 PM CT: Beethoven's Alley backend update pushed and auto-deployed; vc4 APK saved to Drive.",
-      "Nov 20 about 7 AM CT: Beethoven's Alley sign-in bug fixed; 1.0.2 (8) sent to Play closed-testing review.",
-      "Nov 19: Expo item closed; all builds now local, no EAS.",
-      "Nov 20: Sales finished the Skip grant check, two credit leads and two Boardy funding drafts (nothing sent).",
-      "Nov 20: Content & Social lined up today's live @RockoDevLLC posts (pinned intro, Wiro thank-you, value replies).",
-      "Nov 20: Market Intel brief: no outside mentions that move installs; Boardy replied to our Nov 19 Wrangle post."
+      "Nov 20 about 8 PM CT: Beethoven's Alley backend v2.3.6 (ISRC fill, composer/publisher splits, Discogs artist ID) pushed and live on Render.",
+      "Nov 20 about 5 PM CT: Wrangle logo check set to brand blue in light mode (code committed, no build or Play upload yet).",
+      "Nov 20 about 5 PM CT: Beethoven's Alley 1.0.4 (10) with the gold mic title was sent to Play closed testing review.",
+      "Overnight: Wrangle database backup ran Nov 21 2:31 AM CT."
     ],
     "recommendation": "Send Sales your HelpBnk handle, phone and video OK.",
     "coCeoCopySent": true,
@@ -715,34 +713,34 @@
   },
   "reports": {
     "Chief of Staff": {
-      "date": "2026-11-20",
-      "time": "7:29 AM CT",
-      "text": "Daily brief Fri Nov 20. Closed the Expo item (no more EAS). Beethoven's Alley sign-in fix 1.0.2 (8) is in Play closed-testing review. Queued new decisions: wave 2 campus offer and date, Skip grant account, Boardy funding drafts. Passed your Wrangle-only weekly health check order to Product Ops."
+      "date": "2026-11-21",
+      "time": "7:08 AM CT",
+      "text": "Saturday desk refresh Nov 21. Friday evening: Beethoven's Alley backend v2.3.6 live; app 1.0.5 build to Play ordered (upload status not re-verified). Wrangle light-mode logo check committed, no build. Open decisions unchanged: HelpBnk details, Google Payments ID, SAM.gov CPA question."
     },
     "Sales, Clients & Funding": {
-      "date": "2026-11-20",
-      "time": "7:29 AM CT",
-      "text": "1. Skip $10K Growth Grant (due Dec 17): free, no purchase required; needs your OK for a free Skip account on the company Gmail (AQ-SALES-25).\n2. New credit leads: Sentry for Startups up to $5K (only if we use Sentry); Neon up to $1K parked since we use Supabase.\n3. Two Boardy funding asks drafted for you to send (AQ-SALES-26).\n4. HelpBnk is URGENT: needs your handle, phone number and video OK before Nov 25 5:59 PM CT. Nothing sent or submitted."
+      "date": "2026-11-21",
+      "time": "7:08 AM CT",
+      "text": "No new report collected since Nov 20 morning; the entry below is unchanged. 1. Skip $10K Growth Grant (due Dec 17): free, no purchase required; needs your OK for a free Skip account on the company Gmail (AQ-SALES-25).\n2. New credit leads: Sentry for Startups up to $5K (only if we use Sentry); Neon up to $1K parked since we use Supabase.\n3. Two Boardy funding asks drafted for you to send (AQ-SALES-26).\n4. HelpBnk is URGENT: needs your handle, phone number and video OK before Nov 25 5:59 PM CT. Nothing sent or submitted."
     },
     "Content & Social": {
-      "date": "2026-11-20",
-      "time": "7:29 AM CT",
-      "text": "Today's live @RockoDevLLC lineup: 9 AM pinned intro post, 11:15 AM value-reply run, 12:30 PM Wiro thank-you opener (this week's best performer). A reply to @boardyai is ready. The LinkedIn version is held because we still don't have LinkedIn page access. All passed the claims check; nothing about Doorline or Beethoven's Alley."
+      "date": "2026-11-21",
+      "time": "7:08 AM CT",
+      "text": "No new report collected since Nov 20 morning; the entry below is unchanged. Today's live @RockoDevLLC lineup: 9 AM pinned intro post, 11:15 AM value-reply run, 12:30 PM Wiro thank-you opener (this week's best performer). A reply to @boardyai is ready. The LinkedIn version is held because we still don't have LinkedIn page access. All passed the claims check; nothing about Doorline or Beethoven's Alley."
     },
     "Growth & Community": {
-      "date": "2026-11-20",
-      "time": "7:29 AM CT",
-      "text": "Wave 2 campus emails are ready for 5 boards; nothing sent. Recommends sending Mon Nov 30 and needs your yes on giving wave 2 the 6 months of free Wrangle+ and the iPhone waitlist line (AQ-GROWTH-6). Owns any Boardy follow-up."
+      "date": "2026-11-21",
+      "time": "7:08 AM CT",
+      "text": "No new report collected since Nov 20 morning; the entry below is unchanged. Wave 2 campus emails are ready for 5 boards; nothing sent. Recommends sending Mon Nov 30 and needs your yes on giving wave 2 the 6 months of free Wrangle+ and the iPhone waitlist line (AQ-GROWTH-6). Owns any Boardy follow-up."
     },
     "Market Intel": {
-      "date": "2026-11-20",
-      "time": "7:29 AM CT",
-      "text": "Nov 20 brief: no outside mention that could move installs. @boardyai replied to our Nov 19 Wrangle post (no Play link). AppBrain still doesn't list us; APKPure blocked the check. Top places planners are talking today: X Friendsgiving and group-chat posts, campus programming boards' winter pages plus APCA on LinkedIn, and Boardy's intro replies. Nothing urgent."
+      "date": "2026-11-21",
+      "time": "7:08 AM CT",
+      "text": "No new report collected since Nov 20 morning; the entry below is unchanged. Nov 20 brief: no outside mention that could move installs. @boardyai replied to our Nov 19 Wrangle post (no Play link). AppBrain still doesn't list us; APKPure blocked the check. Top places planners are talking today: X Friendsgiving and group-chat posts, campus programming boards' winter pages plus APCA on LinkedIn, and Boardy's intro replies. Nothing urgent."
     },
     "Product Ops": {
-      "date": "2026-11-20",
-      "time": "7:29 AM CT",
-      "text": "Nothing new reported since the last brief. Asked to switch health checks to Wrangle only, weekly on Sunday nights; confirmation pending."
+      "date": "2026-11-21",
+      "time": "7:08 AM CT",
+      "text": "No new report collected since Nov 20 morning; the entry below is unchanged. Nothing new reported since the last brief. Asked to switch health checks to Wrangle only, weekly on Sunday nights; confirmation pending."
     }
   }
 }
