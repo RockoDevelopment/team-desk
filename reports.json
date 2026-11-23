@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-23T07:15:00-06:00",
+  "updatedAt": "2026-11-23T07:33:05-06:00",
   "brief": {
     "date": "2026-11-23",
     "weekday": "Monday",
-    "generatedAt": "2026-11-23T07:14:00-06:00",
+    "generatedAt": "2026-11-23T07:33:05-06:00",
     "preparedBy": "Chief of Staff",
-    "summary": "Monday desk refresh. No new teammate reports were collected since the Nov 21 desk, so open items are unchanged: HelpBnk details before Nov 25 5:59 PM CT (AQ-SALES-22), the Google Payments photo ID (AQ-COS-10) and the SAM.gov CPA question. Standing rules recorded Nov 22-23: Content & Social runs @RockoDevLLC and owns follower health, daily reply outreach is approved, only one Play Store link per day on @RockoDevLLC, and PROMO BOT is no longer on the team. Beethoven's Alley 1.0.5 Play upload status was not re-verified this morning.",
-    "topBlocker": "HelpBnk details before Nov 25 5:59 PM CT (AQ-SALES-22).",
+    "summary": "Monday brief. Since Friday: Skip $10K grant application went in Nov 21 (no Skip OK needed), Beethoven's Alley backend 2.3.8 went live and 1.0.6 (12) is in Play review, the AYO and Mona pitches went out with no replies yet, Counsel joined and PROMO BOT left. @RockoDevLLC is at 23 followers and Wrangle installs are flat. HelpBnk details are due Wed Nov 25 5:59 PM CT.",
+    "topBlocker": "HelpBnk details before Wed Nov 25 5:59 PM CT (AQ-SALES-22).",
     "items": [
       {
         "id": "AQ-COS-17",
@@ -48,7 +48,7 @@
       {
         "id": "AQ-SALES-22",
         "title": "URGENT: HelpBnk ($5,000): send your handle, phone number and video OK",
-        "detail": "HelpBnk is open and closes Nov 25 at 5:59 PM CT. Sales needs your HelpBnk handle, the phone number to use, your yes on the video, and what the $5,000 covers. Nothing submitted.",
+        "detail": "HelpBnk account created Nov 21 ~6:07 PM CT. Still needs your handle, phone, video OK and what the $5,000 covers. Closes Wed Nov 25 5:59 PM CT.",
         "section": "approval",
         "owner": "ceo",
         "urgent": true,
@@ -413,8 +413,8 @@
       },
       {
         "id": "AQ-COS-29",
-        "title": "Beethoven's Alley: 1.0.2 (8) in Play closed-testing review",
-        "detail": "Sign-in bug fixed in the app (a failed session refresh signed you out; the server was up). 1.0.2 (8) uploaded to Closed testing Alpha and sent for review Nov 20 about 7 AM CT; no blocking errors. It updates on your phone once approved.",
+        "title": "Beethoven's Alley: 1.0.6 (12) in Play closed-testing review",
+        "detail": "Uploaded Nov 21; replaces approved 1.0.5 (11). Backend 2.3.8 live Nov 22. Review status not re-checked this morning.",
         "section": "next",
         "owner": "agent",
         "agentName": "Chief of Staff",
@@ -437,12 +437,12 @@
       {
         "id": "AQ-SALES-25",
         "title": "Skip $10K Growth Grant: OK a free Skip account on the company Gmail",
-        "detail": "Free to enter, no purchase required, due Dec 17 11:59 PM ET. Reading the written questions needs a free Skip account on rockodevelopmentllc@gmail.com. With your OK, Sales drafts the answers.",
+        "detail": "Skip account made with the company Google login and the $10K Growth Grant application submitted Nov 21 6:02 PM CT (Skip confirmation email). No OK needed now.",
         "section": "approval",
         "owner": "ceo",
         "urgent": false,
         "impactRank": 6,
-        "status": "open",
+        "status": "done",
         "firstSeen": "2026-11-20"
       },
       {
@@ -490,6 +490,42 @@
         "impactRank": 12,
         "status": "in_progress",
         "firstSeen": "2026-11-20"
+      },
+      {
+        "id": "AQ-GROWTH-7",
+        "title": "Organizer notes (Make More Friends Oakland, DFW Young and Social): say send",
+        "detail": "Both drafts approved Nov 22 9:02 PM CT and on hold until you say send. Oakland goes as a Meetup message from your own account.",
+        "section": "approval",
+        "owner": "ceo",
+        "urgent": false,
+        "impactRank": 5,
+        "status": "open",
+        "firstSeen": "2026-11-22",
+        "agentName": "Growth & Community"
+      },
+      {
+        "id": "AQ-COS-32",
+        "title": "Go to apply the 6-month Wrangle+ grant setup (campus officers wait on it)",
+        "detail": "Approved Nov 17 but not confirmed live (weekly plan, Nov 23).",
+        "section": "decision",
+        "owner": "ceo",
+        "urgent": false,
+        "impactRank": 5,
+        "status": "open",
+        "firstSeen": "2026-11-23",
+        "agentName": null
+      },
+      {
+        "id": "AQ-PRODOPS-11",
+        "title": "Truth sheet clears \"friends can reply without the app\": use it in public copy?",
+        "detail": "Asked in chat Nov 23 7:2x AM CT; no answer yet. Held until you say yes.",
+        "section": "decision",
+        "owner": "ceo",
+        "urgent": false,
+        "impactRank": 7,
+        "status": "open",
+        "firstSeen": "2026-11-23",
+        "agentName": "Product Ops"
       }
     ],
     "kpis": [
@@ -499,14 +535,19 @@
         "note": "Live since Nov 17 evening; Last published Nov 17. No newer stats read for this update."
       },
       {
+        "label": "Wrangle installed audience (Play)",
+        "value": "13",
+        "note": "Nov 19, from the Nov 21 Play CSV pull (10, 12, 13, 11, 11, 13 from Nov 14 to 19). New installs flat."
+      },
+      {
         "label": "Wrangle Play search 'hangout planner'",
         "value": "#4",
         "note": "SEO Bot single fetch, 9:47 AM CT Nov 16; not found for group planner, make plans with friends, AI event planner, or RSVP app. Not an official rank."
       },
       {
         "label": "@RockoDevLLC X followers",
-        "value": "26",
-        "note": "Public read 7:56 PM CT Nov 16 (was 17 on Nov 6). Nov 16 6:37 AM post: 11 impressions, no spike."
+        "value": "23",
+        "note": "X API read Nov 22 7:01 PM CT (25 on Nov 21, 26 on Nov 16, peak 27)."
       },
       {
         "label": "Free-for-life Plus emails (plus_comp_emails)",
@@ -549,8 +590,8 @@
         "amount": "$5,000",
         "status": "Drafting",
         "submitted": "",
-        "nextDate": "2026-11-19",
-        "note": "Opens tonight Thu Nov 19 6 PM CT, closes Nov 25; needs your video yes/no and the $5,000 use filled in"
+        "nextDate": "2026-11-25",
+        "note": "Account created Nov 21. Closes Nov 25 5:59 PM CT; needs your handle, phone, video OK and the $5,000 use."
       },
       {
         "program": "AI Impact Grant",
@@ -567,6 +608,22 @@
         "submitted": "",
         "nextDate": "",
         "note": "Dropped Oct 29 for equity reasons"
+      },
+      {
+        "program": "Skip Growth Grant",
+        "amount": "$10,000",
+        "status": "Submitted",
+        "submitted": "2026-11-21",
+        "nextDate": "2026-12-17",
+        "note": "Application submitted Nov 21 6:02 PM CT."
+      },
+      {
+        "program": "The No Excuses Fund",
+        "amount": "Unverified",
+        "status": "Lead",
+        "submitted": "",
+        "nextDate": "2026-12-15",
+        "note": "Market Intel lead Nov 23; equity-free per listing, terms unverified, needs a .tech domain. Sales to check."
       }
     ],
     "setupTracker": [
@@ -650,32 +707,38 @@
       {
         "from": "THE ORACLE",
         "timeCT": "",
-        "line": "No email from THE ORACLE since the last brief (inbox and spam checked)."
+        "line": "No email from THE ORACLE since Friday (inbox and spam checked)."
       },
       {
-        "from": "Grant / credits programs",
+        "from": "Skip",
+        "timeCT": "Nov 21, 6:02 PM",
+        "line": "Growth Grant application submitted; founder welcome message at 6:12 PM. Not a decision."
+      },
+      {
+        "from": "HelpBnk",
+        "timeCT": "Nov 21, 6:07 PM",
+        "line": "Account sign-up and welcome emails (Nov 23 4:00 AM reminder). No grant decision."
+      },
+      {
+        "from": "Grant programs",
         "timeCT": "",
-        "line": "No replies or decisions since the last brief."
-      },
-      {
-        "from": "Mail delivery (bounce)",
-        "timeCT": "Nov 19, 12:34 PM",
-        "line": "Outreach to a Yahoo address bounced (address not found). Growth should drop it."
-      },
-      {
-        "from": "Google Play",
-        "timeCT": "Nov 19, 2:38 PM",
-        "line": "Policy notice: Play Age Signals API and US/Brazil age assurance laws. Product Ops to review for Wrangle (18+)."
+        "line": "No reply or decision from Business Freedom, Wiro, NSF, Verizon/LISC or others."
       }
     ],
     "doneSinceLast": [
-      "Nov 20 about 8 PM CT: Beethoven's Alley backend v2.3.6 (ISRC fill, composer/publisher splits, Discogs artist ID) pushed and live on Render.",
-      "Nov 20 about 5 PM CT: Wrangle logo check set to brand blue in light mode (code committed, no build or Play upload yet).",
-      "Nov 20 about 5 PM CT: Beethoven's Alley 1.0.4 (10) with the gold mic title was sent to Play closed testing review.",
-      "Overnight: Wrangle database backup ran Nov 21 2:31 AM CT."
+      "Nov 21 6:02 PM CT: Skip $10K Growth Grant application submitted (company Gmail).",
+      "Nov 21: Mona (Tyrese Gibson team) pitch sent for Beethoven's Alley.",
+      "Nov 21: Beethoven's Alley 1.0.6 (12) uploaded to Play closed testing, in review.",
+      "Nov 22 ~7:45 AM CT: Beethoven's Alley backend 2.3.8 live (GitHub and server both 2.3.8).",
+      "Nov 22 morning: AYO referral email sent from contact@ with the new overview; overview also sent to Kitty.",
+      "Nov 22 8:59 AM CT: QR code event post live on @RockoDevLLC.",
+      "Nov 22: Counsel onboarded as legal counsel; PROMO BOT removed.",
+      "Nov 22: daily X reply outreach set up (Market Intel list ~8:20 AM, Content & Social replies ~11:15 AM).",
+      "Nov 22 2:30 PM CT: Growth's Wrangle install restart plan (Nov 23 to Dec 6) finished.",
+      "Nov 23 5:51 AM CT: one Play link a day cap on @RockoDevLLC, routines updated."
     ],
-    "recommendation": "Send Sales your HelpBnk handle, phone and video OK.",
-    "coCeoCopySent": true,
+    "recommendation": "Send Sales your HelpBnk handle, phone, video OK and the $5,000 use today.",
+    "coCeoCopySent": false,
     "company": {
       "products": [
         {
@@ -714,33 +777,33 @@
   "reports": {
     "Chief of Staff": {
       "date": "2026-11-23",
-      "time": "7:14 AM CT",
-      "text": "Monday desk refresh Nov 23. No new teammate reports collected. Open decisions unchanged: HelpBnk details (due Nov 25 5:59 PM CT), Google Payments ID, SAM.gov CPA question. Nov 22-23 standing rules recorded: Content & Social owns @RockoDevLLC and its follower health, one Play link per day on company posts, PROMO BOT removed from the team."
+      "time": "7:33 AM CT",
+      "text": "Monday brief. Skip $10K grant was already submitted Nov 21, so that OK is closed. Beethoven's Alley backend 2.3.8 is live and 1.0.6 (12) is in Play review. AYO and Mona pitches are out with no replies. Counsel is onboarded. Your open asks: HelpBnk details by Wed 5:59 PM CT, Google Payments ID, Wrangle+ 6-month setup go, the friends-reply claim, and when to send the two organizer notes."
     },
     "Sales, Clients & Funding": {
       "date": "2026-11-23",
-      "time": "7:14 AM CT",
-      "text": "Nothing new reported since the Nov 21 desk; entry carried forward unchanged. Skip $10K Growth Grant (due Dec 17): free, no purchase required; needs your OK for a free Skip account on the company Gmail (AQ-SALES-25).\n2. New credit leads: Sentry for Startups up to $5K (only if we use Sentry); Neon up to $1K parked since we use Supabase.\n3. Two Boardy funding asks drafted for you to send (AQ-SALES-26).\n4. HelpBnk is URGENT: needs your handle, phone number and video OK before Nov 25 5:59 PM CT. Nothing sent or submitted."
+      "time": "7:33 AM CT",
+      "text": "No nightly file over the weekend. Skip $10K Growth Grant application went in Nov 21 6:02 PM CT (due Dec 17). HelpBnk account exists; the form still needs your handle, phone, video OK and the $5,000 use by Nov 25 5:59 PM CT. New lead from Market Intel to check: The No Excuses Fund (Dec 15, terms unverified). Doorline proposal and Boardy asks still wait on you."
     },
     "Content & Social": {
       "date": "2026-11-23",
-      "time": "7:14 AM CT",
-      "text": "Nothing new reported since the Nov 21 desk; entry carried forward unchanged. A reply to @boardyai is ready. The LinkedIn version is held because we still don't have LinkedIn page access. All passed the claims check; nothing about Doorline or Beethoven's Alley."
+      "time": "7:33 AM CT",
+      "text": "No nightly file. Posted the QR code event post Nov 22 8:59 AM CT and three short replies Nov 22 7:03-7:04 PM CT, no links. Owns @RockoDevLLC follower health; 23 followers as of Nov 22 7:01 PM CT. One Play link a day cap is in its routines from today. Daily replies to Market Intel's list start today around 11:15 AM CT."
     },
     "Growth & Community": {
       "date": "2026-11-23",
-      "time": "7:14 AM CT",
-      "text": "Nothing new reported since the Nov 21 desk; entry carried forward unchanged. Recommends sending Mon Nov 30 and needs your yes on giving wave 2 the 6 months of free Wrangle+ and the iPhone waitlist line (AQ-GROWTH-6). Owns any Boardy follow-up."
+      "time": "7:33 AM CT",
+      "text": "No nightly file. Finished the Wrangle install restart plan (Nov 23 to Dec 6) Nov 22. Drafted the Make More Friends Oakland and DFW Young and Social organizer notes; you approved both and they are held until you say send. Stopped its own X reply list so Market Intel's is the only one. Wave 2 campus emails still need your OK (recommends Mon Nov 30)."
     },
     "Market Intel": {
       "date": "2026-11-23",
-      "time": "7:14 AM CT",
-      "text": "Nothing new reported since the Nov 21 desk; entry carried forward unchanged. @boardyai replied to our Nov 19 Wrangle post (no Play link). AppBrain still doesn't list us; APKPure blocked the check. Top places planners are talking today: X Friendsgiving and group-chat posts, campus programming boards' winter pages plus APCA on LinkedIn, and Boardy's intro replies. Nothing urgent."
+      "time": "7:33 AM CT",
+      "text": "Daily trend brief done (quiet Thanksgiving week). No outside Wrangle mentions in 72 hours; AppBrain and AndroidRank still don't list us. New funding lead for Sales: The No Excuses Fund, equity-free, deadline Dec 15, terms unverified, needs a .tech domain. Reddit and Google Trends still blocked to the box. First daily reply-target list due about 8:20 AM CT. Nothing urgent."
     },
     "Product Ops": {
       "date": "2026-11-23",
-      "time": "7:14 AM CT",
-      "text": "Nothing new reported since the Nov 21 desk; entry carried forward unchanged. Asked to switch health checks to Wrangle only, weekly on Sunday nights; confirmation pending."
+      "time": "7:33 AM CT",
+      "text": "No nightly file. Beethoven's Alley 1.0.6 (12) is in Play closed-testing review and backend 2.3.8 is live. Matching tickets BA-001 to BA-004 are written; code is held until your go. The truth sheet now clears \"friends can reply without the app\" pending your yes. Wrangle health checks are weekly on Sunday nights."
     }
   }
 }
