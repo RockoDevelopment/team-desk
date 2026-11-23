@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-23T07:33:05-06:00",
+  "updatedAt": "2026-11-23T07:34:36-06:00",
   "brief": {
     "date": "2026-11-23",
     "weekday": "Monday",
@@ -738,7 +738,7 @@
       "Nov 23 5:51 AM CT: one Play link a day cap on @RockoDevLLC, routines updated."
     ],
     "recommendation": "Send Sales your HelpBnk handle, phone, video OK and the $5,000 use today.",
-    "coCeoCopySent": false,
+    "coCeoCopySent": true,
     "company": {
       "products": [
         {
