@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-21T07:10:00-06:00",
+  "updatedAt": "2026-11-23T07:15:00-06:00",
   "brief": {
-    "date": "2026-11-21",
-    "weekday": "Saturday",
-    "generatedAt": "2026-11-21T07:08:00-06:00",
+    "date": "2026-11-23",
+    "weekday": "Monday",
+    "generatedAt": "2026-11-23T07:14:00-06:00",
     "preparedBy": "Chief of Staff",
-    "summary": "Saturday desk refresh. No new teammate reports were collected overnight, so open items below are unchanged from Friday: HelpBnk details before Nov 25 (AQ-SALES-22), the Google Payments photo ID (AQ-COS-10) and the SAM.gov CPA question. Friday evening you ordered the Beethoven's Alley update: backend v2.3.6 is live and the app 1.0.5 build was ordered to Play closed testing; status of that upload was not re-verified this morning.",
+    "summary": "Monday desk refresh. No new teammate reports were collected since the Nov 21 desk, so open items are unchanged: HelpBnk details before Nov 25 5:59 PM CT (AQ-SALES-22), the Google Payments photo ID (AQ-COS-10) and the SAM.gov CPA question. Standing rules recorded Nov 22-23: Content & Social runs @RockoDevLLC and owns follower health, daily reply outreach is approved, only one Play Store link per day on @RockoDevLLC, and PROMO BOT is no longer on the team. Beethoven's Alley 1.0.5 Play upload status was not re-verified this morning.",
     "topBlocker": "HelpBnk details before Nov 25 5:59 PM CT (AQ-SALES-22).",
     "items": [
       {
@@ -713,34 +713,34 @@
   },
   "reports": {
     "Chief of Staff": {
-      "date": "2026-11-21",
-      "time": "7:08 AM CT",
-      "text": "Saturday desk refresh Nov 21. Friday evening: Beethoven's Alley backend v2.3.6 live; app 1.0.5 build to Play ordered (upload status not re-verified). Wrangle light-mode logo check committed, no build. Open decisions unchanged: HelpBnk details, Google Payments ID, SAM.gov CPA question."
+      "date": "2026-11-23",
+      "time": "7:14 AM CT",
+      "text": "Monday desk refresh Nov 23. No new teammate reports collected. Open decisions unchanged: HelpBnk details (due Nov 25 5:59 PM CT), Google Payments ID, SAM.gov CPA question. Nov 22-23 standing rules recorded: Content & Social owns @RockoDevLLC and its follower health, one Play link per day on company posts, PROMO BOT removed from the team."
     },
     "Sales, Clients & Funding": {
-      "date": "2026-11-21",
-      "time": "7:08 AM CT",
-      "text": "No new report collected since Nov 20 morning; the entry below is unchanged. 1. Skip $10K Growth Grant (due Dec 17): free, no purchase required; needs your OK for a free Skip account on the company Gmail (AQ-SALES-25).\n2. New credit leads: Sentry for Startups up to $5K (only if we use Sentry); Neon up to $1K parked since we use Supabase.\n3. Two Boardy funding asks drafted for you to send (AQ-SALES-26).\n4. HelpBnk is URGENT: needs your handle, phone number and video OK before Nov 25 5:59 PM CT. Nothing sent or submitted."
+      "date": "2026-11-23",
+      "time": "7:14 AM CT",
+      "text": "Nothing new reported since the Nov 21 desk; entry carried forward unchanged. Skip $10K Growth Grant (due Dec 17): free, no purchase required; needs your OK for a free Skip account on the company Gmail (AQ-SALES-25).\n2. New credit leads: Sentry for Startups up to $5K (only if we use Sentry); Neon up to $1K parked since we use Supabase.\n3. Two Boardy funding asks drafted for you to send (AQ-SALES-26).\n4. HelpBnk is URGENT: needs your handle, phone number and video OK before Nov 25 5:59 PM CT. Nothing sent or submitted."
     },
     "Content & Social": {
-      "date": "2026-11-21",
-      "time": "7:08 AM CT",
-      "text": "No new report collected since Nov 20 morning; the entry below is unchanged. Today's live @RockoDevLLC lineup: 9 AM pinned intro post, 11:15 AM value-reply run, 12:30 PM Wiro thank-you opener (this week's best performer). A reply to @boardyai is ready. The LinkedIn version is held because we still don't have LinkedIn page access. All passed the claims check; nothing about Doorline or Beethoven's Alley."
+      "date": "2026-11-23",
+      "time": "7:14 AM CT",
+      "text": "Nothing new reported since the Nov 21 desk; entry carried forward unchanged. A reply to @boardyai is ready. The LinkedIn version is held because we still don't have LinkedIn page access. All passed the claims check; nothing about Doorline or Beethoven's Alley."
     },
     "Growth & Community": {
-      "date": "2026-11-21",
-      "time": "7:08 AM CT",
-      "text": "No new report collected since Nov 20 morning; the entry below is unchanged. Wave 2 campus emails are ready for 5 boards; nothing sent. Recommends sending Mon Nov 30 and needs your yes on giving wave 2 the 6 months of free Wrangle+ and the iPhone waitlist line (AQ-GROWTH-6). Owns any Boardy follow-up."
+      "date": "2026-11-23",
+      "time": "7:14 AM CT",
+      "text": "Nothing new reported since the Nov 21 desk; entry carried forward unchanged. Recommends sending Mon Nov 30 and needs your yes on giving wave 2 the 6 months of free Wrangle+ and the iPhone waitlist line (AQ-GROWTH-6). Owns any Boardy follow-up."
     },
     "Market Intel": {
-      "date": "2026-11-21",
-      "time": "7:08 AM CT",
-      "text": "No new report collected since Nov 20 morning; the entry below is unchanged. Nov 20 brief: no outside mention that could move installs. @boardyai replied to our Nov 19 Wrangle post (no Play link). AppBrain still doesn't list us; APKPure blocked the check. Top places planners are talking today: X Friendsgiving and group-chat posts, campus programming boards' winter pages plus APCA on LinkedIn, and Boardy's intro replies. Nothing urgent."
+      "date": "2026-11-23",
+      "time": "7:14 AM CT",
+      "text": "Nothing new reported since the Nov 21 desk; entry carried forward unchanged. @boardyai replied to our Nov 19 Wrangle post (no Play link). AppBrain still doesn't list us; APKPure blocked the check. Top places planners are talking today: X Friendsgiving and group-chat posts, campus programming boards' winter pages plus APCA on LinkedIn, and Boardy's intro replies. Nothing urgent."
     },
     "Product Ops": {
-      "date": "2026-11-21",
-      "time": "7:08 AM CT",
-      "text": "No new report collected since Nov 20 morning; the entry below is unchanged. Nothing new reported since the last brief. Asked to switch health checks to Wrangle only, weekly on Sunday nights; confirmation pending."
+      "date": "2026-11-23",
+      "time": "7:14 AM CT",
+      "text": "Nothing new reported since the Nov 21 desk; entry carried forward unchanged. Asked to switch health checks to Wrangle only, weekly on Sunday nights; confirmation pending."
     }
   }
 }
