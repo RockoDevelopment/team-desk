@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-23T07:34:36-06:00",
+  "updatedAt": "2026-11-23T07:55:14-06:00",
   "brief": {
     "date": "2026-11-23",
     "weekday": "Monday",
@@ -533,6 +533,11 @@
         "label": "Wrangle on Google Play",
         "value": "Production 120 (1.0.0) live",
         "note": "Live since Nov 17 evening; Last published Nov 17. No newer stats read for this update."
+      },
+      {
+        "label": "Wrangle weekly invites (Mon Nov 16-Sun Nov 22)",
+        "value": "13 plans, 16 invites, 5 replies (31.3%)",
+        "note": "Updated Mon Nov 23, 2026, 7:55 AM CT. Replies: 5 In / 0 Maybe / 0 Can't. Likely web replies: 2 (estimate). 5 of 13 plans got a reply. Versus last week (Mon Nov 9-Sun Nov 15): 19 plans, 42 invites, 10 replies (23.8%). All-time: 32 plans, 58 invites, 15 replies (25.9%). Counts only; no per-person data."
       },
       {
         "label": "Wrangle installed audience (Play)",
