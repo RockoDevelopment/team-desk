@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-23T07:55:14-06:00",
+  "updatedAt": "2026-11-24T07:04:26-06:00",
   "brief": {
-    "date": "2026-11-23",
-    "weekday": "Monday",
-    "generatedAt": "2026-11-23T07:33:05-06:00",
+    "date": "2026-11-24",
+    "weekday": "Tuesday",
+    "generatedAt": "2026-11-24T07:04:26-06:00",
     "preparedBy": "Chief of Staff",
-    "summary": "Monday brief. Since Friday: Skip $10K grant application went in Nov 21 (no Skip OK needed), Beethoven's Alley backend 2.3.8 went live and 1.0.6 (12) is in Play review, the AYO and Mona pitches went out with no replies yet, Counsel joined and PROMO BOT left. @RockoDevLLC is at 23 followers and Wrangle installs are flat. HelpBnk details are due Wed Nov 25 5:59 PM CT.",
+    "summary": "Tuesday desk refresh. No new teammate reports were read this morning, so everything below is carried over from the Monday Nov 23 brief and is unchanged. HelpBnk details are still due Wed Nov 25 5:59 PM CT.",
     "topBlocker": "HelpBnk details before Wed Nov 25 5:59 PM CT (AQ-SALES-22).",
     "items": [
       {
@@ -781,34 +781,34 @@
   },
   "reports": {
     "Chief of Staff": {
-      "date": "2026-11-23",
-      "time": "7:33 AM CT",
-      "text": "Monday brief. Skip $10K grant was already submitted Nov 21, so that OK is closed. Beethoven's Alley backend 2.3.8 is live and 1.0.6 (12) is in Play review. AYO and Mona pitches are out with no replies. Counsel is onboarded. Your open asks: HelpBnk details by Wed 5:59 PM CT, Google Payments ID, Wrangle+ 6-month setup go, the friends-reply claim, and when to send the two organizer notes."
+      "date": "2026-11-24",
+      "time": "7:04 AM CT",
+      "text": "Tuesday desk review, nothing new. Carried over from Monday: HelpBnk details due Wed Nov 25 5:59 PM CT, Google Payments ID, Wrangle+ 6-month setup go. No new KPI numbers were pulled today."
     },
     "Sales, Clients & Funding": {
-      "date": "2026-11-23",
-      "time": "7:33 AM CT",
-      "text": "No nightly file over the weekend. Skip $10K Growth Grant application went in Nov 21 6:02 PM CT (due Dec 17). HelpBnk account exists; the form still needs your handle, phone, video OK and the $5,000 use by Nov 25 5:59 PM CT. New lead from Market Intel to check: The No Excuses Fund (Dec 15, terms unverified). Doorline proposal and Boardy asks still wait on you."
+      "date": "2026-11-24",
+      "time": "7:04 AM CT",
+      "text": "No new report today. Last report (Nov 23): No nightly file over the weekend. Skip $10K Growth Grant application went in Nov 21 6:02 PM CT (due Dec 17). HelpBnk account exists; the form still needs your handle, phone, video OK and the $5,000 use by Nov 25 5:59 PM CT. New lead from Market Intel to check: The No Excuses Fund (Dec 15, terms unverified). Doorline proposal and Boardy asks still wait on you."
     },
     "Content & Social": {
-      "date": "2026-11-23",
-      "time": "7:33 AM CT",
-      "text": "No nightly file. Posted the QR code event post Nov 22 8:59 AM CT and three short replies Nov 22 7:03-7:04 PM CT, no links. Owns @RockoDevLLC follower health; 23 followers as of Nov 22 7:01 PM CT. One Play link a day cap is in its routines from today. Daily replies to Market Intel's list start today around 11:15 AM CT."
+      "date": "2026-11-24",
+      "time": "7:04 AM CT",
+      "text": "No new report today. Last report (Nov 23): No nightly file. Posted the QR code event post Nov 22 8:59 AM CT and three short replies Nov 22 7:03-7:04 PM CT, no links. Owns @RockoDevLLC follower health; 23 followers as of Nov 22 7:01 PM CT. One Play link a day cap is in its routines from today. Daily replies to Market Intel's list start today around 11:15 AM CT."
     },
     "Growth & Community": {
-      "date": "2026-11-23",
-      "time": "7:33 AM CT",
-      "text": "No nightly file. Finished the Wrangle install restart plan (Nov 23 to Dec 6) Nov 22. Drafted the Make More Friends Oakland and DFW Young and Social organizer notes; you approved both and they are held until you say send. Stopped its own X reply list so Market Intel's is the only one. Wave 2 campus emails still need your OK (recommends Mon Nov 30)."
+      "date": "2026-11-24",
+      "time": "7:04 AM CT",
+      "text": "No new report today. Last report (Nov 23): No nightly file. Finished the Wrangle install restart plan (Nov 23 to Dec 6) Nov 22. Drafted the Make More Friends Oakland and DFW Young and Social organizer notes; you approved both and they are held until you say send. Stopped its own X reply list so Market Intel's is the only one. Wave 2 campus emails still need your OK (recommends Mon Nov 30)."
     },
     "Market Intel": {
-      "date": "2026-11-23",
-      "time": "7:33 AM CT",
-      "text": "Daily trend brief done (quiet Thanksgiving week). No outside Wrangle mentions in 72 hours; AppBrain and AndroidRank still don't list us. New funding lead for Sales: The No Excuses Fund, equity-free, deadline Dec 15, terms unverified, needs a .tech domain. Reddit and Google Trends still blocked to the box. First daily reply-target list due about 8:20 AM CT. Nothing urgent."
+      "date": "2026-11-24",
+      "time": "7:04 AM CT",
+      "text": "No new report today. Last report (Nov 23): Daily trend brief done (quiet Thanksgiving week). No outside Wrangle mentions in 72 hours; AppBrain and AndroidRank still don't list us. New funding lead for Sales: The No Excuses Fund, equity-free, deadline Dec 15, terms unverified, needs a .tech domain. Reddit and Google Trends still blocked to the box. First daily reply-target list due about 8:20 AM CT. Nothing urgent."
     },
     "Product Ops": {
-      "date": "2026-11-23",
-      "time": "7:33 AM CT",
-      "text": "No nightly file. Beethoven's Alley 1.0.6 (12) is in Play closed-testing review and backend 2.3.8 is live. Matching tickets BA-001 to BA-004 are written; code is held until your go. The truth sheet now clears \"friends can reply without the app\" pending your yes. Wrangle health checks are weekly on Sunday nights."
+      "date": "2026-11-24",
+      "time": "7:04 AM CT",
+      "text": "No new report today. Last report (Nov 23): No nightly file. Beethoven's Alley 1.0.6 (12) is in Play closed-testing review and backend 2.3.8 is live. Matching tickets BA-001 to BA-004 are written; code is held until your go. The truth sheet now clears \"friends can reply without the app\" pending your yes. Wrangle health checks are weekly on Sunday nights."
     }
   }
 }
