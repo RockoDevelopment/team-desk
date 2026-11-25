@@ -1,26 +1,14 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-24T07:31:40-06:00",
+  "updatedAt": "2026-11-25T07:20:00-06:00",
   "brief": {
-    "date": "2026-11-24",
-    "weekday": "Tuesday",
-    "generatedAt": "2026-11-24T07:31:40-06:00",
+    "date": "2026-11-25",
+    "weekday": "Wednesday",
+    "generatedAt": "2026-11-25T07:20:00-06:00",
     "preparedBy": "Chief of Staff",
-    "summary": "Wrangle 1.0.4 on Play crashes on launch. The fix, 1.0.5 (125), went to Play review at 6:55 AM CT, and install pushes are on hold until it is live. Weekly usage is at 87.5%, over the 70% cap, until Thu 8:44 PM CT. New: confirm HelpBnk, a Render unpaid balance and a Shophand yes or no.",
-    "topBlocker": "Wrangle 1.0.5 (125) Play review: the live 1.0.4 crashes on launch (AQ-COS-33).",
+    "summary": "Wrangle 1.0.5 (125), the fix for the launch crash, went live on Google Play Nov 24 at 7:49 AM CT, and the install holds are lifted. Still open for Rocko: HelpBnk submission check (closes today 5:59 PM CT), the Render unpaid balance, a Shophand yes or no (due Nov 30) and the Google Payments photo ID. Weekly usage is over the 70% cap until Thu 8:44 PM CT, so only must-do work runs. No new teammate reports were collected this morning.",
+    "topBlocker": "HelpBnk ($5,000) closes today 5:59 PM CT: confirm it was really submitted (AQ-SALES-22).",
     "items": [
-      {
-        "id": "AQ-COS-33",
-        "title": "Wrangle 1.0.4 crashes on launch: fix 1.0.5 (125) is in Play review",
-        "detail": "Live 1.0.4 crashes on launch on every phone (audio library mismatched with our Expo version). Fixed in 1.0.5 (125), all tests pass, sent to Production review at 100% Nov 24 ~6:55 AM CT. Review can take up to 7 days. Friendsgiving Play-link post, Friendsgiving users email, campus codes and bounce resends are on hold until it is live.",
-        "section": "risk",
-        "owner": "agent",
-        "agentName": "Chief of Staff",
-        "urgent": true,
-        "impactRank": 1,
-        "status": "in_progress",
-        "firstSeen": "2026-11-24"
-      },
       {
         "id": "AQ-COS-10",
         "title": "Upload your photo ID for Google Payments (genuine request)",
@@ -270,7 +258,7 @@
       {
         "id": "AQ-GROWTH-8",
         "title": "Replacement campus inboxes: OK the send",
-        "detail": "7 of 26 campus emails bounced. Market Intel has replacement inboxes. Outside email list, so it needs your OK. On hold anyway until 1.0.5 is live.",
+        "detail": "7 of 26 campus emails bounced. Market Intel has replacement inboxes. Outside email list, so it needs your OK. 1.0.5 is now live, so this waits only on your OK.",
         "section": "approval",
         "owner": "ceo",
         "urgent": false,
@@ -613,8 +601,8 @@
     "kpis": [
       {
         "label": "Wrangle on Google Play",
-        "value": "1.0.4 live (crashes); 1.0.5 (125) in review",
-        "note": "Sent to Production review Nov 24 ~6:55 AM CT at 100%. Play showed 15 installs on active devices."
+        "value": "1.0.5 (125) live",
+        "note": "Released Nov 24 7:49 AM CT; replaces the crashing 1.0.4. Watch Play vitals for any crash on 125."
       },
       {
         "label": "Wrangle weekly invites (Mon Nov 16-Sun Nov 22)",
@@ -831,6 +819,7 @@
       }
     ],
     "doneSinceLast": [
+      "Nov 24 7:49 AM CT: Wrangle 1.0.5 (125) went live on Google Play, fixing the launch crash; team install holds lifted.",
       "Nov 24 ~6:55 AM CT: Wrangle crash found and fixed in 1.0.5 (125), 1173 app and 179 server tests pass, sent to Play Production review at 100%.",
       "Nov 23 9:30 PM CT: 50 Play promo codes for 90 days of Wrangle+ went live (good through Mar 31, 2027).",
       "Nov 23 3:01 PM CT: Spanish listing, college-clubs listing and short-description test sent to Play review.",
@@ -877,34 +866,34 @@
   },
   "reports": {
     "Chief of Staff": {
-      "date": "2026-11-24",
-      "time": "7:31 AM CT",
-      "text": "Wrangle 1.0.4 crashes on launch. I fixed it in 1.0.5 (125) and it went to Play Production review at 6:55 AM CT. Install pushes are held until it is live. Rocko settled the 19 campus boards at 90 days, 50 Play promo codes went live last night, and the Spanish and college-clubs listings are in Play review. New for Rocko: confirm HelpBnk, the Render unpaid balance and the Shophand yes or no. Usage is at 87.5%, over the cap."
+      "date": "2026-11-25",
+      "time": "7:20 AM CT",
+      "text": "Wrangle 1.0.5 (125) went live on Play Nov 24 at 7:49 AM CT, fixing the launch crash, and the install holds are lifted. Still waiting on Rocko: confirm HelpBnk (closes today 5:59 PM CT), the Render unpaid balance, the Shophand yes or no, and the Google Payments photo ID. Usage stays over the cap until Thursday 8:44 PM CT."
     },
     "Sales, Clients & Funding": {
       "date": "2026-11-24",
       "time": "7:31 AM CT",
-      "text": "Built the first money tracker (/workspace/sales/money-tracker.md). Flags two urgent items for Rocko: an unpaid Render balance on the old Wealth Orchestration Protocol workspace (amount unknown) and the Shophand Boost Grant due Nov 30, which needs a yes or no on whether we are actively operating. Says HelpBnk and Skip are both submitted. Expo was in EAS overage as of Nov 16 (amount unknown). Changed no plans or payments."
+      "text": "No new report since 2026-11-24 (as of Nov 25, 7:20 AM CT). Last report: Built the first money tracker (/workspace/sales/money-tracker.md). Flags two urgent items for Rocko: an unpaid Render balance on the old Wealth Orchestration Protocol workspace (amount unknown) and the Shophand Boost Grant due Nov 30, which needs a yes or no on whether we are actively operating. Says HelpBnk and Skip are both submitted. Expo was in EAS overage as of Nov 16 (amount unknown). Changed no plans or payments."
     },
     "Content & Social": {
       "date": "2026-11-24",
       "time": "7:31 AM CT",
-      "text": "Mon Nov 23 on @RockoDevLLC: 9:27 AM build-in-public post (the day's one Play link), 10:31 AM quote, 2:18 PM post (late, the 1:05 slot never fired), 6:37 PM quote and 5 replies, all SEO-cleared. Followers 26, +3 since Nov 22. No winner post (best 23 impressions). Now holding every install-driving link until 1.0.5 is live. No blockers."
+      "text": "No new report since 2026-11-24 (as of Nov 25, 7:20 AM CT). Last report: Mon Nov 23 on @RockoDevLLC: 9:27 AM build-in-public post (the day's one Play link), 10:31 AM quote, 2:18 PM post (late, the 1:05 slot never fired), 6:37 PM quote and 5 replies, all SEO-cleared. Followers 26, +3 since Nov 22. No winner post (best 23 impressions). Now holding every install-driving link until 1.0.5 is live. No blockers."
     },
     "Growth & Community": {
       "date": "2026-11-24",
       "time": "7:31 AM CT",
-      "text": "Monday KPI roll-up saved (/workspace/growth/kpi/rollup-2026-11-23.md). Week Nov 16-22: 13 plans, 16 invites, 5 replies. 7 of 26 campus sends bounced, no campus replies. Asked for a replacement-inbox send OK, an ad budget and migration 0045 (the last two were closed). Friendsgiving email, campus codes and resends are on hold until 1.0.5 is live."
+      "text": "No new report since 2026-11-24 (as of Nov 25, 7:20 AM CT). Last report: Monday KPI roll-up saved (/workspace/growth/kpi/rollup-2026-11-23.md). Week Nov 16-22: 13 plans, 16 invites, 5 replies. 7 of 26 campus sends bounced, no campus replies. Asked for a replacement-inbox send OK, an ad budget and migration 0045 (the last two were closed). Friendsgiving email, campus codes and resends are on hold until 1.0.5 is live."
     },
     "Market Intel": {
       "date": "2026-11-24",
       "time": "7:31 AM CT",
-      "text": "Mon Nov 23 trend brief done. Quiet Thanksgiving week, no outside Wrangle mentions in 72 hours, still not on AppBrain or AndroidRank. Passed Sales one lead, The No Excuses Fund (equity-free, Dec 15, terms unverified, needs a .tech domain). Reddit and Google Trends still blocked. Nothing urgent."
+      "text": "No new report since 2026-11-24 (as of Nov 25, 7:20 AM CT). Last report: Mon Nov 23 trend brief done. Quiet Thanksgiving week, no outside Wrangle mentions in 72 hours, still not on AppBrain or AndroidRank. Passed Sales one lead, The No Excuses Fund (equity-free, Dec 15, terms unverified, needs a .tech domain). Reddit and Google Trends still blocked. Nothing urgent."
     },
     "Product Ops": {
       "date": "2026-11-24",
       "time": "7:31 AM CT",
-      "text": "Sunday-night Wrangle health check was clean and reported 1.0.4 live with no policy issues; it did not catch the launch crash that Rocko found later. Installed audience 13 (Nov 21), no new reviews. Beethoven's Alley tickets are written but need a repo before code starts. Yesterday's Play numbers run failed; today's completed."
+      "text": "No new report since 2026-11-24 (as of Nov 25, 7:20 AM CT). Last report: Sunday-night Wrangle health check was clean and reported 1.0.4 live with no policy issues; it did not catch the launch crash that Rocko found later. Installed audience 13 (Nov 21), no new reviews. Beethoven's Alley tickets are written but need a repo before code starts. Yesterday's Play numbers run failed; today's completed."
     }
   }
 }
