@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-25T07:31:19-06:00",
+  "updatedAt": "2026-11-25T07:33:56-06:00",
   "brief": {
     "date": "2026-11-25",
     "weekday": "Wednesday",
@@ -826,7 +826,7 @@
       "Nov 24: Market Intel mapped public places where 18-24s are planning Friendsgiving; Product Ops pulled Play numbers and the version breakdown for the 0046 call."
     ],
     "recommendation": "Close the old Render workspace today so the unpaid balance stops being a money risk, then give Sales a Shophand yes or no.",
-    "coCeoCopySent": false,
+    "coCeoCopySent": true,
     "company": {
       "products": [
         {
