@@ -1,13 +1,13 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-25T07:20:00-06:00",
+  "updatedAt": "2026-11-25T07:31:19-06:00",
   "brief": {
     "date": "2026-11-25",
     "weekday": "Wednesday",
-    "generatedAt": "2026-11-25T07:20:00-06:00",
+    "generatedAt": "2026-11-25T07:31:19-06:00",
     "preparedBy": "Chief of Staff",
-    "summary": "Wrangle 1.0.5 (125), the fix for the launch crash, went live on Google Play Nov 24 at 7:49 AM CT, and the install holds are lifted. Still open for Rocko: HelpBnk submission check (closes today 5:59 PM CT), the Render unpaid balance, a Shophand yes or no (due Nov 30) and the Google Payments photo ID. Weekly usage is over the 70% cap until Thu 8:44 PM CT, so only must-do work runs. No new teammate reports were collected this morning.",
-    "topBlocker": "HelpBnk ($5,000) closes today 5:59 PM CT: confirm it was really submitted (AQ-SALES-22).",
+    "summary": "HelpBnk is confirmed submitted (portal confirmation screen from Nov 21 on file), so that item is closed. Wrangle 1.0.5 (125) has been live on Play since Nov 24 7:49 AM CT. The Friendsgiving email to existing users was killed on your order; Friendsgiving marketing now goes only to the public. Still open for you: the Render unpaid balance, a Shophand yes or no (due Nov 30) and the Google Payments photo ID.",
+    "topBlocker": "Unpaid Render balance on the old Wealth Orchestration Protocol workspace: pay or close it (AQ-SALES-29).",
     "items": [
       {
         "id": "AQ-COS-10",
@@ -16,20 +16,20 @@
         "section": "decision",
         "owner": "ceo",
         "urgent": true,
-        "impactRank": 2,
+        "impactRank": 3,
         "status": "open",
         "firstSeen": "2026-11-04",
         "link": "https://payments.google.com/"
       },
       {
         "id": "AQ-SALES-22",
-        "title": "URGENT: HelpBnk ($5,000): confirm it was really submitted",
-        "detail": "Contradiction. Sales' money tracker says HelpBnk was submitted Nov 21 6:37 PM CT with a reference on file, but the company Gmail has only sign-up and reminder mail from HelpBnk, no submission confirmation, and Monday's brief still asked for your details. Check the HelpBnk dashboard or tell us. Closes Wed Nov 25 5:59 PM CT.",
+        "title": "HelpBnk ($5,000): submission confirmed",
+        "detail": "Resolved Nov 25. The HelpBnk pitch portal showed \"Thank you for entering\" with a reference code on Sat Nov 21 6:37 PM CT; the screenshot is on file in grant-submissions/helpbnk-proof. HelpBnk sends no receipt email, which is why Sales found none. Entries close today 5:59 PM CT; finalists attend Dec 2. Nothing for you to do.",
         "section": "approval",
         "owner": "ceo",
-        "urgent": true,
+        "urgent": false,
         "impactRank": 2,
-        "status": "open",
+        "status": "done",
         "firstSeen": "2026-11-04"
       },
       {
@@ -39,7 +39,7 @@
         "section": "decision",
         "owner": "ceo",
         "urgent": true,
-        "impactRank": 3,
+        "impactRank": 4,
         "status": "open",
         "firstSeen": "2026-11-01"
       },
@@ -50,7 +50,7 @@
         "section": "decision",
         "owner": "ceo",
         "urgent": true,
-        "impactRank": 3,
+        "impactRank": 1,
         "status": "open",
         "firstSeen": "2026-11-24",
         "link": "https://dashboard.render.com/billing"
@@ -62,7 +62,7 @@
         "section": "approval",
         "owner": "ceo",
         "urgent": false,
-        "impactRank": 4,
+        "impactRank": 5,
         "status": "open",
         "firstSeen": "2026-11-06"
       },
@@ -74,7 +74,7 @@
         "owner": "ceo",
         "agentName": "Sales, Clients & Funding",
         "urgent": true,
-        "impactRank": 4,
+        "impactRank": 6,
         "status": "open",
         "link": "",
         "firstSeen": "2026-11-17"
@@ -87,7 +87,7 @@
         "owner": "agent",
         "agentName": "Chief of Staff",
         "urgent": false,
-        "impactRank": 4,
+        "impactRank": 7,
         "status": "in_progress",
         "firstSeen": "2026-11-19"
       },
@@ -98,7 +98,7 @@
         "section": "decision",
         "owner": "ceo",
         "urgent": true,
-        "impactRank": 4,
+        "impactRank": 2,
         "status": "open",
         "firstSeen": "2026-11-24"
       },
@@ -109,7 +109,7 @@
         "section": "approval",
         "owner": "ceo",
         "urgent": false,
-        "impactRank": 5,
+        "impactRank": 8,
         "status": "open",
         "firstSeen": "2026-11-22",
         "agentName": "Growth & Community"
@@ -121,7 +121,7 @@
         "owner": "agent",
         "agentName": "Chief of Staff",
         "urgent": false,
-        "impactRank": 6,
+        "impactRank": 9,
         "status": "in_progress",
         "firstSeen": "2026-11-08",
         "detail": "Twilio's business profile was approved Nov 8-9. Rocko wants email one-time codes for first sign-in while still collecting a phone number. Dev update for email-code sign-in was pushed to the Wrangle repo Nov 9; no successful end-to-end test reported yet. Update Nov 17: Wrangle email codes are going out to users from the company Gmail."
@@ -133,7 +133,7 @@
         "section": "decision",
         "owner": "ceo",
         "urgent": false,
-        "impactRank": 7,
+        "impactRank": 10,
         "status": "open",
         "firstSeen": "2026-11-23",
         "agentName": "Product Ops"
@@ -146,7 +146,7 @@
         "owner": "agent",
         "agentName": "Chief of Staff",
         "urgent": false,
-        "impactRank": 8,
+        "impactRank": 11,
         "status": "open",
         "firstSeen": "2026-11-06"
       },
@@ -158,7 +158,7 @@
         "owner": "agent",
         "agentName": "Growth & Community",
         "urgent": false,
-        "impactRank": 9,
+        "impactRank": 12,
         "status": "open",
         "firstSeen": "2026-11-01"
       },
@@ -169,7 +169,7 @@
         "section": "decision",
         "owner": "ceo",
         "urgent": false,
-        "impactRank": 9,
+        "impactRank": 13,
         "status": "open",
         "link": "",
         "firstSeen": "2026-11-17"
@@ -181,7 +181,7 @@
         "section": "approval",
         "owner": "ceo",
         "urgent": false,
-        "impactRank": 10,
+        "impactRank": 14,
         "status": "open",
         "firstSeen": "2026-11-01"
       },
@@ -192,7 +192,7 @@
         "section": "approval",
         "owner": "ceo",
         "urgent": false,
-        "impactRank": 10,
+        "impactRank": 15,
         "status": "open",
         "firstSeen": "2026-11-20"
       },
@@ -203,7 +203,7 @@
         "section": "next",
         "owner": "ceo",
         "urgent": false,
-        "impactRank": 11,
+        "impactRank": 16,
         "status": "open",
         "firstSeen": "2026-11-01",
         "link": "https://x.com/RockoDevLLC/status/2116676894913650902"
@@ -215,7 +215,7 @@
         "section": "approval",
         "owner": "ceo",
         "urgent": false,
-        "impactRank": 11,
+        "impactRank": 17,
         "status": "open",
         "firstSeen": "2026-11-24"
       },
@@ -227,7 +227,7 @@
         "owner": "ceo",
         "agentName": "Product Ops",
         "urgent": false,
-        "impactRank": 12,
+        "impactRank": 18,
         "status": "open",
         "link": "",
         "firstSeen": "2026-11-17"
@@ -240,7 +240,7 @@
         "owner": "agent",
         "agentName": "Product Ops",
         "urgent": false,
-        "impactRank": 12,
+        "impactRank": 19,
         "status": "in_progress",
         "firstSeen": "2026-11-20"
       },
@@ -251,7 +251,7 @@
         "section": "next",
         "owner": "ceo",
         "urgent": false,
-        "impactRank": 13,
+        "impactRank": 20,
         "status": "open",
         "firstSeen": "2026-11-01"
       },
@@ -262,7 +262,7 @@
         "section": "approval",
         "owner": "ceo",
         "urgent": false,
-        "impactRank": 13,
+        "impactRank": 21,
         "status": "open",
         "firstSeen": "2026-11-24"
       },
@@ -274,7 +274,7 @@
         "owner": "agent",
         "agentName": "Chief of Staff",
         "urgent": false,
-        "impactRank": 14,
+        "impactRank": 22,
         "status": "open",
         "firstSeen": "2026-11-24"
       },
@@ -285,7 +285,7 @@
         "section": "approval",
         "owner": "ceo",
         "urgent": false,
-        "impactRank": 15,
+        "impactRank": 23,
         "status": "open",
         "firstSeen": "2026-11-20"
       },
@@ -616,8 +616,8 @@
       },
       {
         "label": "Wrangle installed audience (Play)",
-        "value": "13",
-        "note": "Nov 21, latest exported day (Product Ops, Nov 23). No new reviews or ratings."
+        "value": "12",
+        "note": "Nov 22, latest exported day (Product Ops, Nov 24; last 2-3 days incomplete). All 12 devices on 120 or higher. No new reviews or ratings; rating 5.0 from 2 users."
       },
       {
         "label": "Wrangle Play search 'hangout planner'",
@@ -627,7 +627,7 @@
       {
         "label": "@RockoDevLLC X followers",
         "value": "26",
-        "note": "Content & Social nightly file Nov 23 evening (+3 since Nov 22; +2 this week vs +5 target). Best post 23 impressions."
+        "note": "Public X read Nov 24 5:08 PM CT (88 following, 127 posts). +2 vs 24 on Nov 20."
       },
       {
         "label": "Free-for-life Plus emails (plus_comp_emails)",
@@ -668,10 +668,10 @@
       {
         "program": "HelpBnk",
         "amount": "$5,000",
-        "status": "Submitted (unconfirmed)",
+        "status": "Submitted",
         "submitted": "2026-11-21",
         "nextDate": "2026-11-25",
-        "note": "Sales says submitted Nov 21 6:37 PM CT; no confirmation email in Gmail. Rocko to confirm. Closes Nov 25 5:59 PM CT; finalists attend Dec 2."
+        "note": "Confirmed. Portal \"Thank you for entering\" screen Nov 21 6:37 PM CT on file (HelpBnk sends no receipt email). Entries close Nov 25 5:59 PM CT; finalists attend Dec 2."
       },
       {
         "program": "AI Impact Grant",
@@ -795,40 +795,38 @@
       {
         "from": "THE ORACLE",
         "timeCT": "",
-        "line": "No email from THE ORACLE since Monday's brief (inbox and spam checked)."
-      },
-      {
-        "from": "Skip",
-        "timeCT": "Nov 23, 8:52 AM",
-        "line": "Second \"application submitted\" confirmation for the $10K Growth Grant. Not a decision."
-      },
-      {
-        "from": "HelpBnk",
-        "timeCT": "Nov 23, 4:00 AM",
-        "line": "\"Complete your HelpBnk experience\" app-download reminder. No submission confirmation, no decision."
-      },
-      {
-        "from": "Verizon Digital Ready",
-        "timeCT": "Nov 23, 10:41 AM",
-        "line": "Newsletter (Ask AI feature). No grant decision."
+        "line": "No email from THE ORACLE since Tuesday's brief (inbox and spam checked)."
       },
       {
         "from": "Grant programs",
         "timeCT": "",
-        "line": "No reply or decision from Business Freedom, Wiro, NSF, Verizon/LISC or others."
+        "line": "No reply or decision from Business Freedom, Wiro, HelpBnk, NSF, Verizon/LISC, Skip or others."
+      },
+      {
+        "from": "Render",
+        "timeCT": "Nov 25, 3:30 AM",
+        "line": "General security notice for services using Ghostscript or ImageMagick. Not a billing notice."
+      },
+      {
+        "from": "Google Cloud",
+        "timeCT": "Nov 24, 4:53 PM",
+        "line": "Legal update to Google Cloud service terms. No action."
+      },
+      {
+        "from": "Mail Delivery Subsystem",
+        "timeCT": "Nov 24, 12:06 PM",
+        "line": "Delay notice on the Tyrese pitch to Mona's address; Gmail keeps retrying until Thu morning. No new send."
       }
     ],
     "doneSinceLast": [
-      "Nov 24 7:49 AM CT: Wrangle 1.0.5 (125) went live on Google Play, fixing the launch crash; team install holds lifted.",
-      "Nov 24 ~6:55 AM CT: Wrangle crash found and fixed in 1.0.5 (125), 1173 app and 179 server tests pass, sent to Play Production review at 100%.",
-      "Nov 23 9:30 PM CT: 50 Play promo codes for 90 days of Wrangle+ went live (good through Mar 31, 2027).",
-      "Nov 23 3:01 PM CT: Spanish listing, college-clubs listing and short-description test sent to Play review.",
-      "Nov 23 3:08 PM CT: you decided the 19 campus boards get 90 days like everyone else.",
-      "Nov 23 evening: every posting bot saved your engagement rule; the Victor Zubcu reply went live 6:59 PM CT.",
-      "Nov 23: Content & Social posted 4 times plus 5 replies; Growth weekly KPI roll-up; Sales first money tracker; Market Intel trend brief; Product Ops Sunday health check."
+      "Nov 25: HelpBnk contradiction resolved. The portal confirmation screen from Nov 21 6:37 PM CT is on file, so the entry is in.",
+      "Nov 24 4:14 PM CT: on your order, the Friendsgiving email to existing users was killed (nothing sent) and the rule saved; Friendsgiving marketing goes to the public only.",
+      "Nov 24 7:49 AM CT: Wrangle 1.0.5 (125) went live on Google Play; install holds lifted.",
+      "Nov 24: Content & Social posted the Friendsgiving organizer post on X (9:04 AM) and 2 public replies; a third reply was deleted after Market Intel flagged the account.",
+      "Nov 24: Market Intel mapped public places where 18-24s are planning Friendsgiving; Product Ops pulled Play numbers and the version breakdown for the 0046 call."
     ],
-    "recommendation": "Confirm HelpBnk today: if it is not really in, it closes Wed 5:59 PM CT.",
-    "coCeoCopySent": true,
+    "recommendation": "Close the old Render workspace today so the unpaid balance stops being a money risk, then give Sales a Shophand yes or no.",
+    "coCeoCopySent": false,
     "company": {
       "products": [
         {
@@ -867,33 +865,33 @@
   "reports": {
     "Chief of Staff": {
       "date": "2026-11-25",
-      "time": "7:20 AM CT",
-      "text": "Wrangle 1.0.5 (125) went live on Play Nov 24 at 7:49 AM CT, fixing the launch crash, and the install holds are lifted. Still waiting on Rocko: confirm HelpBnk (closes today 5:59 PM CT), the Render unpaid balance, the Shophand yes or no, and the Google Payments photo ID. Usage stays over the cap until Thursday 8:44 PM CT."
+      "time": "7:31 AM CT",
+      "text": "Closed the HelpBnk contradiction: the Nov 21 portal confirmation screen is on file, so the entry is in. Killed the Friendsgiving email to existing users on your order Nov 24 and moved the team to public channels only. Today: migration 0046 go or no-go by 6 PM CT using Product Ops' version numbers. No email from THE ORACLE and no grant replies."
     },
     "Sales, Clients & Funding": {
-      "date": "2026-11-24",
+      "date": "2026-11-25",
       "time": "7:31 AM CT",
-      "text": "No new report since 2026-11-24 (as of Nov 25, 7:20 AM CT). Last report: Built the first money tracker (/workspace/sales/money-tracker.md). Flags two urgent items for Rocko: an unpaid Render balance on the old Wealth Orchestration Protocol workspace (amount unknown) and the Shophand Boost Grant due Nov 30, which needs a yes or no on whether we are actively operating. Says HelpBnk and Skip are both submitted. Expo was in EAS overage as of Nov 16 (amount unknown). Changed no plans or payments."
+      "text": "No nightly file. Nov 24 ~5:05 PM CT: checked the inboxes for a HelpBnk receipt and found only sign-up mail (now resolved, the portal confirmation is on file). Shophand has not replied. Still waiting on your Shophand yes or no and the Render balance."
     },
     "Content & Social": {
-      "date": "2026-11-24",
+      "date": "2026-11-25",
       "time": "7:31 AM CT",
-      "text": "No new report since 2026-11-24 (as of Nov 25, 7:20 AM CT). Last report: Mon Nov 23 on @RockoDevLLC: 9:27 AM build-in-public post (the day's one Play link), 10:31 AM quote, 2:18 PM post (late, the 1:05 slot never fired), 6:37 PM quote and 5 replies, all SEO-cleared. Followers 26, +3 since Nov 22. No winner post (best 23 impressions). Now holding every install-driving link until 1.0.5 is live. No blockers."
+      "text": "No nightly file. Nov 24: posted the Friendsgiving organizer post on X at 9:04 AM CT without a link (install hold), then 3 public replies at 4:16 PM, and deleted one after Market Intel flagged a roleplay account. Today's 9 AM slot is the one Friendsgiving post with the Play link, new hook, SEO check first."
     },
     "Growth & Community": {
-      "date": "2026-11-24",
+      "date": "2026-11-25",
       "time": "7:31 AM CT",
-      "text": "No new report since 2026-11-24 (as of Nov 25, 7:20 AM CT). Last report: Monday KPI roll-up saved (/workspace/growth/kpi/rollup-2026-11-23.md). Week Nov 16-22: 13 plans, 16 invites, 5 replies. 7 of 26 campus sends bounced, no campus replies. Asked for a replacement-inbox send OK, an ad budget and migration 0045 (the last two were closed). Friendsgiving email, campus codes and resends are on hold until 1.0.5 is live."
+      "text": "No nightly file. Nov 24: held installs until 1.0.5 went live, then moved all Friendsgiving and install marketing to public channels after your order. X followers 26 (Nov 24 5:08 PM CT). Organizer notes and replacement campus inboxes still wait on your OK."
     },
     "Market Intel": {
-      "date": "2026-11-24",
+      "date": "2026-11-25",
       "time": "7:31 AM CT",
-      "text": "No new report since 2026-11-24 (as of Nov 25, 7:20 AM CT). Last report: Mon Nov 23 trend brief done. Quiet Thanksgiving week, no outside Wrangle mentions in 72 hours, still not on AppBrain or AndroidRank. Passed Sales one lead, The No Excuses Fund (equity-free, Dec 15, terms unverified, needs a .tech domain). Reddit and Google Trends still blocked. Nothing urgent."
+      "text": "No new nightly file since Tuesday's brief. Nov 24: listed public X threads where people are planning Friendsgiving for Content to reply to, plus an Ogilvy post (41% of Gen Z rate Friendsgiving as meaningful as family dinner, Ogilvy's figure, study unverified). Lean mode until Thu 8:44 PM CT."
     },
     "Product Ops": {
-      "date": "2026-11-24",
+      "date": "2026-11-25",
       "time": "7:31 AM CT",
-      "text": "No new report since 2026-11-24 (as of Nov 25, 7:20 AM CT). Last report: Sunday-night Wrangle health check was clean and reported 1.0.4 live with no policy issues; it did not catch the launch crash that Rocko found later. Installed audience 13 (Nov 21), no new reviews. Beethoven's Alley tickets are written but need a repo before code starts. Yesterday's Play numbers run failed; today's completed."
+      "text": "Nov 24 file: Play numbers in. No new reviews or ratings. Installed audience 12 as of Nov 22, all on 120 or higher (6 on 1.0.4, 3 on 1.0.3, 2 on 120, 1 on 1.0.2). One user hit the 1.0.4 crash (3 events), now fixed by 1.0.5. Doorline has no statistics rows. Open: Beethoven's Alley matching has no code or tests yet; Play listing screenshots still to replace."
     }
   }
 }
