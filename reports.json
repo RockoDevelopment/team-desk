@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-25T07:33:56-06:00",
+  "updatedAt": "2026-11-26T07:02:13-06:00",
   "brief": {
-    "date": "2026-11-25",
-    "weekday": "Wednesday",
-    "generatedAt": "2026-11-25T07:31:19-06:00",
+    "date": "2026-11-26",
+    "weekday": "Thursday",
+    "generatedAt": "2026-11-26T07:02:13-06:00",
     "preparedBy": "Chief of Staff",
-    "summary": "HelpBnk is confirmed submitted (portal confirmation screen from Nov 21 on file), so that item is closed. Wrangle 1.0.5 (125) has been live on Play since Nov 24 7:49 AM CT. The Friendsgiving email to existing users was killed on your order; Friendsgiving marketing now goes only to the public. Still open for you: the Render unpaid balance, a Shophand yes or no (due Nov 30) and the Google Payments photo ID.",
+    "summary": "Thanksgiving morning desk refresh. No new business facts since the Nov 25 desk update; open items are unchanged: the Render unpaid balance, the Shophand yes or no (due Nov 30) and the Google Payments photo ID. HelpBnk remains closed as submitted. Wrangle 1.0.5 (125) is live on Play.",
     "topBlocker": "Unpaid Render balance on the old Wealth Orchestration Protocol workspace: pay or close it (AQ-SALES-29).",
     "items": [
       {
@@ -866,32 +866,32 @@
     "Chief of Staff": {
       "date": "2026-11-25",
       "time": "7:31 AM CT",
-      "text": "Closed the HelpBnk contradiction: the Nov 21 portal confirmation screen is on file, so the entry is in. Killed the Friendsgiving email to existing users on your order Nov 24 and moved the team to public channels only. Today: migration 0046 go or no-go by 6 PM CT using Product Ops' version numbers. No email from THE ORACLE and no grant replies."
+      "text": "Nothing new reported since 2026-11-25 (7:31 AM CT). Last report: Closed the HelpBnk contradiction: the Nov 21 portal confirmation screen is on file, so the entry is in. Killed the Friendsgiving email to existing users on your order Nov 24 and moved the team to public channels only. Today: migration 0046 go or no-go by 6 PM CT using Product Ops' version numbers. No email from THE ORACLE and no grant replies."
     },
     "Sales, Clients & Funding": {
       "date": "2026-11-25",
       "time": "7:31 AM CT",
-      "text": "No nightly file. Nov 24 ~5:05 PM CT: checked the inboxes for a HelpBnk receipt and found only sign-up mail (now resolved, the portal confirmation is on file). Shophand has not replied. Still waiting on your Shophand yes or no and the Render balance."
+      "text": "Nothing new reported since 2026-11-25 (7:31 AM CT). Last report: No nightly file. Nov 24 ~5:05 PM CT: checked the inboxes for a HelpBnk receipt and found only sign-up mail (now resolved, the portal confirmation is on file). Shophand has not replied. Still waiting on your Shophand yes or no and the Render balance."
     },
     "Content & Social": {
       "date": "2026-11-25",
       "time": "7:31 AM CT",
-      "text": "No nightly file. Nov 24: posted the Friendsgiving organizer post on X at 9:04 AM CT without a link (install hold), then 3 public replies at 4:16 PM, and deleted one after Market Intel flagged a roleplay account. Today's 9 AM slot is the one Friendsgiving post with the Play link, new hook, SEO check first."
+      "text": "Nothing new reported since 2026-11-25 (7:31 AM CT). Last report: No nightly file. Nov 24: posted the Friendsgiving organizer post on X at 9:04 AM CT without a link (install hold), then 3 public replies at 4:16 PM, and deleted one after Market Intel flagged a roleplay account. Today's 9 AM slot is the one Friendsgiving post with the Play link, new hook, SEO check first."
     },
     "Growth & Community": {
       "date": "2026-11-25",
       "time": "7:31 AM CT",
-      "text": "No nightly file. Nov 24: held installs until 1.0.5 went live, then moved all Friendsgiving and install marketing to public channels after your order. X followers 26 (Nov 24 5:08 PM CT). Organizer notes and replacement campus inboxes still wait on your OK."
+      "text": "Nothing new reported since 2026-11-25 (7:31 AM CT). Last report: No nightly file. Nov 24: held installs until 1.0.5 went live, then moved all Friendsgiving and install marketing to public channels after your order. X followers 26 (Nov 24 5:08 PM CT). Organizer notes and replacement campus inboxes still wait on your OK."
     },
     "Market Intel": {
       "date": "2026-11-25",
       "time": "7:31 AM CT",
-      "text": "No new nightly file since Tuesday's brief. Nov 24: listed public X threads where people are planning Friendsgiving for Content to reply to, plus an Ogilvy post (41% of Gen Z rate Friendsgiving as meaningful as family dinner, Ogilvy's figure, study unverified). Lean mode until Thu 8:44 PM CT."
+      "text": "Nothing new reported since 2026-11-25 (7:31 AM CT). Last report: No new nightly file since Tuesday's brief. Nov 24: listed public X threads where people are planning Friendsgiving for Content to reply to, plus an Ogilvy post (41% of Gen Z rate Friendsgiving as meaningful as family dinner, Ogilvy's figure, study unverified). Lean mode until Thu 8:44 PM CT."
     },
     "Product Ops": {
       "date": "2026-11-25",
       "time": "7:31 AM CT",
-      "text": "Nov 24 file: Play numbers in. No new reviews or ratings. Installed audience 12 as of Nov 22, all on 120 or higher (6 on 1.0.4, 3 on 1.0.3, 2 on 120, 1 on 1.0.2). One user hit the 1.0.4 crash (3 events), now fixed by 1.0.5. Doorline has no statistics rows. Open: Beethoven's Alley matching has no code or tests yet; Play listing screenshots still to replace."
+      "text": "Nothing new reported since 2026-11-25 (7:31 AM CT). Last report: Nov 24 file: Play numbers in. No new reviews or ratings. Installed audience 12 as of Nov 22, all on 120 or higher (6 on 1.0.4, 3 on 1.0.3, 2 on 120, 1 on 1.0.2). One user hit the 1.0.4 crash (3 events), now fixed by 1.0.5. Doorline has no statistics rows. Open: Beethoven's Alley matching has no code or tests yet; Play listing screenshots still to replace."
     }
   }
 }
