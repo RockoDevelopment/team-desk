@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-26T07:35:16-06:00",
+  "updatedAt": "2026-11-26T07:36:21-06:00",
   "brief": {
     "date": "2026-11-26",
     "weekday": "Thursday",
@@ -846,7 +846,7 @@
       "Nov 25: Product Ops pulled Play numbers and the version breakdown that clears the 0046 gate."
     ],
     "recommendation": "Say go on migration 0046 today. It closes the gap where signed-in accounts can read crew members' phone and email, and every installed device is already on a build that supports it.",
-    "coCeoCopySent": false,
+    "coCeoCopySent": true,
     "company": {
       "products": [
         {
