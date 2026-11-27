@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-27T07:10:00-06:00",
+  "updatedAt": "2026-11-27T07:30:04-06:00",
   "brief": {
     "date": "2026-11-27",
     "weekday": "Friday",
-    "generatedAt": "2026-11-27T07:10:00-06:00",
+    "generatedAt": "2026-11-27T07:30:04-06:00",
     "preparedBy": "Chief of Staff",
-    "summary": "Friday Nov 27, desk reviewed 7:10 AM CT. Nothing new was confirmed since yesterday's desk; the items below are unchanged. Still open: Render balance, Shophand yes or no (due Nov 30), photo ID, migration 0046 word.",
+    "summary": "Since yesterday: the Tyrese pitch to Mona's address bounced for good, and no free public email for his team turned up. You sent Nikki the three IP drafts and both Doorline pitches. The sign-up drop-off look is closed with no fixes, as you said. Installed audience is 10 as of Nov 24. Still open: Render balance, 0046 go, Shophand yes or no (due Nov 30), IP decisions, photo ID.",
     "topBlocker": "Unpaid Render balance on the old Wealth Orchestration Protocol workspace: pay or close it (AQ-SALES-29).",
     "items": [
       {
@@ -16,7 +16,7 @@
         "section": "decision",
         "owner": "ceo",
         "urgent": true,
-        "impactRank": 5,
+        "impactRank": 6,
         "status": "open",
         "firstSeen": "2026-11-04",
         "link": "https://payments.google.com/"
@@ -39,7 +39,7 @@
         "section": "decision",
         "owner": "ceo",
         "urgent": true,
-        "impactRank": 7,
+        "impactRank": 8,
         "status": "open",
         "firstSeen": "2026-11-01"
       },
@@ -62,7 +62,7 @@
         "section": "approval",
         "owner": "ceo",
         "urgent": false,
-        "impactRank": 8,
+        "impactRank": 9,
         "status": "open",
         "firstSeen": "2026-11-06"
       },
@@ -74,7 +74,7 @@
         "owner": "ceo",
         "agentName": "Sales, Clients & Funding",
         "urgent": true,
-        "impactRank": 6,
+        "impactRank": 7,
         "status": "open",
         "link": "",
         "firstSeen": "2026-11-17"
@@ -87,7 +87,7 @@
         "owner": "agent",
         "agentName": "Chief of Staff",
         "urgent": false,
-        "impactRank": 9,
+        "impactRank": 10,
         "status": "in_progress",
         "firstSeen": "2026-11-19"
       },
@@ -109,7 +109,7 @@
         "section": "approval",
         "owner": "ceo",
         "urgent": false,
-        "impactRank": 10,
+        "impactRank": 11,
         "status": "open",
         "firstSeen": "2026-11-22",
         "agentName": "Growth & Community"
@@ -121,7 +121,7 @@
         "owner": "agent",
         "agentName": "Chief of Staff",
         "urgent": false,
-        "impactRank": 11,
+        "impactRank": 12,
         "status": "in_progress",
         "firstSeen": "2026-11-08",
         "detail": "Twilio's business profile was approved Nov 8-9. Rocko wants email one-time codes for first sign-in while still collecting a phone number. Dev update for email-code sign-in was pushed to the Wrangle repo Nov 9; no successful end-to-end test reported yet. Update Nov 17: Wrangle email codes are going out to users from the company Gmail."
@@ -133,7 +133,7 @@
         "section": "decision",
         "owner": "ceo",
         "urgent": false,
-        "impactRank": 12,
+        "impactRank": 13,
         "status": "open",
         "firstSeen": "2026-11-23",
         "agentName": "Product Ops"
@@ -146,7 +146,7 @@
         "owner": "agent",
         "agentName": "Chief of Staff",
         "urgent": false,
-        "impactRank": 13,
+        "impactRank": 14,
         "status": "open",
         "firstSeen": "2026-11-06"
       },
@@ -158,7 +158,7 @@
         "owner": "agent",
         "agentName": "Growth & Community",
         "urgent": false,
-        "impactRank": 14,
+        "impactRank": 15,
         "status": "open",
         "firstSeen": "2026-11-01"
       },
@@ -169,7 +169,7 @@
         "section": "decision",
         "owner": "ceo",
         "urgent": false,
-        "impactRank": 15,
+        "impactRank": 16,
         "status": "open",
         "link": "",
         "firstSeen": "2026-11-17"
@@ -181,7 +181,7 @@
         "section": "approval",
         "owner": "ceo",
         "urgent": false,
-        "impactRank": 16,
+        "impactRank": 17,
         "status": "open",
         "firstSeen": "2026-11-01"
       },
@@ -192,7 +192,7 @@
         "section": "approval",
         "owner": "ceo",
         "urgent": false,
-        "impactRank": 17,
+        "impactRank": 18,
         "status": "open",
         "firstSeen": "2026-11-20"
       },
@@ -203,7 +203,7 @@
         "section": "next",
         "owner": "ceo",
         "urgent": false,
-        "impactRank": 18,
+        "impactRank": 19,
         "status": "open",
         "firstSeen": "2026-11-01",
         "link": "https://x.com/RockoDevLLC/status/2116676894913650902"
@@ -215,7 +215,7 @@
         "section": "approval",
         "owner": "ceo",
         "urgent": false,
-        "impactRank": 19,
+        "impactRank": 20,
         "status": "open",
         "firstSeen": "2026-11-24"
       },
@@ -227,7 +227,7 @@
         "owner": "ceo",
         "agentName": "Product Ops",
         "urgent": false,
-        "impactRank": 20,
+        "impactRank": 21,
         "status": "open",
         "link": "",
         "firstSeen": "2026-11-17"
@@ -240,7 +240,7 @@
         "owner": "agent",
         "agentName": "Product Ops",
         "urgent": false,
-        "impactRank": 21,
+        "impactRank": 22,
         "status": "in_progress",
         "firstSeen": "2026-11-20"
       },
@@ -251,7 +251,7 @@
         "section": "next",
         "owner": "ceo",
         "urgent": false,
-        "impactRank": 22,
+        "impactRank": 23,
         "status": "open",
         "firstSeen": "2026-11-01"
       },
@@ -262,7 +262,7 @@
         "section": "approval",
         "owner": "ceo",
         "urgent": false,
-        "impactRank": 23,
+        "impactRank": 24,
         "status": "open",
         "firstSeen": "2026-11-24"
       },
@@ -274,7 +274,7 @@
         "owner": "agent",
         "agentName": "Chief of Staff",
         "urgent": false,
-        "impactRank": 24,
+        "impactRank": 25,
         "status": "open",
         "firstSeen": "2026-11-24"
       },
@@ -285,7 +285,7 @@
         "section": "approval",
         "owner": "ceo",
         "urgent": false,
-        "impactRank": 25,
+        "impactRank": 26,
         "status": "open",
         "firstSeen": "2026-11-20"
       },
@@ -612,7 +612,7 @@
       {
         "id": "AQ-COS-36",
         "title": "IP assignments (Doorline, Wrangle, Beethoven's Alley): your 4 decisions",
-        "detail": "Counsel drafted all three on your Nov 25 go (DRAFT, nothing sent; /workspace/counsel/ip-assignments-2026-11-25/). You decide: (1) $10 or capital contribution for Doorline and Wrangle (contribution needs Nikki and a CPA); (2) Kitty's terms for Beethoven's Alley (payment, royalty, stake, or license; a stake changes the 50/50 and needs Nikki); (3) what Kitty keeps separate, like her name and likeness; (4) Kitty's full legal name and the LLC's state of formation. Nikki signs twice (member approval and spousal consent). A Texas attorney reviews the marked spots.",
+        "detail": "Counsel drafted all three on your Nov 25 go (DRAFT, nothing sent; /workspace/counsel/ip-assignments-2026-11-25/). You decide: (1) $10 or capital contribution for Doorline and Wrangle (contribution needs Nikki and a CPA); (2) Kitty's terms for Beethoven's Alley (payment, royalty, stake, or license; a stake changes the 50/50 and needs Nikki); (3) what Kitty keeps separate, like her name and likeness; (4) Kitty's full legal name and the LLC's state of formation. Nikki signs twice (member approval and spousal consent). A Texas attorney reviews the marked spots. Nov 26 5:53 PM CT: you sent Nikki all three IP drafts plus the two Doorline pitches to review.",
         "section": "decision",
         "owner": "ceo",
         "agentName": "Chief of Staff",
@@ -621,13 +621,26 @@
         "status": "open",
         "link": "",
         "firstSeen": "2026-11-25"
+      },
+      {
+        "id": "AQ-COS-37",
+        "title": "Tyrese pitch bounced: pick a new route to his team",
+        "detail": "Gmail gave up on the Beethoven's Alley pitch to tyreseinfo@monamient.com on Nov 26 at 11:15 AM CT (temporary server problem, 4.4.2, not a bad address). Mona's contact page (monamient.com/contact) returned a 404 on Nov 26. Market Intel found no free public email for his team; the best listed contact is Joanne Horowitz Management in Beverly Hills, his manager, with addresses behind paid directories. Your call on which route to try. Nothing gets re-sent without your OK.",
+        "section": "decision",
+        "owner": "ceo",
+        "agentName": "Market Intel",
+        "urgent": false,
+        "impactRank": 5,
+        "status": "open",
+        "link": "",
+        "firstSeen": "2026-11-27"
       }
     ],
     "kpis": [
       {
         "label": "Wrangle on Google Play",
         "value": "1.0.5 (125) live",
-        "note": "Live since Nov 24 7:49 AM CT. Play vitals Nov 25: the old 1.0.4 crash grew (new listing 2 users, 21 events; earlier listing 6 events). No crash listed on 1.0.5."
+        "note": "Live since Nov 24 7:49 AM CT. Product Ops Nov 26: the 1.0.4 crashes are unchanged (4 issues, 29 events), none on 1.0.5."
       },
       {
         "label": "Wrangle weekly invites (Mon Nov 16-Sun Nov 22)",
@@ -641,8 +654,8 @@
       },
       {
         "label": "Wrangle installed audience (Play)",
-        "value": "12",
-        "note": "Nov 23, latest exported day (Product Ops, Nov 25; last 2-3 days incomplete). All 12 on 120 or higher: 9 on 1.0.4, 2 on 1.0.3, 1 on 1.0.2. No new reviews or ratings."
+        "value": "10",
+        "note": "Nov 24, latest exported day (Product Ops, Nov 26; last 2-3 days incomplete). All 10 on 120 or higher: 3 on 1.0.5, 6 on 1.0.4, 1 on 1.0.2. No new reviews or ratings."
       },
       {
         "label": "Wrangle Play search 'hangout planner'",
@@ -820,7 +833,7 @@
       {
         "from": "THE ORACLE",
         "timeCT": "",
-        "line": "No email from THE ORACLE since Wednesday's brief (inbox and spam checked)."
+        "line": "No email from THE ORACLE since Thursday's brief (inbox and spam checked)."
       },
       {
         "from": "Grant programs",
@@ -829,24 +842,19 @@
       },
       {
         "from": "Mail Delivery Subsystem",
-        "timeCT": "Nov 25, 12:40 PM",
-        "line": "Another delay notice on the Tyrese pitch to Mona's address. Gmail stops retrying about 10:52 AM CT today; a final bounce would mean the address is bad."
-      },
-      {
-        "from": "GitHub",
-        "timeCT": "Nov 25, 10:07 AM",
-        "line": "Pages build failed on RockoDevelopment/oracle-desk. The team desk is not affected."
+        "timeCT": "Nov 26, 11:15 AM",
+        "line": "The Tyrese pitch to Mona's address failed for good after 5 days of retries (temporary server problem, not a bad address)."
       }
     ],
     "doneSinceLast": [
-      "Nov 25 11:19 AM CT: you sent the Please update Wrangle service notice to the 21-person tester list (Bcc). No database pull; the lookup I started was stopped and the rule saved.",
-      "Nov 25: Sales finished Raj's Doorline Founding Local Offer and the internal price sheet; the day-job review was dropped on your word.",
-      "Nov 25: Counsel drafted IP assignments for Doorline, Wrangle and Beethoven's Alley (DRAFT, nothing sent).",
-      "Nov 25 9 AM CT: Content & Social posted the Friendsgiving post with the Play link on X and graded the week's posts against the content playbook.",
-      "Nov 25: Product Ops pulled Play numbers and the version breakdown that clears the 0046 gate."
+      "Nov 26 5:53 PM CT: you sent Nikki the three IP assignment drafts and both Doorline pitches from the company Gmail.",
+      "Nov 26 1:40 PM CT: Market Intel searched for a working email for Tyrese's team, public sources only. None found free; best lead is Joanne Horowitz Management.",
+      "Nov 26: the install-to-first-plan look was closed with no fixes and no Supabase checks, on your word.",
+      "Nov 26: Product Ops pulled the Play numbers (installed audience 10, no new reviews).",
+      "Nov 27: Market Intel ran the daily trend brief. Quiet holiday, no new leads."
     ],
-    "recommendation": "Say go on migration 0046 today. It closes the gap where signed-in accounts can read crew members' phone and email, and every installed device is already on a build that supports it.",
-    "coCeoCopySent": true,
+    "recommendation": "Answer Shophand today. It is due Monday Nov 30, and it is the only item with a hard deadline.",
+    "coCeoCopySent": false,
     "company": {
       "products": [
         {
@@ -885,33 +893,33 @@
   "reports": {
     "Chief of Staff": {
       "date": "2026-11-27",
-      "time": "7:10 AM CT",
-      "text": "Nothing new reported since the Nov 26 entry (no new report was received for this review). Previous entry: Missed my 0046 go or no-go at 6 PM CT yesterday; made it this morning: GO on the data (all 12 devices on 120 or higher), waiting on your word. Stopped the user-email database lookup I had started without your OK. Set up Counsel's IP assignment drafts and Sales' Doorline offer. No email from THE ORACLE and no grant replies."
+      "time": "7:30 AM CT",
+      "text": "Relayed the Tyrese bounce and Market Intel's contact search. Got your IP drafts and Doorline pitches to Nikki. Closed the drop-off look with no fixes, and I've stopped adding work you didn't ask for. No email from THE ORACLE and no grant replies."
     },
     "Sales, Clients & Funding": {
       "date": "2026-11-27",
-      "time": "7:10 AM CT",
-      "text": "Nothing new reported since the Nov 26 entry (no new report was received for this review). Previous entry: No nightly file. Nov 25: wrote the Doorline Founding Local Offer for Raj and the internal price sheet, with Counsel checking the ownership wording. Shophand has not replied; your yes or no is due before Nov 30."
+      "time": "7:30 AM CT",
+      "text": "No nightly file. Nothing new reported since Raj's Doorline offer and price sheet on Nov 25. Shophand has not replied; your yes or no is due before Nov 30."
     },
     "Content & Social": {
       "date": "2026-11-27",
-      "time": "7:10 AM CT",
-      "text": "Nothing new reported since the Nov 26 entry (no new report was received for this review). Previous entry: No nightly file. Nov 25: posted the Friendsgiving post with the Play link at 9 AM CT, then graded recent posts against the playbook. Early posts have 0 replies and 0 reposts, best 10 impressions. Fixes: lead with a tip, then the link; one promise per post; pair posts with a real event-banner screenshot."
+      "time": "7:30 AM CT",
+      "text": "No nightly file. Nothing new reported since the Friendsgiving post and the post grading on Nov 25."
     },
     "Growth & Community": {
       "date": "2026-11-27",
-      "time": "7:10 AM CT",
-      "text": "Nothing new reported since the Nov 26 entry (no new report was received for this review). Previous entry: No nightly file. Nov 25: drafted the Please update Wrangle service notice, which you sent to the 21 testers at 11:19 AM CT. Logged as sent so nobody resends it."
+      "time": "7:30 AM CT",
+      "text": "No nightly file. Nothing new reported since the update notice on Nov 25."
     },
     "Market Intel": {
       "date": "2026-11-27",
-      "time": "7:10 AM CT",
-      "text": "Nothing new reported since the Nov 26 entry (no new report was received for this review). Previous entry: No nightly file since Tuesday. Nothing new reported."
+      "time": "7:30 AM CT",
+      "text": "Nov 27 file: daily trend brief done, quiet holiday. No outside Wrangle mentions since Nov 24, no new Boardy activity, no new funding or partner leads (Zensurance dropped, Canada only). Nov 26: no free public email for Tyrese's team; best lead is Joanne Horowitz Management. Reddit and Google Trends are still blocked."
     },
     "Product Ops": {
       "date": "2026-11-27",
-      "time": "7:10 AM CT",
-      "text": "Nothing new reported since the Nov 26 entry (no new report was received for this review). Previous entry: Nov 25 file: Play numbers in, no new reviews. Installed audience 12 as of Nov 23, all on 120 or higher, which clears the 0046 gate. The 1.0.4 crash grew (2 users, 21 events on a new listing; earlier one 6 events); nothing on 1.0.5. Open: Beethoven's Alley matching has no code or tests; Play screenshots still to replace."
+      "time": "7:30 AM CT",
+      "text": "Nov 26 file: no new reviews or ratings. Installed audience 10 as of Nov 24, all on 120 or higher. 1.0.4 crashes unchanged, none on 1.0.5. Closed the drop-off write-up with no fixes. Open: Beethoven's Alley matching has no code or tests, and the Play screenshots still need replacing."
     }
   }
 }
