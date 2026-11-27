@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-26T07:36:21-06:00",
+  "updatedAt": "2026-11-27T07:10:00-06:00",
   "brief": {
-    "date": "2026-11-26",
-    "weekday": "Thursday",
-    "generatedAt": "2026-11-26T07:35:16-06:00",
+    "date": "2026-11-27",
+    "weekday": "Friday",
+    "generatedAt": "2026-11-27T07:10:00-06:00",
     "preparedBy": "Chief of Staff",
-    "summary": "Thanksgiving. Since yesterday: you sent the Please update Wrangle notice to the 21 testers, Sales finished Raj's Doorline offer and price sheet, and Counsel drafted IP assignments for Doorline, Wrangle and Beethoven's Alley. Migration 0046 is now a go on the data and waits on your word. The 1.0.4 crash grew before the update; nothing is listed on 1.0.5. Still open: Render balance, Shophand yes or no (due Nov 30), photo ID.",
+    "summary": "Friday Nov 27, desk reviewed 7:10 AM CT. Nothing new was confirmed since yesterday's desk; the items below are unchanged. Still open: Render balance, Shophand yes or no (due Nov 30), photo ID, migration 0046 word.",
     "topBlocker": "Unpaid Render balance on the old Wealth Orchestration Protocol workspace: pay or close it (AQ-SALES-29).",
     "items": [
       {
@@ -884,34 +884,34 @@
   },
   "reports": {
     "Chief of Staff": {
-      "date": "2026-11-26",
-      "time": "7:35 AM CT",
-      "text": "Missed my 0046 go or no-go at 6 PM CT yesterday; made it this morning: GO on the data (all 12 devices on 120 or higher), waiting on your word. Stopped the user-email database lookup I had started without your OK. Set up Counsel's IP assignment drafts and Sales' Doorline offer. No email from THE ORACLE and no grant replies."
+      "date": "2026-11-27",
+      "time": "7:10 AM CT",
+      "text": "Nothing new reported since the Nov 26 entry (no new report was received for this review). Previous entry: Missed my 0046 go or no-go at 6 PM CT yesterday; made it this morning: GO on the data (all 12 devices on 120 or higher), waiting on your word. Stopped the user-email database lookup I had started without your OK. Set up Counsel's IP assignment drafts and Sales' Doorline offer. No email from THE ORACLE and no grant replies."
     },
     "Sales, Clients & Funding": {
-      "date": "2026-11-26",
-      "time": "7:35 AM CT",
-      "text": "No nightly file. Nov 25: wrote the Doorline Founding Local Offer for Raj and the internal price sheet, with Counsel checking the ownership wording. Shophand has not replied; your yes or no is due before Nov 30."
+      "date": "2026-11-27",
+      "time": "7:10 AM CT",
+      "text": "Nothing new reported since the Nov 26 entry (no new report was received for this review). Previous entry: No nightly file. Nov 25: wrote the Doorline Founding Local Offer for Raj and the internal price sheet, with Counsel checking the ownership wording. Shophand has not replied; your yes or no is due before Nov 30."
     },
     "Content & Social": {
-      "date": "2026-11-26",
-      "time": "7:35 AM CT",
-      "text": "No nightly file. Nov 25: posted the Friendsgiving post with the Play link at 9 AM CT, then graded recent posts against the playbook. Early posts have 0 replies and 0 reposts, best 10 impressions. Fixes: lead with a tip, then the link; one promise per post; pair posts with a real event-banner screenshot."
+      "date": "2026-11-27",
+      "time": "7:10 AM CT",
+      "text": "Nothing new reported since the Nov 26 entry (no new report was received for this review). Previous entry: No nightly file. Nov 25: posted the Friendsgiving post with the Play link at 9 AM CT, then graded recent posts against the playbook. Early posts have 0 replies and 0 reposts, best 10 impressions. Fixes: lead with a tip, then the link; one promise per post; pair posts with a real event-banner screenshot."
     },
     "Growth & Community": {
-      "date": "2026-11-26",
-      "time": "7:35 AM CT",
-      "text": "No nightly file. Nov 25: drafted the Please update Wrangle service notice, which you sent to the 21 testers at 11:19 AM CT. Logged as sent so nobody resends it."
+      "date": "2026-11-27",
+      "time": "7:10 AM CT",
+      "text": "Nothing new reported since the Nov 26 entry (no new report was received for this review). Previous entry: No nightly file. Nov 25: drafted the Please update Wrangle service notice, which you sent to the 21 testers at 11:19 AM CT. Logged as sent so nobody resends it."
     },
     "Market Intel": {
-      "date": "2026-11-26",
-      "time": "7:35 AM CT",
-      "text": "No nightly file since Tuesday. Nothing new reported."
+      "date": "2026-11-27",
+      "time": "7:10 AM CT",
+      "text": "Nothing new reported since the Nov 26 entry (no new report was received for this review). Previous entry: No nightly file since Tuesday. Nothing new reported."
     },
     "Product Ops": {
-      "date": "2026-11-26",
-      "time": "7:35 AM CT",
-      "text": "Nov 25 file: Play numbers in, no new reviews. Installed audience 12 as of Nov 23, all on 120 or higher, which clears the 0046 gate. The 1.0.4 crash grew (2 users, 21 events on a new listing; earlier one 6 events); nothing on 1.0.5. Open: Beethoven's Alley matching has no code or tests; Play screenshots still to replace."
+      "date": "2026-11-27",
+      "time": "7:10 AM CT",
+      "text": "Nothing new reported since the Nov 26 entry (no new report was received for this review). Previous entry: Nov 25 file: Play numbers in, no new reviews. Installed audience 12 as of Nov 23, all on 120 or higher, which clears the 0046 gate. The 1.0.4 crash grew (2 users, 21 events on a new listing; earlier one 6 events); nothing on 1.0.5. Open: Beethoven's Alley matching has no code or tests; Play screenshots still to replace."
     }
   }
 }
